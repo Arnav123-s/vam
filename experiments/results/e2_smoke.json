@@ -1,0 +1,344 @@
+{
+ "experiment": "E2 textbook curriculum",
+ "protocol": "experiments/PROTOCOL.md#e2-textbook-curriculum-owners-instruction-of-2026-10-18",
+ "provenance": {
+  "utc": "2026-10-18T17:49:52Z",
+  "commit": "0c8f0d6255c9ea9516e2c13f52266420605d329a",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "numba": "0.68.0",
+  "machine": "x86_64",
+  "seed": 20261018,
+  "manifest": "/tmp/claude-0/-home-claude/93fa51ee-1388-5219-8323-7084fdd47703/scratchpad/pg19run/corpus/MANIFEST.json",
+  "smoke": true,
+  "manifest_sha256": "8a8dace3a8be8492e2d1ed789f9e9da0298f7647937323b8a9f249f701684565",
+  "laws": {
+   "literal_0.02": {
+    "consolidating": false,
+    "dt": 0.02
+   },
+   "literal_0.05": {
+    "consolidating": false,
+    "dt": 0.05
+   },
+   "literal_0.2": {
+    "consolidating": false,
+    "dt": 0.2
+   },
+   "counting": {
+    "consolidating": true,
+    "dt": 1.0
+   }
+  }
+ },
+ "stream_bytes": {
+  "A_train": 262144,
+  "A_validation": 262144,
+  "A_test": 262144,
+  "A_heldout": 262144,
+  "B_train": 262144,
+  "B_test": 262144,
+  "B_heldout": 262144,
+  "A_train_sentence_shuffled": 262144,
+  "A_test_word_shuffled": 262144,
+  "A_heldout_word_shuffled": 262144
+ },
+ "nested": {
+  "depths": [
+   8,
+   16,
+   24,
+   32,
+   48,
+   64
+  ],
+  "table_bits": 22,
+  "priors": [
+   0.0,
+   4.0
+  ]
+ },
+ "selection": [
+  {
+   "machine": "window",
+   "k": 16,
+   "law": "literal_0.05",
+   "A_validation_bpb": 3.757939425775689
+  },
+  {
+   "machine": "window",
+   "k": 16,
+   "law": "counting",
+   "A_validation_bpb": 3.5138267581821054
+  },
+  {
+   "machine": "nested",
+   "law": "literal_0.05",
+   "prior": 0.0,
+   "A_validation_bpb": 3.1698084593399276
+  },
+  {
+   "machine": "nested",
+   "law": "counting",
+   "prior": 0.0,
+   "A_validation_bpb": 2.877419308939972
+  }
+ ],
+ "chosen": {
+  "literal": {
+   "machine": "nested",
+   "law": "literal_0.05",
+   "prior": 0.0
+  },
+  "best_overall": {
+   "machine": "nested",
+   "law": "counting",
+   "prior": 0.0
+  }
+ },
+ "runs": {
+  "literal": {
+   "spec": {
+    "machine": "nested",
+    "law": "literal_0.05",
+    "prior": 0.0
+   },
+   "arms": {
+    "A_only": {
+     "train_bpb": 2.717966394204054,
+     "A_test": 3.7564580000543577,
+     "A_heldout": 2.9989767234452724,
+     "B_test": 3.6788175040175237,
+     "B_heldout": 3.2244609986323183
+    },
+    "A_then_B": {
+     "train_bpb_B": 2.5168404877196178,
+     "A_test": 3.569628530496052,
+     "A_heldout": 2.787554905005928,
+     "B_test": 3.1404297760862474,
+     "B_heldout": 2.693247149396684
+    },
+    "B_only": {
+     "train_bpb_B": 2.8858424509278304,
+     "A_test": 3.9224650124749267,
+     "A_heldout": 3.2415708227999893,
+     "B_test": 3.369479753270519,
+     "B_heldout": 2.8620501962685596
+    },
+    "shuffled_A_then_B": {
+     "after_A": {
+      "A_test": 3.6885283022515383,
+      "A_heldout": 2.9089411854385547,
+      "B_test": 3.552563044917992,
+      "B_heldout": 3.118016185714541
+     },
+     "A_test": 3.534785477022811,
+     "A_heldout": 2.755216985285566,
+     "B_test": 3.1016718188634584,
+     "B_heldout": 2.660144004928108
+    }
+   },
+   "transfer": {
+    "A_then_B_minus_B_only": -0.22904997718427156,
+    "shuffled_A_then_B_minus_B_only": -0.2678079344070605
+   },
+   "t12_3": {
+    "part2_weight_drift_per_MiB": [
+     1066.6540297888678
+    ],
+    "part3": {
+     "A_test": 3.7564580000543577,
+     "A_test_word_shuffled": 4.0135295688216015,
+     "A_heldout": 2.9989767234452724,
+     "A_heldout_word_shuffled": 3.2116008088408545
+    }
+   },
+   "learning_curves_bpb_per_MiB": {
+    "A_then_B": [
+     2.717966394204054,
+     2.5168404877196178
+    ],
+    "B_only": [
+     2.8858424509278304
+    ],
+    "shuffled_A_then_B": [
+     2.823750932741787,
+     2.5100897389914243
+    ]
+   },
+   "generation": [
+    {
+     "prompt": "misapprehension usually takes is that of a failure to",
+     "max": " the present time the sun, the sun, the sun, the",
+     "sample": "\npPR\ufffdy\u00057F\u0016\ufffd\u0007\u0006\ufffd\ufffd\ufffdG2\ufffd\u0011H\u0014\u001a\u0017776\ufffd&\ufffdR\u0007F\ufffd\u0007G&R\u0006\ufffd2\u0006\ufffdb\u0006\u0012\u0007"
+    },
+    {
+     "prompt": "which the rarity of the air places upon its power of supporting",
+     "max": " the spectronomer the sun, the sun, the sun, the",
+     "sample": " an~@\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd@\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd@\ufffd\ufffd@the set inditive epeld d"
+    },
+    {
+     "prompt": "all RED flowers: it doesn't need a telescope to know",
+     "max": "n the sun, the sun, the sun, the sun, the sun, t",
+     "sample": "%\ufffd\ufffd\ufffd\ufffd\ufffd@\ufffd\ufffd@\ufffd@\ufffd\ufffd\ufffdL\u03ad\u0326\ufffd\u00066\u0016\ufffd\ufffd\u0017\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0461\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0401\ufffd\ufffd\ufffd\ufffd"
+    },
+    {
+     "prompt": "into the unknown. Out of the thought that is born of things has",
+     "max": " the sun, the sun, the sun, the sun, the sun, th",
+     "sample": " ted eyonly a pule, what ecircisond.\n\nO!Nn\f,l\ufffd\r\ufffd"
+    },
+    {
+     "prompt": "union of bones, etc.; a joint.\n\nArytenoid Cartilages (Gr.",
+     "max": " The most extent of the sun, the sun, the sun, t",
+     "sample": "\n\nGD\bL\ufffdN\ufffd\f-\ufffd\r-\ufffd.l\ufffd\r\ufffd\ufffd\u000e\ufffd\f\ufffd\r\ufffd.\ufffd$\r\ufffd\ufffd\u000e\ufffd\f\ufffd\r\ufffd.\ufffd-\ufffd\u0144\r\ufffdD"
+    },
+    {
+     "prompt": "ear; sometimes hairy, like a goat's beard.\n\nTransfusion (Lat.",
+     "max": " The point in the most extent of the sun, the su",
+     "sample": " Ov\ufffd\u0006\u0012\u0006'&\ufffdw&VR\u0007v\ufffd&\ufffd\ufffdistanced by\nNN\ufffd+\ufffd\ufffd\u000b\ufffd+ mucont"
+    },
+    {
+     "prompt": "washed rapidly in cold water, and spread it, mucous surface",
+     "max": " of the sun, the sun, the sun, the sun, the sun,",
+     "sample": " aove in!\ufffd\u0010T\ufffdS S\ufffdC)\u0003+K;C\ufffd\u0003\ufffd{q\u0003CKs9\u0003\u000b\ufffd+!\u0003{\ufffd\u0003\u000b;+s\u000b"
+    },
+    {
+     "prompt": "man will be evolved and perfected.  Man has not yet been",
+     "max": " stars are the sun, the sun, the sun, the sun, t",
+     "sample": " it forbited ina haralled to mcout pl\ufffd\ufffd\ufffd\u0401\u0755\ufffd\u0445\ufffd"
+    }
+   ]
+  },
+  "best_overall": {
+   "spec": {
+    "machine": "nested",
+    "law": "counting",
+    "prior": 0.0
+   },
+   "arms": {
+    "A_only": {
+     "train_bpb": 2.0492492387611296,
+     "A_test": 3.5312190087920827,
+     "A_heldout": 2.6874568504517704,
+     "B_test": 3.5014916052922507,
+     "B_heldout": 3.0892586159665116
+    },
+    "A_then_B": {
+     "train_bpb_B": 2.2143089228810857,
+     "A_test": 3.283693424564379,
+     "A_heldout": 2.468836455890318,
+     "B_test": 2.8624098314787245,
+     "B_heldout": 2.4996366461318402
+    },
+    "B_only": {
+     "train_bpb_B": 2.2697451857334983,
+     "A_test": 3.703762930782096,
+     "A_heldout": 2.9794028080523507,
+     "B_test": 3.032792433977942,
+     "B_heldout": 2.5609199678363135
+    },
+    "shuffled_A_then_B": {
+     "after_A": {
+      "A_test": 3.4250484092518203,
+      "A_heldout": 2.587020145269615,
+      "B_test": 3.3172833749095147,
+      "B_heldout": 2.8955613832977036
+     },
+     "A_test": 3.2397271559783833,
+     "A_heldout": 2.429070013763723,
+     "B_test": 2.8014255188436223,
+     "B_heldout": 2.423585013250239
+    }
+   },
+   "transfer": {
+    "A_then_B_minus_B_only": -0.17038260249921766,
+    "shuffled_A_then_B_minus_B_only": -0.23136691513431984
+   },
+   "t12_3": {
+    "part2_weight_drift_per_MiB": [
+     1268.6604030249002
+    ],
+    "part3": {
+     "A_test": 3.5312190087920827,
+     "A_test_word_shuffled": 3.9509616846553492,
+     "A_heldout": 2.6874568504517704,
+     "A_heldout_word_shuffled": 3.067971762157012
+    }
+   },
+   "learning_curves_bpb_per_MiB": {
+    "A_then_B": [
+     2.0492492387611296,
+     2.2143089228810857
+    ],
+    "B_only": [
+     2.2697451857334983
+    ],
+    "shuffled_A_then_B": [
+     2.1299190204252962,
+     2.1899262479885424
+    ]
+   },
+   "generation": [
+    {
+     "prompt": "misapprehension usually takes is that of a failure to",
+     "max": " be seen in the sun is that the stars which the ",
+     "sample": "\npart of to-day see the\ngenerally\nbodies to his "
+    },
+    {
+     "prompt": "which the rarity of the air places upon its power of supporting",
+     "max": " the sun is that the stars which the same time, ",
+     "sample": " any times as sured must have to centre of the d"
+    },
+    {
+     "prompt": "all RED flowers: it doesn't need a telescope to know",
+     "max": "n to the present time is that the stars which th",
+     "sample": " how histed in our\nh\ufffd\nportance never have\npointi"
+    },
+    {
+     "prompt": "into the unknown. Out of the thought that is born of things has",
+     "max": " been the direction of the sun is that the stars",
+     "sample": " tace in it.\n\nTo the opposite except for, axioms"
+    },
+    {
+     "prompt": "union of bones, etc.; a joint.\n\nArytenoid Cartilages (Gr.",
+     "max": " The point in the sun is that the stars which th",
+     "sample": " But the property of the Harwards the possible t"
+    },
+    {
+     "prompt": "ear; sometimes hairy, like a goat's beard.\n\nTransfusion (Lat.",
+     "max": " The compass as the sun is that the stars which ",
+     "sample": " One shower than even this different for lives t"
+    },
+    {
+     "prompt": "washed rapidly in cold water, and spread it, mucous surface",
+     "max": " of the sun is that the stars which the same tim",
+     "sample": ". It wilm\ufffd\ufffd\ufffd\u000eL\ufffd.m\ufffd\ufffd\u000e\ufffd\ufffd\u000eM\ufffd.\ufffd-\ufffd\ufffd\u000e\ufffdL\ufffd\r\u0345\ufffd\ufffd\ufffd\u0461\ufffd\ufffd\ufffd\ufffd"
+    },
+    {
+     "prompt": "man will be evolved and perfected.  Man has not yet been",
+     "max": " made out in the sun is that the stars which the",
+     "sample": " known through a straight line\" The last\nwhich m"
+    }
+   ]
+  }
+ },
+ "t12_3_part1": {
+  "A": {
+   "k": 24,
+   "visits": 2097128.0,
+   "contexts_visited": 67898,
+   "entropy_bits": 13.743623662030693,
+   "share_of_visits_to_familiar_contexts": 0.8508727173544008
+  },
+  "sentence_shuffled_A": {
+   "k": 24,
+   "visits": 2097128.0,
+   "contexts_visited": 69315,
+   "entropy_bits": 13.790860150446523,
+   "share_of_visits_to_familiar_contexts": 0.84816854288341
+  }
+ },
+ "reference_lzma": {},
+ "seconds": 115.6
+}

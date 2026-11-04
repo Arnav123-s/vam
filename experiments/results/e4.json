@@ -1,0 +1,1683 @@
+{
+ "experiment": "E4 N above one equation, on text",
+ "protocol": "experiments/PROTOCOL.md#e4-n-above-one-equation-on-text-design-section-11-decision-d11",
+ "provenance": {
+  "utc": "2026-10-20T18:26:32Z",
+  "commit": "5ff49a71e8fffe483b7ceb694615e794d58a8c52",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "numba": "0.68.0",
+  "machine": "x86_64",
+  "seed": 20261018,
+  "manifest": "experiments/data/pg19/MANIFEST.json",
+  "smoke": false,
+  "manifest_sha256": "8a8dace3a8be8492e2d1ed789f9e9da0298f7647937323b8a9f249f701684565",
+  "resumed": false
+ },
+ "stream_bytes": {
+  "A_train": 33092931,
+  "A_validation": 4136132,
+  "A_test": 4133709,
+  "A_heldout": 2773780,
+  "B_train": 46077339,
+  "B_test": 5754706,
+  "B_heldout": 8309885,
+  "A_train_sentence_shuffled": 33092931,
+  "A_test_word_shuffled": 4133709,
+  "A_heldout_word_shuffled": 2773780
+ },
+ "part0": {
+  "identity_bit_for_bit": true,
+  "e3_saved_A_validation_bpb": 1.867616832051096,
+  "recomputed_A_validation_bpb": 1.867616832051096,
+  "recomputed_A_train_bpb": 1.82660346237551,
+  "reproduced": true,
+  "rates_bits_per_s": {
+   "nested": [
+    1435686.4671456737,
+    1540471.5997213174,
+    1480926.3123739497,
+    1392439.2890081916,
+    1454947.0119847201,
+    1157566.4997833325
+   ],
+   "hier_off": [
+    1420449.8412233032,
+    1535249.297974141,
+    1435642.9689910288,
+    1389123.6705649034,
+    1474515.3543211934,
+    1395544.3318747818
+   ]
+  },
+  "median_rate_ratio_upper_off_to_nested": 0.9880508306689741,
+  "criteria": {
+   "identity": true,
+   "reproduction": true
+  },
+  "seconds": 373.4
+ },
+ "part1": {
+  "N_L1": {
+   "arity": 4,
+   "line_words": 8,
+   "register_cap_bits": 64,
+   "state_bytes": 88,
+   "state_size_constant": true,
+   "units": 663054,
+   "distinct_units": 184596,
+   "code_collisions": 0,
+   "collision_share": 0.0,
+   "mean_unit_bytes": 6.325735158825676,
+   "criteria": {
+    "bounds_and_state": true
+   },
+   "seconds": 51.6
+  },
+  "N_L2": {
+   "floor": 256,
+   "text_bytes": 4194304,
+   "rows": [
+    {
+     "data": "A_train",
+     "level": "W1",
+     "rank": 33,
+     "cutoff": 0.27316985574762415,
+     "rows_kept": 622,
+     "rows": 2382714,
+     "samples_kept_share": 0.11158490180969238
+    },
+    {
+     "data": "A_train",
+     "level": "W2",
+     "rank": 23,
+     "cutoff": 0.137737925698204,
+     "rows_kept": 85,
+     "rows": 3406071,
+     "samples_kept_share": 0.009369850158691406
+    },
+    {
+     "data": "A_train",
+     "level": "W4",
+     "rank": null,
+     "cutoff": null,
+     "rows_kept": 0,
+     "rows": 4092974
+    },
+    {
+     "data": "A_train",
+     "level": "S0",
+     "rank": 17,
+     "cutoff": 0.18489522630871635,
+     "rows_kept": 58,
+     "rows": 3990516,
+     "samples_kept_share": 0.016457080841064453
+    },
+    {
+     "data": "A_train",
+     "level": "S1",
+     "rank": null,
+     "cutoff": null,
+     "rows_kept": 0,
+     "rows": 4189392
+    },
+    {
+     "data": "byte_shuffled_null",
+     "level": "W1",
+     "rank": 1,
+     "cutoff": 0.059233518276057155,
+     "rows_kept": 227,
+     "rows": 3568016,
+     "samples_kept_share": 0.04959726333618164
+    },
+    {
+     "data": "byte_shuffled_null",
+     "level": "W2",
+     "rank": 1,
+     "cutoff": 0.3156154621509742,
+     "rows_kept": 3,
+     "rows": 4115176,
+     "samples_kept_share": 0.0002791881561279297
+    },
+    {
+     "data": "byte_shuffled_null",
+     "level": "W4",
+     "rank": null,
+     "cutoff": null,
+     "rows_kept": 0,
+     "rows": 4194172
+    },
+    {
+     "data": "byte_shuffled_null",
+     "level": "S0",
+     "rank": 1,
+     "cutoff": 0.06334288568500193,
+     "rows_kept": 42,
+     "rows": 4060357,
+     "samples_kept_share": 0.018006563186645508
+    },
+    {
+     "data": "byte_shuffled_null",
+     "level": "S1",
+     "rank": null,
+     "cutoff": null,
+     "rows_kept": 0,
+     "rows": 4193234
+    }
+   ],
+   "criteria": {
+    "null_never_above_rank_1": true
+   },
+   "seconds": 21.6
+  },
+  "N_L3": {
+   "min": 0.00024414062499999997,
+   "max": 0.9997558593750001,
+   "eps": 0.000244140625,
+   "nesting_max_deviation": 1.1102230246251565e-16,
+   "criteria": {
+    "hull_and_bounded": true,
+    "nesting": true
+   },
+   "seconds": 0.0
+  },
+  "N_L4": {
+   "flips": [
+    {
+     "pos": 106384,
+     "last_difference_after_bytes": 13,
+     "tail_equal": true
+    },
+    {
+     "pos": 11317,
+     "last_difference_after_bytes": 14,
+     "tail_equal": true
+    },
+    {
+     "pos": 23601,
+     "last_difference_after_bytes": 4,
+     "tail_equal": true
+    },
+    {
+     "pos": 31115,
+     "last_difference_after_bytes": 8,
+     "tail_equal": true
+    },
+    {
+     "pos": 23853,
+     "last_difference_after_bytes": 8,
+     "tail_equal": true
+    },
+    {
+     "pos": 105044,
+     "last_difference_after_bytes": 8,
+     "tail_equal": true
+    },
+    {
+     "pos": 113945,
+     "last_difference_after_bytes": 8,
+     "tail_equal": true
+    },
+    {
+     "pos": 76346,
+     "last_difference_after_bytes": 12,
+     "tail_equal": true
+    },
+    {
+     "pos": 5260,
+     "last_difference_after_bytes": 10,
+     "tail_equal": true
+    },
+    {
+     "pos": 12428,
+     "last_difference_after_bytes": 8,
+     "tail_equal": true
+    },
+    {
+     "pos": 43609,
+     "last_difference_after_bytes": 7,
+     "tail_equal": true
+    },
+    {
+     "pos": 56827,
+     "last_difference_after_bytes": 11,
+     "tail_equal": true
+    },
+    {
+     "pos": 81463,
+     "last_difference_after_bytes": 4,
+     "tail_equal": true
+    },
+    {
+     "pos": 62842,
+     "last_difference_after_bytes": 5,
+     "tail_equal": true
+    },
+    {
+     "pos": 34779,
+     "last_difference_after_bytes": 8,
+     "tail_equal": true
+    },
+    {
+     "pos": 21021,
+     "last_difference_after_bytes": 8,
+     "tail_equal": true
+    },
+    {
+     "pos": 90656,
+     "last_difference_after_bytes": 14,
+     "tail_equal": true
+    },
+    {
+     "pos": 96309,
+     "last_difference_after_bytes": 11,
+     "tail_equal": true
+    },
+    {
+     "pos": 4381,
+     "last_difference_after_bytes": 13,
+     "tail_equal": true
+    },
+    {
+     "pos": 14987,
+     "last_difference_after_bytes": 8,
+     "tail_equal": true
+    }
+   ],
+   "max_span_bytes": 14,
+   "median_span_bytes": 8.0,
+   "criteria": {
+    "effect_ends_and_stays_ended": true
+   },
+   "seconds": 231.5
+  },
+  "N_L5": {
+   "bytes": 8388608,
+   "occupancy_verify1": {
+    "W1": 1.0,
+    "W2": 1.0,
+    "W4": 1.0,
+    "S0": 1.0,
+    "S1": 1.0
+   },
+   "occupancy_verify3": {
+    "W1": 0.04516935348510742,
+    "W2": 0.00021028518676757812,
+    "W4": 4.76837158203125e-07,
+    "S0": 0.014492988586425781,
+    "S1": 0.00014400482177734375
+   },
+   "storage_constant": true,
+   "criteria": {
+    "noise_stays_out": false,
+    "storage_constant": true
+   },
+   "seconds": 248.4
+  },
+  "N_L5_cuts": {
+   "mean_label_entropy_bits": 4.562507634522007e-16,
+   "max_label_entropy_bits": 4.60786666215941e-15,
+   "samples": 9582,
+   "note": "bond 2 per cut: the area law S_cut <= 1 bit is vacuous on text",
+   "seconds": 36.7
+  },
+  "N_L6": {
+   "survival": {
+    "plain": {
+     "before": 257,
+     "after": 0,
+     "global_occupancy": 1.0
+    },
+    "verify_2": {
+     "before": 254,
+     "after": 252,
+     "global_occupancy": 0.4515625
+    },
+    "governor": {
+     "before": 257,
+     "after": 255,
+     "global_occupancy": 0.601953125
+    }
+   },
+   "raised_bar_refusals": {
+    "2": {
+     "refused_without_raise": 117929819,
+     "refused_with_raise": 122662662
+    },
+    "3": {
+     "refused_without_raise": 122753046,
+     "refused_with_raise": 124395337
+    },
+    "4": {
+     "refused_without_raise": 124496605,
+     "refused_with_raise": 125591998
+    }
+   },
+   "raise_changes_every_verify": true,
+   "criteria": {
+    "survival": true,
+    "global_occupancy_at_most_1": true,
+    "raise_changes_every_verify": true
+   },
+   "seconds": 87.8
+  },
+  "N_L7": {
+   "hbar1_Z_minus_prediction": 1.1102230246251565e-16,
+   "hbar0_equals_max_planner": true,
+   "criteria": {
+    "hbar1": true,
+    "hbar0": true
+   },
+   "seconds": 37.7
+  }
+ },
+ "part2": {
+  "stages": [
+   {
+    "stage": "segmentation",
+    "candidates": [
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.1,
+      "verify": 3,
+      "hier_levels": "WS"
+     },
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.1,
+      "verify": 3,
+      "hier_levels": "WS",
+      "hier_segment": "text"
+     }
+    ],
+    "chosen": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.1,
+     "verify": 3,
+     "hier_levels": "WS",
+     "hier_segment": "text"
+    }
+   },
+   {
+    "stage": "levels",
+    "candidates": [
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.1,
+      "verify": 3,
+      "hier_levels": "WS",
+      "hier_segment": "text"
+     },
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.1,
+      "verify": 3,
+      "hier_levels": "W",
+      "hier_segment": "text"
+     },
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.1,
+      "verify": 3,
+      "hier_levels": "S",
+      "hier_segment": "text"
+     }
+    ],
+    "chosen": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.1,
+     "verify": 3,
+     "hier_levels": "WS",
+     "hier_segment": "text"
+    }
+   },
+   {
+    "stage": "governor",
+    "candidates": [
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.1,
+      "verify": 3,
+      "hier_levels": "WS",
+      "hier_segment": "text"
+     },
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.1,
+      "verify": 3,
+      "hier_levels": "WS",
+      "hier_segment": "text",
+      "hier_scope": "global"
+     },
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.1,
+      "verify": 3,
+      "hier_levels": "WS",
+      "hier_segment": "text",
+      "hier_scope": "global",
+      "hier_raise": true
+     }
+    ],
+    "chosen": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.1,
+     "verify": 3,
+     "hier_levels": "WS",
+     "hier_segment": "text"
+    }
+   },
+   {
+    "stage": "sink_ablation",
+    "candidates": [
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.1,
+      "verify": 3,
+      "hier_levels": "WS",
+      "hier_segment": "text"
+     },
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.0,
+      "verify": 3,
+      "hier_levels": "WS",
+      "hier_segment": "text"
+     }
+    ],
+    "chosen": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.0,
+     "verify": 3,
+     "hier_levels": "WS",
+     "hier_segment": "text"
+    }
+   },
+   {
+    "stage": "upper_verify",
+    "candidates": [
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.0,
+      "verify": 3,
+      "hier_levels": "WS",
+      "hier_segment": "text"
+     },
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.0,
+      "verify": 3,
+      "hier_levels": "WS",
+      "hier_segment": "text",
+      "hier_verify": 2
+     },
+     {
+      "machine": "hier",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.0,
+      "verify": 3,
+      "hier_levels": "WS",
+      "hier_segment": "text",
+      "hier_verify": 4
+     }
+    ],
+    "chosen": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.0,
+     "verify": 3,
+     "hier_levels": "WS",
+     "hier_segment": "text",
+     "hier_verify": 4
+    }
+   }
+  ],
+  "chosen": {
+   "machine": "hier",
+   "law": "counting",
+   "prior": 4.0,
+   "coherence": 1.0,
+   "governor": true,
+   "protect": 0.5,
+   "sink_rate": 0.0,
+   "verify": 3,
+   "hier_levels": "WS",
+   "hier_segment": "text",
+   "hier_verify": 4
+  },
+  "rows": [
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"hier_levels\": \"WS\", \"law\": \"counting\", \"machine\": \"hier\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.1, \"verify\": 3}",
+    "spec": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.1,
+     "verify": 3,
+     "hier_levels": "WS"
+    },
+    "A_train_bpb": 1.818139196712251,
+    "A_validation_bpb": 1.8605075902774555,
+    "evictions": 24735388,
+    "refused": 1333384319,
+    "protected": 2414979,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7348003387451172,
+     "5": 0.8744480609893799,
+     "6": 0.8695249557495117,
+     "7": 0.7645635604858398,
+     "8": 0.30126953125,
+     "9": 0.2331218719482422,
+     "10": 0.020479679107666016
+    },
+    "global_occupancy": 0.4758693254910983,
+    "seconds": 690.3
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"hier_levels\": \"WS\", \"hier_segment\": \"text\", \"law\": \"counting\", \"machine\": \"hier\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.1, \"verify\": 3}",
+    "spec": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.1,
+     "verify": 3,
+     "hier_levels": "WS",
+     "hier_segment": "text"
+    },
+    "A_train_bpb": 1.7914923304503507,
+    "A_validation_bpb": 1.8524146008754936,
+    "evictions": 32891764,
+    "refused": 1184657792,
+    "protected": 3300884,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7348003387451172,
+     "5": 0.8744480609893799,
+     "6": 0.9439568519592285,
+     "7": 0.9298567771911621,
+     "8": 0.5316314697265625,
+     "9": 0.32620811462402344,
+     "10": 0.0579991340637207
+    },
+    "global_occupancy": 0.5220764600313627,
+    "seconds": 622.8
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"hier_levels\": \"W\", \"hier_segment\": \"text\", \"law\": \"counting\", \"machine\": \"hier\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.1, \"verify\": 3}",
+    "spec": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.1,
+     "verify": 3,
+     "hier_levels": "W",
+     "hier_segment": "text"
+    },
+    "A_train_bpb": 1.7930908119216207,
+    "A_validation_bpb": 1.8556748776178569,
+    "evictions": 32693414,
+    "refused": 673205800,
+    "protected": 3300884,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7348003387451172,
+     "5": 0.8744480609893799,
+     "6": 0.9439568519592285,
+     "7": 0.9298567771911621,
+     "8": 0.5316314697265625
+    },
+    "global_occupancy": 0.5820715210654519,
+    "seconds": 531.5
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"hier_levels\": \"S\", \"hier_segment\": \"text\", \"law\": \"counting\", \"machine\": \"hier\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.1, \"verify\": 3}",
+    "spec": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.1,
+     "verify": 3,
+     "hier_levels": "S",
+     "hier_segment": "text"
+    },
+    "A_train_bpb": 1.8236381868348428,
+    "A_validation_bpb": 1.8646834526113445,
+    "evictions": 18608588,
+    "refused": 664724191,
+    "protected": 2059956,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7348003387451172,
+     "5": 0.8744480609893799,
+     "6": 0.32620811462402344,
+     "7": 0.0579991340637207
+    },
+    "global_occupancy": 0.4381548881530762,
+    "seconds": 449.9
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"hier_levels\": \"WS\", \"hier_scope\": \"global\", \"hier_segment\": \"text\", \"law\": \"counting\", \"machine\": \"hier\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.1, \"verify\": 3}",
+    "spec": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.1,
+     "verify": 3,
+     "hier_levels": "WS",
+     "hier_segment": "text",
+     "hier_scope": "global"
+    },
+    "A_train_bpb": 1.7989532839027902,
+    "A_validation_bpb": 1.8924069926326597,
+    "evictions": 35573383,
+    "refused": 1184353722,
+    "protected": 482999,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990267276763916,
+     "4": 0.7346467971801758,
+     "5": 0.8744034767150879,
+     "6": 0.9439115524291992,
+     "7": 0.9298548698425293,
+     "8": 0.5316305160522461,
+     "9": 0.32620811462402344,
+     "10": 0.0579991340637207
+    },
+    "global_occupancy": 0.5220422377953162,
+    "seconds": 645.8
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"hier_levels\": \"WS\", \"hier_raise\": true, \"hier_scope\": \"global\", \"hier_segment\": \"text\", \"law\": \"counting\", \"machine\": \"hier\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.1, \"verify\": 3}",
+    "spec": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.1,
+     "verify": 3,
+     "hier_levels": "WS",
+     "hier_segment": "text",
+     "hier_scope": "global",
+     "hier_raise": true
+    },
+    "A_train_bpb": 1.8002514416314708,
+    "A_validation_bpb": 1.8880721213215812,
+    "evictions": 33535585,
+    "refused": 1187919273,
+    "protected": 297989,
+    "occupancy": {
+     "2": 0.08798623085021973,
+     "3": 0.28878211975097656,
+     "4": 0.7184638977050781,
+     "5": 0.8619632720947266,
+     "6": 0.9367146492004395,
+     "7": 0.9202704429626465,
+     "8": 0.5084567070007324,
+     "9": 0.31101226806640625,
+     "10": 0.055487632751464844
+    },
+    "global_occupancy": 0.5112563646756686,
+    "seconds": 640.0
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"hier_levels\": \"WS\", \"hier_segment\": \"text\", \"law\": \"counting\", \"machine\": \"hier\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.0, \"verify\": 3}",
+    "spec": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.0,
+     "verify": 3,
+     "hier_levels": "WS",
+     "hier_segment": "text"
+    },
+    "A_train_bpb": 1.793721803068291,
+    "A_validation_bpb": 1.841159245172487,
+    "evictions": 31976527,
+    "refused": 1188047527,
+    "protected": 5800503,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7348074913024902,
+     "5": 0.8744480609893799,
+     "6": 0.943936824798584,
+     "7": 0.9298539161682129,
+     "8": 0.5316314697265625,
+     "9": 0.32620811462402344,
+     "10": 0.0579991340637207
+    },
+    "global_occupancy": 0.5220757997952975,
+    "seconds": 583.4
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"hier_levels\": \"WS\", \"hier_segment\": \"text\", \"hier_verify\": 2, \"law\": \"counting\", \"machine\": \"hier\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.0, \"verify\": 3}",
+    "spec": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.0,
+     "verify": 3,
+     "hier_levels": "WS",
+     "hier_segment": "text",
+     "hier_verify": 2
+    },
+    "A_train_bpb": 1.7884355890573727,
+    "A_validation_bpb": 1.8494133324423347,
+    "evictions": 50852988,
+    "refused": 1158346274,
+    "protected": 8899711,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7348074913024902,
+     "5": 0.8744480609893799,
+     "6": 0.9920382499694824,
+     "7": 0.9964408874511719,
+     "8": 0.8881597518920898,
+     "9": 0.5685291290283203,
+     "10": 0.15509986877441406
+    },
+    "global_occupancy": 0.5844326019287109,
+    "seconds": 577.2
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"hier_levels\": \"WS\", \"hier_segment\": \"text\", \"hier_verify\": 4, \"law\": \"counting\", \"machine\": \"hier\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.0, \"verify\": 3}",
+    "spec": {
+     "machine": "hier",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.0,
+     "verify": 3,
+     "hier_levels": "WS",
+     "hier_segment": "text",
+     "hier_verify": 4
+    },
+    "A_train_bpb": 1.796074716085895,
+    "A_validation_bpb": 1.8374085719924858,
+    "evictions": 26289819,
+    "refused": 1201801979,
+    "protected": 4838793,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7348074913024902,
+     "5": 0.8744480609893799,
+     "6": 0.8789272308349609,
+     "7": 0.8308916091918945,
+     "8": 0.36397743225097656,
+     "9": 0.23630237579345703,
+     "10": 0.0345768928527832
+    },
+    "global_occupancy": 0.48784857529860276,
+    "seconds": 573.9
+   }
+  ]
+ },
+ "part3a": {
+  "A_only": {
+   "train_bpb": 1.796074716085895,
+   "A_test": 2.105656490627468,
+   "A_heldout": 1.923696292849301,
+   "B_test": 2.4502805097359857,
+   "B_heldout": 2.336740632641997,
+   "counters": {
+    "evictions": 26289819,
+    "refused": 1201801979,
+    "protected": 4838793,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7348074913024902,
+     "5": 0.8744480609893799,
+     "6": 0.8789272308349609,
+     "7": 0.8308916091918945,
+     "8": 0.36397743225097656,
+     "9": 0.23630237579345703,
+     "10": 0.0345768928527832
+    },
+    "global_occupancy": 0.48784857529860276
+   }
+  },
+  "t12_3": {
+   "part2_weight_drift_per_MiB": [
+    1165.6526414306231,
+    1126.603218012503,
+    1111.9828296116189,
+    1118.1268213487563,
+    1222.2734989351025,
+    1177.6087632439712,
+    1162.5638294135267,
+    1170.8927862963515,
+    1160.6732708237587,
+    1166.6766963343832,
+    1153.9402308723672,
+    1135.9740272347183,
+    1227.1899284543551,
+    1171.0791444109345,
+    1132.1851993888226,
+    1136.9450747520218,
+    1133.4342316738425,
+    1106.9929769495375,
+    1086.4847129509005,
+    1128.9312217159627,
+    1126.44763003411,
+    1203.5037087488136,
+    1173.3997032445218,
+    1205.4105847513545,
+    1178.528664894624,
+    1170.6941427880827,
+    1142.641913236776,
+    1127.6395153738904,
+    1199.5759572870902,
+    1200.6899761899142,
+    1115.8589600934029,
+    871.0102404686145
+   ],
+   "part3": {
+    "A_test": 2.105656490627468,
+    "A_test_word_shuffled": 2.7428813254735034,
+    "A_heldout": 1.923696292849301,
+    "A_heldout_word_shuffled": 2.6140057053654697
+   }
+  },
+  "decomposition_E4": {
+   "0": {
+    "share": 0.23449255861987384,
+    "bpb": 3.0867975611837206,
+    "bits": 2992106.959196849
+   },
+   "8": {
+    "share": 0.5639390677960157,
+    "bpb": 1.8852067775138288,
+    "bits": 4394718.631469137
+   },
+   "16": {
+    "share": 0.17817606415933004,
+    "bpb": 1.6218604191069237,
+    "bits": 1194545.6107639843
+   },
+   "32": {
+    "share": 0.023392309424780506,
+    "bpb": 1.2699461698419872,
+    "bits": 122799.98478521063
+   },
+   "all": {
+    "share": 1.0,
+    "bpb": 2.105656490627468,
+    "bits": 8704171.18621518
+   }
+  },
+  "window_class_shares": {
+   "0": 0.23449255861987384,
+   "8": 0.5639390677960157,
+   "16": 0.17817606415933004,
+   "32": 0.023392309424780506
+  },
+  "A_then_B": {
+   "train_bpb_B": 1.8947713863639855,
+   "A_test": 2.1475739864313774,
+   "A_heldout": 1.9760769293058655,
+   "B_test": 2.059374268255433,
+   "B_heldout": 2.031364553242639,
+   "counters": {
+    "evictions": 65668793,
+    "refused": 2940971443,
+    "protected": 24824823,
+    "occupancy": {
+     "2": 0.11476707458496094,
+     "3": 0.42043185234069824,
+     "4": 0.9056005477905273,
+     "5": 0.9758296012878418,
+     "6": 0.9732980728149414,
+     "7": 0.9541525840759277,
+     "8": 0.5527935028076172,
+     "9": 0.42110252380371094,
+     "10": 0.06414318084716797
+    },
+    "global_occupancy": 0.5999036935659555
+   }
+  },
+  "learning_curves_bpb_per_MiB": {
+   "A_then_B": [
+    2.1947262849635765,
+    1.9623129215183737,
+    1.7589050553258714,
+    1.6705589166666517,
+    1.8817775351593031,
+    1.8314767929959075,
+    1.664522415370163,
+    1.8595661208570755,
+    1.816689674269484,
+    1.7749545224290597,
+    1.8676713206236792,
+    1.808620000996652,
+    1.995785374154585,
+    1.836307855931906,
+    1.6086534562297738,
+    1.6678902232871038,
+    1.7797593975084376,
+    1.6147684610075945,
+    1.5376850228367298,
+    1.6236722284999399,
+    1.6580309777351934,
+    1.762147526100728,
+    1.924698933756743,
+    1.9000692175577387,
+    1.8581874001316405,
+    1.9239915376738932,
+    1.7831402851399747,
+    1.7647543318652206,
+    1.84620571665062,
+    1.7942992463757943,
+    1.803935722626617,
+    1.6220221246535043,
+    2.0861349107601717,
+    2.0188802720152577,
+    1.8151044864270653,
+    1.9662627102740629,
+    2.1074175414882172,
+    1.9867488884645041,
+    1.903266747758534,
+    1.8323826200285254,
+    1.896627646560332,
+    1.950511398622546,
+    1.8903773692862924,
+    1.9390297834720536,
+    1.894510464318828,
+    1.8520743467297045,
+    1.9108826037020976,
+    1.8951158879614427,
+    1.876356359038101,
+    1.8851258625308844,
+    1.7547435173797612,
+    1.6800367477469877,
+    2.365041840016498,
+    1.869013008499412,
+    1.9450144012932444,
+    1.8871086293273294,
+    2.02217402450904,
+    2.028681327884767,
+    1.8915743200573565,
+    1.9127193251023478,
+    1.887119759155679,
+    1.7782881659496796,
+    1.856537835235517,
+    1.8636924924865668,
+    1.8088490482788857,
+    1.8734224351868307,
+    1.7936349298372263,
+    1.7556818683699535,
+    1.847282366680043,
+    1.9230338097793667,
+    1.8301480491772968,
+    1.7487748964144476,
+    1.88769326127758,
+    1.7759227541740001,
+    1.8134596367593145,
+    1.8615834635702673
+   ]
+  },
+  "writing": {
+   "bytes": 48,
+   "prompts": 8,
+   "settings": [
+    {
+     "hbar": 1.0,
+     "form": "euclidean",
+     "mode": "sample",
+     "verified": false,
+     "repeated_8byte_windows": 0.0,
+     "words_in_A_train_vocabulary": 0.90625,
+     "words": 64,
+     "printable_bytes": 1.0,
+     "valid_utf8": 1.0,
+     "own_bits_per_byte": 1.730760631139196,
+     "outputs": [
+      {
+       "prompt": "misapprehension usually takes is that of a failure to",
+       "text": "\npractical utting them ree points of\nanother, to"
+      },
+      {
+       "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+       "text": "   _A_, and _n_). Hence\nthe seventeese: general "
+      },
+      {
+       "prompt": "\nThe salient points in this account are these, that, at the end",
+       "text": " of the teacher.\n Becognise have the high relief"
+      },
+      {
+       "prompt": "students were invited and work begun. A band of men, whose",
+       "text": " we can also the good.[187 |3 as an After a mean"
+      },
+      {
+       "prompt": "philosophical controversy; having shown one axiom to be",
+       "text": " felt iron oxide, It is undesigns which the work"
+      },
+      {
+       "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+       "text": ", we should train utilities value.\n\nThere is no "
+      },
+      {
+       "prompt": "\n    Hearing in scouting                                       ",
+       "text": "     3. Under the action of parcommon. In\ncausae"
+      },
+      {
+       "prompt": "which was not previously in the senses. To be out of one's",
+       "text": " indefinite placed that the modern\nphenomenon of"
+      }
+     ],
+     "seconds": 24.6
+    },
+    {
+     "hbar": 0.0,
+     "form": "euclidean",
+     "mode": "collapse",
+     "verified": false,
+     "repeated_8byte_windows": 0.24390243902439024,
+     "words_in_A_train_vocabulary": 1.0,
+     "words": 55,
+     "printable_bytes": 1.0,
+     "valid_utf8": 1.0,
+     "own_bits_per_byte": 0.5997507147177984,
+     "outputs": [
+      {
+       "prompt": "misapprehension usually takes is that of a failure to",
+       "text": " the subject of the present time, the community "
+      },
+      {
+       "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+       "text": "                                                "
+      },
+      {
+       "prompt": "\nThe salient points in this account are these, that, at the end",
+       "text": " of the student will find that the conclusion th"
+      },
+      {
+       "prompt": "students were invited and work begun. A band of men, whose",
+       "text": " properties of the student will find that the co"
+      },
+      {
+       "prompt": "philosophical controversy; having shown one axiom to be",
+       "text": " the case of the student will find that the conc"
+      },
+      {
+       "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+       "text": " of the student will find that the conclusion th"
+      },
+      {
+       "prompt": "\n    Hearing in scouting                                       ",
+       "text": "                                                "
+      },
+      {
+       "prompt": "which was not previously in the senses. To be out of one's",
+       "text": " self to the subject of the present time, the co"
+      }
+     ],
+     "seconds": 23.7
+    }
+   ]
+  },
+  "generation": [
+   {
+    "prompt": "misapprehension usually takes is that of a failure to",
+    "max": " the subject of the present time, the community ",
+    "sample": "\npractical utting them ree points of\nanother, to"
+   },
+   {
+    "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+    "max": "                                                ",
+    "sample": "   _A_, and _n_). Hence\nthe seventeese: general "
+   },
+   {
+    "prompt": "\nThe salient points in this account are these, that, at the end",
+    "max": " of the student will find that the conclusion th",
+    "sample": " of the teacher.\n Becognise have the high relief"
+   },
+   {
+    "prompt": "students were invited and work begun. A band of men, whose",
+    "max": " properties of the student will find that the co",
+    "sample": " we can also the good.[187 |3 as an After a mean"
+   },
+   {
+    "prompt": "philosophical controversy; having shown one axiom to be",
+    "max": " the case of the student will find that the conc",
+    "sample": " felt iron oxide, It is undesigns which the work"
+   },
+   {
+    "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+    "max": " of the student will find that the conclusion th",
+    "sample": ", we should train utilities value.\n\nThere is no "
+   },
+   {
+    "prompt": "\n    Hearing in scouting                                       ",
+    "max": "                                                ",
+    "sample": "     3. Under the action of parcommon. In\ncausae"
+   },
+   {
+    "prompt": "which was not previously in the senses. To be out of one's",
+    "max": " self to the subject of the present time, the co",
+    "sample": " indefinite placed that the modern\nphenomenon of"
+   }
+  ],
+  "seconds": 2105.4
+ },
+ "part3b": {
+  "B_only": {
+   "train_bpb_B": 1.9221299975746227,
+   "A_test": 2.370029627326291,
+   "A_heldout": 2.1233877717782135,
+   "B_test": 2.079846012705375,
+   "B_heldout": 2.0455994746171946,
+   "counters": {
+    "evictions": 39682080,
+    "refused": 1739731695,
+    "protected": 9032236,
+    "occupancy": {
+     "2": 0.08591675758361816,
+     "3": 0.32990336418151855,
+     "4": 0.8329133987426758,
+     "5": 0.9283723831176758,
+     "6": 0.9088029861450195,
+     "7": 0.8549351692199707,
+     "8": 0.3474082946777344,
+     "9": 0.2856721878051758,
+     "10": 0.03061676025390625
+    },
+    "global_occupancy": 0.5216651696425217
+   }
+  },
+  "shuffled_A_then_B": {
+   "after_A": {
+    "A_test": 2.110173756840856,
+    "A_heldout": 1.9285875874266263,
+    "B_test": 2.4526794970328094,
+    "B_heldout": 2.3411957116018045
+   },
+   "A_test": 2.1473794628027063,
+   "A_heldout": 1.9772752113476546,
+   "B_test": 2.0560740108597186,
+   "B_heldout": 2.030533784788842,
+   "counters": {
+    "evictions": 65683678,
+    "refused": 2944205270,
+    "protected": 23809442,
+    "occupancy": {
+     "2": 0.1150825023651123,
+     "3": 0.42246341705322266,
+     "4": 0.9053435325622559,
+     "5": 0.9751195907592773,
+     "6": 0.9725298881530762,
+     "7": 0.9511828422546387,
+     "8": 0.5339903831481934,
+     "9": 0.403536319732666,
+     "10": 0.042061805725097656
+    },
+    "global_occupancy": 0.5953322557302622
+   }
+  },
+  "learning_curves_bpb_per_MiB": {
+   "B_only": [
+    2.3169203734412305,
+    2.111622100105796,
+    1.862108288049476,
+    2.061929800020419,
+    2.133573059291275,
+    2.003746239296991,
+    1.9449926725793152,
+    1.8719810042077263,
+    1.9903930699325025,
+    2.04743027535851,
+    1.9594241793050113,
+    1.9703723086749878,
+    1.9134848530204147,
+    1.8917680465861655,
+    1.9578879234275552,
+    1.8822706062314414,
+    1.8891465612234013,
+    1.885581468593435,
+    1.7603087615196185,
+    1.6770571538996388,
+    2.3479451881445703,
+    1.8773605738497614,
+    1.957511603309931,
+    1.8929833580198148,
+    2.030081604201302,
+    2.0588336294796274,
+    1.90464880557202,
+    1.9187519538649225,
+    1.8925488461221174,
+    1.7833166242298906,
+    1.8751487975399141,
+    1.8798530118486105,
+    1.8164298946851698,
+    1.8760127105513424,
+    1.7964756029253626,
+    1.7706273632548806,
+    1.8525324422113107,
+    1.9351163824655295,
+    1.8317219384960581,
+    1.7664056291037387,
+    1.894935270184293,
+    1.7871999827745777,
+    1.8191699045722807,
+    1.8733166777887242
+   ],
+   "shuffled_A_then_B": [
+    2.2047276956423447,
+    1.9728507576977141,
+    1.7757115747032926,
+    1.6821004516466107,
+    1.9312477594876372,
+    1.8407923469956415,
+    1.6826246215026168,
+    1.8691583725835845,
+    1.8252405749171394,
+    1.7861874113816123,
+    1.860403372803703,
+    1.8213662584368626,
+    2.0148770322947827,
+    1.8870697975189021,
+    1.6111194721022648,
+    1.650246657798279,
+    1.7866756101430572,
+    1.6071957159469084,
+    1.5532120520482224,
+    1.634457236741337,
+    1.6728722670271345,
+    1.767561311823126,
+    1.938447335842735,
+    1.945241786987633,
+    1.837276363296056,
+    1.9366727630394323,
+    1.799953255870596,
+    1.7668103387494678,
+    1.86711367213976,
+    1.8125833454521518,
+    1.7955596384347587,
+    1.648819879162106,
+    2.0892205096916205,
+    2.0244637487508155,
+    1.8197389703775548,
+    1.9680293575175627,
+    2.1100318419856623,
+    1.9876960422036778,
+    1.9041034245992998,
+    1.8333293499397296,
+    1.8970626161896256,
+    1.950440005668775,
+    1.8919441823525465,
+    1.9390213257368334,
+    1.8932864248746137,
+    1.8520488483600166,
+    1.911840579453611,
+    1.8955858930740832,
+    1.876613008637572,
+    1.8853270109112432,
+    1.7556558932535573,
+    1.6803645991413947,
+    2.3650644789362287,
+    1.8694318647402715,
+    1.9448887113831557,
+    1.8879134506889024,
+    2.022131847650625,
+    2.0286663974353383,
+    1.8916867886083533,
+    1.9134035961655782,
+    1.88612755955746,
+    1.7781615870802652,
+    1.8569869026717742,
+    1.863918960372714,
+    1.808924070668298,
+    1.87305892006186,
+    1.7937303413557792,
+    1.7561314960198298,
+    1.8471418694947308,
+    1.9237288300243263,
+    1.8303957932591994,
+    1.7486997023174968,
+    1.8871410383585934,
+    1.7764172910370295,
+    1.8142981038580634,
+    1.8625750054517085
+   ]
+  },
+  "seconds": 2759.5
+ },
+ "part3c": null,
+ "part4": {
+  "C1_equal_storage_no_extra_span": {
+   "train_bpb": 1.8006378383134412,
+   "A_test": 2.1338530222308267,
+   "A_heldout": 1.9566246859558167,
+   "B_test": 2.47157777599134,
+   "B_heldout": 2.3610963729242034,
+   "counters": {
+    "evictions": 41126351,
+    "refused": 483979977,
+    "protected": 7079643,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7348074913024902,
+     "5": 0.8744480609893799,
+     "6": 0.15679502487182617,
+     "7": 0.4521064758300781,
+     "8": 0.8476705551147461,
+     "9": 0.9228544235229492,
+     "10": 0.9227042198181152
+    },
+    "global_occupancy": 0.561498972085806
+   },
+   "seconds": 759.2
+  },
+  "C2_order_destroyed": {
+   "train_bpb": 1.796575521017499,
+   "A_test": 2.115975257765848,
+   "A_heldout": 1.9266988027740901,
+   "B_test": 2.4554265521037113,
+   "B_heldout": 2.3407931525684513,
+   "counters": {
+    "evictions": 26365698,
+    "refused": 1199995784,
+    "protected": 4837843,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7348074913024902,
+     "5": 0.8744480609893799,
+     "6": 0.8791098594665527,
+     "7": 0.8328094482421875,
+     "8": 0.38030290603637695,
+     "9": 0.23903608322143555,
+     "10": 0.04058504104614258
+    },
+    "global_occupancy": 0.4899384058438815
+   },
+   "seconds": 730.0
+  }
+ },
+ "part5": {
+  "E3": {
+   "0": {
+    "share": 0.23449255861987384,
+    "bpb": 3.099535991940505,
+    "bits": 3004454.6258517383
+   },
+   "8": {
+    "share": 0.5639390677960157,
+    "bpb": 1.90697353929308,
+    "bits": 4445460.435858456
+   },
+   "16": {
+    "share": 0.17817606415933004,
+    "bpb": 1.67256704437018,
+    "bits": 1231892.4600558798
+   },
+   "32": {
+    "share": 0.023392309424780506,
+    "bpb": 1.3089028989078746,
+    "bits": 126566.98361569476
+   },
+   "all": {
+    "share": 1.0,
+    "bpb": 2.1308646799718534,
+    "bits": 8808374.50538177
+   },
+   "seconds": 307.8
+  },
+  "E4": {
+   "0": {
+    "share": 0.23449255861987384,
+    "bpb": 3.0867975611837206,
+    "bits": 2992106.959196849
+   },
+   "8": {
+    "share": 0.5639390677960157,
+    "bpb": 1.8852067775138288,
+    "bits": 4394718.631469137
+   },
+   "16": {
+    "share": 0.17817606415933004,
+    "bpb": 1.6218604191069237,
+    "bits": 1194545.6107639843
+   },
+   "32": {
+    "share": 0.023392309424780506,
+    "bpb": 1.2699461698419872,
+    "bits": 122799.98478521063
+   },
+   "all": {
+    "share": 1.0,
+    "bpb": 2.105656490627468,
+    "bits": 8704171.18621518
+   }
+  },
+  "shares": {
+   "0": 0.23449255861987384,
+   "8": 0.5639390677960157,
+   "16": 0.17817606415933004,
+   "32": 0.023392309424780506
+  }
+ },
+ "part6": {
+  "bytes": 48,
+  "prompts": 8,
+  "settings": [
+   {
+    "hbar": 1.0,
+    "form": "euclidean",
+    "mode": "sample",
+    "verified": false,
+    "repeated_8byte_windows": 0.0,
+    "words_in_A_train_vocabulary": 0.90625,
+    "words": 64,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 1.730760631139196,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": "\npractical utting them ree points of\nanother, to"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "   _A_, and _n_). Hence\nthe seventeese: general "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the teacher.\n Becognise have the high relief"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " we can also the good.[187 |3 as an After a mean"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " felt iron oxide, It is undesigns which the work"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": ", we should train utilities value.\n\nThere is no "
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "     3. Under the action of parcommon. In\ncausae"
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " indefinite placed that the modern\nphenomenon of"
+     }
+    ],
+    "seconds": 24.6
+   },
+   {
+    "hbar": 0.0,
+    "form": "euclidean",
+    "mode": "collapse",
+    "verified": false,
+    "repeated_8byte_windows": 0.24390243902439024,
+    "words_in_A_train_vocabulary": 1.0,
+    "words": 55,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.5997507147177984,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " the subject of the present time, the community "
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the student will find that the conclusion th"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " properties of the student will find that the co"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " the case of the student will find that the conc"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the student will find that the conclusion th"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " self to the subject of the present time, the co"
+     }
+    ],
+    "seconds": 23.7
+   }
+  ]
+ },
+ "seconds": 13072.2
+}

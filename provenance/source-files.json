@@ -1,0 +1,2309 @@
+{
+  "prepared_date": "2026-11-04",
+  "files": [
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/.gitignore",
+      "source_git_blob_sha1": "40ffdba441df87be0644a92f52a04203ace1a419",
+      "published_path": ".gitignore",
+      "published_sha256": "ba3f06d9e90534277075291880aedd47bfe63cb91deaa2fe5c73fc0e8b40427d",
+      "publication_modified": true
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/AUDIT.md",
+      "source_git_blob_sha1": "2c1080a75ecda55461a89b3842a5ba846c5e2099",
+      "published_path": "AUDIT.md",
+      "published_sha256": "2e32eeaec8bd4277d2660d327185b7a5053e9008260dc57e95d5181ab147c99b",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/DESIGN.md",
+      "source_git_blob_sha1": "06ab3e3ab81818dcc02178e7c86e16cd9ffd951a",
+      "published_path": "DESIGN.md",
+      "published_sha256": "fcef9110fbc70996e5a137166a04b1aeef42ee8f035635433a7f9b4eda6b705b",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/HANDOFF.md",
+      "source_git_blob_sha1": "50491840acbe8afea4debbe8d2c8c23f28a05c19",
+      "published_path": "HANDOFF.md",
+      "published_sha256": "733f429ffc7ec5bc7b5644356bbd73794579addf8b5eb665c355a2e09219e378",
+      "publication_modified": true
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/PLANNER.md",
+      "source_git_blob_sha1": "410e3c60230a3330b67d92aa83749c61117e49ce",
+      "published_path": "PLANNER.md",
+      "published_sha256": "f96afdff630f08e6a6b7cccbcf517a69962ada106334adbd88a79d397924aa1a",
+      "publication_modified": true
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/README.md",
+      "source_git_blob_sha1": "7b9525159354315193dc01272e8dbcc4ec64d8b3",
+      "published_path": "README.md",
+      "published_sha256": "f01e4c2ffa98a3f385acd00b018f2a23010b30600f4c50128abc1c46de4f8c9f",
+      "publication_modified": true
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/RESULTS.md",
+      "source_git_blob_sha1": "d341a066be7c97e8b56e028f301b7150ecb72916",
+      "published_path": "RESULTS.md",
+      "published_sha256": "3df3e9d1f57bc978ce4ded2a4798fc8fb0c9f8c633751e6ba48088538e8ee659",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/audit2.md",
+      "source_git_blob_sha1": "14a97656666e400b0696ed231524d6e28d1da6a6",
+      "published_path": "audits/audit2.md",
+      "published_sha256": "310012fe6835c079b9f80b67aa623fbb0d6636d3e97b4639a1fb30ce9dae7310",
+      "publication_modified": true
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/c2.md",
+      "source_git_blob_sha1": "3a840563cff4920d916309cac3f10f75933de94d",
+      "published_path": "audits/c2.md",
+      "published_sha256": "cee30a5475e5304ead98614004ad9b69beb64ad1f22d2dd9d79cc22ed3ba9cfb",
+      "publication_modified": true
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/claims.md",
+      "source_git_blob_sha1": "c5c3fd2b079d56b746173bb846f07e1609cdf4dd",
+      "published_path": "audits/claims.md",
+      "published_sha256": "f0fc182cd3b294730feb65b42d17ffff835a87c1ace6d8cf395ad84c4141a6b4",
+      "publication_modified": true
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/e6_diag.md",
+      "source_git_blob_sha1": "327077b9ec7f8d03a8a0b422332378fef5a3889c",
+      "published_path": "audits/e6_diag.md",
+      "published_sha256": "fa6e2d5035954ae07a08f09b72c601e68295b719f9ac5307a23bd9a3a7a8d6f8",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/e6b_coverage.py",
+      "source_git_blob_sha1": "5a4794610f06f17d3483f348ee26b1d1732b9747",
+      "published_path": "audits/e6b_coverage.py",
+      "published_sha256": "ef3aef843a26c74105bb5e47f51839e8eb796fb2e736d64ebfbb4460afb52d20",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/e6b_dev.md",
+      "source_git_blob_sha1": "ba978aac8a2d8167470581ff6a3f3db230f9bce8",
+      "published_path": "audits/e6b_dev.md",
+      "published_sha256": "cc6d42e027f002e9b8e2e2ae2b25f7a931e429de4c54d3ebef492373706d44c7",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/e6b_diag.md",
+      "source_git_blob_sha1": "3e4d997b4eb5db806e19756711d3883b96967dc2",
+      "published_path": "audits/e6b_diag.md",
+      "published_sha256": "e0ba32b69207a7c682cd5bdcc150b9e9ab2d4c255b156b746c3ee0bcb4b9517c",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/e6b_diag.py",
+      "source_git_blob_sha1": "30b4f19548164a6ae2b75410cf5e160392599289",
+      "published_path": "audits/e6b_diag.py",
+      "published_sha256": "57cf2324a1357c2b8d3e748e7a3c4684d1ce909c7a07e2f6981411a9eebff9b0",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/e7_cp.py",
+      "source_git_blob_sha1": "b660492c701e37f1e321ddf0616a5510a509b4d9",
+      "published_path": "audits/e7_cp.py",
+      "published_sha256": "1ee6658b0a6e8dc0d475491d0e280d3f7d47c7a6fa340887f930b7c5d471e4ad",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/e7_cp_control.py",
+      "source_git_blob_sha1": "dc98fbb4c3116e852c4ec35278699131b1d44924",
+      "published_path": "audits/e7_cp_control.py",
+      "published_sha256": "0cb769bf751075e8d37c7c06a18c408bf188fc8833f247595eae7298ef9ca394",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/e7_jennrich.py",
+      "source_git_blob_sha1": "e0b22fd7d945fba8f4b824bee4659b1b58916bb0",
+      "published_path": "audits/e7_jennrich.py",
+      "published_sha256": "21d82bb9f57e0c8a620144ddb7dab1ece1abbdf2bc2051f36fbf4213e1e6ed38",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/e7_lattice.py",
+      "source_git_blob_sha1": "f7f646b54d05aa0d36a197ef9603605eb9befa69",
+      "published_path": "audits/e7_lattice.py",
+      "published_sha256": "6df61f7d8eba21ce1b65bdd9081468b5269db2c5ef927022b93e3975ab22a8dc",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/e7_lattice_control.py",
+      "source_git_blob_sha1": "29ea1b9b0be42e0cb732fbc082662a9a3b9e9e2e",
+      "published_path": "audits/e7_lattice_control.py",
+      "published_sha256": "898e20666e8f79dffe37abf8f371b813ae655878d3ea0922d47b65e7645b133f",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/audits/e7_residual.py",
+      "source_git_blob_sha1": "2d845b9e2231f0981216392990e42e25ae310ebc",
+      "published_path": "audits/e7_residual.py",
+      "published_sha256": "49d3c210f0f9d515d74898080bfc3eb13c642174bfe414af6f5a0a59f3e71632",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/E5_DRAFT.md",
+      "source_git_blob_sha1": "c5224bd8d7db37f2a0c781d69f910593f3b9407b",
+      "published_path": "experiments/E5_DRAFT.md",
+      "published_sha256": "213be5668e37f19f0ab0b116f5efd9e1eddf69b67910a851028982a14c30929a",
+      "publication_modified": true
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/PROTOCOL.md",
+      "source_git_blob_sha1": "ab7e00b32545fbe631e7e9705edce8c59cd6f5d2",
+      "published_path": "experiments/PROTOCOL.md",
+      "published_sha256": "d6ab8ea1a9aaac0422622a8eda870f49be12263664d23cc2d7deb6c0277635c4",
+      "publication_modified": true
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/_common.py",
+      "source_git_blob_sha1": "e3a9289ae7ea53e1b64682246e2963e9de78299a",
+      "published_path": "experiments/_common.py",
+      "published_sha256": "3161944c58ae802cfb0b87d643ae388c31af6f59c6abda8cf5123e0cf1505fb7",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/build_corpus.py",
+      "source_git_blob_sha1": "60185fa3eeff8121adea0ec429fcea1f86861ef6",
+      "published_path": "experiments/build_corpus.py",
+      "published_sha256": "f8e2e3bff5dcdc56e764ed96a069d4b8b8f7dd5f9e9c66578d73f843d23b332b",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/data/e5/checks.json",
+      "source_git_blob_sha1": "0abf8e3c04f1e1e169a66e1248358d2c271fb185",
+      "published_path": "experiments/data/e5/checks.json",
+      "published_sha256": "2613c5be3f703b6d306607ee1591a3ce7ee8c64e5d4ce61c047d6c4848f49885",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/data/e5/dropped.json",
+      "source_git_blob_sha1": "c9a8f0585bfe07b6d0640966b33f0724add855c5",
+      "published_path": "experiments/data/e5/dropped.json",
+      "published_sha256": "7039e435c8d1f33195afa6ebc854b4050caf03d3196ec8efe8ea2df4913e1b82",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/data/e5/header_scan.json",
+      "source_git_blob_sha1": "139fb46702e23d3937c207ad669db50c4ca3dfea",
+      "published_path": "experiments/data/e5/header_scan.json",
+      "published_sha256": "78daa638ee04fffcfb77685921bb6783e7a2f19f93b2694544b31acf55ba276b",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/data/e5/overlap.json",
+      "source_git_blob_sha1": "7c2c15e627bb11abbbd75a06a6d9ae382e71bcfe",
+      "published_path": "experiments/data/e5/overlap.json",
+      "published_sha256": "3519bbcfe14223d423c0feb244b672c58636dabc247f8b17d370a5d36194e2d0",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/data/e5/questions.json",
+      "source_git_blob_sha1": "3cda4e4ee5378d3afdfbd3309c01af41557bba84",
+      "published_path": "experiments/data/e5/questions.json",
+      "published_sha256": "2706322fb9c371ff0c12cfc302bb5f8a193bf06bb650c091076e9467892d5e62",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/data/e5/questions.sha256",
+      "source_git_blob_sha1": "02ae096db916ce8683a506af6fa67bd20d1ddd50",
+      "published_path": "experiments/data/e5/questions.sha256",
+      "published_sha256": "a647a3368d91e3b599a776fcdce5544ac22e98598e636287158cfe0f598fd94a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/data/e5/sources.json",
+      "source_git_blob_sha1": "dfd017acb146d9a01c9f40a902631c13f08344e8",
+      "published_path": "experiments/data/e5/sources.json",
+      "published_sha256": "2bfd8a62ce6d53c04b37493af02824acdcdaced6f0ff887c2663c8ff45aba8f4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/data/e5/stats.json",
+      "source_git_blob_sha1": "1cb2eababb13fb143aebb3c7badce8bf9d2e53f3",
+      "published_path": "experiments/data/e5/stats.json",
+      "published_sha256": "737daf4f79c7803ab829c5001aefe6cc5ab18502e33d7f90cf738890d1bc0372",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/data/pg19/MANIFEST.json",
+      "source_git_blob_sha1": "50eb0a7eed991c8e04cd44540752014d1e08b44d",
+      "published_path": "experiments/data/pg19/MANIFEST.json",
+      "published_sha256": "8a8dace3a8be8492e2d1ed789f9e9da0298f7647937323b8a9f249f701684565",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/data/pg19/selection.json",
+      "source_git_blob_sha1": "a49db0d393269e7e71bea20e31cbfc2a03af27ea",
+      "published_path": "experiments/data/pg19/selection.json",
+      "published_sha256": "10094dfccdcdfb2dcae6ab557ba796e16593c88283220f4ad430d361528655b1",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/diagnostics/certified_paths.py",
+      "source_git_blob_sha1": "49c6606f4fd03fc2e1d2afad9ae0424d3a08f19c",
+      "published_path": "experiments/diagnostics/certified_paths.py",
+      "published_sha256": "1df996a3ab2f0ef44832844a1efa1164ce706736bb7d76253ce195da116c74ba",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/diagnostics/certified_paths.txt",
+      "source_git_blob_sha1": "2369753e736805b8d6e7aeb8290aeb9b4164f4ff",
+      "published_path": "experiments/diagnostics/certified_paths.txt",
+      "published_sha256": "4aa6c76602cf7e4e47bce1cfdcc366284c6ff8ccc697d0b8e103234b3c833acc",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/diagnostics/context_convergence.py",
+      "source_git_blob_sha1": "7a785f242ac59f1b96bb48ec277903536fb4261d",
+      "published_path": "experiments/diagnostics/context_convergence.py",
+      "published_sha256": "4395b4b1d50ced255e4d895b39e4e5bcc6dd431c74ffc05f9df8f63be5aeb9ba",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/diagnostics/context_convergence.txt",
+      "source_git_blob_sha1": "e14503d5988f2911b6021499349834f17f3064b7",
+      "published_path": "experiments/diagnostics/context_convergence.txt",
+      "published_sha256": "8d6f5c1ee316da67cb99f2a75c3e305f6d8cd48fec5a15e75955a47e8b6ba668",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/diagnostics/operator_entanglement.py",
+      "source_git_blob_sha1": "dcaa2a34a4d41fd51281797cda94e16243f68e1c",
+      "published_path": "experiments/diagnostics/operator_entanglement.py",
+      "published_sha256": "4e369e9c4c6b1e6bc18119b0a08ae0c3db861c8ec789e8d30be589b2081b50cf",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/diagnostics/operator_entanglement.txt",
+      "source_git_blob_sha1": "9242e3dd4f17c5aa24fcc6ce1ad71d4aac9eead9",
+      "published_path": "experiments/diagnostics/operator_entanglement.txt",
+      "published_sha256": "f738c0edbef034702ebe60b394dcaf2b5e8126ea3cdc8a3d8afcc05c412cede8",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/diagnostics/pointer_rank.py",
+      "source_git_blob_sha1": "348663d4c239bde4dd0927f874e94322253d69b1",
+      "published_path": "experiments/diagnostics/pointer_rank.py",
+      "published_sha256": "4287be0fbc76a786b7c89bd2b6a0e23deaa8f57b8931ac364a0f52f7b74d017c",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/diagnostics/pointer_rank.txt",
+      "source_git_blob_sha1": "71f16d35cabf6b4439801958437b22e4ab6854d0",
+      "published_path": "experiments/diagnostics/pointer_rank.txt",
+      "published_sha256": "469d99f1c6b4ab5bf601b2ebdfffed88f9408dd7176725eb2cd2d3cc6b62703c",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/diagnostics/probability_truncation.py",
+      "source_git_blob_sha1": "2e5709769598b2d768a4052dbd029d9400bfb4ba",
+      "published_path": "experiments/diagnostics/probability_truncation.py",
+      "published_sha256": "b5b5ec60ea0a71bbdb8f1b86c852475270f167a3c9abcfd1d7b06db779bb3623",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/diagnostics/probability_truncation.txt",
+      "source_git_blob_sha1": "8a31c73f8bd3055df84ab7e0b848387d203d5b7b",
+      "published_path": "experiments/diagnostics/probability_truncation.txt",
+      "published_sha256": "318f7e59ed186504aac49eda96412eff1fa4421f20bf24c64c01c49cabcf3035",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e1_known_sources.py",
+      "source_git_blob_sha1": "5894ce8eabd848958dc9e5991f1ba04f83a222c3",
+      "published_path": "experiments/e1_known_sources.py",
+      "published_sha256": "d244ba60e8aad73c3ccf637d52235037cba118a1cb603ff4f675d5eb55eae65e",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e1b_nested.py",
+      "source_git_blob_sha1": "c95915e6cccfbf8d1f8349c9efdc5e553c939d50",
+      "published_path": "experiments/e1b_nested.py",
+      "published_sha256": "fae84e2f8ddb3fafe2bd5f4faa92c57aa60e6aee4e7bd59744209b5590cf4103",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e2_curriculum.py",
+      "source_git_blob_sha1": "963b63f721df306217bfb956f25cebbc12c88bd5",
+      "published_path": "experiments/e2_curriculum.py",
+      "published_sha256": "cfb461d59825a6bcf81064e8cc34054cd8528c9971e47ed2e8b961800e8b8f7a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e3_nfa.py",
+      "source_git_blob_sha1": "b8726630d650335c88632ef0c840cad9426e6d91",
+      "published_path": "experiments/e3_nfa.py",
+      "published_sha256": "777283e850b0a8b806da9fab35005b4894ae06993cee225de72317eee617773a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e3_t4.py",
+      "source_git_blob_sha1": "b4191c1d6dd2ed3a8474f59db26d96f64c0b053f",
+      "published_path": "experiments/e3_t4.py",
+      "published_sha256": "0b6092d7528e3e23e0b24211caf8ab099593af18ad9f1b7dd630215c6b6f736f",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e4_hier.py",
+      "source_git_blob_sha1": "37aca6a43f297f52148614aa2803bfcf7cb6119f",
+      "published_path": "experiments/e4_hier.py",
+      "published_sha256": "204b238b7555fb4141cb32162ae0ca1c389f3368c1c94f3d78784c3c7799c212",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e4_t.py",
+      "source_git_blob_sha1": "fc262c38a05a1152776d9c65b6ce85a4d004f895",
+      "published_path": "experiments/e4_t.py",
+      "published_sha256": "89c21364d7253e1fea1eae11931203c41117f55050a358e90f9402fe131fb8d4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e5_restore.py",
+      "source_git_blob_sha1": "380cbd2c11327549daead719721f256483d985ce",
+      "published_path": "experiments/e5_restore.py",
+      "published_sha256": "aa2b58f59aac4420edbd328906faebc3940857a4911f5ae6359bd86080c02202",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e5_taught.py",
+      "source_git_blob_sha1": "f68fe45a13ffd1b45983b2548764daa7043829ff",
+      "published_path": "experiments/e5_taught.py",
+      "published_sha256": "9012ea690ab69b62cc2e09a506430a63e0239d11885b301a3e13381cb9f98a00",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e6_operator.py",
+      "source_git_blob_sha1": "894a3635fb36b9c3c6258dcfd34abdc8a97e00c2",
+      "published_path": "experiments/e6_operator.py",
+      "published_sha256": "c599034539f5dd098bd2a07b89d169c0c33db1e38974962ba1c73b9cb159f5b7",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e6b_classes.py",
+      "source_git_blob_sha1": "ce8c8da8d8ae1cd9ac71d5a818336d5e00ab1aae",
+      "published_path": "experiments/e6b_classes.py",
+      "published_sha256": "ad1980f5421d53388ff4a5df7775591b7e66ffd8220e6f3f88c40fbdaca26725",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e6b_mix.py",
+      "source_git_blob_sha1": "66b0e325ef79774674af97c20746ccce4ac2bd66",
+      "published_path": "experiments/e6b_mix.py",
+      "published_sha256": "ce3441134bc84c0e4f55d70f24555ebebda9f461a90d3b3eb040b6477ad2c438",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/e7_families.py",
+      "source_git_blob_sha1": "b248f0754b360e4061eb6199f9874088cd1f9e73",
+      "published_path": "experiments/e7_families.py",
+      "published_sha256": "8b687e300229f464fcc15376e8f5b5b01e09252fdb44a7037b3942c4865b1c46",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/fetch_gutenberg.py",
+      "source_git_blob_sha1": "619e3553e12ed255190231a999feff01823cfd07",
+      "published_path": "experiments/fetch_gutenberg.py",
+      "published_sha256": "6cc429a9a28f66b1ebff1a341330e8b36aac09ab17dce43300dc2b8298843e36",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/fetch_pg19.py",
+      "source_git_blob_sha1": "d862bd2e8c1159733d47d558ad939e0239c87c5b",
+      "published_path": "experiments/fetch_pg19.py",
+      "published_sha256": "77a5b4768cb3a5fbca41c425114246933c4ef5819462de8e957c71673a38e31a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/fetch_selection.py",
+      "source_git_blob_sha1": "635bf1a12a264bc5a83fbf552e00396d9b7ceb5d",
+      "published_path": "experiments/fetch_selection.py",
+      "published_sha256": "d075b7a6c5bbc60996d1b5299dcb0b3d7a9069ce87af511064da88f6d81bf132",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/report.py",
+      "source_git_blob_sha1": "9f10c4107e1e295b61f0b9dbe2c72364cb812a9e",
+      "published_path": "experiments/report.py",
+      "published_sha256": "7d3337481118c601b1163d5981396ea62d25e3f8132782fc1050f01a6ddedbee",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e1.json",
+      "source_git_blob_sha1": "928be4d65ff832f3a746b7592889782069ad4ce0",
+      "published_path": "experiments/results/e1.json",
+      "published_sha256": "417ddd4c586d6a3883e6499eed39f3d474bdfb1c25c93ce1904bc967f709ba43",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e1_small.json",
+      "source_git_blob_sha1": "345cc638839eba1cc61b76c78bea6c714de05a3f",
+      "published_path": "experiments/results/e1_small.json",
+      "published_sha256": "a251c2435daac40296230289c4853e8b47ebebf82edd417988ffa58c070f121e",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e1b.json",
+      "source_git_blob_sha1": "5fe25e3ad0458c1f2f451ace805b1e163129f086",
+      "published_path": "experiments/results/e1b.json",
+      "published_sha256": "1523800108976145bfcde6e76897564052092734946f37459b26c6513110454b",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e2.json",
+      "source_git_blob_sha1": "32c32ae78ed2da845b61cf7beae7840fce224cf5",
+      "published_path": "experiments/results/e2.json",
+      "published_sha256": "1e524f5a805f9c9137bfa621b0ff9a84c182d5a5622c416e8b58082da182c4b3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e2_smoke.json",
+      "source_git_blob_sha1": "dfb83f0d0c21efe81839c6b98f31d8464f2499ca",
+      "published_path": "experiments/results/e2_smoke.json",
+      "published_sha256": "3c67d4e283115040f7ab99918d5e05f9e37949864ddcea61a560aab304b939b5",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e3.json",
+      "source_git_blob_sha1": "5ee35743b60167ccd35aeb1861131f18ae634684",
+      "published_path": "experiments/results/e3.json",
+      "published_sha256": "da49f87d0028427d8560be3fa3bb3a17705bbb4d0969b1abad153555f2d14ff0",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e3_smoke.json",
+      "source_git_blob_sha1": "cf8e4be8bfd30463f74b9848a31c0b20a02c3a66",
+      "published_path": "experiments/results/e3_smoke.json",
+      "published_sha256": "b12493d4493a4a0c4924c151951cc4a931e94a7c35502549f1d0c249d78a80b2",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e3_t4.json",
+      "source_git_blob_sha1": "77daf02f81777fb7c61186bade8f8f482d31fb6e",
+      "published_path": "experiments/results/e3_t4.json",
+      "published_sha256": "916373d1e8efe57fd300775691a70314a891a72f51f9b287b0e72e859f0f3c30",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e4.json",
+      "source_git_blob_sha1": "82dc5daa623d9b5d75cf221dd858c487cc42febb",
+      "published_path": "experiments/results/e4.json",
+      "published_sha256": "a81b57879b38d3ad20c202326fc788f226d3125c9ab0be740834dfa2fa9079d6",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e4_t.json",
+      "source_git_blob_sha1": "09f4d49c61f197a1aacae74f690ece4e306f7cb6",
+      "published_path": "experiments/results/e4_t.json",
+      "published_sha256": "69e2eae497e833b4682db7b78d0564d772c4ef3c50d1987941070fc359f38531",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e5.json",
+      "source_git_blob_sha1": "65de02c278f41325edd4fe766882a87ca377248e",
+      "published_path": "experiments/results/e5.json",
+      "published_sha256": "db6a5bcf2473038bcda25a8272acf21b500a777665a6f9118fb408a2420f191e",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e6.json",
+      "source_git_blob_sha1": "8c839d8c2d838b0b5110a3431b49c036695ed14c",
+      "published_path": "experiments/results/e6.json",
+      "published_sha256": "31213bbb69bbf17b048147b23dd139028c077991db098bf4d0965ef8b237505b",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e6_ra.json",
+      "source_git_blob_sha1": "1360a2d799baf3cc5434ceba04372fd1efff3e7c",
+      "published_path": "experiments/results/e6_ra.json",
+      "published_sha256": "c82a40a3711fdcea2b93afe9a4d66f7c490ab873c738b76c050ddfcb79ff707b",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e6_rb.json",
+      "source_git_blob_sha1": "99eff3955853440cc78917ed9ac9ff08d0ed23e8",
+      "published_path": "experiments/results/e6_rb.json",
+      "published_sha256": "87e9edea7dc87ae9362ef8cb50f049ef86972f9066530d562e31403a2943b65e",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e6_timing.json",
+      "source_git_blob_sha1": "8112fa589e4017305fc0313f660becee7b92e54e",
+      "published_path": "experiments/results/e6_timing.json",
+      "published_sha256": "b2cb1959552120a2cda2b2b151451a0bc9624ee35558cf0603769d632e8a7bb3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e6b.json",
+      "source_git_blob_sha1": "222e539aa3cda1e2a52846ea0f9993a47b573c6a",
+      "published_path": "experiments/results/e6b.json",
+      "published_sha256": "47330b298d3e26c6877119f7577b30944361775cc14efb4d6ea793dbf9f91319",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e6b_dev.json",
+      "source_git_blob_sha1": "9da98c0bf611f5b344b715f38c73ec0eab175416",
+      "published_path": "experiments/results/e6b_dev.json",
+      "published_sha256": "8770a6fa4015b436e5c82bace599426068dce359757c8126b673cefddbb51aef",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e6b_mix.json",
+      "source_git_blob_sha1": "9075efaccae3abaf36631f12219af4f3e0c51203",
+      "published_path": "experiments/results/e6b_mix.json",
+      "published_sha256": "a5b29c64afb39c6f2a87d12f90da6b352eb93245b7171ce705f2397c48d893c7",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e6b_timing.json",
+      "source_git_blob_sha1": "27d95d23a114cc330c03d4684f43d653fdca1918",
+      "published_path": "experiments/results/e6b_timing.json",
+      "published_sha256": "993fc16252f3d6ee34a9e19ac849ff5dec1abfe4f004ff21a792a748fc870ac3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e7.json",
+      "source_git_blob_sha1": "f244d2b22c539474c07133edcb637df4fe5bc692",
+      "published_path": "experiments/results/e7.json",
+      "published_sha256": "a7905730b1da041310417412d33a19e1e23f1fb363f4b0ce7f7eadc62323d5a2",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/results/e7_after0.json",
+      "source_git_blob_sha1": "24586047fe34b2a8ec0aa1db1e174e117de8b000",
+      "published_path": "experiments/results/e7_after0.json",
+      "published_sha256": "f3c344c74e7f478d08844f0eabea292093beec91ea76fec7cbc5bf830f6b06a0",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/experiments/select_local.py",
+      "source_git_blob_sha1": "772ec77c315014e2e679b20051eaaa12bf154799",
+      "published_path": "experiments/select_local.py",
+      "published_sha256": "93dad6d42247d74354e3f4486949b16f44b6c0fc9e914f5caf790f7acf6caa93",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/pyproject.toml",
+      "source_git_blob_sha1": "09e178d17d86520eb7ee2a9940de71d49d0e4c5f",
+      "published_path": "pyproject.toml",
+      "published_sha256": "f153e82649269fde9b234880872207f0d00e8e86fd4d34899284a17d70d758b4",
+      "publication_modified": true
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/spec/VAM_Coupled_Theory_and_Proofs.md",
+      "source_git_blob_sha1": "5acdf629da44e68afbc4e8dfdf3916ba1a7182b4",
+      "published_path": "spec/VAM_Coupled_Theory_and_Proofs.md",
+      "published_sha256": "df2de9efb9c335918940455da962aec4fe90f6d8dbf6c51d92a626dd5c8d1523",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/spec/VAM_Framework_Foundational_Principles.md",
+      "source_git_blob_sha1": "bcef66f1b5802b563e09a7c4d15720b27e58740e",
+      "published_path": "spec/VAM_Framework_Foundational_Principles.md",
+      "published_sha256": "2c56d110c47df669daa51ba3c688f214ad79e219aebd42e5c7e1cf79c924b0d9",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/spec/VAM_Nested_Fractal_Architecture.md",
+      "source_git_blob_sha1": "62334ffac1567b4129cbb800000c8eca1726f426",
+      "published_path": "spec/VAM_Nested_Fractal_Architecture.md",
+      "published_sha256": "4d4079cc61e987df2235c4f4c36752af2f02ec4681de494c972373a7144fefa2",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/__init__.py",
+      "source_git_blob_sha1": "be6fc0cff02d508a1edf42e9d52de976f1f4beee",
+      "published_path": "src/vam/__init__.py",
+      "published_sha256": "48a7a57099705f0e8e4854eb02a7fd75deb65fa1a1c7096289ae8f57b98f7875",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/baselines.py",
+      "source_git_blob_sha1": "40809a478c0f196c588faccb837aaebdf392a4a1",
+      "published_path": "src/vam/baselines.py",
+      "published_sha256": "1c3981870933efcb1a137d3330c9f203d33b2f7a650e84bc96270497d5c907e6",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/bitkernel.py",
+      "source_git_blob_sha1": "3df7a6167fc0ba77fb00200f0bb136df38c459ac",
+      "published_path": "src/vam/bitkernel.py",
+      "published_sha256": "145a8d0714ad4c4e571b5977d0b3b123227a95a22d218e40ea71eb9a831e6f20",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/bits.py",
+      "source_git_blob_sha1": "76f2d57f56304d077b056d9ca63688293cdc78e8",
+      "published_path": "src/vam/bits.py",
+      "published_sha256": "d2acbe0b475385df2e62e17cab06c8c401c882c3dd713378d401a912f2ec35e0",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/boundary.py",
+      "source_git_blob_sha1": "edf065b94d4ffd736423b7d6b10b5e16a654f4c1",
+      "published_path": "src/vam/boundary.py",
+      "published_sha256": "04d659618eec3236b8779105514cd81470830e6720a2e5588f8c2247c75a3224",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/canalization.py",
+      "source_git_blob_sha1": "d3073041533ae1d2066a7bbf75cf9a360a83d3b8",
+      "published_path": "src/vam/canalization.py",
+      "published_sha256": "1e54c7b7a10664c4083973f2c4923f6275727354ae8e458dcf5a56e77a69b0fe",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/channels.py",
+      "source_git_blob_sha1": "9fc6e36703142011a829b3a2fd36ed78f4ecd6bf",
+      "published_path": "src/vam/channels.py",
+      "published_sha256": "98bd3e5b7517580c5d1dcc98ffa008c143f7a115a7b00651d5e086072b25bad4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/constraints.py",
+      "source_git_blob_sha1": "093b109a2bf21359b3eacd809ef619eba432ba10",
+      "published_path": "src/vam/constraints.py",
+      "published_sha256": "19d401a81b8200ad95113f57e4f6f90376f1fc654e0a250321636d994e91f626",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/corpus.py",
+      "source_git_blob_sha1": "7888d004392c052c9a8b248b80224ff60725bc03",
+      "published_path": "src/vam/corpus.py",
+      "published_sha256": "306bc1e9d0e70fa24aaad6090355b9f76fc19de2ca62745ac4272641d41c25fc",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/density.py",
+      "source_git_blob_sha1": "d65b5c49ddacd348028acd5e864dffd30acbdd56",
+      "published_path": "src/vam/density.py",
+      "published_sha256": "7889a60879c1aa7bff121e7dde84075476e558ea9fccbf5d7fd6568cddad5bf6",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/dirac.py",
+      "source_git_blob_sha1": "d633d664d3452798b2a8f1dc7aba6aaeb3e2ab93",
+      "published_path": "src/vam/dirac.py",
+      "published_sha256": "62d3621e5af0787e5877c6a0fa44e8ac3937b72ce8413b83269bf614120a05dc",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/gaussian_blanket.py",
+      "source_git_blob_sha1": "0f452992c9d3b281eabd59141dc3a7e39987c51d",
+      "published_path": "src/vam/gaussian_blanket.py",
+      "published_sha256": "d81cac86251fe1c13a27704fc08c0648886cb396c4806acbc1706e41bd8fd6fc",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/geometry.py",
+      "source_git_blob_sha1": "10d2ae3fc5578ae82c2ac99288a20b019e92a0b2",
+      "published_path": "src/vam/geometry.py",
+      "published_sha256": "4688ea3c69e383348b3a6b26762dfe266f2741da2d22d0bf1815854ce529240b",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/hamiltonian.py",
+      "source_git_blob_sha1": "5e8c12d0e95e612dd3b1aa60e31b396be37f5ebf",
+      "published_path": "src/vam/hamiltonian.py",
+      "published_sha256": "09887f6cbc443609e7bb2829be5804b4e150425b5d3cb818f9bdccc50aa815fe",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/linalg.py",
+      "source_git_blob_sha1": "5f63ea025b0ce98a470879a1883e042e68ceaa13",
+      "published_path": "src/vam/linalg.py",
+      "published_sha256": "4771b612b5e2ab9a60fcad8cd1e52d61a6c984053cc78cb27158446007cfedd3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/lindblad.py",
+      "source_git_blob_sha1": "76fd30193fc4f72c42ecde4a8302303ecf8ef965",
+      "published_path": "src/vam/lindblad.py",
+      "published_sha256": "537cdf1ff03aef6ee8410a84de9e70043647633c6d7d1d78711bd0dccddc5d35",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/machine.py",
+      "source_git_blob_sha1": "d4abaa31e83af3bbc64b3a51ab54a1386a81b22f",
+      "published_path": "src/vam/machine.py",
+      "published_sha256": "115d65beb5731907c4d45d56b750aebf9970bd2779a90bb9f3584050de5d20cd",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nested.py",
+      "source_git_blob_sha1": "26fc8299812b4d97d566dd9cf141b2c865b0fdfe",
+      "published_path": "src/vam/nested.py",
+      "published_sha256": "f642632e37e4151b03c4d5809067d423b69d7664d60b7786a7559f2092543b14",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/__init__.py",
+      "source_git_blob_sha1": "6499124ca5d5add874317a4e262be1d344107438",
+      "published_path": "src/vam/nfa/__init__.py",
+      "published_sha256": "4deb55b23be186ad83865ed87f60087c14a8089f20afbb0c1f4d2a1b381cfda5",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/blankets.py",
+      "source_git_blob_sha1": "dc2330759ac9f1d9386fe50b06449d7febf2337a",
+      "published_path": "src/vam/nfa/blankets.py",
+      "published_sha256": "9559a93727a305b2c62db17af1b734dc1204cbad61c5649c34b609054ecf89cb",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/bounds.py",
+      "source_git_blob_sha1": "b1b7f694da0677128331fe597712f2acc244fba6",
+      "published_path": "src/vam/nfa/bounds.py",
+      "published_sha256": "8bdaa1d80b507f0fc231ba83b4ce84e713a4f7c38e7918556722653b4900feca",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/collapse.py",
+      "source_git_blob_sha1": "f6893f074751711e3bc4575bc9b8ad151c8e915d",
+      "published_path": "src/vam/nfa/collapse.py",
+      "published_sha256": "35b5678c7bf36492fd033534de2e64fa8214e99932ebc607135fec3ce4ef555d",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/engine.py",
+      "source_git_blob_sha1": "b24db797f8f122d33c1bb625483d9c1bfb22412a",
+      "published_path": "src/vam/nfa/engine.py",
+      "published_sha256": "cec75696da9921d87e0ea722622d1ed8fcb8c8d1d57484663e9c42d3edead268",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/families.py",
+      "source_git_blob_sha1": "5bdb1ce362024855d78cf4d022b7776be972bb2b",
+      "published_path": "src/vam/nfa/families.py",
+      "published_sha256": "b830256148d57a6f8d3487788e3a4db76c4c8f4d38ed2aabd0eb56bac5df58df",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/flow.py",
+      "source_git_blob_sha1": "4108f1eed65fb01817e088f8dcd8ff5acc814b2c",
+      "published_path": "src/vam/nfa/flow.py",
+      "published_sha256": "d2cb18a8195906bc3098cd56f22abb5e1678bb83877df2106d84fc5bcd7b4bc5",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/governor.py",
+      "source_git_blob_sha1": "ecc76936a8f4c9d0ac71235db67e9bb1abdcd295",
+      "published_path": "src/vam/nfa/governor.py",
+      "published_sha256": "c9312221bdd0814428e9b0a2b818d7d2ec9d1ab5a2f2e31a301604ba92d84650",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/hier.py",
+      "source_git_blob_sha1": "6d23c6fe8fc82aafdcd95a0f3b146883bd306b0c",
+      "published_path": "src/vam/nfa/hier.py",
+      "published_sha256": "91543e3dfa84a78b1def851bcee002c7d894ba3322f617aa797cfedf0e27f8b8",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/mixloop.py",
+      "source_git_blob_sha1": "298924064ec03d107de6e19d1d58a6eba349dead",
+      "published_path": "src/vam/nfa/mixloop.py",
+      "published_sha256": "2c4bd52006869ac9c400b4c938e7fa16d1a65f4ce97a9c12ca4156d0ddd82459",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/operator.py",
+      "source_git_blob_sha1": "1651a975b618777fac4b2bb7883d99a76762cf75",
+      "published_path": "src/vam/nfa/operator.py",
+      "published_sha256": "8716bd0b94643b32ec3a07e90ec863b035f976f1a210381277b6f3a7ed08a34e",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/oploop.py",
+      "source_git_blob_sha1": "1dbd0704f876603ab6ff35191a57de493c88004f",
+      "published_path": "src/vam/nfa/oploop.py",
+      "published_sha256": "17c2fd0872253b98a30f0adb93f5dd4b353de49d0c06399114b179168cf01bcc",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/page.py",
+      "source_git_blob_sha1": "e5835e9328ccd87dd55cf23bb60f0635f5b8f5cf",
+      "published_path": "src/vam/nfa/page.py",
+      "published_sha256": "4e92fdfc68074cbd85b48b0301f34de7a906b8c1821df1ecb536421f4def3b3e",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/wcmix.py",
+      "source_git_blob_sha1": "d3dd806a6c3fca14f661a8379474a52a67c7c076",
+      "published_path": "src/vam/nfa/wcmix.py",
+      "published_sha256": "b0b462ba105caafcfde2e330f1fd030c577239b2fcf57600c8dffd781f893698",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/wcprepass.py",
+      "source_git_blob_sha1": "a08e356bbf73dc68d29854259bbae48ca8dda9d7",
+      "published_path": "src/vam/nfa/wcprepass.py",
+      "published_sha256": "823a8c9f433cab6310d379be3fd8f07cef5d4f01ca531b30a6ee8bd567f4e578",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/nfa/wordclass.py",
+      "source_git_blob_sha1": "4a3de522b4ae1443c07051bb1307ae898bd1e5cf",
+      "published_path": "src/vam/nfa/wordclass.py",
+      "published_sha256": "eba36a6b61c9363dde395ccab471aa54640959ad9931fcd32b8be56c108739fa",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/paths.py",
+      "source_git_blob_sha1": "b59509440a6f74c2560347abd27eb25007ce2d21",
+      "published_path": "src/vam/paths.py",
+      "published_sha256": "7edb9117d8e5a0d89a1f2ddf2c0869bd7ed06b7af9f3fde0b0eb7c64cb50d21e",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/plasticity.py",
+      "source_git_blob_sha1": "8c71bc2ab3d6e525d32db71c77106230e3d21f8b",
+      "published_path": "src/vam/plasticity.py",
+      "published_sha256": "5521d5d22ed32d50980c96693b0bcdc074d0a4bb2cbc1f7346ef6d911fa5f2f4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/readout.py",
+      "source_git_blob_sha1": "994a486724633287765c4fb168ba554c1f1b7980",
+      "published_path": "src/vam/readout.py",
+      "published_sha256": "c87f58c566c36a35fbda73547bddb7c8a1cf43bcc3e878989de1ae31c5c3c8f3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/realizations/__init__.py",
+      "source_git_blob_sha1": "0af3af7451530f3aa7294fe470f77ccf37b1baf7",
+      "published_path": "src/vam/realizations/__init__.py",
+      "published_sha256": "e64951185f6378782272f474d2ccd460b927a5d1276912498a8149208b6d5a67",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/realizations/fourier25.py",
+      "source_git_blob_sha1": "b10480f11b43270a10a4d33e6d0772f1c1f4c76e",
+      "published_path": "src/vam/realizations/fourier25.py",
+      "published_sha256": "0db95f044dc50a0d21c3fb61a2722a20f4455c54f5ce64a6dd18986b29fbc980",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/realizations/incomplete_codes.py",
+      "source_git_blob_sha1": "3c46da76847a31a0da87f708b6de8ec72671bfe6",
+      "published_path": "src/vam/realizations/incomplete_codes.py",
+      "published_sha256": "7a32a6991de32832910e9eac071faafd68dde493acf6fd0645f302a800ab78c2",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/realizations/noncommuting_pulses.py",
+      "source_git_blob_sha1": "5c1f4f9907f88e45dbe7ac22fbeb670dbfa4fb31",
+      "published_path": "src/vam/realizations/noncommuting_pulses.py",
+      "published_sha256": "142964763da30e5ed7a27da97bc1d7c3910e93373f478052a19d9076fb03ac88",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/realizations/two_mode.py",
+      "source_git_blob_sha1": "4f20e3a9daab714731ca53c6ee5019ee0ddfb6b8",
+      "published_path": "src/vam/realizations/two_mode.py",
+      "published_sha256": "ff04d0aa0f28ca3f01af180bff37cdddae9b02f5470a4e2ee84cead6174de58a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/realizations/vam1.py",
+      "source_git_blob_sha1": "196176bd2d369def5807e893b4d4e924e492986f",
+      "published_path": "src/vam/realizations/vam1.py",
+      "published_sha256": "fc47fd53dfa494be02bf0ef4fd6f8f06232ae6c51038d26fa62b29715f0c052a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/realizations/vam1_mpo.py",
+      "source_git_blob_sha1": "e231ba90319763eee6c9a528d1f5259056c70926",
+      "published_path": "src/vam/realizations/vam1_mpo.py",
+      "published_sha256": "c249f05bd4086b2883b017cada6c1b944037a9721f19c86fc6133ff4fa8cab5d",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/realizations/vam1_tn.py",
+      "source_git_blob_sha1": "455a6e2740e15fedf517a9e0ba6e8395f78724f5",
+      "published_path": "src/vam/realizations/vam1_tn.py",
+      "published_sha256": "82a4314515495a3f170de87025e75e8b5de33dd193b1fde58e3317188be639f4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/semiclassical.py",
+      "source_git_blob_sha1": "a4f4b712bd6ca58013bc6f00185bc0ec98d8b7dd",
+      "published_path": "src/vam/semiclassical.py",
+      "published_sha256": "2e67d72d45be56bf8ba197776cd48d9a075f191b6742f8756e8c31b6ae88aefb",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/sources.py",
+      "source_git_blob_sha1": "87297f16a8246bdf0c7341d7c1222588eeed274b",
+      "published_path": "src/vam/sources.py",
+      "published_sha256": "c95981cee54e6e07a64040fc4c28d2f9b07dd73ffeb7bbc4438d4a53f3da8ffe",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/space.py",
+      "source_git_blob_sha1": "4a7241a0ab08b75f5f1a1808bccb8a13e1d686a5",
+      "published_path": "src/vam/space.py",
+      "published_sha256": "6862dd74527b99f726be2f2dabd0cd2e8aadcef0da816529948a7a00e4178c39",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/src/vam/tensornet.py",
+      "source_git_blob_sha1": "0dcb126dac3f8f5cb6fe80b4d56dbb55552a769f",
+      "published_path": "src/vam/tensornet.py",
+      "published_sha256": "c3dbf716e417958a7d99611bdb3fa667541eba0c75d314130f45802a105a8636",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/conftest.py",
+      "source_git_blob_sha1": "59fb5321678896b2f0ae4c2950a5602680230543",
+      "published_path": "tests/conftest.py",
+      "published_sha256": "dc40b482cae66985a6e66fb3487c03c485d6833e0bd851c7527398c0f58ee8c3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_bitkernel.py",
+      "source_git_blob_sha1": "814221a63144f19c218a6fb5cb63bc9a9c469eca",
+      "published_path": "tests/test_bitkernel.py",
+      "published_sha256": "2c75941150b2be546f036619cc45206819af79e615a91ab7ef68cf81e316ec56",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_corpus.py",
+      "source_git_blob_sha1": "b0abd17805c601fbb39ac6c283768b4f65898352",
+      "published_path": "tests/test_corpus.py",
+      "published_sha256": "c9c872cea919406c481eaf2049bcb26d8ea4b620bfa72e7df6895a3055159102",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_e3_audit2.py",
+      "source_git_blob_sha1": "dba52e1b8a7738e3f7e4f67839bc5e1139cc8e47",
+      "published_path": "tests/test_e3_audit2.py",
+      "published_sha256": "b1f3fdaebe93642ee54b01aaed0b915e59f99e997a144029ecea67f54601e442",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_e3_memory.py",
+      "source_git_blob_sha1": "3e9d45fb69b1a516147c45daf00915ab44cd98e2",
+      "published_path": "tests/test_e3_memory.py",
+      "published_sha256": "cad212f59f1449cffafe898105e61460bdb01bb109d7eeca7f7c87f009643774",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_e3_t4.py",
+      "source_git_blob_sha1": "533c770bd230f8a7e881829cc8d65689b1dbaea7",
+      "published_path": "tests/test_e3_t4.py",
+      "published_sha256": "4b0a3298a3b9a30d9ef4113f89d7de279246346a1fe65c0bc5e4d4593edfe556",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_e4.py",
+      "source_git_blob_sha1": "5f344e444c69bceac9525c78be5d27ff300bd98e",
+      "published_path": "tests/test_e4.py",
+      "published_sha256": "93f02c4378d966e0babb90598a7f9ea1dd6450cd47d27d7785376a55d59fa2fa",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_e5.py",
+      "source_git_blob_sha1": "b1923572d812bbbc61430da63d574ff503136071",
+      "published_path": "tests/test_e5.py",
+      "published_sha256": "55bf6f97218f618d5a9e857a3392916780a63f9e7ffdc162cb34a460b2aef105",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_f07_geometry_loop.py",
+      "source_git_blob_sha1": "d277cd67368f6d0511cd1d7841597aa843b7b2bc",
+      "published_path": "tests/test_f07_geometry_loop.py",
+      "published_sha256": "413d9984400e8ae1035a5c769b070cc81a896c34d2ab4c30acbcf2e4adfe9ed9",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_families.py",
+      "source_git_blob_sha1": "9acd04783edc96ddad2fcad0c6443971d131cd4c",
+      "published_path": "tests/test_families.py",
+      "published_sha256": "832af8a268d369386c9e0afb894db9ddb76a8080e8db24417901ad64b2cfd722",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_hier.py",
+      "source_git_blob_sha1": "fd3a284463a378c6bd6edbcdbc9935b33770c33c",
+      "published_path": "tests/test_hier.py",
+      "published_sha256": "9851f675b4ad984d9415189af7154eb1f8add953b48d1e5ef929c579e1491b18",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_infrastructure.py",
+      "source_git_blob_sha1": "4de3e5dc449320406998e97db73f68201b5de3d4",
+      "published_path": "tests/test_infrastructure.py",
+      "published_sha256": "d63ab84a64ad9078f45344bb0fef72bf6996654e1839a6b145beb5cb1b96715c",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_long_runs.py",
+      "source_git_blob_sha1": "7c145d218949047911f228ef3161aa11afedb463",
+      "published_path": "tests/test_long_runs.py",
+      "published_sha256": "4ecf30056bf94b3756a8c70fe102dc61ea7965211e5055d2379263fe117fddb8",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_nested.py",
+      "source_git_blob_sha1": "658eeff711959772937e3ab9a215840c285809d1",
+      "published_path": "tests/test_nested.py",
+      "published_sha256": "6f0f043bfb49b8d80b54dca1c8f2c420635c34a770219090f20909b7923d9eee",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_nfa_bounds.py",
+      "source_git_blob_sha1": "fad4ba3b4cc5fed6704ce9e115bd64288f624ed0",
+      "published_path": "tests/test_nfa_bounds.py",
+      "published_sha256": "ad564d225c68ba1e1ec4c4cb1600bbc29ab560c0fac0308bc77e0f2193b28aa7",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_nfa_chain.py",
+      "source_git_blob_sha1": "1a6891e8c0cddb14fa75ebce0c9d61243e1bfcb3",
+      "published_path": "tests/test_nfa_chain.py",
+      "published_sha256": "ba56cdc15864ffc00a9de7c97484b37307ba10c23f23cfee6fa966df1782e24c",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_nfa_collapse.py",
+      "source_git_blob_sha1": "9ad511251cabb00668ab6f0420fb01c763b059a9",
+      "published_path": "tests/test_nfa_collapse.py",
+      "published_sha256": "6ad9416ff70dd802d6877de853abab5a99d9c5a1b6627c07b51c895386478b92",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_nfa_engine.py",
+      "source_git_blob_sha1": "15136a4f73b949012b2188289444cc388e4bf364",
+      "published_path": "tests/test_nfa_engine.py",
+      "published_sha256": "7f42e52553cf0eb7a23f52e2b788d2047cf70129fae4349c4dd1c58813353661",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_nfa_flow.py",
+      "source_git_blob_sha1": "f830c4ff03f50ea949affa6ea474b4b50b8bcd49",
+      "published_path": "tests/test_nfa_flow.py",
+      "published_sha256": "258136403f1b230cb04739e708f7a479933812c3053daef8b17415dffcf5cd26",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_nfa_page.py",
+      "source_git_blob_sha1": "2c061396bb120a12420c6b3f8be9b60e34363a4a",
+      "published_path": "tests/test_nfa_page.py",
+      "published_sha256": "b0884c3717c3d7b1d58f4172f30ccae3961070026541990ee9f9b7a0e053d7c7",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_operator.py",
+      "source_git_blob_sha1": "989a21a5f83d12bd1a895b307c04734baf3c09e7",
+      "published_path": "tests/test_operator.py",
+      "published_sha256": "642f5a5891f0d615a6583c207708c597495a95bca02597a89c56cec2893a925d",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_sources.py",
+      "source_git_blob_sha1": "2f16aad89b6116cad4e0fe97466dccaeba242ae0",
+      "published_path": "tests/test_sources.py",
+      "published_sha256": "f14a27ff9f76678607453957567318567bab26a174c87b371834e8c96fe1f7a7",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_t01_t03_joint_densities.py",
+      "source_git_blob_sha1": "60981c0f4ede2439b50ac342246bc162bb51c6cd",
+      "published_path": "tests/test_t01_t03_joint_densities.py",
+      "published_sha256": "52c1c6249c1de79d51487c263de26e2b34c019a28713f196a71f65ae2809f2a9",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_t02_bits_and_incomplete_inputs.py",
+      "source_git_blob_sha1": "9ec4d60a3e478f0d6495bf9f4bdef01c5a558053",
+      "published_path": "tests/test_t02_bits_and_incomplete_inputs.py",
+      "published_sha256": "1d4cf4908d5a3c87917b653407a40cc71ea0f06407b402de1cfe79b72270a6d4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_t04_markov_boundaries.py",
+      "source_git_blob_sha1": "1d3713635058542069df0b8051e31335120747eb",
+      "published_path": "tests/test_t04_markov_boundaries.py",
+      "published_sha256": "dbdc94488c94551c0d02a7b2c91c15a1388f03b99e3b5e723df02f20c54f91e5",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_t05_spiral_blanket.py",
+      "source_git_blob_sha1": "d5241a4d4e175721b45ae9d9bafacfbbdc159a40",
+      "published_path": "tests/test_t05_spiral_blanket.py",
+      "published_sha256": "5582df724354b739ae2597d664362d200c71c433410d2d543aff04ebabdde8a7",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_t06_dirac_zurek.py",
+      "source_git_blob_sha1": "4c5edb354508f09d15cef772e72e67b0adb04c2b",
+      "published_path": "tests/test_t06_dirac_zurek.py",
+      "published_sha256": "c524d8de4b58199536da53bc62f9f46a79104aa29774f0f48b23a144b4cd7b19",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_t07_paths.py",
+      "source_git_blob_sha1": "0e5ddcf02250f006173f06b0afc88452f19fdae0",
+      "published_path": "tests/test_t07_paths.py",
+      "published_sha256": "da3d439375bd83dbebe6128a980c9b8b03b0ec06a706c7b12826b35a8a1cffc3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_t08_feynman_newton.py",
+      "source_git_blob_sha1": "b48dcb8a7a5ee8b710d778f4afc73600f6c27bbc",
+      "published_path": "tests/test_t08_feynman_newton.py",
+      "published_sha256": "682cef0da08920a78f54d786577b6d6c7a41fc7f560598e194b67e00324b24d8",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_t09_two_mode.py",
+      "source_git_blob_sha1": "607e5ac62e25fe8a9746c701ee7acb8d888d9c6a",
+      "published_path": "tests/test_t09_two_mode.py",
+      "published_sha256": "87d794b8f85e795dd3840b5907cd48b6d41c75917f75b236f085e686ca42b51e",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_t10_event_loop.py",
+      "source_git_blob_sha1": "06ab8da36a8d5add26f4eda56d4ee6bc4a721a14",
+      "published_path": "tests/test_t10_event_loop.py",
+      "published_sha256": "09a031c95a453b5cbbe87757e0b2dcb72f72bbdd4eabfe4a1d33ed61204e58a3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_t11_canalization.py",
+      "source_git_blob_sha1": "dd441a1f7765511597b4d65b66c85947b93cc8f0",
+      "published_path": "tests/test_t11_canalization.py",
+      "published_sha256": "88e5a6b5d625ea5c8307b18fe8c51fdce48005e4f768789cb699930d919c3e71",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_t12_plasticity.py",
+      "source_git_blob_sha1": "51444e9a1aeb9fc348277c53c43a4669ae002dea",
+      "published_path": "tests/test_t12_plasticity.py",
+      "published_sha256": "4967da93d73ab9d1a706ae1475c046477077376c8a7b3643d34f275226b89995",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_t13_hierarchy_constraints_locality.py",
+      "source_git_blob_sha1": "9f558a3e2d7c7aa56504d3a355fe890418355c44",
+      "published_path": "tests/test_t13_hierarchy_constraints_locality.py",
+      "published_sha256": "91ea3b5eebd3731bec0c6466641f3be8c66c6eb34dfda3e5b9dc467709e964b5",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_tensornet.py",
+      "source_git_blob_sha1": "726e476dbfa92eddcfc76c0367b7d0f96f04c82a",
+      "published_path": "tests/test_tensornet.py",
+      "published_sha256": "15f6ef372af266f67972c3ad581accc83d63f28c97c07ec9f789210e04f7dc9a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_vam1.py",
+      "source_git_blob_sha1": "9664052451e9aab2a5d2d609ec69018fd0e2c688",
+      "published_path": "tests/test_vam1.py",
+      "published_sha256": "c0d884d0fb6bb21a2d204f965e224a26e930c2bcc46cb7e5cb573317a807f260",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_vam1_mpo.py",
+      "source_git_blob_sha1": "93f50da5374dc8314eef674ebd3a130aa989f97c",
+      "published_path": "tests/test_vam1_mpo.py",
+      "published_sha256": "fdff8e871b3a94082335896ef4a68f416a6c4167dc2e29152374247d35e13fe1",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_vam1_tn.py",
+      "source_git_blob_sha1": "328c8c0e0c7d2e6be8f6694181414c88b4d5b53a",
+      "published_path": "tests/test_vam1_tn.py",
+      "published_sha256": "1fc106e0a4c848f34c462896b2c5e971ec050f825cc055a9d653be2127d7006f",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_wordclass.py",
+      "source_git_blob_sha1": "81298c99861a4289d6553c4b14dbb913c8a43aec",
+      "published_path": "tests/test_wordclass.py",
+      "published_sha256": "082d5a41981d34b14460c9fa378a75bdb50daefbc105da98f5c4162ebb8eb282",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/tests/test_wordclass_mix.py",
+      "source_git_blob_sha1": "6831907c894e43527e7f6eb27e5c7e742b1ae2ad",
+      "published_path": "tests/test_wordclass_mix.py",
+      "published_sha256": "83129ef7d1a4136cc401a712692877b169081e6414e66bb209df2131928c2d0f",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/verify/RECEIPT.json",
+      "source_git_blob_sha1": "ba783b43d3e533038a486a3159574999e05d4379",
+      "published_path": "verify/RECEIPT.json",
+      "published_sha256": "85027e0df9d8ea239b8aab5771860077285db47ca80c4d3cf8001dfd0c24f1b4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/verify/RUNLOG.md",
+      "source_git_blob_sha1": "9103d35af2da4f70d42b246f15dc29d2a31252c5",
+      "published_path": "verify/RUNLOG.md",
+      "published_sha256": "17ca8cf8c876ff2409f2da09e8e4c7971bf019617a869f22628f0048514d264a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "b350cf647a39b094e6b179a49512f7628e562ac6",
+      "source_path": "vam/verify/run_all.py",
+      "source_git_blob_sha1": "28acd1f6fb94448c045a416039c9ed55c34a3005",
+      "published_path": "verify/run_all.py",
+      "published_sha256": "ef86511101bfbb22874692b98479ad60f3c530b3f7c25f0c774cd9887e615b59",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/.gitignore",
+      "source_git_blob_sha1": "40ffdba441df87be0644a92f52a04203ace1a419",
+      "published_path": "archive/original-branch/.gitignore",
+      "published_sha256": "af67c5ded359f7e0acad7e1417c75d47301112e362c42c56c1c21bd41164cba1",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/AUDIT.md",
+      "source_git_blob_sha1": "80dbe648ae18e4e4b4540348313d8e118fb80c5c",
+      "published_path": "archive/original-branch/AUDIT.md",
+      "published_sha256": "5eb8ef2714e02b7b5491ce9df4d194c8f41dda27ba17a270ed0429b3a9313b8a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/DESIGN.md",
+      "source_git_blob_sha1": "66f042ae1a5e8878354223129b46907399746891",
+      "published_path": "archive/original-branch/DESIGN.md",
+      "published_sha256": "41560ad0926463eab1a6a369d3fefa4a41b6d174110de344e7435cfca967aea4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/README.md",
+      "source_git_blob_sha1": "d1c8058ac308c4752eafd67868db4fa261812080",
+      "published_path": "archive/original-branch/README.md",
+      "published_sha256": "1837f8430e46c856f75854208e824cfb347904881ee04d01c3b35ee5fd1126a4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/RESULTS.md",
+      "source_git_blob_sha1": "5113053534037bfbd70ba34f5f29ed67f6d05790",
+      "published_path": "archive/original-branch/RESULTS.md",
+      "published_sha256": "bf191cd468ac200e706015995f08767f2fdf787302e1d9646e242dea5984ba3f",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/PROTOCOL.md",
+      "source_git_blob_sha1": "4c840bc8c6d4fe91842765bc585db33cd5275a79",
+      "published_path": "archive/original-branch/experiments/PROTOCOL.md",
+      "published_sha256": "860cf82810cb5157689f1d6149b1a5c8eaaf952e22dcfcffd1858575e1fb864c",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/_common.py",
+      "source_git_blob_sha1": "e3a9289ae7ea53e1b64682246e2963e9de78299a",
+      "published_path": "archive/original-branch/experiments/_common.py",
+      "published_sha256": "3161944c58ae802cfb0b87d643ae388c31af6f59c6abda8cf5123e0cf1505fb7",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/build_corpus.py",
+      "source_git_blob_sha1": "60185fa3eeff8121adea0ec429fcea1f86861ef6",
+      "published_path": "archive/original-branch/experiments/build_corpus.py",
+      "published_sha256": "f8e2e3bff5dcdc56e764ed96a069d4b8b8f7dd5f9e9c66578d73f843d23b332b",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/data/pg19/MANIFEST.json",
+      "source_git_blob_sha1": "50eb0a7eed991c8e04cd44540752014d1e08b44d",
+      "published_path": "archive/original-branch/experiments/data/pg19/MANIFEST.json",
+      "published_sha256": "8a8dace3a8be8492e2d1ed789f9e9da0298f7647937323b8a9f249f701684565",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/data/pg19/selection.json",
+      "source_git_blob_sha1": "a49db0d393269e7e71bea20e31cbfc2a03af27ea",
+      "published_path": "archive/original-branch/experiments/data/pg19/selection.json",
+      "published_sha256": "10094dfccdcdfb2dcae6ab557ba796e16593c88283220f4ad430d361528655b1",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/diagnostics/context_convergence.py",
+      "source_git_blob_sha1": "7a785f242ac59f1b96bb48ec277903536fb4261d",
+      "published_path": "archive/original-branch/experiments/diagnostics/context_convergence.py",
+      "published_sha256": "4395b4b1d50ced255e4d895b39e4e5bcc6dd431c74ffc05f9df8f63be5aeb9ba",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/diagnostics/context_convergence.txt",
+      "source_git_blob_sha1": "e14503d5988f2911b6021499349834f17f3064b7",
+      "published_path": "archive/original-branch/experiments/diagnostics/context_convergence.txt",
+      "published_sha256": "8d6f5c1ee316da67cb99f2a75c3e305f6d8cd48fec5a15e75955a47e8b6ba668",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/diagnostics/operator_entanglement.py",
+      "source_git_blob_sha1": "dcaa2a34a4d41fd51281797cda94e16243f68e1c",
+      "published_path": "archive/original-branch/experiments/diagnostics/operator_entanglement.py",
+      "published_sha256": "4e369e9c4c6b1e6bc18119b0a08ae0c3db861c8ec789e8d30be589b2081b50cf",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/diagnostics/operator_entanglement.txt",
+      "source_git_blob_sha1": "9242e3dd4f17c5aa24fcc6ce1ad71d4aac9eead9",
+      "published_path": "archive/original-branch/experiments/diagnostics/operator_entanglement.txt",
+      "published_sha256": "f738c0edbef034702ebe60b394dcaf2b5e8126ea3cdc8a3d8afcc05c412cede8",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/diagnostics/pointer_rank.py",
+      "source_git_blob_sha1": "348663d4c239bde4dd0927f874e94322253d69b1",
+      "published_path": "archive/original-branch/experiments/diagnostics/pointer_rank.py",
+      "published_sha256": "4287be0fbc76a786b7c89bd2b6a0e23deaa8f57b8931ac364a0f52f7b74d017c",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/diagnostics/pointer_rank.txt",
+      "source_git_blob_sha1": "71f16d35cabf6b4439801958437b22e4ab6854d0",
+      "published_path": "archive/original-branch/experiments/diagnostics/pointer_rank.txt",
+      "published_sha256": "469d99f1c6b4ab5bf601b2ebdfffed88f9408dd7176725eb2cd2d3cc6b62703c",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/diagnostics/probability_truncation.py",
+      "source_git_blob_sha1": "2e5709769598b2d768a4052dbd029d9400bfb4ba",
+      "published_path": "archive/original-branch/experiments/diagnostics/probability_truncation.py",
+      "published_sha256": "b5b5ec60ea0a71bbdb8f1b86c852475270f167a3c9abcfd1d7b06db779bb3623",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/diagnostics/probability_truncation.txt",
+      "source_git_blob_sha1": "8a31c73f8bd3055df84ab7e0b848387d203d5b7b",
+      "published_path": "archive/original-branch/experiments/diagnostics/probability_truncation.txt",
+      "published_sha256": "318f7e59ed186504aac49eda96412eff1fa4421f20bf24c64c01c49cabcf3035",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/e1_known_sources.py",
+      "source_git_blob_sha1": "5894ce8eabd848958dc9e5991f1ba04f83a222c3",
+      "published_path": "archive/original-branch/experiments/e1_known_sources.py",
+      "published_sha256": "d244ba60e8aad73c3ccf637d52235037cba118a1cb603ff4f675d5eb55eae65e",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/e1b_nested.py",
+      "source_git_blob_sha1": "c95915e6cccfbf8d1f8349c9efdc5e553c939d50",
+      "published_path": "archive/original-branch/experiments/e1b_nested.py",
+      "published_sha256": "fae84e2f8ddb3fafe2bd5f4faa92c57aa60e6aee4e7bd59744209b5590cf4103",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/e2_curriculum.py",
+      "source_git_blob_sha1": "4bf5392858d4a8349c13e508e28b92711a666b1c",
+      "published_path": "archive/original-branch/experiments/e2_curriculum.py",
+      "published_sha256": "cb28edbe782f058fd2e80e29b732179e5537eb907d346ef21f24bc1301f986fe",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/e3_explore.py",
+      "source_git_blob_sha1": "5c624b6f4953f249a315c6d5ea704e6e7a90cfd4",
+      "published_path": "archive/original-branch/experiments/e3_explore.py",
+      "published_sha256": "1b066023659bfb1e95be583905e2884ac1429f60c9348d84531fa3133cffe42f",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/e3_nfa.py",
+      "source_git_blob_sha1": "7cc2a60a6e1564d6be3c0aaf3f55da2ad65c16fa",
+      "published_path": "archive/original-branch/experiments/e3_nfa.py",
+      "published_sha256": "41808c201acc5ef24d8d4695d70926f762bb7347a294a34c6c2c25478777641d",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/fetch_gutenberg.py",
+      "source_git_blob_sha1": "619e3553e12ed255190231a999feff01823cfd07",
+      "published_path": "archive/original-branch/experiments/fetch_gutenberg.py",
+      "published_sha256": "6cc429a9a28f66b1ebff1a341330e8b36aac09ab17dce43300dc2b8298843e36",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/fetch_pg19.py",
+      "source_git_blob_sha1": "d862bd2e8c1159733d47d558ad939e0239c87c5b",
+      "published_path": "archive/original-branch/experiments/fetch_pg19.py",
+      "published_sha256": "77a5b4768cb3a5fbca41c425114246933c4ef5819462de8e957c71673a38e31a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/report.py",
+      "source_git_blob_sha1": "a6f859f889c39a462132a15c6e6cab52b7a3b069",
+      "published_path": "archive/original-branch/experiments/report.py",
+      "published_sha256": "6c5a2426727550695a17316d655ecaa9b330240e03b2018f82f7ce8368535d6c",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/results/e1.json",
+      "source_git_blob_sha1": "928be4d65ff832f3a746b7592889782069ad4ce0",
+      "published_path": "archive/original-branch/experiments/results/e1.json",
+      "published_sha256": "417ddd4c586d6a3883e6499eed39f3d474bdfb1c25c93ce1904bc967f709ba43",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/results/e1_small.json",
+      "source_git_blob_sha1": "345cc638839eba1cc61b76c78bea6c714de05a3f",
+      "published_path": "archive/original-branch/experiments/results/e1_small.json",
+      "published_sha256": "a251c2435daac40296230289c4853e8b47ebebf82edd417988ffa58c070f121e",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/results/e1b.json",
+      "source_git_blob_sha1": "5fe25e3ad0458c1f2f451ace805b1e163129f086",
+      "published_path": "archive/original-branch/experiments/results/e1b.json",
+      "published_sha256": "1523800108976145bfcde6e76897564052092734946f37459b26c6513110454b",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/results/e2.json",
+      "source_git_blob_sha1": "32c32ae78ed2da845b61cf7beae7840fce224cf5",
+      "published_path": "archive/original-branch/experiments/results/e2.json",
+      "published_sha256": "1e524f5a805f9c9137bfa621b0ff9a84c182d5a5622c416e8b58082da182c4b3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/results/e2_smoke.json",
+      "source_git_blob_sha1": "dfb83f0d0c21efe81839c6b98f31d8464f2499ca",
+      "published_path": "archive/original-branch/experiments/results/e2_smoke.json",
+      "published_sha256": "3c67d4e283115040f7ab99918d5e05f9e37949864ddcea61a560aab304b939b5",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/results/e3_partial.json",
+      "source_git_blob_sha1": "1930ce7974f0edee27ebfc086c3f46197f2ccd17",
+      "published_path": "archive/original-branch/experiments/results/e3_partial.json",
+      "published_sha256": "94ae5ec51ba89fb9c83609ffe62b3a2d9d33d5f21cab1ae072c9784371194140",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/experiments/select_local.py",
+      "source_git_blob_sha1": "772ec77c315014e2e679b20051eaaa12bf154799",
+      "published_path": "archive/original-branch/experiments/select_local.py",
+      "published_sha256": "93dad6d42247d74354e3f4486949b16f44b6c0fc9e914f5caf790f7acf6caa93",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/pyproject.toml",
+      "source_git_blob_sha1": "09e178d17d86520eb7ee2a9940de71d49d0e4c5f",
+      "published_path": "archive/original-branch/pyproject.toml",
+      "published_sha256": "4945665c2a40a23cf83e7d40d9625b5bbeeba74dfb9e263628eb78d40bd0f2cf",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/spec/VAM_Coupled_Theory_and_Proofs.md",
+      "source_git_blob_sha1": "5acdf629da44e68afbc4e8dfdf3916ba1a7182b4",
+      "published_path": "archive/original-branch/spec/VAM_Coupled_Theory_and_Proofs.md",
+      "published_sha256": "df2de9efb9c335918940455da962aec4fe90f6d8dbf6c51d92a626dd5c8d1523",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/spec/VAM_Framework_Foundational_Principles.md",
+      "source_git_blob_sha1": "bcef66f1b5802b563e09a7c4d15720b27e58740e",
+      "published_path": "archive/original-branch/spec/VAM_Framework_Foundational_Principles.md",
+      "published_sha256": "2c56d110c47df669daa51ba3c688f214ad79e219aebd42e5c7e1cf79c924b0d9",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/spec/VAM_Nested_Fractal_Architecture.md",
+      "source_git_blob_sha1": "62334ffac1567b4129cbb800000c8eca1726f426",
+      "published_path": "archive/original-branch/spec/VAM_Nested_Fractal_Architecture.md",
+      "published_sha256": "4d4079cc61e987df2235c4f4c36752af2f02ec4681de494c972373a7144fefa2",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/__init__.py",
+      "source_git_blob_sha1": "be6fc0cff02d508a1edf42e9d52de976f1f4beee",
+      "published_path": "archive/original-branch/src/vam/__init__.py",
+      "published_sha256": "48a7a57099705f0e8e4854eb02a7fd75deb65fa1a1c7096289ae8f57b98f7875",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/baselines.py",
+      "source_git_blob_sha1": "40809a478c0f196c588faccb837aaebdf392a4a1",
+      "published_path": "archive/original-branch/src/vam/baselines.py",
+      "published_sha256": "1c3981870933efcb1a137d3330c9f203d33b2f7a650e84bc96270497d5c907e6",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/bitkernel.py",
+      "source_git_blob_sha1": "3df7a6167fc0ba77fb00200f0bb136df38c459ac",
+      "published_path": "archive/original-branch/src/vam/bitkernel.py",
+      "published_sha256": "145a8d0714ad4c4e571b5977d0b3b123227a95a22d218e40ea71eb9a831e6f20",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/bits.py",
+      "source_git_blob_sha1": "76f2d57f56304d077b056d9ca63688293cdc78e8",
+      "published_path": "archive/original-branch/src/vam/bits.py",
+      "published_sha256": "d2acbe0b475385df2e62e17cab06c8c401c882c3dd713378d401a912f2ec35e0",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/boundary.py",
+      "source_git_blob_sha1": "edf065b94d4ffd736423b7d6b10b5e16a654f4c1",
+      "published_path": "archive/original-branch/src/vam/boundary.py",
+      "published_sha256": "04d659618eec3236b8779105514cd81470830e6720a2e5588f8c2247c75a3224",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/canalization.py",
+      "source_git_blob_sha1": "d3073041533ae1d2066a7bbf75cf9a360a83d3b8",
+      "published_path": "archive/original-branch/src/vam/canalization.py",
+      "published_sha256": "1e54c7b7a10664c4083973f2c4923f6275727354ae8e458dcf5a56e77a69b0fe",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/channels.py",
+      "source_git_blob_sha1": "9fc6e36703142011a829b3a2fd36ed78f4ecd6bf",
+      "published_path": "archive/original-branch/src/vam/channels.py",
+      "published_sha256": "98bd3e5b7517580c5d1dcc98ffa008c143f7a115a7b00651d5e086072b25bad4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/constraints.py",
+      "source_git_blob_sha1": "093b109a2bf21359b3eacd809ef619eba432ba10",
+      "published_path": "archive/original-branch/src/vam/constraints.py",
+      "published_sha256": "19d401a81b8200ad95113f57e4f6f90376f1fc654e0a250321636d994e91f626",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/corpus.py",
+      "source_git_blob_sha1": "7888d004392c052c9a8b248b80224ff60725bc03",
+      "published_path": "archive/original-branch/src/vam/corpus.py",
+      "published_sha256": "306bc1e9d0e70fa24aaad6090355b9f76fc19de2ca62745ac4272641d41c25fc",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/density.py",
+      "source_git_blob_sha1": "d65b5c49ddacd348028acd5e864dffd30acbdd56",
+      "published_path": "archive/original-branch/src/vam/density.py",
+      "published_sha256": "7889a60879c1aa7bff121e7dde84075476e558ea9fccbf5d7fd6568cddad5bf6",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/dirac.py",
+      "source_git_blob_sha1": "d633d664d3452798b2a8f1dc7aba6aaeb3e2ab93",
+      "published_path": "archive/original-branch/src/vam/dirac.py",
+      "published_sha256": "62d3621e5af0787e5877c6a0fa44e8ac3937b72ce8413b83269bf614120a05dc",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/gaussian_blanket.py",
+      "source_git_blob_sha1": "0f452992c9d3b281eabd59141dc3a7e39987c51d",
+      "published_path": "archive/original-branch/src/vam/gaussian_blanket.py",
+      "published_sha256": "d81cac86251fe1c13a27704fc08c0648886cb396c4806acbc1706e41bd8fd6fc",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/geometry.py",
+      "source_git_blob_sha1": "10d2ae3fc5578ae82c2ac99288a20b019e92a0b2",
+      "published_path": "archive/original-branch/src/vam/geometry.py",
+      "published_sha256": "4688ea3c69e383348b3a6b26762dfe266f2741da2d22d0bf1815854ce529240b",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/hamiltonian.py",
+      "source_git_blob_sha1": "5e8c12d0e95e612dd3b1aa60e31b396be37f5ebf",
+      "published_path": "archive/original-branch/src/vam/hamiltonian.py",
+      "published_sha256": "09887f6cbc443609e7bb2829be5804b4e150425b5d3cb818f9bdccc50aa815fe",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/linalg.py",
+      "source_git_blob_sha1": "5f63ea025b0ce98a470879a1883e042e68ceaa13",
+      "published_path": "archive/original-branch/src/vam/linalg.py",
+      "published_sha256": "4771b612b5e2ab9a60fcad8cd1e52d61a6c984053cc78cb27158446007cfedd3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/lindblad.py",
+      "source_git_blob_sha1": "76fd30193fc4f72c42ecde4a8302303ecf8ef965",
+      "published_path": "archive/original-branch/src/vam/lindblad.py",
+      "published_sha256": "537cdf1ff03aef6ee8410a84de9e70043647633c6d7d1d78711bd0dccddc5d35",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/machine.py",
+      "source_git_blob_sha1": "d4abaa31e83af3bbc64b3a51ab54a1386a81b22f",
+      "published_path": "archive/original-branch/src/vam/machine.py",
+      "published_sha256": "115d65beb5731907c4d45d56b750aebf9970bd2779a90bb9f3584050de5d20cd",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/nested.py",
+      "source_git_blob_sha1": "302f767af7ec355dc28373378cc1dd8fa36408ee",
+      "published_path": "archive/original-branch/src/vam/nested.py",
+      "published_sha256": "2b1d7abe78f54567b45e0c8f6f944309c216e8f5ecfa12e6873a28bb67556e8a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/nfa/__init__.py",
+      "source_git_blob_sha1": "6499124ca5d5add874317a4e262be1d344107438",
+      "published_path": "archive/original-branch/src/vam/nfa/__init__.py",
+      "published_sha256": "4deb55b23be186ad83865ed87f60087c14a8089f20afbb0c1f4d2a1b381cfda5",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/nfa/blankets.py",
+      "source_git_blob_sha1": "dc2330759ac9f1d9386fe50b06449d7febf2337a",
+      "published_path": "archive/original-branch/src/vam/nfa/blankets.py",
+      "published_sha256": "9559a93727a305b2c62db17af1b734dc1204cbad61c5649c34b609054ecf89cb",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/nfa/bounds.py",
+      "source_git_blob_sha1": "b1b7f694da0677128331fe597712f2acc244fba6",
+      "published_path": "archive/original-branch/src/vam/nfa/bounds.py",
+      "published_sha256": "8bdaa1d80b507f0fc231ba83b4ce84e713a4f7c38e7918556722653b4900feca",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/nfa/collapse.py",
+      "source_git_blob_sha1": "f6ac974db0a76021359df616e858483732470803",
+      "published_path": "archive/original-branch/src/vam/nfa/collapse.py",
+      "published_sha256": "43594590028e77cd56fc29bbfde957167724dbbe51a4657d4a13c2f779239b18",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/nfa/flow.py",
+      "source_git_blob_sha1": "4108f1eed65fb01817e088f8dcd8ff5acc814b2c",
+      "published_path": "archive/original-branch/src/vam/nfa/flow.py",
+      "published_sha256": "d2cb18a8195906bc3098cd56f22abb5e1678bb83877df2106d84fc5bcd7b4bc5",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/nfa/governor.py",
+      "source_git_blob_sha1": "b8351a2b0155375aa0f7dd60d8b02adf79e3bfed",
+      "published_path": "archive/original-branch/src/vam/nfa/governor.py",
+      "published_sha256": "0a80e249cf914a6c38bcc54ed512ba99835e543879ce1c911777240d5f1c3f7d",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/nfa/page.py",
+      "source_git_blob_sha1": "90c25b8f54645103a21f3672deec0ce29b116d6f",
+      "published_path": "archive/original-branch/src/vam/nfa/page.py",
+      "published_sha256": "b4e31a7291f08d5f4ddcaf7ab54c330a8492687b13e744d713d557cfd95a4169",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/paths.py",
+      "source_git_blob_sha1": "b59509440a6f74c2560347abd27eb25007ce2d21",
+      "published_path": "archive/original-branch/src/vam/paths.py",
+      "published_sha256": "7edb9117d8e5a0d89a1f2ddf2c0869bd7ed06b7af9f3fde0b0eb7c64cb50d21e",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/plasticity.py",
+      "source_git_blob_sha1": "8c71bc2ab3d6e525d32db71c77106230e3d21f8b",
+      "published_path": "archive/original-branch/src/vam/plasticity.py",
+      "published_sha256": "5521d5d22ed32d50980c96693b0bcdc074d0a4bb2cbc1f7346ef6d911fa5f2f4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/readout.py",
+      "source_git_blob_sha1": "994a486724633287765c4fb168ba554c1f1b7980",
+      "published_path": "archive/original-branch/src/vam/readout.py",
+      "published_sha256": "c87f58c566c36a35fbda73547bddb7c8a1cf43bcc3e878989de1ae31c5c3c8f3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/realizations/__init__.py",
+      "source_git_blob_sha1": "0af3af7451530f3aa7294fe470f77ccf37b1baf7",
+      "published_path": "archive/original-branch/src/vam/realizations/__init__.py",
+      "published_sha256": "e64951185f6378782272f474d2ccd460b927a5d1276912498a8149208b6d5a67",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/realizations/fourier25.py",
+      "source_git_blob_sha1": "b10480f11b43270a10a4d33e6d0772f1c1f4c76e",
+      "published_path": "archive/original-branch/src/vam/realizations/fourier25.py",
+      "published_sha256": "0db95f044dc50a0d21c3fb61a2722a20f4455c54f5ce64a6dd18986b29fbc980",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/realizations/incomplete_codes.py",
+      "source_git_blob_sha1": "3c46da76847a31a0da87f708b6de8ec72671bfe6",
+      "published_path": "archive/original-branch/src/vam/realizations/incomplete_codes.py",
+      "published_sha256": "7a32a6991de32832910e9eac071faafd68dde493acf6fd0645f302a800ab78c2",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/realizations/noncommuting_pulses.py",
+      "source_git_blob_sha1": "5c1f4f9907f88e45dbe7ac22fbeb670dbfa4fb31",
+      "published_path": "archive/original-branch/src/vam/realizations/noncommuting_pulses.py",
+      "published_sha256": "142964763da30e5ed7a27da97bc1d7c3910e93373f478052a19d9076fb03ac88",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/realizations/two_mode.py",
+      "source_git_blob_sha1": "4f20e3a9daab714731ca53c6ee5019ee0ddfb6b8",
+      "published_path": "archive/original-branch/src/vam/realizations/two_mode.py",
+      "published_sha256": "ff04d0aa0f28ca3f01af180bff37cdddae9b02f5470a4e2ee84cead6174de58a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/realizations/vam1.py",
+      "source_git_blob_sha1": "196176bd2d369def5807e893b4d4e924e492986f",
+      "published_path": "archive/original-branch/src/vam/realizations/vam1.py",
+      "published_sha256": "fc47fd53dfa494be02bf0ef4fd6f8f06232ae6c51038d26fa62b29715f0c052a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/realizations/vam1_mpo.py",
+      "source_git_blob_sha1": "e231ba90319763eee6c9a528d1f5259056c70926",
+      "published_path": "archive/original-branch/src/vam/realizations/vam1_mpo.py",
+      "published_sha256": "c249f05bd4086b2883b017cada6c1b944037a9721f19c86fc6133ff4fa8cab5d",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/realizations/vam1_tn.py",
+      "source_git_blob_sha1": "455a6e2740e15fedf517a9e0ba6e8395f78724f5",
+      "published_path": "archive/original-branch/src/vam/realizations/vam1_tn.py",
+      "published_sha256": "82a4314515495a3f170de87025e75e8b5de33dd193b1fde58e3317188be639f4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/semiclassical.py",
+      "source_git_blob_sha1": "a4f4b712bd6ca58013bc6f00185bc0ec98d8b7dd",
+      "published_path": "archive/original-branch/src/vam/semiclassical.py",
+      "published_sha256": "2e67d72d45be56bf8ba197776cd48d9a075f191b6742f8756e8c31b6ae88aefb",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/sources.py",
+      "source_git_blob_sha1": "87297f16a8246bdf0c7341d7c1222588eeed274b",
+      "published_path": "archive/original-branch/src/vam/sources.py",
+      "published_sha256": "c95981cee54e6e07a64040fc4c28d2f9b07dd73ffeb7bbc4438d4a53f3da8ffe",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/space.py",
+      "source_git_blob_sha1": "4a7241a0ab08b75f5f1a1808bccb8a13e1d686a5",
+      "published_path": "archive/original-branch/src/vam/space.py",
+      "published_sha256": "6862dd74527b99f726be2f2dabd0cd2e8aadcef0da816529948a7a00e4178c39",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/src/vam/tensornet.py",
+      "source_git_blob_sha1": "0dcb126dac3f8f5cb6fe80b4d56dbb55552a769f",
+      "published_path": "archive/original-branch/src/vam/tensornet.py",
+      "published_sha256": "c3dbf716e417958a7d99611bdb3fa667541eba0c75d314130f45802a105a8636",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/conftest.py",
+      "source_git_blob_sha1": "59fb5321678896b2f0ae4c2950a5602680230543",
+      "published_path": "archive/original-branch/tests/conftest.py",
+      "published_sha256": "dc40b482cae66985a6e66fb3487c03c485d6833e0bd851c7527398c0f58ee8c3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_bitkernel.py",
+      "source_git_blob_sha1": "814221a63144f19c218a6fb5cb63bc9a9c469eca",
+      "published_path": "archive/original-branch/tests/test_bitkernel.py",
+      "published_sha256": "2c75941150b2be546f036619cc45206819af79e615a91ab7ef68cf81e316ec56",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_corpus.py",
+      "source_git_blob_sha1": "b0abd17805c601fbb39ac6c283768b4f65898352",
+      "published_path": "archive/original-branch/tests/test_corpus.py",
+      "published_sha256": "c9c872cea919406c481eaf2049bcb26d8ea4b620bfa72e7df6895a3055159102",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_f07_geometry_loop.py",
+      "source_git_blob_sha1": "d277cd67368f6d0511cd1d7841597aa843b7b2bc",
+      "published_path": "archive/original-branch/tests/test_f07_geometry_loop.py",
+      "published_sha256": "413d9984400e8ae1035a5c769b070cc81a896c34d2ab4c30acbcf2e4adfe9ed9",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_infrastructure.py",
+      "source_git_blob_sha1": "4de3e5dc449320406998e97db73f68201b5de3d4",
+      "published_path": "archive/original-branch/tests/test_infrastructure.py",
+      "published_sha256": "d63ab84a64ad9078f45344bb0fef72bf6996654e1839a6b145beb5cb1b96715c",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_long_runs.py",
+      "source_git_blob_sha1": "7c145d218949047911f228ef3161aa11afedb463",
+      "published_path": "archive/original-branch/tests/test_long_runs.py",
+      "published_sha256": "4ecf30056bf94b3756a8c70fe102dc61ea7965211e5055d2379263fe117fddb8",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_nested.py",
+      "source_git_blob_sha1": "4caf6e34a120d15a516f050d9c9a9b1b9b19acae",
+      "published_path": "archive/original-branch/tests/test_nested.py",
+      "published_sha256": "eec7377a72d3231638b9bf68e8a5901daf6294c8bedd99af129d943cfa9d6093",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_nfa_bounds.py",
+      "source_git_blob_sha1": "fad4ba3b4cc5fed6704ce9e115bd64288f624ed0",
+      "published_path": "archive/original-branch/tests/test_nfa_bounds.py",
+      "published_sha256": "ad564d225c68ba1e1ec4c4cb1600bbc29ab560c0fac0308bc77e0f2193b28aa7",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_nfa_chain.py",
+      "source_git_blob_sha1": "41bfd3082882d1219a3c778c955069fd60383702",
+      "published_path": "archive/original-branch/tests/test_nfa_chain.py",
+      "published_sha256": "29785b70ee6501b9f83be7cff1d132ccd0e15787d0b3b81e7ec4300df253f103",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_nfa_collapse.py",
+      "source_git_blob_sha1": "9ad511251cabb00668ab6f0420fb01c763b059a9",
+      "published_path": "archive/original-branch/tests/test_nfa_collapse.py",
+      "published_sha256": "6ad9416ff70dd802d6877de853abab5a99d9c5a1b6627c07b51c895386478b92",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_nfa_flow.py",
+      "source_git_blob_sha1": "ac858c1b547265a02186df10de9af679dc02418b",
+      "published_path": "archive/original-branch/tests/test_nfa_flow.py",
+      "published_sha256": "9b0a82a098f4e2953e219e3601138993beabfa60c262edc76cd503d8ebeb126d",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_nfa_page.py",
+      "source_git_blob_sha1": "3e0510cd2972aca98282f155e21cf34beea81a54",
+      "published_path": "archive/original-branch/tests/test_nfa_page.py",
+      "published_sha256": "2da215de9ace610fd13be208132cc3ecac09d7de003ff761ddb30ddcc60ad9b5",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_sources.py",
+      "source_git_blob_sha1": "2f16aad89b6116cad4e0fe97466dccaeba242ae0",
+      "published_path": "archive/original-branch/tests/test_sources.py",
+      "published_sha256": "f14a27ff9f76678607453957567318567bab26a174c87b371834e8c96fe1f7a7",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_t01_t03_joint_densities.py",
+      "source_git_blob_sha1": "60981c0f4ede2439b50ac342246bc162bb51c6cd",
+      "published_path": "archive/original-branch/tests/test_t01_t03_joint_densities.py",
+      "published_sha256": "52c1c6249c1de79d51487c263de26e2b34c019a28713f196a71f65ae2809f2a9",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_t02_bits_and_incomplete_inputs.py",
+      "source_git_blob_sha1": "9ec4d60a3e478f0d6495bf9f4bdef01c5a558053",
+      "published_path": "archive/original-branch/tests/test_t02_bits_and_incomplete_inputs.py",
+      "published_sha256": "1d4cf4908d5a3c87917b653407a40cc71ea0f06407b402de1cfe79b72270a6d4",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_t04_markov_boundaries.py",
+      "source_git_blob_sha1": "1d3713635058542069df0b8051e31335120747eb",
+      "published_path": "archive/original-branch/tests/test_t04_markov_boundaries.py",
+      "published_sha256": "dbdc94488c94551c0d02a7b2c91c15a1388f03b99e3b5e723df02f20c54f91e5",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_t05_spiral_blanket.py",
+      "source_git_blob_sha1": "d5241a4d4e175721b45ae9d9bafacfbbdc159a40",
+      "published_path": "archive/original-branch/tests/test_t05_spiral_blanket.py",
+      "published_sha256": "5582df724354b739ae2597d664362d200c71c433410d2d543aff04ebabdde8a7",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_t06_dirac_zurek.py",
+      "source_git_blob_sha1": "4c5edb354508f09d15cef772e72e67b0adb04c2b",
+      "published_path": "archive/original-branch/tests/test_t06_dirac_zurek.py",
+      "published_sha256": "c524d8de4b58199536da53bc62f9f46a79104aa29774f0f48b23a144b4cd7b19",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_t07_paths.py",
+      "source_git_blob_sha1": "0e5ddcf02250f006173f06b0afc88452f19fdae0",
+      "published_path": "archive/original-branch/tests/test_t07_paths.py",
+      "published_sha256": "da3d439375bd83dbebe6128a980c9b8b03b0ec06a706c7b12826b35a8a1cffc3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_t08_feynman_newton.py",
+      "source_git_blob_sha1": "b48dcb8a7a5ee8b710d778f4afc73600f6c27bbc",
+      "published_path": "archive/original-branch/tests/test_t08_feynman_newton.py",
+      "published_sha256": "682cef0da08920a78f54d786577b6d6c7a41fc7f560598e194b67e00324b24d8",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_t09_two_mode.py",
+      "source_git_blob_sha1": "607e5ac62e25fe8a9746c701ee7acb8d888d9c6a",
+      "published_path": "archive/original-branch/tests/test_t09_two_mode.py",
+      "published_sha256": "87d794b8f85e795dd3840b5907cd48b6d41c75917f75b236f085e686ca42b51e",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_t10_event_loop.py",
+      "source_git_blob_sha1": "06ab8da36a8d5add26f4eda56d4ee6bc4a721a14",
+      "published_path": "archive/original-branch/tests/test_t10_event_loop.py",
+      "published_sha256": "09a031c95a453b5cbbe87757e0b2dcb72f72bbdd4eabfe4a1d33ed61204e58a3",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_t11_canalization.py",
+      "source_git_blob_sha1": "dd441a1f7765511597b4d65b66c85947b93cc8f0",
+      "published_path": "archive/original-branch/tests/test_t11_canalization.py",
+      "published_sha256": "88e5a6b5d625ea5c8307b18fe8c51fdce48005e4f768789cb699930d919c3e71",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_t12_plasticity.py",
+      "source_git_blob_sha1": "51444e9a1aeb9fc348277c53c43a4669ae002dea",
+      "published_path": "archive/original-branch/tests/test_t12_plasticity.py",
+      "published_sha256": "4967da93d73ab9d1a706ae1475c046477077376c8a7b3643d34f275226b89995",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_t13_hierarchy_constraints_locality.py",
+      "source_git_blob_sha1": "9f558a3e2d7c7aa56504d3a355fe890418355c44",
+      "published_path": "archive/original-branch/tests/test_t13_hierarchy_constraints_locality.py",
+      "published_sha256": "91ea3b5eebd3731bec0c6466641f3be8c66c6eb34dfda3e5b9dc467709e964b5",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_tensornet.py",
+      "source_git_blob_sha1": "726e476dbfa92eddcfc76c0367b7d0f96f04c82a",
+      "published_path": "archive/original-branch/tests/test_tensornet.py",
+      "published_sha256": "15f6ef372af266f67972c3ad581accc83d63f28c97c07ec9f789210e04f7dc9a",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_vam1.py",
+      "source_git_blob_sha1": "9664052451e9aab2a5d2d609ec69018fd0e2c688",
+      "published_path": "archive/original-branch/tests/test_vam1.py",
+      "published_sha256": "c0d884d0fb6bb21a2d204f965e224a26e930c2bcc46cb7e5cb573317a807f260",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_vam1_mpo.py",
+      "source_git_blob_sha1": "93f50da5374dc8314eef674ebd3a130aa989f97c",
+      "published_path": "archive/original-branch/tests/test_vam1_mpo.py",
+      "published_sha256": "fdff8e871b3a94082335896ef4a68f416a6c4167dc2e29152374247d35e13fe1",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/tests/test_vam1_tn.py",
+      "source_git_blob_sha1": "328c8c0e0c7d2e6be8f6694181414c88b4d5b53a",
+      "published_path": "archive/original-branch/tests/test_vam1_tn.py",
+      "published_sha256": "1fc106e0a4c848f34c462896b2c5e971ec050f825cc055a9d653be2127d7006f",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/verify/RECEIPT.json",
+      "source_git_blob_sha1": "a206c4fcf9a146d0c9d63f6b0a40f6bc8bc13ea9",
+      "published_path": "archive/original-branch/verify/RECEIPT.json",
+      "published_sha256": "a279571407262b6a1ed984c5811f3dd5c229f4f70457bee54dd9f4078bffa52c",
+      "publication_modified": false
+    },
+    {
+      "source_revision": "2b4433bb1856f46f20d1457c8ba77e3fe05b22aa",
+      "source_path": "vam/verify/run_all.py",
+      "source_git_blob_sha1": "28acd1f6fb94448c045a416039c9ed55c34a3005",
+      "published_path": "archive/original-branch/verify/run_all.py",
+      "published_sha256": "ef86511101bfbb22874692b98479ad60f3c530b3f7c25f0c774cd9887e615b59",
+      "publication_modified": false
+    }
+  ]
+}

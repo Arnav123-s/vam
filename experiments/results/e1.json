@@ -1,0 +1,654 @@
+{
+ "experiment": "E1 known sources",
+ "protocol": "experiments/PROTOCOL.md#e1-known-sources-the-test-sources",
+ "provenance": {
+  "utc": "2026-10-18T11:50:12Z",
+  "commit": "aa59cc9b476d7b3e733252c8ad69236f2651b084",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "numba": "0.68.0",
+  "machine": "x86_64",
+  "seed": 20261018,
+  "ks": [
+   2,
+   4,
+   8,
+   12,
+   16
+  ],
+  "laws": {
+   "constant": {
+    "consolidating": false,
+    "dt": 0.05
+   },
+   "consolidating": {
+    "consolidating": true,
+    "dt": 1.0
+   }
+  },
+  "mass": {
+   "cells": 6,
+   "context": 4,
+   "thetas": [
+    0.0,
+    0.2,
+    0.4,
+    0.8
+   ],
+   "delays": [
+    6,
+    9
+   ]
+  },
+  "echo_p": 0.05,
+  "log2_bits": 22,
+  "log2_mass_bits": 18
+ },
+ "context_sweep": [
+  {
+   "source": "S1 order-2 Markov bits",
+   "bits": 4194304,
+   "seed": 20261018,
+   "oracle": {
+    "all": 0.6451658983321795,
+    "last_quarter": 0.6443510981736567
+   },
+   "entropy_rate": 0.6457368700298872,
+   "by_k": [
+    {
+     "k": 2,
+     "window_floor": 0.6457368700298876,
+     "kt": {
+      "all": 0.6451747399179388,
+      "last_quarter": 0.6443512437386135
+     },
+     "constant": {
+      "all": 0.6654361064738801,
+      "last_quarter": 0.6645884056971525
+     },
+     "consolidating": {
+      "all": 0.6451751982310601,
+      "last_quarter": 0.6443524300761225
+     }
+    },
+    {
+     "k": 4,
+     "window_floor": 0.6457368700298876,
+     "kt": {
+      "all": 0.6451969394999046,
+      "last_quarter": 0.6443592941687551
+     },
+     "constant": {
+      "all": 0.6654341465069147,
+      "last_quarter": 0.6645629388487988
+     },
+     "consolidating": {
+      "all": 0.6451986977147455,
+      "last_quarter": 0.6443604707106736
+     }
+    },
+    {
+     "k": 8,
+     "window_floor": 0.6457368700298867,
+     "kt": {
+      "all": 0.6454969822792233,
+      "last_quarter": 0.6444219257149013
+     },
+     "constant": {
+      "all": 0.6656257480622244,
+      "last_quarter": 0.6645966428582896
+     },
+     "consolidating": {
+      "all": 0.6455246196753743,
+      "last_quarter": 0.6444232032869739
+     }
+    },
+    {
+     "k": 12,
+     "window_floor": 0.6457368700298858,
+     "kt": {
+      "all": 0.6480409523480344,
+      "last_quarter": 0.6451194523801288
+     },
+     "constant": {
+      "all": 0.667354931305234,
+      "last_quarter": 0.6646017485008913
+     },
+     "consolidating": {
+      "all": 0.6484265720895384,
+      "last_quarter": 0.6451689655239006
+     }
+    },
+    {
+     "k": 16,
+     "window_floor": 0.6457368700298876,
+     "kt": {
+      "all": 0.6604400809042658,
+      "last_quarter": 0.6512100140255418
+     },
+     "constant": {
+      "all": 0.6803494540454019,
+      "last_quarter": 0.6701785482567328
+     },
+     "consolidating": {
+      "all": 0.6631765413059882,
+      "last_quarter": 0.6523284794621067
+     }
+    }
+   ],
+   "seconds": 8.5
+  },
+  {
+   "source": "S2 T2.2 incomplete codes",
+   "bits": 4194304,
+   "seed": 20261019,
+   "oracle": {
+    "all": 0.7958981982066607,
+    "last_quarter": 0.7961218901724613
+   },
+   "entropy_rate": null,
+   "by_k": [
+    {
+     "k": 2,
+     "window_floor": 0.8177854647041962,
+     "kt": {
+      "all": 0.8177135566749238,
+      "last_quarter": 0.8174988639861631
+     },
+     "constant": {
+      "all": 0.8371269567223809,
+      "last_quarter": 0.8369391474635557
+     },
+     "consolidating": {
+      "all": 0.8177368008240209,
+      "last_quarter": 0.8175226283874624
+     }
+    },
+    {
+     "k": 4,
+     "window_floor": 0.8012824389875375,
+     "kt": {
+      "all": 0.8012239756797654,
+      "last_quarter": 0.8013105213020084
+     },
+     "constant": {
+      "all": 0.8188345859234106,
+      "last_quarter": 0.8189755469007564
+     },
+     "consolidating": {
+      "all": 0.8012542644583251,
+      "last_quarter": 0.8013416962267931
+     }
+    },
+    {
+     "k": 8,
+     "window_floor": 0.7963780583292719,
+     "kt": {
+      "all": 0.7965036310048672,
+      "last_quarter": 0.7965233265904825
+     },
+     "constant": {
+      "all": 0.8135676376659222,
+      "last_quarter": 0.8137462531356399
+     },
+     "consolidating": {
+      "all": 0.7965336733238442,
+      "last_quarter": 0.7965557093079336
+     }
+    },
+    {
+     "k": 12,
+     "window_floor": 0.7960354084939194,
+     "kt": {
+      "all": 0.797701226713645,
+      "last_quarter": 0.7964524791171337
+     },
+     "constant": {
+      "all": 0.8144251712968686,
+      "last_quarter": 0.8132000930837839
+     },
+     "consolidating": {
+      "all": 0.7977454197819274,
+      "last_quarter": 0.796462831510178
+     }
+    },
+    {
+     "k": 16,
+     "window_floor": 0.796007999437494,
+     "kt": {
+      "all": 0.808089967506443,
+      "last_quarter": 0.7992642241638437
+     },
+     "constant": {
+      "all": 0.8265225815835936,
+      "last_quarter": 0.815208250204432
+     },
+     "consolidating": {
+      "all": 0.8087596037991596,
+      "last_quarter": 0.7991067892395276
+     }
+    }
+   ],
+   "seconds": 18.0
+  },
+  {
+   "source": "S3 order-1 bytes over 16 letters",
+   "bits": 4194304,
+   "seed": 20261020,
+   "oracle": {
+    "all": 0.37070623971429956,
+    "last_quarter": 0.37120729978696676
+   },
+   "entropy_rate": 0.3705530487504721,
+   "by_k": [
+    {
+     "k": 2,
+     "window_floor": 0.8872073772745198,
+     "kt": {
+      "all": 0.8870544741162286,
+      "last_quarter": 0.8871274356507999
+     },
+     "constant": {
+      "all": 0.9096484875859479,
+      "last_quarter": 0.909827697289461
+     },
+     "consolidating": {
+      "all": 0.8870549758661955,
+      "last_quarter": 0.8871273485436375
+     }
+    },
+    {
+     "k": 4,
+     "window_floor": 0.8718698249842283,
+     "kt": {
+      "all": 0.8717363771668623,
+      "last_quarter": 0.8718537070349746
+     },
+     "constant": {
+      "all": 0.8920273514059449,
+      "last_quarter": 0.8922663235395915
+     },
+     "consolidating": {
+      "all": 0.8717405699013825,
+      "last_quarter": 0.8718565851979911
+     }
+    },
+    {
+     "k": 8,
+     "window_floor": 0.5244431788728556,
+     "kt": {
+      "all": 0.5248086214266463,
+      "last_quarter": 0.5250899486478122
+     },
+     "constant": {
+      "all": 0.5383267709621047,
+      "last_quarter": 0.5385109676089062
+     },
+     "consolidating": {
+      "all": 0.5248823837336523,
+      "last_quarter": 0.5251873884710636
+     }
+    },
+    {
+     "k": 12,
+     "window_floor": 0.39722035019150814,
+     "kt": {
+      "all": 0.3984154996285051,
+      "last_quarter": 0.3979020700555198
+     },
+     "constant": {
+      "all": 0.41123691569738735,
+      "last_quarter": 0.40940095845159097
+     },
+     "consolidating": {
+      "all": 0.3983312138341337,
+      "last_quarter": 0.3979987572658654
+     }
+    },
+    {
+     "k": 16,
+     "window_floor": 0.37963291965617985,
+     "kt": {
+      "all": 0.3824099631120308,
+      "last_quarter": 0.3806930992408395
+     },
+     "constant": {
+      "all": 0.3965263908777071,
+      "last_quarter": 0.3920017855833794
+     },
+     "consolidating": {
+      "all": 0.3821893088940199,
+      "last_quarter": 0.38074226108315823
+     }
+    }
+   ],
+   "seconds": 7.7
+  },
+  {
+   "source": "S4 delayed echo d=6",
+   "bits": 4194304,
+   "seed": 20261021,
+   "oracle": {
+    "all": 0.28601727211123396,
+    "last_quarter": 0.2863613070895219
+   },
+   "entropy_rate": 0.28639695711595625,
+   "by_k": [
+    {
+     "k": 2,
+     "window_floor": 1.0,
+     "kt": {
+      "all": 1.000003915438334,
+      "last_quarter": 0.9999908235950987
+     },
+     "constant": {
+      "all": 0.9023532375744938,
+      "last_quarter": 0.9038918125387951
+     },
+     "consolidating": {
+      "all": 1.0000044413621447,
+      "last_quarter": 0.9999908243000737
+     }
+    },
+    {
+     "k": 4,
+     "window_floor": 1.0,
+     "kt": {
+      "all": 1.0000189625643279,
+      "last_quarter": 0.9999748343346503
+     },
+     "constant": {
+      "all": 0.8980807319931582,
+      "last_quarter": 0.8985194726103582
+     },
+     "consolidating": {
+      "all": 1.0000210460333048,
+      "last_quarter": 0.9999748382448986
+     }
+    },
+    {
+     "k": 8,
+     "window_floor": 0.28639695711595625,
+     "kt": {
+      "all": 0.2863573223609031,
+      "last_quarter": 0.28642209816837033
+     },
+     "constant": {
+      "all": 0.31172431645784776,
+      "last_quarter": 0.31163352032014185
+     },
+     "consolidating": {
+      "all": 0.28636125725559325,
+      "last_quarter": 0.28642266315590237
+     }
+    },
+    {
+     "k": 12,
+     "window_floor": 0.28639695711595625,
+     "kt": {
+      "all": 0.287825491454452,
+      "last_quarter": 0.28675139724658005
+     },
+     "constant": {
+      "all": 0.3149997857875705,
+      "last_quarter": 0.3123912261751462
+     },
+     "consolidating": {
+      "all": 0.2877847202677543,
+      "last_quarter": 0.2867285616848166
+     }
+    },
+    {
+     "k": 16,
+     "window_floor": 0.28639695711595625,
+     "kt": {
+      "all": 0.2921243385636408,
+      "last_quarter": 0.2885559225509309
+     },
+     "constant": {
+      "all": 0.3244398141710051,
+      "last_quarter": 0.31666773075320287
+     },
+     "consolidating": {
+      "all": 0.29183518093607985,
+      "last_quarter": 0.28836665735097455
+     }
+    }
+   ],
+   "seconds": 8.2
+  },
+  {
+   "source": "S4 delayed echo d=9",
+   "bits": 4194304,
+   "seed": 20261022,
+   "oracle": {
+    "all": 0.287111742066863,
+    "last_quarter": 0.2865111992461204
+   },
+   "entropy_rate": 0.28639695711595625,
+   "by_k": [
+    {
+     "k": 2,
+     "window_floor": 1.0,
+     "kt": {
+      "all": 1.0000062748443073,
+      "last_quarter": 0.9999982600201469
+     },
+     "constant": {
+      "all": 0.9203604361794853,
+      "last_quarter": 0.9216001679410375
+     },
+     "consolidating": {
+      "all": 1.0000067955904077,
+      "last_quarter": 0.9999982591050688
+     }
+    },
+    {
+     "k": 4,
+     "window_floor": 1.0,
+     "kt": {
+      "all": 1.0000213303264516,
+      "last_quarter": 1.0000045550976489
+     },
+     "constant": {
+      "all": 0.9252444652654553,
+      "last_quarter": 0.9262360980843005
+     },
+     "consolidating": {
+      "all": 1.000023442978696,
+      "last_quarter": 1.0000045446028865
+     }
+    },
+    {
+     "k": 8,
+     "window_floor": 1.0,
+     "kt": {
+      "all": 1.000307171599879,
+      "last_quarter": 1.0000511874476334
+     },
+     "constant": {
+      "all": 0.9609412946730403,
+      "last_quarter": 0.9602239523596237
+     },
+     "consolidating": {
+      "all": 1.0003414119539453,
+      "last_quarter": 1.0000510769063098
+     }
+    },
+    {
+     "k": 12,
+     "window_floor": 0.28639695711595625,
+     "kt": {
+      "all": 0.29001862627577196,
+      "last_quarter": 0.2872453620563818
+     },
+     "constant": {
+      "all": 0.31861987142605774,
+      "last_quarter": 0.31315733522782857
+     },
+     "consolidating": {
+      "all": 0.2899854381994451,
+      "last_quarter": 0.2872875055624406
+     }
+    },
+    {
+     "k": 16,
+     "window_floor": 0.28639695711595625,
+     "kt": {
+      "all": 0.29767993974748913,
+      "last_quarter": 0.290493424480255
+     },
+     "constant": {
+      "all": 0.3383460317220942,
+      "last_quarter": 0.32384397893452144
+     },
+     "consolidating": {
+      "all": 0.2971897625464126,
+      "last_quarter": 0.29054518549217
+     }
+    }
+   ],
+   "seconds": 7.3
+  }
+ ],
+ "mass_sweep": [
+  {
+   "source": "S4 delayed echo d=6",
+   "theta": 0.0,
+   "bits": 262144,
+   "seed": 20261118,
+   "emission_seed": 20261218,
+   "oracle": {
+    "all": 0.2879219344938816,
+    "last_quarter": 0.28569692023324755
+   },
+   "window_floor": 1.0,
+   "vam1": {
+    "all": 1.000223082204601,
+    "last_quarter": 1.0007834457266558
+   },
+   "seconds": 49.3
+  },
+  {
+   "source": "S4 delayed echo d=6",
+   "theta": 0.2,
+   "bits": 262144,
+   "seed": 20261118,
+   "emission_seed": 20261219,
+   "oracle": {
+    "all": 0.2879219344938816,
+    "last_quarter": 0.28569692023324755
+   },
+   "window_floor": 1.0,
+   "vam1": {
+    "all": 1.0009723263008357,
+    "last_quarter": 1.0003965095746512
+   },
+   "seconds": 94.4
+  },
+  {
+   "source": "S4 delayed echo d=6",
+   "theta": 0.4,
+   "bits": 262144,
+   "seed": 20261118,
+   "emission_seed": 20261220,
+   "oracle": {
+    "all": 0.2879219344938816,
+    "last_quarter": 0.28569692023324755
+   },
+   "window_floor": 1.0,
+   "vam1": {
+    "all": 0.9942992525487233,
+    "last_quarter": 0.992520159997057
+   },
+   "seconds": 99.3
+  },
+  {
+   "source": "S4 delayed echo d=6",
+   "theta": 0.8,
+   "bits": 262144,
+   "seed": 20261118,
+   "emission_seed": 20261221,
+   "oracle": {
+    "all": 0.2879219344938816,
+    "last_quarter": 0.28569692023324755
+   },
+   "window_floor": 1.0,
+   "vam1": {
+    "all": 0.931695937542302,
+    "last_quarter": 0.931833901214997
+   },
+   "seconds": 94.0
+  },
+  {
+   "source": "S4 delayed echo d=9",
+   "theta": 0.0,
+   "bits": 262144,
+   "seed": 20261119,
+   "emission_seed": 20261228,
+   "oracle": {
+    "all": 0.2862958714117506,
+    "last_quarter": 0.28887301349738836
+   },
+   "window_floor": 1.0,
+   "vam1": {
+    "all": 1.0000886986149478,
+    "last_quarter": 1.0000960260944083
+   },
+   "seconds": 46.6
+  },
+  {
+   "source": "S4 delayed echo d=9",
+   "theta": 0.2,
+   "bits": 262144,
+   "seed": 20261119,
+   "emission_seed": 20261229,
+   "oracle": {
+    "all": 0.2862958714117506,
+    "last_quarter": 0.28887301349738836
+   },
+   "window_floor": 1.0,
+   "vam1": {
+    "all": 1.000479002213429,
+    "last_quarter": 1.0003313300534677
+   },
+   "seconds": 98.1
+  },
+  {
+   "source": "S4 delayed echo d=9",
+   "theta": 0.4,
+   "bits": 262144,
+   "seed": 20261119,
+   "emission_seed": 20261230,
+   "oracle": {
+    "all": 0.2862958714117506,
+    "last_quarter": 0.28887301349738836
+   },
+   "window_floor": 1.0,
+   "vam1": {
+    "all": 1.0003409940114807,
+    "last_quarter": 1.0002790901718877
+   },
+   "seconds": 100.0
+  },
+  {
+   "source": "S4 delayed echo d=9",
+   "theta": 0.8,
+   "bits": 262144,
+   "seed": 20261119,
+   "emission_seed": 20261231,
+   "oracle": {
+    "all": 0.2862958714117506,
+    "last_quarter": 0.28887301349738836
+   },
+   "window_floor": 1.0,
+   "vam1": {
+    "all": 0.9859741847041372,
+    "last_quarter": 0.9842516044593039
+   },
+   "seconds": 93.9
+  }
+ ],
+ "seconds": 725.6
+}

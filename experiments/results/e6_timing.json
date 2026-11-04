@@ -1,0 +1,57 @@
+{
+ "provenance": {
+  "utc": "2026-10-21T21:25:41Z",
+  "commit": "8706e219c0897a3144e3fd40b00e816f60252894+uncommitted",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "numba": "0.68.0",
+  "machine": "x86_64",
+  "smoke": false
+ },
+ "off": {
+  "seconds": 85.68845610499989,
+  "seconds_per_MiB": 28.56281870166663,
+  "compiles": [],
+  "compile_seconds": 0
+ },
+ "k256": {
+  "seconds": 123.58908721000012,
+  "seconds_per_MiB": 41.196362403333374,
+  "compiles": [
+   {
+    "bytes": 1048576,
+    "k": 122,
+    "page_rank": 17,
+    "rows": 122,
+    "cols": 4096,
+    "samples": 1048572.0,
+    "seconds": 3.293706795999924
+   },
+   {
+    "bytes": 2097152,
+    "k": 126,
+    "page_rank": 26,
+    "rows": 126,
+    "cols": 4096,
+    "samples": 2097148.0,
+    "seconds": 2.9418453030000364
+   },
+   {
+    "bytes": 3145728,
+    "k": 130,
+    "page_rank": 5,
+    "rows": 130,
+    "cols": 4096,
+    "samples": 3145724.0,
+    "seconds": 3.0471756769998137
+   }
+  ],
+  "compile_seconds": 9.282727775999774
+ },
+ "A_train_MiB": 31.5598783493042,
+ "extrapolated_overhead_seconds": 398.71310234522076,
+ "extrapolated_arm_seconds": 1300.1521858830504,
+ "stop_seconds": 2700,
+ "over_the_stop": false
+}

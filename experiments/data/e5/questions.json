@@ -1,0 +1,5486 @@
+{
+ "protocol_date": "2026-10-20",
+ "seed": 20261020,
+ "rule": "positions shuffled by random.Random(f\"{seed}/{id}\")",
+ "questions": [
+  {
+   "id": "R-OPT-01",
+   "kind": "recall",
+   "work": "opticks",
+   "stem": "According to the Opticks, out of Air into Glass be to the Sine of Refraction as 17 to ",
+   "options": [
+    "14",
+    "10",
+    "16",
+    "11"
+   ],
+   "answer_index": 3,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "For if the Sine of Incidence out of Air into Glass be to the Sine of Refraction as 17 to 11, the Sine of Incidence out of Glass into Air must on the contrary be to the Sine of Refraction as 11 to 17",
+     "locator": "Book I, Part I"
+    }
+   ],
+   "reasoning": "The passage states '11' at this point.",
+   "keys": [],
+   "lcs_bytes": 61,
+   "option_counts_T": [
+    8429,
+    15557,
+    9857,
+    9010
+   ],
+   "option_counts_C": [
+    5043,
+    7414,
+    8484,
+    5058
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-OPT-02",
+   "kind": "recall",
+   "work": "opticks",
+   "stem": "In Newton's Opticks: to 31, the total Reflexion begins when the Angle of Incidence is 40 Degrees ",
+   "options": [
+    "10",
+    "13",
+    "11",
+    "15"
+   ],
+   "answer_index": 0,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "In passing out of Glass into Air, where the Refraction is measured by the Ratio of the Sines 20 to 31, the total Reflexion begins when the Angle of Incidence is 40 Degrees 10 Minutes;",
+     "locator": "Book II, Part III"
+    }
+   ],
+   "reasoning": "The passage states '10' at this point.",
+   "keys": [],
+   "lcs_bytes": 77,
+   "option_counts_T": [
+    15557,
+    8333,
+    9010,
+    9655
+   ],
+   "option_counts_C": [
+    7414,
+    5062,
+    5058,
+    7329
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-OPT-03",
+   "kind": "recall",
+   "work": "opticks",
+   "stem": "In Newton's Opticks: 4, the total Reflexion begins when the Angle of Incidence is about 48 Degrees ",
+   "options": [
+    "37",
+    "32",
+    "35",
+    "36"
+   ],
+   "answer_index": 2,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "Thus in the passing of Light out of Water into Air, where the Refraction is measured by the Ratio of the Sines 3 to 4, the total Reflexion begins when the Angle of Incidence is about 48 Degrees 35 Minutes.",
+     "locator": "Book II, Part III"
+    }
+   ],
+   "reasoning": "The passage states '35' at this point.",
+   "keys": [],
+   "lcs_bytes": 79,
+   "option_counts_T": [
+    3383,
+    4302,
+    3918,
+    3878
+   ],
+   "option_counts_C": [
+    2483,
+    2484,
+    2681,
+    2548
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-OPT-04",
+   "kind": "recall",
+   "work": "opticks",
+   "stem": "Concerning the motion of sounds the Opticks says: Sounds move about ",
+   "options": [
+    "1267",
+    "1024",
+    "1626",
+    "1140"
+   ],
+   "answer_index": 3,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "Sounds move about 1140 _English_ Feet in a second Minute of Time, and in seven or eight Minutes of Time they move about one hundred _English_ Miles.",
+     "locator": "Book III, Query 21"
+    }
+   ],
+   "reasoning": "The passage states '1140' at this point.",
+   "keys": [],
+   "lcs_bytes": 24,
+   "option_counts_T": [
+    8,
+    32,
+    14,
+    15
+   ],
+   "option_counts_C": [
+    7,
+    7,
+    13,
+    11
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-OPT-06",
+   "kind": "recall",
+   "work": "opticks",
+   "stem": "For the rays at the confine of yellow and orange passing perpendicularly out of any medium into air, the Intervals of their Fits of easy Reflexion are the 1/ ",
+   "options": [
+    "88952",
+    "89000",
+    "88739",
+    "88850"
+   ],
+   "answer_index": 1,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "the Intervals of their Fits of easy Reflexion are the 1/89000th part of an Inch.",
+     "locator": "Book II, Part III, Prop. 16"
+    }
+   ],
+   "reasoning": "The passage states '89000' at this point.",
+   "keys": [],
+   "lcs_bytes": 60,
+   "option_counts_T": [
+    1,
+    4,
+    1,
+    2
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-OPT-07",
+   "kind": "recall",
+   "work": "opticks",
+   "stem": "In Newton's Opticks: the Length of this Image at the same distance of ",
+   "options": [
+    "27-1/7",
+    "83-2/5",
+    "14-1/3",
+    "18-1/2"
+   ],
+   "answer_index": 3,
+   "option_bytes": 6,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "the Length of this Image at the same distance of 18-1/2 Feet was also about 10 Inches, or 10-1/8.",
+     "locator": "Book I, Part I, Exp. 3"
+    }
+   ],
+   "reasoning": "The passage states '18-1/2' at this point.",
+   "keys": [],
+   "lcs_bytes": 50,
+   "option_counts_T": [
+    1,
+    1,
+    1,
+    5
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-OPT-08",
+   "kind": "recall",
+   "work": "opticks",
+   "stem": "In Newton's Opticks: Angle of the Prism, whereby so great a Length was made, was ",
+   "options": [
+    "62",
+    "64",
+    "59",
+    "65"
+   ],
+   "answer_index": 1,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "and the refracting Angle of the Prism, whereby so great a Length was made, was 64 degrees.",
+     "locator": "Book I, Part I, Exp. 3"
+    }
+   ],
+   "reasoning": "The passage states '64' at this point.",
+   "keys": [],
+   "lcs_bytes": 61,
+   "option_counts_T": [
+    2575,
+    3068,
+    2082,
+    2640
+   ],
+   "option_counts_C": [
+    2066,
+    2713,
+    1746,
+    2023
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-OPT-11",
+   "kind": "recall",
+   "work": "opticks",
+   "stem": "In Newton's Opticks: its weight presses the Quick-silver into the Glass, to the height of ",
+   "options": [
+    "29",
+    "26",
+    "31",
+    "30"
+   ],
+   "answer_index": 0,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "The Atmosphere by its weight presses the Quick-silver into the Glass, to the height of 29 or 30 Inches.",
+     "locator": "Book III, Query 28"
+    }
+   ],
+   "reasoning": "The passage states '29' at this point.",
+   "keys": [],
+   "lcs_bytes": 70,
+   "option_counts_T": [
+    4368,
+    4525,
+    3822,
+    6046
+   ],
+   "option_counts_C": [
+    2916,
+    3066,
+    2839,
+    3932
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-OPT-12",
+   "kind": "recall",
+   "work": "opticks",
+   "stem": "Of the air above the earth the Opticks says, and at the height of ",
+   "options": [
+    "14",
+    "13",
+    "12",
+    "15"
+   ],
+   "answer_index": 3,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "and at the height of 15 Miles it is sixteen times rarer than that at the Surface of the Earth;",
+     "locator": "Book III, Query 28"
+    }
+   ],
+   "reasoning": "The passage states '15' at this point.",
+   "keys": [],
+   "lcs_bytes": 23,
+   "option_counts_T": [
+    8429,
+    8333,
+    10381,
+    9655
+   ],
+   "option_counts_C": [
+    5043,
+    5062,
+    5834,
+    7329
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-OPT-13",
+   "kind": "recall",
+   "work": "opticks",
+   "stem": "In Newton's Opticks: These diameters are therefore to one another as 75 to 61-1/2 or 50 to ",
+   "options": [
+    "44",
+    "38",
+    "40",
+    "41"
+   ],
+   "answer_index": 3,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "These diameters are therefore to one another as 75 to 61-1/2 or 50 to 41, and their Squares as 2500 to 1681, that is, as 3 to 2 very nearly.",
+     "locator": "Book II, Part IV"
+    }
+   ],
+   "reasoning": "The passage states '41' at this point.",
+   "keys": [],
+   "lcs_bytes": 71,
+   "option_counts_T": [
+    2752,
+    3146,
+    4526,
+    2981
+   ],
+   "option_counts_C": [
+    1912,
+    2376,
+    2930,
+    2216
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-OPT-14",
+   "kind": "recall",
+   "work": "opticks",
+   "stem": "In Newton's Opticks: of the Parallelograms are each of them 101 Degrees and ",
+   "options": [
+    "49",
+    "50",
+    "52",
+    "53"
+   ],
+   "answer_index": 2,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "The obtuse Angles of the Parallelograms are each of them 101 Degrees and 52 Minutes;",
+     "locator": "Book II, Part I"
+    }
+   ],
+   "reasoning": "The passage states '52' at this point.",
+   "keys": [],
+   "lcs_bytes": 56,
+   "option_counts_T": [
+    2696,
+    5086,
+    2645,
+    2429
+   ],
+   "option_counts_C": [
+    1693,
+    3728,
+    1826,
+    1832
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-OPT-15",
+   "kind": "recall",
+   "work": "opticks",
+   "stem": "In Newton's Opticks: the same time there appear'd a Halo about 22 Degrees ",
+   "options": [
+    "35",
+    "37",
+    "36",
+    "32"
+   ],
+   "answer_index": 0,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "At the same time there appear'd a Halo about 22 Degrees 35' distant from the center of the Moon.",
+     "locator": "Book II, Part IV"
+    }
+   ],
+   "reasoning": "The passage states '35' at this point.",
+   "keys": [],
+   "lcs_bytes": 54,
+   "option_counts_T": [
+    3918,
+    3383,
+    3878,
+    4302
+   ],
+   "option_counts_C": [
+    2681,
+    2483,
+    2548,
+    2484
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-OPT-01",
+   "kind": "inference",
+   "work": "opticks",
+   "stem": "Light passes out of air into water with the sines of incidence and refraction as 4 to 3, and out of air into glass as 17 to 11. For a ray passing out of water into glass the sine of incidence is to the sine of refraction as ",
+   "options": [
+    "51 to 44",
+    "44 to 51",
+    "33 to 68",
+    "68 to 33"
+   ],
+   "answer_index": 0,
+   "option_bytes": 8,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "Thus if the Refraction be made out of Air into Water, the Sine of Incidence of the red Light is to the Sine of its Refraction as 4 to 3.",
+     "locator": "Book I, Part I, Prop. 6"
+    },
+    {
+     "work": "opticks",
+     "quote": "if the Sine of Incidence out of Air into Glass be to the Sine of Refraction as 17 to 11",
+     "locator": "Book I, Part I, Prop. 1"
+    },
+    {
+     "work": "opticks",
+     "quote": "the Sine of Incidence of that Ray out of Glass into Water will be to its Sine of Refraction as 20 to 31 and 4 to 3 jointly, that is, as the Factum of 20 and 4 to the Factum of 31 and 3",
+     "locator": "Book II, Part III, Prop. 10"
+    }
+   ],
+   "reasoning": "Compound the ratios by Newton's rule: incidence in water is 3/4 of the sine in air and refraction in glass is 11/17 of it, so the ratio is (3/4)/(11/17) = 51/44.",
+   "keys": [
+    "water",
+    "glass"
+   ],
+   "lcs_bytes": 39,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-OPT-02",
+   "kind": "inference",
+   "work": "opticks",
+   "stem": "Total reflexion begins at a smaller angle of incidence for light passing out of glass into air than for light passing out of water into air; the angle for water exceeds the angle for glass by ",
+   "options": [
+    "8 Degrees 25 Minutes",
+    "9 Degrees 25 Minutes",
+    "8 Degrees 45 Minutes",
+    "7 Degrees 35 Minutes"
+   ],
+   "answer_index": 0,
+   "option_bytes": 20,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "Thus in the passing of Light out of Water into Air, where the Refraction is measured by the Ratio of the Sines 3 to 4, the total Reflexion begins when the Angle of Incidence is about 48 Degrees 35 Minutes.",
+     "locator": "Book II, Part III, Prop. 8"
+    },
+    {
+     "work": "opticks",
+     "quote": "In passing out of Glass into Air, where the Refraction is measured by the Ratio of the Sines 20 to 31, the total Reflexion begins when the Angle of Incidence is 40 Degrees 10 Minutes;",
+     "locator": "Book II, Part III, Prop. 8"
+    }
+   ],
+   "reasoning": "48 degrees 35 minutes minus 40 degrees 10 minutes is 8 degrees 25 minutes.",
+   "keys": [
+    "total Reflexion",
+    "Water into Air"
+   ],
+   "lcs_bytes": 33,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-OPT-03",
+   "kind": "inference",
+   "work": "opticks",
+   "stem": "In the rainbow construction, the least angle AYS for the most refrangible rays is larger than for the least refrangible rays by ",
+   "options": [
+    "2 Degrees 50 Minutes",
+    "3 Degrees 10 Minutes",
+    "4 Degrees 10 Minutes",
+    "3 Degrees 50 Minutes"
+   ],
+   "answer_index": 1,
+   "option_bytes": 20,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "thence by Computation the greatest Angle AXR will be found 42 Degrees and 2 Minutes, and the least Angle AYS, 50 Degrees and 57 Minutes.",
+     "locator": "Book I, Part II, Prop. 9"
+    },
+    {
+     "work": "opticks",
+     "quote": "thence by Computation the greatest Angle AXR will be found 40 Degrees and 17 Minutes, and the least Angle AYS 54 Degrees and 7 Minutes.",
+     "locator": "Book I, Part II, Prop. 9"
+    }
+   ],
+   "reasoning": "54 degrees 7 minutes minus 50 degrees 57 minutes is 3 degrees 10 minutes.",
+   "keys": [
+    "AYS",
+    "refrangible"
+   ],
+   "lcs_bytes": 28,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-OPT-04",
+   "kind": "inference",
+   "work": "opticks",
+   "stem": "The greatest angle AXR for the least refrangible rays is larger than the greatest angle for the most refrangible rays by ",
+   "options": [
+    "1 Degree 55 Minutes",
+    "2 Degree 15 Minutes",
+    "1 Degree 15 Minutes",
+    "1 Degree 45 Minutes"
+   ],
+   "answer_index": 3,
+   "option_bytes": 19,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "thence by Computation the greatest Angle AXR will be found 42 Degrees and 2 Minutes, and the least Angle AYS, 50 Degrees and 57 Minutes.",
+     "locator": "Book I, Part II, Prop. 9"
+    },
+    {
+     "work": "opticks",
+     "quote": "thence by Computation the greatest Angle AXR will be found 40 Degrees and 17 Minutes, and the least Angle AYS 54 Degrees and 7 Minutes.",
+     "locator": "Book I, Part II, Prop. 9"
+    }
+   ],
+   "reasoning": "42 degrees 2 minutes minus 40 degrees 17 minutes is 1 degree 45 minutes.",
+   "keys": [
+    "AXR",
+    "refrangible"
+   ],
+   "lcs_bytes": 28,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-OPT-05",
+   "kind": "inference",
+   "work": "opticks",
+   "stem": "Between two glasses the thickness of air at the most luminous parts of the first six rings was 1, 3, 5, 7, 9 and 11 parts of an inch over 178000; at the seventh ring the thickness is ",
+   "options": [
+    "13/178000",
+    "14/178000",
+    "15/178000",
+    "12/178000"
+   ],
+   "answer_index": 0,
+   "option_bytes": 9,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "the thickness of the thinned Air, which between two Glasses exhibited the most luminous parts of the first six Rings were 1/178000, 3/178000, 5/178000, 7/178000, 9/178000, 11/178000 parts of an Inch.",
+     "locator": "Book II, Part I, Obs. 10"
+    }
+   ],
+   "reasoning": "The thicknesses follow the odd numbers; the next odd number after 11 is 13.",
+   "keys": [
+    "178000"
+   ],
+   "lcs_bytes": 42,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-OPT-06",
+   "kind": "inference",
+   "work": "opticks",
+   "stem": "Newton computes that the air is four times rarer at seven and a half miles and sixteen times rarer at 15 miles above the earth; at 45 miles it is about this many times rarer: ",
+   "options": [
+    "3072",
+    "2048",
+    "8192",
+    "4096"
+   ],
+   "answer_index": 3,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "at the height of about seven and a half _English_ Miles from the Earth, the Air is four times rarer than at the Surface of the Earth; and at the height of 15 Miles it is sixteen times rarer than that at the Surface of the Earth; and at the height of 22-1/2, 30, or 38 Miles, it is respectively 64, 256, or 1024 times rarer, or thereabouts",
+     "locator": "Book III, Query 28"
+    }
+   ],
+   "reasoning": "Each seven and a half miles multiplies the rarity by four; 45 miles is six steps, 4 to the sixth power is 4096.",
+   "keys": [
+    "rarer",
+    "Miles"
+   ],
+   "lcs_bytes": 23,
+   "option_counts_T": [
+    2,
+    5,
+    4,
+    14
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-NOT-01",
+   "kind": "recall",
+   "work": "notebooks",
+   "stem": "In the Notebooks of Leonardo da Vinci: of the hand is 1/3 of a braccio [8 inches] and this is found ",
+   "options": [
+    "6",
+    "7",
+    "9",
+    "8"
+   ],
+   "answer_index": 2,
+   "option_bytes": 1,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "The length of the hand is 1/3 of a braccio [8 inches] and this is found 9 times in man.",
+     "locator": "Proportion of the human body"
+    }
+   ],
+   "reasoning": "The passage states '9' at this point.",
+   "keys": [],
+   "lcs_bytes": 62,
+   "option_counts_T": [
+    55803,
+    51146,
+    49401,
+    60999
+   ],
+   "option_counts_C": [
+    39526,
+    36973,
+    30472,
+    46135
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-NOT-02",
+   "kind": "recall",
+   "work": "notebooks",
+   "stem": "In the Notebooks of Leonardo da Vinci: all equally thick from the nail at the top to the bottom, and are ",
+   "options": [
+    "6/17",
+    "1/13",
+    "1/16",
+    "1/10"
+   ],
+   "answer_index": 1,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "The four smaller toes are all equally thick from the nail at the top to the bottom, and are 1/13 of the foot.",
+     "locator": "Proportion of the human body"
+    }
+   ],
+   "reasoning": "The passage states '1/13' at this point.",
+   "keys": [],
+   "lcs_bytes": 67,
+   "option_counts_T": [
+    4,
+    6,
+    44,
+    148
+   ],
+   "option_counts_C": [
+    0,
+    1,
+    7,
+    7
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-NOT-03",
+   "kind": "recall",
+   "work": "notebooks",
+   "stem": "In the Notebooks of Leonardo da Vinci: Of the growth of man, Leonardo says: Every man, at ",
+   "options": [
+    "forty",
+    "three",
+    "seven",
+    "eight"
+   ],
+   "answer_index": 1,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "Every man, at three years old is half the full height he will grow to at last.",
+     "locator": "Preliminary observations (308)"
+    }
+   ],
+   "reasoning": "The passage states 'three' at this point.",
+   "keys": [],
+   "lcs_bytes": 25,
+   "option_counts_T": [
+    1156,
+    10753,
+    2947,
+    9854
+   ],
+   "option_counts_C": [
+    1407,
+    10224,
+    3270,
+    7459
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-NOT-04",
+   "kind": "recall",
+   "work": "notebooks",
+   "stem": "In the Notebooks of Leonardo da Vinci: DRAW A FIGURE ON A WALL 12 BRACCIA HIGH WHICH SHALL LOOK ",
+   "options": [
+    "23",
+    "24",
+    "26",
+    "27"
+   ],
+   "answer_index": 1,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "TO DRAW A FIGURE ON A WALL 12 BRACCIA HIGH WHICH SHALL LOOK 24 BRACCIA HIGH.",
+     "locator": "526"
+    }
+   ],
+   "reasoning": "The passage states '24' at this point.",
+   "keys": [],
+   "lcs_bytes": 58,
+   "option_counts_T": [
+    5164,
+    5531,
+    4525,
+    4565
+   ],
+   "option_counts_C": [
+    3535,
+    3768,
+    3066,
+    3093
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-NOT-05",
+   "kind": "recall",
+   "work": "notebooks",
+   "stem": "In the Notebooks of Leonardo da Vinci: For instance: Look at a man at a distance of ",
+   "options": [
+    "301",
+    "298",
+    "303",
+    "300"
+   ],
+   "answer_index": 3,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "For instance: Look at a man at a distance of 300 braccia and judge attentively whether he be handsome or ugly",
+     "locator": "On perspective"
+    }
+   ],
+   "reasoning": "The passage states '300' at this point.",
+   "keys": [],
+   "lcs_bytes": 46,
+   "option_counts_T": [
+    164,
+    160,
+    151,
+    759
+   ],
+   "option_counts_C": [
+    138,
+    115,
+    132,
+    491
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-NOT-06",
+   "kind": "recall",
+   "work": "notebooks",
+   "stem": "In the Notebooks of Leonardo da Vinci: When you draw from nature stand at a distance of ",
+   "options": [
+    "5",
+    "7",
+    "3",
+    "2"
+   ],
+   "answer_index": 2,
+   "option_bytes": 1,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "When you draw from nature stand at a distance of 3 times the height of the object you wish to draw.",
+     "locator": "540"
+    }
+   ],
+   "reasoning": "The passage states '3' at this point.",
+   "keys": [],
+   "lcs_bytes": 50,
+   "option_counts_T": [
+    61310,
+    51146,
+    81125,
+    118326
+   ],
+   "option_counts_C": [
+    40472,
+    36973,
+    52764,
+    77355
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-NOT-07",
+   "kind": "recall",
+   "work": "notebooks",
+   "stem": "In the Notebooks of Leonardo da Vinci: It should be 10 braccia wide and ",
+   "options": [
+    "20",
+    "17",
+    "23",
+    "19"
+   ],
+   "answer_index": 0,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "It should be 10 braccia wide and 20 braccia long and 10 braccia high and covered with a linen awning;",
+     "locator": "On painting"
+    }
+   ],
+   "reasoning": "The passage states '20' at this point.",
+   "keys": [],
+   "lcs_bytes": 34,
+   "option_counts_T": [
+    8269,
+    10170,
+    5164,
+    10730
+   ],
+   "option_counts_C": [
+    5086,
+    9582,
+    3535,
+    6644
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-NOT-08",
+   "kind": "recall",
+   "work": "notebooks",
+   "stem": "In the Notebooks of Leonardo da Vinci: lay it no thicker than a string, and let it stand in the sun undisturbed for ",
+   "options": [
+    "1",
+    "6",
+    "5",
+    "2"
+   ],
+   "answer_index": 3,
+   "option_bytes": 1,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "Put the white into an earthen pot, and lay it no thicker than a string, and let it stand in the sun undisturbed for 2 days;",
+     "locator": "Recipes"
+    }
+   ],
+   "reasoning": "The passage states '2' at this point.",
+   "keys": [],
+   "lcs_bytes": 78,
+   "option_counts_T": [
+    178546,
+    55803,
+    61310,
+    118326
+   ],
+   "option_counts_C": [
+    123188,
+    39526,
+    40472,
+    77355
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-NOT-09",
+   "kind": "recall",
+   "work": "notebooks",
+   "stem": "In the Notebooks of Leonardo da Vinci: Four ounces virgin wax, four ounces Greek pitch, ",
+   "options": [
+    "ten",
+    "two",
+    "one",
+    "six"
+   ],
+   "answer_index": 1,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "Four ounces virgin wax, four ounces Greek pitch, two ounces incense, one ounce oil of roses, first melt the wax and oil",
+     "locator": "644"
+    }
+   ],
+   "reasoning": "The passage states 'two' at this point.",
+   "keys": [],
+   "lcs_bytes": 50,
+   "option_counts_T": [
+    66730,
+    28489,
+    104881,
+    4890
+   ],
+   "option_counts_C": [
+    66179,
+    22834,
+    111465,
+    5297
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-NOT-10",
+   "kind": "recall",
+   "work": "notebooks",
+   "stem": "In the Notebooks of Leonardo da Vinci: and the whole army came after him-- ",
+   "options": [
+    "42",
+    "38",
+    "39",
+    "40"
+   ],
+   "answer_index": 3,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "and the whole army came after him--40 squadrons of cavalry, and 2000 foot soldiers went with him.",
+     "locator": "Letters and notes"
+    }
+   ],
+   "reasoning": "The passage states '40' at this point.",
+   "keys": [],
+   "lcs_bytes": 36,
+   "option_counts_T": [
+    3031,
+    3146,
+    2926,
+    4526
+   ],
+   "option_counts_C": [
+    2086,
+    2376,
+    2259,
+    2930
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-NOT-11",
+   "kind": "recall",
+   "work": "notebooks",
+   "stem": "In the Notebooks of Leonardo da Vinci: But I have found that as a rule the second is ",
+   "options": [
+    "2/7",
+    "2/3",
+    "4/5",
+    "1/2"
+   ],
+   "answer_index": 2,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "But I have found that as a rule the second is 4/5 of the first when it is 20 braccia beyond it.",
+     "locator": "On aerial perspective"
+    }
+   ],
+   "reasoning": "The passage states '4/5' at this point.",
+   "keys": [],
+   "lcs_bytes": 47,
+   "option_counts_T": [
+    27,
+    149,
+    37,
+    1256
+   ],
+   "option_counts_C": [
+    1,
+    10,
+    2,
+    206
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-NOT-13",
+   "kind": "recall",
+   "work": "notebooks",
+   "stem": "In the Notebooks of Leonardo da Vinci: If a man 2 braccia high is too small, one of ",
+   "options": [
+    "nine",
+    "zero",
+    "five",
+    "four"
+   ],
+   "answer_index": 3,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "If a man 2 braccia high is too small, one of four is too tall, the medium being what is admirable.",
+     "locator": "309"
+    }
+   ],
+   "reasoning": "The passage states 'four' at this point.",
+   "keys": [],
+   "lcs_bytes": 46,
+   "option_counts_T": [
+    2291,
+    832,
+    4227,
+    9766
+   ],
+   "option_counts_C": [
+    2510,
+    71,
+    4846,
+    7674
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "I-NOT-01",
+   "kind": "inference",
+   "work": "notebooks",
+   "stem": "Vitruvius says that 4 fingers make a palm, 6 palms make a cubit and 4 cubits make a man's height; in fingers a man's height is ",
+   "options": [
+    "16",
+    "96",
+    "64",
+    "24"
+   ],
+   "answer_index": 1,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "4 fingers make 1 palm, and 4 palms make 1 foot, 6 palms make 1 cubit; 4 cubits make a man's height.",
+     "locator": "Proportion of the human body"
+    }
+   ],
+   "reasoning": "4 cubits of 6 palms of 4 fingers: 4 x 6 x 4 = 96 fingers.",
+   "keys": [
+    "fingers",
+    "cubit"
+   ],
+   "lcs_bytes": 29,
+   "option_counts_T": [
+    9857,
+    2190,
+    3068,
+    5531
+   ],
+   "option_counts_C": [
+    8484,
+    1155,
+    2713,
+    3768
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-NOT-02",
+   "kind": "inference",
+   "work": "notebooks",
+   "stem": "Leonardo divides the head into 12 degrees, each degree into 12 points and each point into 12 minutes; the number of minutes in the head is ",
+   "options": [
+    "1296",
+    "1584",
+    "1440",
+    "1728"
+   ],
+   "answer_index": 3,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "Divide the head into 12 degrees, and each degree divide into 12 points, and each point into 12 minutes",
+     "locator": "708. Measurement and division of a statue"
+    }
+   ],
+   "reasoning": "12 x 12 x 12 = 1728.",
+   "keys": [
+    "degrees",
+    "minutes"
+   ],
+   "lcs_bytes": 31,
+   "option_counts_T": [
+    20,
+    12,
+    28,
+    43
+   ],
+   "option_counts_C": [
+    3,
+    19,
+    10,
+    29
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "I-NOT-03",
+   "kind": "inference",
+   "work": "notebooks",
+   "stem": "A man's hand is 8 inches and this is found 9 times in his height; in inches a man's height is ",
+   "options": [
+    "81",
+    "64",
+    "96",
+    "72"
+   ],
+   "answer_index": 3,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "The length of the hand is 1/3 of a braccio [8 inches] and this is found 9 times in man.",
+     "locator": "Proportion of the human body"
+    }
+   ],
+   "reasoning": "9 times 8 inches is 72 inches.",
+   "keys": [
+    "hand",
+    "times in man"
+   ],
+   "lcs_bytes": 30,
+   "option_counts_T": [
+    2918,
+    3068,
+    2190,
+    2599
+   ],
+   "option_counts_C": [
+    2515,
+    2713,
+    1155,
+    2329
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-NOT-04",
+   "kind": "inference",
+   "work": "notebooks",
+   "stem": "Leonardo takes a man of 3 braccia in height as the model, and says a man at three years old is half his final height; such a child is ",
+   "options": [
+    "1-1/2 braccia",
+    "2-1/2 braccia",
+    "1-1/3 braccia",
+    "1-1/4 braccia"
+   ],
+   "answer_index": 0,
+   "option_bytes": 13,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "Every man, at three years old is half the full height he will grow to at last.",
+     "locator": "Preliminary observations (308)"
+    },
+    {
+     "work": "notebooks",
+     "quote": "therefore take a man of 3 braccia in height and measure him by the rule I will give you.",
+     "locator": "Preliminary observations (309)"
+    }
+   ],
+   "reasoning": "Half of 3 braccia is 1-1/2 braccia.",
+   "keys": [
+    "three years",
+    "braccia"
+   ],
+   "lcs_bytes": 31,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-NOT-05",
+   "kind": "inference",
+   "work": "notebooks",
+   "stem": "The wax, Greek pitch, incense and oil of roses of Leonardo's varnish are four ounces, four ounces, two ounces and one ounce; the total weight is ",
+   "options": [
+    "10 ounces",
+    "11 ounces",
+    "12 ounces",
+    "13 ounces"
+   ],
+   "answer_index": 1,
+   "option_bytes": 9,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "Four ounces virgin wax, four ounces Greek pitch, two ounces incense, one ounce oil of roses",
+     "locator": "644"
+    }
+   ],
+   "reasoning": "4 + 4 + 2 + 1 = 11 ounces.",
+   "keys": [
+    "ounces"
+   ],
+   "lcs_bytes": 21,
+   "option_counts_T": [
+    0,
+    0,
+    1,
+    2
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-NOT-06",
+   "kind": "inference",
+   "work": "notebooks",
+   "stem": "Leonardo says to stand at 3 times the height of the object you draw from nature; for a figure 12 braccia high you stand at ",
+   "options": [
+    "36 braccia",
+    "24 braccia",
+    "48 braccia",
+    "30 braccia"
+   ],
+   "answer_index": 0,
+   "option_bytes": 10,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "When you draw from nature stand at a distance of 3 times the height of the object you wish to draw.",
+     "locator": "540"
+    },
+    {
+     "work": "notebooks",
+     "quote": "TO DRAW A FIGURE ON A WALL 12 BRACCIA HIGH WHICH SHALL LOOK 24 BRACCIA HIGH.",
+     "locator": "526"
+    }
+   ],
+   "reasoning": "3 times 12 braccia is 36 braccia.",
+   "keys": [
+    "braccia high",
+    "distance"
+   ],
+   "lcs_bytes": 39,
+   "option_counts_T": [
+    0,
+    2,
+    0,
+    5
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-NOT-07",
+   "kind": "inference",
+   "work": "notebooks",
+   "stem": "A man 2 braccia high is too small and one of four too tall; the measure Leonardo takes from them is ",
+   "options": [
+    "4 braccia",
+    "3 braccia",
+    "5 braccia",
+    "2 braccia"
+   ],
+   "answer_index": 1,
+   "option_bytes": 9,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "If a man 2 braccia high is too small, one of four is too tall, the medium being what is admirable.",
+     "locator": "309"
+    }
+   ],
+   "reasoning": "The medium between 2 and 4 braccia is 3 braccia.",
+   "keys": [
+    "too small"
+   ],
+   "lcs_bytes": 32,
+   "option_counts_T": [
+    18,
+    10,
+    1,
+    13
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PRI-01",
+   "kind": "recall",
+   "work": "principia",
+   "stem": "Of Newton at Trinity College, Cambridge, the Life says he was duly admitted, on the 5th day of June ",
+   "options": [
+    "1668",
+    "1664",
+    "1665",
+    "1660"
+   ],
+   "answer_index": 3,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "was duly admitted, on the 5th day of June 1660, in the eighteenth year of his age.",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "The passage states '1660' at this point.",
+   "keys": [],
+   "lcs_bytes": 43,
+   "option_counts_T": [
+    19,
+    30,
+    29,
+    43
+   ],
+   "option_counts_C": [
+    20,
+    48,
+    73,
+    45
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-PRI-02",
+   "kind": "recall",
+   "work": "principia",
+   "stem": "In the Life of Newton and the text of Motte's Principia: In the year ",
+   "options": [
+    "1671",
+    "1665",
+    "1666",
+    "1669"
+   ],
+   "answer_index": 1,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "In the year 1665, he received the degree of Bachelor of Arts;",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "The passage states '1665' at this point.",
+   "keys": [],
+   "lcs_bytes": 19,
+   "option_counts_T": [
+    14,
+    29,
+    32,
+    29
+   ],
+   "option_counts_C": [
+    27,
+    73,
+    76,
+    12
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PRI-04",
+   "kind": "recall",
+   "work": "principia",
+   "stem": "Of Barrow the Life says he was made Lucasian Professor of Mathematics in ",
+   "options": [
+    "1663",
+    "1669",
+    "1668",
+    "1664"
+   ],
+   "answer_index": 0,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "was made Lucasian Professor of Mathematics in 1663, and soon afterward delivered his Optical Lectures:",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "The passage states '1663' at this point.",
+   "keys": [],
+   "lcs_bytes": 47,
+   "option_counts_T": [
+    39,
+    29,
+    19,
+    30
+   ],
+   "option_counts_C": [
+    30,
+    12,
+    20,
+    48
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-PRI-05",
+   "kind": "recall",
+   "work": "principia",
+   "stem": "Of Newton and the Royal Society, the Life says: In ",
+   "options": [
+    "1706",
+    "1698",
+    "1703",
+    "1705"
+   ],
+   "answer_index": 2,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "In 1703, he was chosen President of the Royal Society of London, to which office he was annually re-elected",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "The passage states '1703' at this point.",
+   "keys": [],
+   "lcs_bytes": 24,
+   "option_counts_T": [
+    27,
+    47,
+    90,
+    49
+   ],
+   "option_counts_C": [
+    30,
+    49,
+    44,
+    38
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-PRI-06",
+   "kind": "recall",
+   "work": "principia",
+   "stem": "Newton communicated his discoveries on refrangibility to the Royal Society few weeks after being elected a member thereof, in the spring of ",
+   "options": [
+    "1671-2",
+    "1691-2",
+    "1685-6",
+    "1668-9"
+   ],
+   "answer_index": 0,
+   "option_bytes": 6,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "a few weeks after being elected a member thereof, in the spring of 1671-2.",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "The passage states '1671-2' at this point.",
+   "keys": [],
+   "lcs_bytes": 66,
+   "option_counts_T": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "option_counts_C": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PRI-07",
+   "kind": "recall",
+   "work": "principia",
+   "stem": "Of the Principia the Life says it was dedicated to the Royal Society, and presented thereto on the ",
+   "options": [
+    "25th",
+    "30th",
+    "20th",
+    "28th"
+   ],
+   "answer_index": 3,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "dedicated to the Royal Society, and presented thereto on the 28th of April, 1685-6.",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "The passage states '28th' at this point.",
+   "keys": [],
+   "lcs_bytes": 62,
+   "option_counts_T": [
+    148,
+    106,
+    203,
+    126
+   ],
+   "option_counts_C": [
+    173,
+    151,
+    238,
+    158
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PRI-08",
+   "kind": "recall",
+   "work": "principia",
+   "stem": "Of the printing of the Principia: and the council resolved, on the ",
+   "options": [
+    "20th",
+    "21st",
+    "19th",
+    "31st"
+   ],
+   "answer_index": 2,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "and the council resolved, on the 19th of May, to print it at the expense of the Society",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "The passage states '19th' at this point.",
+   "keys": [],
+   "lcs_bytes": 34,
+   "option_counts_T": [
+    203,
+    158,
+    157,
+    53
+   ],
+   "option_counts_C": [
+    238,
+    167,
+    226,
+    81
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PRI-10",
+   "kind": "recall",
+   "work": "principia",
+   "stem": "In the Principia, the periodic time of the moon: and the moon in ",
+   "options": [
+    "28",
+    "26",
+    "24",
+    "27"
+   ],
+   "answer_index": 3,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "and the moon in 27 days, 7 hours, 43'.",
+     "locator": "Book III"
+    }
+   ],
+   "reasoning": "The passage states '27' at this point.",
+   "keys": [],
+   "lcs_bytes": 30,
+   "option_counts_T": [
+    4470,
+    4525,
+    5531,
+    4565
+   ],
+   "option_counts_C": [
+    2936,
+    3066,
+    3768,
+    3093
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PRI-11",
+   "kind": "recall",
+   "work": "principia",
+   "stem": "In the Life of Newton and the text of Motte's Principia: for the greatest semi-diameter of the earth was ",
+   "options": [
+    "25623052",
+    "19737532",
+    "25623053",
+    "19658600"
+   ],
+   "answer_index": 3,
+   "option_bytes": 8,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "for the greatest semi-diameter of the earth was 19658600 Paris feet, and the mean distance of the centres of the earth and moon",
+     "locator": "Book III, Prop. 4"
+    }
+   ],
+   "reasoning": "The passage states '19658600' at this point.",
+   "keys": [],
+   "lcs_bytes": 49,
+   "option_counts_T": [
+    2,
+    1,
+    1,
+    2
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PRI-14",
+   "kind": "recall",
+   "work": "principia",
+   "stem": "Of his early years the Life says: In ",
+   "options": [
+    "1642",
+    "1666",
+    "1656",
+    "1669"
+   ],
+   "answer_index": 2,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "In 1656, Newton's mother was again left a widow, and took up her abode once more at Woolsthorpe.",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "The passage states '1656' at this point.",
+   "keys": [],
+   "lcs_bytes": 18,
+   "option_counts_T": [
+    24,
+    32,
+    15,
+    29
+   ],
+   "option_counts_C": [
+    21,
+    76,
+    16,
+    12
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PRI-01",
+   "kind": "inference",
+   "work": "principia",
+   "stem": "Newton was admitted to Trinity College in 1660 and took his Bachelor of Arts degree in 1665; the years between were ",
+   "options": [
+    "4 years",
+    "7 years",
+    "5 years",
+    "6 years"
+   ],
+   "answer_index": 2,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "was duly admitted, on the 5th day of June 1660, in the eighteenth year of his age.",
+     "locator": "Life of Newton"
+    },
+    {
+     "work": "principia",
+     "quote": "In the year 1665, he received the degree of Bachelor of Arts;",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "1665 minus 1660 is 5 years.",
+   "keys": [
+    "Bachelor of Arts",
+    "Trinity"
+   ],
+   "lcs_bytes": 29,
+   "option_counts_T": [
+    34,
+    26,
+    55,
+    28
+   ],
+   "option_counts_C": [
+    18,
+    13,
+    34,
+    7
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "I-PRI-02",
+   "kind": "inference",
+   "work": "principia",
+   "stem": "Newton received his Bachelor of Arts in 1665 and the Lucasian chair in 1669; the interval was ",
+   "options": [
+    "3 years",
+    "4 years",
+    "5 years",
+    "6 years"
+   ],
+   "answer_index": 1,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "In the year 1665, he received the degree of Bachelor of Arts;",
+     "locator": "Life of Newton"
+    },
+    {
+     "work": "principia",
+     "quote": "resigned the Lucasian Professorship of Mathematics, in 1669, in favour of Newton",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "1669 minus 1665 is 4 years.",
+   "keys": [
+    "Bachelor of Arts",
+    "Lucasian"
+   ],
+   "lcs_bytes": 23,
+   "option_counts_T": [
+    58,
+    34,
+    55,
+    28
+   ],
+   "option_counts_C": [
+    40,
+    18,
+    34,
+    7
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PRI-03",
+   "kind": "inference",
+   "work": "principia",
+   "stem": "Newton took his Bachelor of Arts in 1665 and his Master of Arts in the year following, that is in ",
+   "options": [
+    "1668",
+    "1666",
+    "1665",
+    "1667"
+   ],
+   "answer_index": 1,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "In the year 1665, he received the degree of Bachelor of Arts;",
+     "locator": "Life of Newton"
+    },
+    {
+     "work": "principia",
+     "quote": "and, in the year following, he took his degree of Master of Arts, and was appointed to a Senior Fellowship.",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "The year following 1665 is 1666.",
+   "keys": [
+    "Master of Arts"
+   ],
+   "lcs_bytes": 24,
+   "option_counts_T": [
+    19,
+    32,
+    29,
+    30
+   ],
+   "option_counts_C": [
+    20,
+    76,
+    73,
+    20
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "I-PRI-05",
+   "kind": "inference",
+   "work": "principia",
+   "stem": "The moon's periodic time is 27 days, 7 hours, 43 minutes; expressed in hours it is ",
+   "options": [
+    "665 hours 43 minutes",
+    "645 hours 43 minutes",
+    "655 hours 43 minutes",
+    "654 hours 43 minutes"
+   ],
+   "answer_index": 2,
+   "option_bytes": 20,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "and the moon in 27 days, 7 hours, 43'.",
+     "locator": "Book III"
+    }
+   ],
+   "reasoning": "27 x 24 + 7 = 655 hours.",
+   "keys": [
+    "periodic",
+    "moon"
+   ],
+   "lcs_bytes": 24,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PRI-06",
+   "kind": "inference",
+   "work": "principia",
+   "stem": "A heavy body in Paris falls 15 Paris feet, 1 inch in one second, and the spaces described are in the duplicate ratio of the times; in two seconds it falls ",
+   "options": [
+    "30 feet 2 inches",
+    "45 feet 3 inches",
+    "60 feet 2 inches",
+    "60 feet 4 inches"
+   ],
+   "answer_index": 3,
+   "option_bytes": 16,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "heavy bodies in the latitude of Paris falling in vacuo will describe 15 Paris feet, 1 inch, lines, very nearly, in one second of time.",
+     "locator": "Book III, Prop. 4"
+    },
+    {
+     "work": "principia",
+     "quote": "are in the very beginning of the motion one to the other in the duplicate ratio of the times.",
+     "locator": "Book I, Lemma 10"
+    }
+   ],
+   "reasoning": "Twice the time gives four times the space: 4 x 15 feet 1 inch = 60 feet 4 inches.",
+   "keys": [
+    "Paris",
+    "duplicate ratio"
+   ],
+   "lcs_bytes": 36,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PRI-07",
+   "kind": "inference",
+   "work": "principia",
+   "stem": "Barrow was made Lucasian Professor in 1663 and resigned the chair in 1669 in favour of Newton; he held it for ",
+   "options": [
+    "5 years",
+    "9 years",
+    "6 years",
+    "7 years"
+   ],
+   "answer_index": 2,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "was made Lucasian Professor of Mathematics in 1663, and soon afterward delivered his Optical Lectures:",
+     "locator": "Life of Newton"
+    },
+    {
+     "work": "principia",
+     "quote": "resigned the Lucasian Professorship of Mathematics, in 1669, in favour of Newton",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "1669 minus 1663 is 6 years.",
+   "keys": [
+    "Barrow",
+    "Lucasian"
+   ],
+   "lcs_bytes": 29,
+   "option_counts_T": [
+    55,
+    25,
+    28,
+    26
+   ],
+   "option_counts_C": [
+    34,
+    14,
+    7,
+    13
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PRI-08",
+   "kind": "inference",
+   "work": "principia",
+   "stem": "Newton was born on 25 December 1642 and admitted to Trinity College on 5 June 1660, in the eighteenth year of his age; the years he had completed were ",
+   "options": [
+    "18 years",
+    "16 years",
+    "19 years",
+    "17 years"
+   ],
+   "answer_index": 3,
+   "option_bytes": 8,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "was born on the 25th of December, O. S. 1642",
+     "locator": "Life of Newton"
+    },
+    {
+     "work": "principia",
+     "quote": "was duly admitted, on the 5th day of June 1660, in the eighteenth year of his age.",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "From December 1642 to June 1660 is 17 years and a few months, which is the eighteenth year of his age.",
+   "keys": [
+    "eighteenth year"
+   ],
+   "lcs_bytes": 45,
+   "option_counts_T": [
+    1,
+    5,
+    9,
+    4
+   ],
+   "option_counts_C": [
+    2,
+    2,
+    5,
+    3
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-01",
+   "kind": "recall",
+   "work": "apology",
+   "stem": "In the Apology, Socrates says of his sons: I have a family, yes, and sons, O Athenians, ",
+   "options": [
+    "forty",
+    "seven",
+    "three",
+    "eight"
+   ],
+   "answer_index": 2,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "apology",
+     "quote": "and I have a family, yes, and sons, O Athenians, three in number, one almost a man, and two others who are still young;",
+     "locator": "Apology"
+    }
+   ],
+   "reasoning": "The passage states 'three' at this point.",
+   "keys": [],
+   "lcs_bytes": 46,
+   "option_counts_T": [
+    1156,
+    2947,
+    10753,
+    9854
+   ],
+   "option_counts_C": [
+    1407,
+    3270,
+    10224,
+    7459
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-PLA-02",
+   "kind": "recall",
+   "work": "apology",
+   "stem": "In the Apology, the friends of Socrates bid him name a penalty: my friends here, bid me say ",
+   "options": [
+    "thirty",
+    "eighty",
+    "ninety",
+    "twenty"
+   ],
+   "answer_index": 0,
+   "option_bytes": 6,
+   "quotes": [
+    {
+     "work": "apology",
+     "quote": "my friends here, bid me say thirty minae, and they will be the sureties.",
+     "locator": "Apology"
+    }
+   ],
+   "reasoning": "The passage states 'thirty' at this point.",
+   "keys": [],
+   "lcs_bytes": 29,
+   "option_counts_T": [
+    1534,
+    435,
+    211,
+    2967
+   ],
+   "option_counts_C": [
+    1807,
+    515,
+    278,
+    3607
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-03",
+   "kind": "recall",
+   "work": "apology",
+   "stem": "In the Apology, Socrates says that, had a few votes gone the other way, he would be acquitted: but now, had ",
+   "options": [
+    "thirty",
+    "eighty",
+    "ninety",
+    "twenty"
+   ],
+   "answer_index": 0,
+   "option_bytes": 6,
+   "quotes": [
+    {
+     "work": "apology",
+     "quote": "but now, had thirty votes gone over to the other side, I should have been acquitted.",
+     "locator": "Apology"
+    }
+   ],
+   "reasoning": "The passage states 'thirty' at this point.",
+   "keys": [],
+   "lcs_bytes": 21,
+   "option_counts_T": [
+    1534,
+    435,
+    211,
+    2967
+   ],
+   "option_counts_C": [
+    1807,
+    515,
+    278,
+    3607
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-04",
+   "kind": "recall",
+   "work": "meno",
+   "stem": "In the Meno: double line, boy, has given a space, not twice, but ",
+   "options": [
+    "nine times",
+    "many times",
+    "four times",
+    "five times"
+   ],
+   "answer_index": 2,
+   "option_bytes": 10,
+   "quotes": [
+    {
+     "work": "meno",
+     "quote": "Therefore the double line, boy, has given a space, not twice, but four times as much.",
+     "locator": "Meno"
+    }
+   ],
+   "reasoning": "The passage states 'four times' at this point.",
+   "keys": [],
+   "lcs_bytes": 53,
+   "option_counts_T": [
+    35,
+    281,
+    271,
+    102
+   ],
+   "option_counts_C": [
+    24,
+    227,
+    98,
+    51
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-05",
+   "kind": "recall",
+   "work": "meno",
+   "stem": "In the Meno, Socrates asks the boy: and is not a space of ",
+   "options": [
+    "seven",
+    "sixty",
+    "eight",
+    "three"
+   ],
+   "answer_index": 2,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "meno",
+     "quote": "and is not a space of eight feet twice the size of this, and half the size of the other?",
+     "locator": "Meno"
+    }
+   ],
+   "reasoning": "The passage states 'eight' at this point.",
+   "keys": [],
+   "lcs_bytes": 23,
+   "option_counts_T": [
+    2947,
+    618,
+    9854,
+    10753
+   ],
+   "option_counts_C": [
+    3270,
+    783,
+    7459,
+    10224
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-06",
+   "kind": "recall",
+   "work": "meno",
+   "stem": "In the Meno: half to this line of two, that will be the line of ",
+   "options": [
+    "three",
+    "eight",
+    "forty",
+    "seven"
+   ],
+   "answer_index": 0,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "meno",
+     "quote": "Then if we add a half to this line of two, that will be the line of three.",
+     "locator": "Meno"
+    }
+   ],
+   "reasoning": "The passage states 'three' at this point.",
+   "keys": [],
+   "lcs_bytes": 52,
+   "option_counts_T": [
+    10753,
+    9854,
+    1156,
+    2947
+   ],
+   "option_counts_C": [
+    10224,
+    7459,
+    1407,
+    3270
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-PLA-07",
+   "kind": "recall",
+   "work": "philebus",
+   "stem": "In the Philebus Introduction: are three criteria of goodness--beauty, symmetry, ",
+   "options": [
+    "pride",
+    "proof",
+    "power",
+    "truth"
+   ],
+   "answer_index": 3,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "philebus",
+     "quote": "There are three criteria of goodness--beauty, symmetry, truth.",
+     "locator": "Philebus Introduction"
+    }
+   ],
+   "reasoning": "The passage states 'truth' at this point.",
+   "keys": [],
+   "lcs_bytes": 51,
+   "option_counts_T": [
+    642,
+    2128,
+    11931,
+    4106
+   ],
+   "option_counts_C": [
+    1111,
+    1431,
+    8443,
+    3714
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-08",
+   "kind": "recall",
+   "work": "phaedo",
+   "stem": "In the Phaedo: there are four principal ones, Oceanus, Acheron, Pyriphlegethon, and ",
+   "options": [
+    "Cocytus",
+    "Acheron",
+    "Alpheus",
+    "Oceanus"
+   ],
+   "answer_index": 0,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "phaedo",
+     "quote": "These rivers are many and mighty, and there are four principal ones, Oceanus, Acheron, Pyriphlegethon, and Cocytus.",
+     "locator": "Phaedo"
+    }
+   ],
+   "reasoning": "The passage states 'Cocytus' at this point.",
+   "keys": [],
+   "lcs_bytes": 70,
+   "option_counts_T": [
+    7,
+    8,
+    6,
+    10
+   ],
+   "option_counts_C": [
+    1,
+    7,
+    7,
+    3
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-09",
+   "kind": "recall",
+   "work": "phaedo",
+   "stem": "In the Phaedo: two cubits are more than one, because two is the ",
+   "options": [
+    "halved",
+    "triple",
+    "single",
+    "double"
+   ],
+   "answer_index": 3,
+   "option_bytes": 6,
+   "quotes": [
+    {
+     "work": "phaedo",
+     "quote": "and still more clearly did I seem to perceive that ten is two more than eight, and that two cubits are more than one, because two is the double of one.",
+     "locator": "Phaedo"
+    }
+   ],
+   "reasoning": "The passage states 'double' at this point.",
+   "keys": [],
+   "lcs_bytes": 50,
+   "option_counts_T": [
+    25,
+    205,
+    3090,
+    2132
+   ],
+   "option_counts_C": [
+    3,
+    141,
+    2223,
+    1514
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-10",
+   "kind": "recall",
+   "work": "republic",
+   "stem": "In the Republic: of the State, and five of the ",
+   "options": [
+    "soul",
+    "body",
+    "city",
+    "hand"
+   ],
+   "answer_index": 0,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "republic",
+     "quote": "There are five of the State, and five of the soul, I said.",
+     "locator": "Republic"
+    }
+   ],
+   "reasoning": "The passage states 'soul' at this point.",
+   "keys": [],
+   "lcs_bytes": 31,
+   "option_counts_T": [
+    3471,
+    13434,
+    13371,
+    14599
+   ],
+   "option_counts_C": [
+    3353,
+    9179,
+    6951,
+    20342
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-11",
+   "kind": "recall",
+   "work": "republic",
+   "stem": "In the Republic: in all, both of states and of ",
+   "options": [
+    "towns",
+    "souls",
+    "cases",
+    "stars"
+   ],
+   "answer_index": 1,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "republic",
+     "quote": "Thus there are five forms in all, both of states and of souls...",
+     "locator": "Republic"
+    }
+   ],
+   "reasoning": "The passage states 'souls' at this point.",
+   "keys": [],
+   "lcs_bytes": 31,
+   "option_counts_T": [
+    661,
+    473,
+    3287,
+    1514
+   ],
+   "option_counts_C": [
+    1035,
+    563,
+    1691,
+    670
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-12",
+   "kind": "recall",
+   "work": "republic",
+   "stem": "In Jowett's Plato: will contain all the four virtues--wisdom, courage, temperance, ",
+   "options": [
+    "honesty",
+    "justice",
+    "harmony",
+    "bravery"
+   ],
+   "answer_index": 1,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "republic",
+     "quote": "My notion is, that our State being perfect will contain all the four virtues--wisdom, courage, temperance, justice.",
+     "locator": "Republic"
+    }
+   ],
+   "reasoning": "The passage states 'justice' at this point.",
+   "keys": [],
+   "lcs_bytes": 65,
+   "option_counts_T": [
+    163,
+    1921,
+    785,
+    87
+   ],
+   "option_counts_C": [
+    245,
+    1741,
+    429,
+    175
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-PLA-14",
+   "kind": "recall",
+   "work": "republic",
+   "stem": "In the Republic, the life of man was reckoned as a ",
+   "options": [
+    "sixteen",
+    "seventy",
+    "hundred",
+    "fifteen"
+   ],
+   "answer_index": 2,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "republic",
+     "quote": "He said that for every evil deed they were punished tenfold--now the journey was of a thousand years' duration, because the life of man was reckoned as a hundred years",
+     "locator": "Republic"
+    }
+   ],
+   "reasoning": "The passage states 'hundred' at this point.",
+   "keys": [],
+   "lcs_bytes": 35,
+   "option_counts_T": [
+    553,
+    419,
+    4034,
+    864
+   ],
+   "option_counts_C": [
+    555,
+    526,
+    4843,
+    1056
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-PLA-15",
+   "kind": "recall",
+   "work": "charmides",
+   "stem": "In the Charmides Introduction, Critias proposes as a ",
+   "options": [
+    "third",
+    "sixth",
+    "ninth",
+    "fifth"
+   ],
+   "answer_index": 3,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "charmides",
+     "quote": "and, in the spirit of Socrates and of Greek life generally, proposes as a fifth definition, (5) Temperance is self-knowledge.",
+     "locator": "Charmides Introduction"
+    }
+   ],
+   "reasoning": "The passage states 'fifth' at this point.",
+   "keys": [],
+   "lcs_bytes": 15,
+   "option_counts_T": [
+    3436,
+    453,
+    216,
+    734
+   ],
+   "option_counts_C": [
+    2206,
+    355,
+    205,
+    486
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-16",
+   "kind": "recall",
+   "work": "gorgias",
+   "stem": "In the Gorgias, Socrates addresses Callicles, Polus and Gorgias, the ",
+   "options": [
+    "seven",
+    "forty",
+    "eight",
+    "three"
+   ],
+   "answer_index": 3,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "gorgias",
+     "quote": "But you, who are the three wisest men in Hellas, have nothing better to say",
+     "locator": "Gorgias"
+    }
+   ],
+   "reasoning": "The passage states 'three' at this point.",
+   "keys": [],
+   "lcs_bytes": 20,
+   "option_counts_T": [
+    2947,
+    1156,
+    9854,
+    10753
+   ],
+   "option_counts_C": [
+    3270,
+    1407,
+    7459,
+    10224
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-PLA-17",
+   "kind": "recall",
+   "work": "euthydemus",
+   "stem": "In the Euthydemus: I said, he is my half-brother, the son of my ",
+   "options": [
+    "mother",
+    "father",
+    "master",
+    "sister"
+   ],
+   "answer_index": 0,
+   "option_bytes": 6,
+   "quotes": [
+    {
+     "work": "euthydemus",
+     "quote": "Yes, I said, he is my half-brother, the son of my mother, but not of my father.",
+     "locator": "Euthydemus"
+    }
+   ],
+   "reasoning": "The passage states 'mother' at this point.",
+   "keys": [],
+   "lcs_bytes": 46,
+   "option_counts_T": [
+    3636,
+    4813,
+    2951,
+    1386
+   ],
+   "option_counts_C": [
+    7350,
+    7504,
+    3732,
+    2477
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-18",
+   "kind": "recall",
+   "work": "republic",
+   "stem": "In the Republic: beats quickest, and continue to beget children until he be ",
+   "options": [
+    "sixty-five",
+    "fifty-five",
+    "forty-five",
+    "fifty-nine"
+   ],
+   "answer_index": 1,
+   "option_bytes": 10,
+   "quotes": [
+    {
+     "work": "republic",
+     "quote": "a man may begin at five-and-twenty, when he has passed the point at which the pulse of life beats quickest, and continue to beget children until he be fifty-five.",
+     "locator": "Republic"
+    }
+   ],
+   "reasoning": "The passage states 'fifty-five' at this point.",
+   "keys": [],
+   "lcs_bytes": 60,
+   "option_counts_T": [
+    39,
+    40,
+    98,
+    11
+   ],
+   "option_counts_C": [
+    56,
+    38,
+    124,
+    12
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-PLA-19",
+   "kind": "recall",
+   "work": "republic",
+   "stem": "In the Republic: to bear children to the State, and continue to bear them until ",
+   "options": [
+    "fifty",
+    "forty",
+    "sixty",
+    "seven"
+   ],
+   "answer_index": 1,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "republic",
+     "quote": "A woman, I said, at twenty years of age may begin to bear children to the State, and continue to bear them until forty;",
+     "locator": "Republic"
+    }
+   ],
+   "reasoning": "The passage states 'forty' at this point.",
+   "keys": [],
+   "lcs_bytes": 64,
+   "option_counts_T": [
+    1133,
+    1156,
+    618,
+    2947
+   ],
+   "option_counts_C": [
+    1508,
+    1407,
+    783,
+    3270
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PLA-01",
+   "kind": "inference",
+   "work": "meno",
+   "stem": "In the Meno, the boy's square has a side of two feet and an area of four feet, and Socrates says that a line of three feet gives a square of three times three feet; the line of three feet gives the space of ",
+   "options": [
+    "many feet",
+    "four feet",
+    "five feet",
+    "nine feet"
+   ],
+   "answer_index": 3,
+   "option_bytes": 9,
+   "quotes": [
+    {
+     "work": "meno",
+     "quote": "But if there are three feet this way and three feet that way, the whole space will be three times three feet?",
+     "locator": "Meno"
+    }
+   ],
+   "reasoning": "Three times three is nine.",
+   "keys": [
+    "three times three"
+   ],
+   "lcs_bytes": 23,
+   "option_counts_T": [
+    28,
+    112,
+    75,
+    5
+   ],
+   "option_counts_C": [
+    29,
+    123,
+    72,
+    11
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PLA-05",
+   "kind": "inference",
+   "work": "republic",
+   "stem": "In the Republic a man may begin at five-and-twenty and continue to beget children until fifty-five, so the period is ",
+   "options": [
+    "twenty years",
+    "thirty years",
+    "twelve years",
+    "ninety years"
+   ],
+   "answer_index": 1,
+   "option_bytes": 12,
+   "quotes": [
+    {
+     "work": "republic",
+     "quote": "a man may begin at five-and-twenty, when he has passed the point at which the pulse of life beats quickest, and continue to beget children until he be fifty-five.",
+     "locator": "Republic"
+    }
+   ],
+   "reasoning": "Fifty-five minus twenty-five is thirty.",
+   "keys": [
+    "beget children"
+   ],
+   "lcs_bytes": 38,
+   "option_counts_T": [
+    276,
+    175,
+    123,
+    9
+   ],
+   "option_counts_C": [
+    396,
+    241,
+    133,
+    15
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PLA-06",
+   "kind": "inference",
+   "work": "republic",
+   "stem": "In the Republic the journey of the souls was a thousand years and the life of man was reckoned at a hundred years, so the journey was ",
+   "options": [
+    "two lives",
+    "ten lives",
+    "six lives",
+    "all lives"
+   ],
+   "answer_index": 1,
+   "option_bytes": 9,
+   "quotes": [
+    {
+     "work": "republic",
+     "quote": "He said that for every evil deed they were punished tenfold--now the journey was of a thousand years' duration, because the life of man was reckoned as a hundred years",
+     "locator": "Republic"
+    }
+   ],
+   "reasoning": "1000 / 100 = 10.",
+   "keys": [
+    "thousand years"
+   ],
+   "lcs_bytes": 31,
+   "option_counts_T": [
+    4,
+    2,
+    0,
+    3
+   ],
+   "option_counts_C": [
+    8,
+    1,
+    0,
+    2
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PLA-07",
+   "kind": "inference",
+   "work": "apology",
+   "stem": "In the Apology Evenus teaches at five minae and Socrates proposes a penalty of thirty minae; the penalty exceeds the charge by ",
+   "options": [
+    "twenty-four minae",
+    "twenty-nine minae",
+    "twenty-five minae",
+    "thirty-five minae"
+   ],
+   "answer_index": 2,
+   "option_bytes": 17,
+   "quotes": [
+    {
+     "work": "apology",
+     "quote": "he is the man, and his charge is five minae.",
+     "locator": "Apology"
+    },
+    {
+     "work": "apology",
+     "quote": "Let that be the penalty, or, if his friends wish, thirty minae;",
+     "locator": "Apology"
+    }
+   ],
+   "reasoning": "Thirty minus five is twenty-five.",
+   "keys": [
+    "five minae"
+   ],
+   "lcs_bytes": 20,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PLA-08",
+   "kind": "inference",
+   "work": "apology",
+   "stem": "In the Apology Socrates has three sons, one almost a man, and two who are still young; the number still young is ",
+   "options": [
+    "one",
+    "two",
+    "ten",
+    "six"
+   ],
+   "answer_index": 1,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "apology",
+     "quote": "and I have a family, yes, and sons, O Athenians, three in number, one almost a man, and two others who are still young;",
+     "locator": "Apology"
+    }
+   ],
+   "reasoning": "Three less one is two.",
+   "keys": [
+    "sons"
+   ],
+   "lcs_bytes": 28,
+   "option_counts_T": [
+    104881,
+    28489,
+    66730,
+    4890
+   ],
+   "option_counts_C": [
+    111465,
+    22834,
+    66179,
+    5297
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PLA-09",
+   "kind": "inference",
+   "work": "phaedo",
+   "stem": "In the Phaedo ten is two more than eight, so eight is two ",
+   "options": [
+    "less than ten",
+    "less than six",
+    "more than six",
+    "more than ten"
+   ],
+   "answer_index": 0,
+   "option_bytes": 13,
+   "quotes": [
+    {
+     "work": "phaedo",
+     "quote": "I seem to perceive that ten is two more than eight",
+     "locator": "Phaedo"
+    }
+   ],
+   "reasoning": "Converse of the stated relation.",
+   "keys": [
+    "two more than eight"
+   ],
+   "lcs_bytes": 29,
+   "option_counts_T": [
+    22,
+    19,
+    35,
+    36
+   ],
+   "option_counts_C": [
+    18,
+    16,
+    40,
+    47
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PLA-10",
+   "kind": "inference",
+   "work": "phaedo",
+   "stem": "In the Phaedo two is the double of one and two cubits exceed one cubit not by a half but by a magnitude of ",
+   "options": [
+    "six",
+    "one",
+    "ten",
+    "two"
+   ],
+   "answer_index": 1,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "phaedo",
+     "quote": "two cubits are more than one, because two is the double of one",
+     "locator": "Phaedo"
+    }
+   ],
+   "reasoning": "Two minus one is one.",
+   "keys": [
+    "two cubits"
+   ],
+   "lcs_bytes": 42,
+   "option_counts_T": [
+    4890,
+    104881,
+    66730,
+    28489
+   ],
+   "option_counts_C": [
+    5297,
+    111465,
+    66179,
+    22834
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-REL-01",
+   "kind": "recall",
+   "work": "relativity",
+   "stem": "Of light in Einstein's Relativity: takes place in straight lines with a velocity _c_ = ",
+   "options": [
+    "300,000",
+    "250,000",
+    "200,000",
+    "350,000"
+   ],
+   "answer_index": 0,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "takes place in straight lines with a velocity _c_ = 300,000 km./sec.",
+     "locator": "Part I"
+    }
+   ],
+   "reasoning": "The passage states '300,000' at this point.",
+   "keys": [],
+   "lcs_bytes": 53,
+   "option_counts_T": [
+    52,
+    14,
+    59,
+    9
+   ],
+   "option_counts_C": [
+    52,
+    15,
+    74,
+    5
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-REL-02",
+   "kind": "recall",
+   "work": "relativity",
+   "stem": "Of the earth in its orbit round the sun: railway carriage travelling with a velocity of about ",
+   "options": [
+    "20",
+    "60",
+    "40",
+    "30"
+   ],
+   "answer_index": 3,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "comparable with a railway carriage travelling with a velocity of about 30 kilometres per second",
+     "locator": "Part I"
+    }
+   ],
+   "reasoning": "The passage states '30' at this point.",
+   "keys": [],
+   "lcs_bytes": 54,
+   "option_counts_T": [
+    8269,
+    3664,
+    4526,
+    6046
+   ],
+   "option_counts_C": [
+    5086,
+    3241,
+    2930,
+    3932
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-REL-03",
+   "kind": "recall",
+   "work": "relativity",
+   "stem": "In Einstein's Relativity: that in the case of Mercury it must amount to ",
+   "options": [
+    "34",
+    "53",
+    "47",
+    "43"
+   ],
+   "answer_index": 3,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "that in the case of Mercury it must amount to 43 seconds of arc per century",
+     "locator": "Part II"
+    }
+   ],
+   "reasoning": "The passage states '43' at this point.",
+   "keys": [],
+   "lcs_bytes": 47,
+   "option_counts_T": [
+    3604,
+    2429,
+    2754,
+    2772
+   ],
+   "option_counts_C": [
+    2434,
+    1832,
+    1791,
+    1970
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-REL-04",
+   "kind": "recall",
+   "work": "relativity",
+   "stem": "Of the deflection of light by the sun: observed by Eddington and others in ",
+   "options": [
+    "1919",
+    "1921",
+    "1927",
+    "1917"
+   ],
+   "answer_index": 0,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "First observed by Eddington and others in 1919.",
+     "locator": "Part II notes"
+    }
+   ],
+   "reasoning": "The passage states '1919' at this point.",
+   "keys": [],
+   "lcs_bytes": 37,
+   "option_counts_T": [
+    52,
+    23,
+    10,
+    30
+   ],
+   "option_counts_C": [
+    3,
+    2,
+    2,
+    33
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-REL-06",
+   "kind": "recall",
+   "work": "relativity",
+   "stem": "In Einstein's Relativity: it was found (Leverrier: ",
+   "options": [
+    "1859",
+    "1839",
+    "1849",
+    "1869"
+   ],
+   "answer_index": 0,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "it was found (Leverrier: 1859; and Newcomb: 1895) that an unexplained perihelial movement of the orbit of Mercury remained over",
+     "locator": "Appendix"
+    }
+   ],
+   "reasoning": "The passage states '1859' at this point.",
+   "keys": [],
+   "lcs_bytes": 26,
+   "option_counts_T": [
+    115,
+    90,
+    123,
+    166
+   ],
+   "option_counts_C": [
+    161,
+    76,
+    133,
+    206
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-REL-07",
+   "kind": "recall",
+   "work": "relativity",
+   "stem": "In Einstein's Relativity: he will not obtain as quotient the familiar number π = ",
+   "options": [
+    "3.41",
+    "3.24",
+    "3.14",
+    "2.14"
+   ],
+   "answer_index": 2,
+   "option_bytes": 4,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "he will not obtain as quotient the familiar number π = 3.14",
+     "locator": "Part II"
+    }
+   ],
+   "reasoning": "The passage states '3.14' at this point.",
+   "keys": [],
+   "lcs_bytes": 57,
+   "option_counts_T": [
+    2,
+    5,
+    48,
+    9
+   ],
+   "option_counts_C": [
+    0,
+    3,
+    2,
+    3
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-REL-08",
+   "kind": "recall",
+   "work": "relativity",
+   "stem": "In Einstein's Relativity: an arrangement (_e.g._ two mirrors inclined at ",
+   "options": [
+    "90",
+    "45",
+    "30",
+    "60"
+   ],
+   "answer_index": 0,
+   "option_bytes": 2,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "an arrangement (_e.g._ two mirrors inclined at 90°",
+     "locator": "Part I"
+    }
+   ],
+   "reasoning": "The passage states '90' at this point.",
+   "keys": [],
+   "lcs_bytes": 48,
+   "option_counts_T": [
+    5054,
+    3157,
+    6046,
+    3664
+   ],
+   "option_counts_C": [
+    3681,
+    2090,
+    3932,
+    3241
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-REL-09",
+   "kind": "recall",
+   "work": "relativity",
+   "stem": "In Einstein's Relativity: universe ought to be a finite island in the infinite ",
+   "options": [
+    "plain",
+    "court",
+    "beach",
+    "ocean"
+   ],
+   "answer_index": 3,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "The stellar universe ought to be a finite island in the infinite ocean of space.",
+     "locator": "Part III"
+    }
+   ],
+   "reasoning": "The passage states 'ocean' at this point.",
+   "keys": [],
+   "lcs_bytes": 54,
+   "option_counts_T": [
+    6452,
+    3350,
+    214,
+    1106
+   ],
+   "option_counts_C": [
+    6279,
+    5002,
+    308,
+    566
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-REL-10",
+   "kind": "recall",
+   "work": "relativity",
+   "stem": "In Einstein's Relativity: [8] _e.g._ the middle of the first and of the ",
+   "options": [
+    "ninetieth",
+    "thirtieth",
+    "twentieth",
+    "hundredth"
+   ],
+   "answer_index": 3,
+   "option_bytes": 9,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "[8] _e.g._ the middle of the first and of the hundredth carriage",
+     "locator": "Part I"
+    }
+   ],
+   "reasoning": "The passage states 'hundredth' at this point.",
+   "keys": [],
+   "lcs_bytes": 47,
+   "option_counts_T": [
+    10,
+    22,
+    104,
+    165
+   ],
+   "option_counts_C": [
+    9,
+    21,
+    70,
+    44
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-REL-11",
+   "kind": "recall",
+   "work": "relativity",
+   "stem": "In Einstein's Relativity: _P_ in the diagram has the Gaussian co-ordinates _u_ = ",
+   "options": [
+    "4",
+    "2",
+    "3",
+    "5"
+   ],
+   "answer_index": 2,
+   "option_bytes": 1,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "the point _P_ in the diagram has the Gaussian co-ordinates _u_ = 3, _v_ = 1",
+     "locator": "Part II"
+    }
+   ],
+   "reasoning": "The passage states '3' at this point.",
+   "keys": [],
+   "lcs_bytes": 56,
+   "option_counts_T": [
+    67295,
+    118326,
+    81125,
+    61310
+   ],
+   "option_counts_C": [
+    43600,
+    77355,
+    52764,
+    40472
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-REL-12",
+   "kind": "recall",
+   "work": "relativity",
+   "stem": "Of the angle described by the line joining sun and planet from perihelion to perihelion: would differ from ",
+   "options": [
+    "270",
+    "180",
+    "720",
+    "360"
+   ],
+   "answer_index": 3,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "would differ from 360°",
+     "locator": "Appendix"
+    }
+   ],
+   "reasoning": "The passage states '360' at this point.",
+   "keys": [],
+   "lcs_bytes": 56,
+   "option_counts_T": [
+    195,
+    1466,
+    127,
+    331
+   ],
+   "option_counts_C": [
+    163,
+    1461,
+    91,
+    138
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-REL-01",
+   "kind": "inference",
+   "work": "relativity",
+   "stem": "The rotation of the orbit of Mercury is 43 seconds of arc per century; in two centuries it amounts to ",
+   "options": [
+    "96 seconds",
+    "66 seconds",
+    "43 seconds",
+    "86 seconds"
+   ],
+   "answer_index": 3,
+   "option_bytes": 10,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "in the case of Mercury it must amount to 43 seconds of arc per century",
+     "locator": "Part II"
+    }
+   ],
+   "reasoning": "2 x 43 = 86.",
+   "keys": [
+    "seconds of arc"
+   ],
+   "lcs_bytes": 31,
+   "option_counts_T": [
+    0,
+    0,
+    4,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-REL-02",
+   "kind": "inference",
+   "work": "relativity",
+   "stem": "Light travels at 300,000 km./sec. and the earth in its orbit at about 30 kilometres per second; the speed of light is greater by the factor ",
+   "options": [
+    "90,000",
+    "30,000",
+    "10,000",
+    "20,000"
+   ],
+   "answer_index": 2,
+   "option_bytes": 6,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "a velocity _c_ = 300,000 km./sec.",
+     "locator": "Part I"
+    },
+    {
+     "work": "relativity",
+     "quote": "a velocity of about 30 kilometres per second",
+     "locator": "Part I"
+    }
+   ],
+   "reasoning": "300,000 / 30 = 10,000.",
+   "keys": [
+    "300,000"
+   ],
+   "lcs_bytes": 31,
+   "option_counts_T": [
+    13,
+    94,
+    240,
+    139
+   ],
+   "option_counts_C": [
+    13,
+    93,
+    152,
+    108
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "I-REL-03",
+   "kind": "inference",
+   "work": "relativity",
+   "stem": "The unexplained motion of Mercury was reported by Leverrier in 1859 and by Newcomb in 1895; the interval is ",
+   "options": [
+    "46 years",
+    "34 years",
+    "36 years",
+    "26 years"
+   ],
+   "answer_index": 2,
+   "option_bytes": 8,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "(Leverrier: 1859; and Newcomb: 1895)",
+     "locator": "Appendix"
+    }
+   ],
+   "reasoning": "1895 - 1859 = 36.",
+   "keys": [
+    "Leverrier"
+   ],
+   "lcs_bytes": 22,
+   "option_counts_T": [
+    0,
+    3,
+    1,
+    1
+   ],
+   "option_counts_C": [
+    0,
+    3,
+    0,
+    1
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-REL-04",
+   "kind": "inference",
+   "work": "relativity",
+   "stem": "The deflection of light was first observed in 1919 and the red-shift was established by Adams in 1924; the interval is ",
+   "options": [
+    "5 years",
+    "4 years",
+    "6 years",
+    "9 years"
+   ],
+   "answer_index": 0,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "First observed by Eddington and others in 1919.",
+     "locator": "Part II notes"
+    },
+    {
+     "work": "relativity",
+     "quote": "Established by Adams in 1924",
+     "locator": "Part II notes"
+    }
+   ],
+   "reasoning": "1924 - 1919 = 5.",
+   "keys": [
+    "Adams",
+    "Eddington"
+   ],
+   "lcs_bytes": 27,
+   "option_counts_T": [
+    55,
+    34,
+    28,
+    25
+   ],
+   "option_counts_C": [
+    34,
+    18,
+    7,
+    14
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "I-REL-05",
+   "kind": "inference",
+   "work": "relativity",
+   "stem": "The book was first published in December, 1916, and Eddington and others first observed the deflection of light in 1919; the interval is about ",
+   "options": [
+    "6 years",
+    "3 years",
+    "4 years",
+    "2 years"
+   ],
+   "answer_index": 1,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "First Published: December, 1916",
+     "locator": "Colophon"
+    },
+    {
+     "work": "relativity",
+     "quote": "First observed by Eddington and others in 1919.",
+     "locator": "Part II notes"
+    }
+   ],
+   "reasoning": "1919 - 1916 = 3.",
+   "keys": [
+    "December, 1916"
+   ],
+   "lcs_bytes": 26,
+   "option_counts_T": [
+    28,
+    58,
+    34,
+    32
+   ],
+   "option_counts_C": [
+    7,
+    40,
+    18,
+    19
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-EUC-01",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's First Six Books of Euclid: magnitude which has three dimensions, that is, length, breadth, and ",
+   "options": [
+    "thickness",
+    "magnitude",
+    "direction",
+    "curvature"
+   ],
+   "answer_index": 0,
+   "option_bytes": 9,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "A geometrical magnitude which has three dimensions, that is, length, breadth, and thickness, is a solid;",
+     "locator": "Introduction"
+    }
+   ],
+   "reasoning": "The passage states 'thickness' at this point.",
+   "keys": [],
+   "lcs_bytes": 69,
+   "option_counts_T": [
+    858,
+    1518,
+    6748,
+    419
+   ],
+   "option_counts_C": [
+    208,
+    215,
+    2819,
+    64
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-EUC-02",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's First Six Books of Euclid: whose four sides are equal is called a ",
+   "options": [
+    "scalene",
+    "rhombus",
+    "polygon",
+    "lozenge"
+   ],
+   "answer_index": 3,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "A quadrilateral whose four sides are equal is called a lozenge.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "The passage states 'lozenge' at this point.",
+   "keys": [],
+   "lcs_bytes": 40,
+   "option_counts_T": [
+    24,
+    20,
+    299,
+    64
+   ],
+   "option_counts_C": [
+    5,
+    5,
+    86,
+    51
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-EUC-03",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's First Six Books of Euclid: polygon which has five sides is called a ",
+   "options": [
+    "triangle",
+    "diagonal",
+    "pentagon",
+    "quadrant"
+   ],
+   "answer_index": 2,
+   "option_bytes": 8,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "A polygon which has five sides is called a pentagon;",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "The passage states 'pentagon' at this point.",
+   "keys": [],
+   "lcs_bytes": 42,
+   "option_counts_T": [
+    2173,
+    493,
+    97,
+    217
+   ],
+   "option_counts_C": [
+    179,
+    131,
+    19,
+    53
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-EUC-04",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's Euclid, of a polygon: which has six sides, a ",
+   "options": [
+    "hexagon",
+    "decagon",
+    "octagon",
+    "polygon"
+   ],
+   "answer_index": 0,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "one which has six sides, a hexagon, and so on.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "The passage states 'hexagon' at this point.",
+   "keys": [],
+   "lcs_bytes": 24,
+   "option_counts_T": [
+    151,
+    29,
+    56,
+    299
+   ],
+   "option_counts_C": [
+    46,
+    6,
+    100,
+    86
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-EUC-05",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's First Six Books of Euclid: A system of more than three concurrent lines is called a ",
+   "options": [
+    "radial",
+    "sector",
+    "pencil",
+    "bundle"
+   ],
+   "answer_index": 2,
+   "option_bytes": 6,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "A system of more than three concurrent lines is called a pencil of lines.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "The passage states 'pencil' at this point.",
+   "keys": [],
+   "lcs_bytes": 58,
+   "option_counts_T": [
+    212,
+    317,
+    572,
+    286
+   ],
+   "option_counts_C": [
+    38,
+    31,
+    355,
+    357
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-EUC-06",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's Euclid, when the legs BA, AD form one right line, the two angles they are called ",
+   "options": [
+    "complements",
+    "concurrents",
+    "supplements",
+    "congruences"
+   ],
+   "answer_index": 2,
+   "option_bytes": 11,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "they are called supplements of each other.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "The passage states 'supplements' at this point.",
+   "keys": [],
+   "lcs_bytes": 41,
+   "option_counts_T": [
+    27,
+    1,
+    16,
+    1
+   ],
+   "option_counts_C": [
+    2,
+    1,
+    12,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-EUC-07",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's First Six Books of Euclid: of two angles is a right angle, each is called the ",
+   "options": [
+    "supplement",
+    "concurrent",
+    "congruence",
+    "complement"
+   ],
+   "answer_index": 3,
+   "option_bytes": 10,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "When the sum of two angles is a right angle, each is called the complement of the other.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "The passage states 'complement' at this point.",
+   "keys": [],
+   "lcs_bytes": 52,
+   "option_counts_T": [
+    323,
+    100,
+    64,
+    322
+   ],
+   "option_counts_C": [
+    185,
+    32,
+    2,
+    91
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-EUC-08",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's First Six Books of Euclid: Hence a triangle has ",
+   "options": [
+    "one",
+    "six",
+    "ten",
+    "two"
+   ],
+   "answer_index": 1,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "Hence a triangle has six exterior angles;",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "The passage states 'six' at this point.",
+   "keys": [],
+   "lcs_bytes": 26,
+   "option_counts_T": [
+    104881,
+    4890,
+    66730,
+    28489
+   ],
+   "option_counts_C": [
+    111465,
+    5297,
+    66179,
+    22834
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-EUC-09",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's First Six Books of Euclid: 1.—The sum of two supplemental angles is ",
+   "options": [
+    "one",
+    "ten",
+    "six",
+    "two"
+   ],
+   "answer_index": 3,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "1.—The sum of two supplemental angles is two right angles.",
+     "locator": "Book I"
+    }
+   ],
+   "reasoning": "The passage states 'two' at this point.",
+   "keys": [],
+   "lcs_bytes": 44,
+   "option_counts_T": [
+    104881,
+    66730,
+    4890,
+    28489
+   ],
+   "option_counts_C": [
+    111465,
+    66179,
+    5297,
+    22834
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-EUC-10",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's First Six Books of Euclid: triangle whose three sides are unequal is said to be ",
+   "options": [
+    "scalene",
+    "general",
+    "complex",
+    "regular"
+   ],
+   "answer_index": 0,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "A triangle whose three sides are unequal is said to be scalene,",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "The passage states 'scalene' at this point.",
+   "keys": [],
+   "lcs_bytes": 54,
+   "option_counts_T": [
+    24,
+    9797,
+    1158,
+    3195
+   ],
+   "option_counts_C": [
+    5,
+    7572,
+    753,
+    2285
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-EUC-12",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's First Six Books of Euclid: Two theorems are said to be ",
+   "options": [
+    "inverses",
+    "adjacent",
+    "contrary",
+    "converse"
+   ],
+   "answer_index": 3,
+   "option_bytes": 8,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "Two theorems are said to be converse, each of the other, when the hypothesis of either is the conclusion of the other.",
+     "locator": "Introduction"
+    }
+   ],
+   "reasoning": "The passage states 'converse' at this point.",
+   "keys": [],
+   "lcs_bytes": 28,
+   "option_counts_T": [
+    2,
+    433,
+    1743,
+    414
+   ],
+   "option_counts_C": [
+    0,
+    269,
+    1052,
+    293
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-EUC-13",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In the Preface to Casey's Euclid: The Exercises, of which there are over ",
+   "options": [
+    "forty",
+    "eight",
+    "three",
+    "seven"
+   ],
+   "answer_index": 1,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "The Exercises, of which there are over eight hundred, have been all selected with great care.",
+     "locator": "Preface"
+    }
+   ],
+   "reasoning": "The passage states 'eight' at this point.",
+   "keys": [],
+   "lcs_bytes": 40,
+   "option_counts_T": [
+    1156,
+    9854,
+    10753,
+    2947
+   ],
+   "option_counts_C": [
+    1407,
+    7459,
+    10224,
+    3270
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-EUC-15",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's First Six Books of Euclid: 6.—Each angle of an equilateral triangle is ",
+   "options": [
+    "one-fourth",
+    "two-sixths",
+    "two-thirds",
+    "two-fifths"
+   ],
+   "answer_index": 2,
+   "option_bytes": 10,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "6.—Each angle of an equilateral triangle is two-thirds of a right angle.",
+     "locator": "Book I"
+    }
+   ],
+   "reasoning": "The passage states 'two-thirds' at this point.",
+   "keys": [],
+   "lcs_bytes": 47,
+   "option_counts_T": [
+    71,
+    0,
+    93,
+    14
+   ],
+   "option_counts_C": [
+    38,
+    0,
+    77,
+    4
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-EUC-16",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's Euclid, of a triangle formed by three right lines joined end to end: three lines are called its ",
+   "options": [
+    "faces",
+    "sides",
+    "edges",
+    "spans"
+   ],
+   "answer_index": 1,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "The three lines are called its sides.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "The passage states 'sides' at this point.",
+   "keys": [],
+   "lcs_bytes": 47,
+   "option_counts_T": [
+    1900,
+    5137,
+    1022,
+    18
+   ],
+   "option_counts_C": [
+    1167,
+    3701,
+    798,
+    12
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "R-EUC-17",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's First Six Books of Euclid: The two lines are called the legs, and the point the ",
+   "options": [
+    "vertex",
+    "corner",
+    "centre",
+    "summit"
+   ],
+   "answer_index": 0,
+   "option_bytes": 6,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "The two lines are called the legs, and the point the vertex of the angle.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "The passage states 'vertex' at this point.",
+   "keys": [],
+   "lcs_bytes": 54,
+   "option_counts_T": [
+    286,
+    1251,
+    3488,
+    404
+   ],
+   "option_counts_C": [
+    37,
+    1701,
+    924,
+    524
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "R-EUC-18",
+   "kind": "recall",
+   "work": "euclid",
+   "stem": "In Casey's First Six Books of Euclid: An acute-angled triangle is one that has its three angles ",
+   "options": [
+    "right",
+    "equal",
+    "small",
+    "acute"
+   ],
+   "answer_index": 3,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "An acute-angled triangle is one that has its three angles acute,",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "The passage states 'acute' at this point.",
+   "keys": [],
+   "lcs_bytes": 59,
+   "option_counts_T": [
+    16194,
+    12364,
+    12462,
+    477
+   ],
+   "option_counts_C": [
+    16456,
+    3683,
+    10644,
+    405
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-EUC-02",
+   "kind": "inference",
+   "work": "euclid",
+   "stem": "Two angles whose sum is a right angle are complements; the complement of one-third of a right angle is ",
+   "options": [
+    "two-thirds",
+    "two-sixths",
+    "two-fifths",
+    "one-fourth"
+   ],
+   "answer_index": 0,
+   "option_bytes": 10,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "When the sum of two angles is a right angle, each is called the complement of the other.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "1 - 1/3 = 2/3 of a right angle.",
+   "keys": [
+    "complement"
+   ],
+   "lcs_bytes": 23,
+   "option_counts_T": [
+    93,
+    0,
+    14,
+    71
+   ],
+   "option_counts_C": [
+    77,
+    0,
+    4,
+    38
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "I-EUC-03",
+   "kind": "inference",
+   "work": "euclid",
+   "stem": "A quadrilateral can be divided into two triangles and the sum of its angles is four right angles; a pentagon can be divided into three triangles, so the sum of its angles is equal to right angles numbering ",
+   "options": [
+    "six",
+    "one",
+    "two",
+    "ten"
+   ],
+   "answer_index": 0,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "3.—Since a quadrilateral can be divided into two triangles, the sum of its angles is equal to four right angles.",
+     "locator": "Book I"
+    },
+    {
+     "work": "euclid",
+     "quote": "the sum of the three internal angles is equal to two right angles",
+     "locator": "Book I"
+    }
+   ],
+   "reasoning": "3 x 2 = 6.",
+   "keys": [
+    "pentagon"
+   ],
+   "lcs_bytes": 48,
+   "option_counts_T": [
+    4890,
+    104881,
+    28489,
+    66730
+   ],
+   "option_counts_C": [
+    5297,
+    111465,
+    22834,
+    66179
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-EUC-05",
+   "kind": "inference",
+   "work": "euclid",
+   "stem": "In a right-angled isosceles triangle each base angle is half a right angle; the sum of the base angles is ",
+   "options": [
+    "six right angle",
+    "two right angle",
+    "ten right angle",
+    "one right angle"
+   ],
+   "answer_index": 3,
+   "option_bytes": 15,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "1.—If a right-angled triangle be isosceles, each base angle is half a right angle.",
+     "locator": "Book I"
+    }
+   ],
+   "reasoning": "1/2 + 1/2 = 1.",
+   "keys": [
+    "isosceles"
+   ],
+   "lcs_bytes": 38,
+   "option_counts_T": [
+    2,
+    167,
+    1,
+    6
+   ],
+   "option_counts_C": [
+    0,
+    4,
+    0,
+    3
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-EUC-06",
+   "kind": "inference",
+   "work": "euclid",
+   "stem": "The sum of the three internal angles of a triangle is two right angles; in a right-angled triangle the sum of the other two angles is ",
+   "options": [
+    "ten right angle",
+    "two right angle",
+    "six right angle",
+    "one right angle"
+   ],
+   "answer_index": 3,
+   "option_bytes": 15,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "the sum of the three internal angles is equal to two right angles",
+     "locator": "Book I"
+    }
+   ],
+   "reasoning": "2 - 1 = 1.",
+   "keys": [
+    "internal angles"
+   ],
+   "lcs_bytes": 44,
+   "option_counts_T": [
+    1,
+    167,
+    2,
+    6
+   ],
+   "option_counts_C": [
+    0,
+    4,
+    0,
+    3
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-EUC-07",
+   "kind": "inference",
+   "work": "euclid",
+   "stem": "The sum of the external angles of a convex polygon is four right angles and the sum of the internal angles of a quadrilateral is four right angles; for a quadrilateral the two sums together are right angles numbering ",
+   "options": [
+    "three",
+    "eight",
+    "forty",
+    "seven"
+   ],
+   "answer_index": 1,
+   "option_bytes": 5,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "5.—If all the sides of any convex polygon be produced, the sum of the external angles is equal to four right angles.",
+     "locator": "Book I"
+    },
+    {
+     "work": "euclid",
+     "quote": "3.—Since a quadrilateral can be divided into two triangles, the sum of its angles is equal to four right angles.",
+     "locator": "Book I"
+    }
+   ],
+   "reasoning": "4 + 4 = 8.",
+   "keys": [
+    "convex polygon"
+   ],
+   "lcs_bytes": 34,
+   "option_counts_T": [
+    10753,
+    9854,
+    1156,
+    2947
+   ],
+   "option_counts_C": [
+    10224,
+    7459,
+    1407,
+    3270
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-EUC-09",
+   "kind": "inference",
+   "work": "euclid",
+   "stem": "A triangle has six exterior angles, formed by each side and the continuation of another; the number of exterior angles at each vertex is ",
+   "options": [
+    "two",
+    "one",
+    "six",
+    "ten"
+   ],
+   "answer_index": 0,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "Hence a triangle has six exterior angles",
+     "locator": "Definitions"
+    },
+    {
+     "work": "euclid",
+     "quote": "An exterior angle of a triangle is one that is formed by any side and the continuation of another side.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "6 / 3 = 2.",
+   "keys": [
+    "exterior angles"
+   ],
+   "lcs_bytes": 37,
+   "option_counts_T": [
+    28489,
+    104881,
+    4890,
+    66730
+   ],
+   "option_counts_C": [
+    22834,
+    111465,
+    5297,
+    66179
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-EUC-10",
+   "kind": "inference",
+   "work": "euclid",
+   "stem": "A triangle has three sides and a pentagon has five sides; a pentagon has more sides than a triangle by ",
+   "options": [
+    "two",
+    "six",
+    "ten",
+    "one"
+   ],
+   "answer_index": 0,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "A polygon which has five sides is called a pentagon;",
+     "locator": "Definitions"
+    },
+    {
+     "work": "euclid",
+     "quote": "A triangle is a figure formed by three right lines joined end to end.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "5 - 3 = 2.",
+   "keys": [
+    "pentagon"
+   ],
+   "lcs_bytes": 17,
+   "option_counts_T": [
+    28489,
+    4890,
+    66730,
+    104881
+   ],
+   "option_counts_C": [
+    22834,
+    5297,
+    66179,
+    111465
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-NOT-12",
+   "kind": "inference",
+   "work": "notebooks",
+   "stem": "The stair of Vigevano has 130 steps, each 1/4 braccio high; its total height in braccia is ",
+   "options": [
+    "32 1/2",
+    "30 1/2",
+    "31 1/2",
+    "33 1/2"
+   ],
+   "answer_index": 0,
+   "option_bytes": 6,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "Stair of Vigevano below La Sforzesca, 130 steps, 1/4 braccio high and 1/2 braccio wide",
+     "locator": "Stair of Vigevano"
+    }
+   ],
+   "reasoning": "130 x 1/4 = 32 1/2.",
+   "keys": [
+    "Vigevano"
+   ],
+   "lcs_bytes": 17,
+   "option_counts_T": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "option_counts_C": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-NOT-13",
+   "kind": "inference",
+   "work": "notebooks",
+   "stem": "At Sforzesca Leonardo drew twenty five steps, 2/3 braccia to each; their total height in braccia is ",
+   "options": [
+    "17 2/3",
+    "18 2/3",
+    "16 2/3",
+    "15 2/3"
+   ],
+   "answer_index": 2,
+   "option_bytes": 6,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "At Sforzesca I drew twenty five steps, 2/3 braccia to each, and 8 braccia wide.",
+     "locator": "Sforzesca"
+    }
+   ],
+   "reasoning": "25 x 2/3 = 16 2/3.",
+   "keys": [
+    "Sforzesca"
+   ],
+   "lcs_bytes": 44,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-NOT-15",
+   "kind": "inference",
+   "work": "notebooks",
+   "stem": "From Bonconventi to Casa Nova are 10 miles and from Casa Nova to Chiusi 9 miles; from Bonconventi to Chiusi by Casa Nova is ",
+   "options": [
+    "29 miles",
+    "20 miles",
+    "18 miles",
+    "19 miles"
+   ],
+   "answer_index": 3,
+   "option_bytes": 8,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "From Bonconventi to Casa Nova are 10 miles, from Casa Nova to Chiusi 9 miles",
+     "locator": "1052"
+    }
+   ],
+   "reasoning": "10 + 9 = 19.",
+   "keys": [
+    "Bonconventi"
+   ],
+   "lcs_bytes": 42,
+   "option_counts_T": [
+    2,
+    34,
+    9,
+    3
+   ],
+   "option_counts_C": [
+    0,
+    14,
+    0,
+    3
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-NOT-17",
+   "kind": "inference",
+   "work": "notebooks",
+   "stem": "At 3 dinari the square braccio the mile of canal amounts to 506 1/4 ducats; two miles amount to ",
+   "options": [
+    "1006 1/4",
+    "1012 1/2",
+    "1013 1/2",
+    "1112 1/2"
+   ],
+   "answer_index": 1,
+   "option_bytes": 8,
+   "quotes": [
+    {
+     "work": "notebooks",
+     "quote": "At 3 dinari the square braccio, the mile will amount to 506 1/4 ducats",
+     "locator": "Canals"
+    }
+   ],
+   "reasoning": "2 x 506 1/4 = 1012 1/2.",
+   "keys": [
+    "dinari"
+   ],
+   "lcs_bytes": 30,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-OPT-07",
+   "kind": "inference",
+   "work": "opticks",
+   "stem": "A telescope of 64 feet magnifies about 120 times and one of a foot magnifies 15 times; the larger magnifies more by the factor ",
+   "options": [
+    "4",
+    "9",
+    "6",
+    "8"
+   ],
+   "answer_index": 3,
+   "option_bytes": 1,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "a Telescope of 64 Feet in length, with an Aperture of 2-2/3 Inches, magnifies about 120 times, with as much distinctness as one of a Foot in length, with 1/3 of an Inch aperture, magnifies 15 times",
+     "locator": "Book I, Part I"
+    }
+   ],
+   "reasoning": "120 / 15 = 8.",
+   "keys": [
+    "Telescope"
+   ],
+   "lcs_bytes": 26,
+   "option_counts_T": [
+    67295,
+    49401,
+    55803,
+    60999
+   ],
+   "option_counts_C": [
+    43600,
+    30472,
+    39526,
+    46135
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-OPT-08",
+   "kind": "inference",
+   "work": "opticks",
+   "stem": "Total reflexion out of glass into air begins at an angle of incidence of 40 Degrees 10 Minutes; the complement of that angle is ",
+   "options": [
+    "49 Degrees 50 Minutes",
+    "50 Degrees 10 Minutes",
+    "48 Degrees 50 Minutes",
+    "49 Degrees 10 Minutes"
+   ],
+   "answer_index": 0,
+   "option_bytes": 21,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "In passing out of Glass into Air, where the Refraction is measured by the Ratio of the Sines 20 to 31, the total Reflexion begins when the Angle of Incidence is 40 Degrees 10 Minutes;",
+     "locator": "Book II, Part III, Prop. 8"
+    },
+    {
+     "work": "euclid",
+     "quote": "When the sum of two angles is a right angle, each is called the complement of the other.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "90 deg - 40 deg 10' = 49 deg 50'.",
+   "keys": [
+    "total Reflexion"
+   ],
+   "lcs_bytes": 24,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-OPT-09",
+   "kind": "inference",
+   "work": "opticks",
+   "stem": "Total reflexion out of water into air begins at an angle of incidence of 48 Degrees 35 Minutes; the complement of that angle is ",
+   "options": [
+    "40 Degrees 25 Minutes",
+    "42 Degrees 25 Minutes",
+    "41 Degrees 35 Minutes",
+    "41 Degrees 25 Minutes"
+   ],
+   "answer_index": 3,
+   "option_bytes": 21,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "the total Reflexion begins when the Angle of Incidence is about 48 Degrees 35 Minutes.",
+     "locator": "Book II, Part III, Prop. 8"
+    },
+    {
+     "work": "euclid",
+     "quote": "When the sum of two angles is a right angle, each is called the complement of the other.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "90 deg - 48 deg 35' = 41 deg 25'.",
+   "keys": [
+    "Water into Air"
+   ],
+   "lcs_bytes": 23,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-OPT-10",
+   "kind": "inference",
+   "work": "opticks",
+   "stem": "Total reflexion out of glass into air begins at an angle of incidence of 40 Degrees 10 Minutes; the supplement of that angle is ",
+   "options": [
+    "139 Degrees 50 Minutes",
+    "138 Degrees 50 Minutes",
+    "139 Degrees 10 Minutes",
+    "140 Degrees 10 Minutes"
+   ],
+   "answer_index": 0,
+   "option_bytes": 22,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "In passing out of Glass into Air, where the Refraction is measured by the Ratio of the Sines 20 to 31, the total Reflexion begins when the Angle of Incidence is 40 Degrees 10 Minutes;",
+     "locator": "Book II, Part III, Prop. 8"
+    },
+    {
+     "work": "euclid",
+     "quote": "1.—The sum of two supplemental angles is two right angles.",
+     "locator": "Book I"
+    },
+    {
+     "work": "euclid",
+     "quote": "When the sum of two angles BAC, CAD is such that the legs BA, AD form one right line, they are called supplements of each other.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "180 deg - 40 deg 10' = 139 deg 50'.",
+   "keys": [
+    "40 Degrees 10 Minutes"
+   ],
+   "lcs_bytes": 24,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PRI-10",
+   "kind": "inference",
+   "work": "principia",
+   "stem": "Newton was born on the 25th of December, 1642, and received the degree of Bachelor of Arts in 1665; he was then aged about ",
+   "options": [
+    "25 years",
+    "22 years",
+    "23 years",
+    "24 years"
+   ],
+   "answer_index": 2,
+   "option_bytes": 8,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "was born on the 25th of December, O. S. 1642",
+     "locator": "Life of Newton"
+    },
+    {
+     "work": "principia",
+     "quote": "In the year 1665, he received the degree of Bachelor of Arts;",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "1665 - 1642 = 23.",
+   "keys": [
+    "Bachelor of Arts",
+    "1642"
+   ],
+   "lcs_bytes": 40,
+   "option_counts_T": [
+    7,
+    3,
+    6,
+    9
+   ],
+   "option_counts_C": [
+    9,
+    1,
+    4,
+    6
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PRI-11",
+   "kind": "inference",
+   "work": "principia",
+   "stem": "Newton was born in 1642 and chosen President of the Royal Society in 1703; he was then aged about ",
+   "options": [
+    "60 years",
+    "62 years",
+    "63 years",
+    "61 years"
+   ],
+   "answer_index": 3,
+   "option_bytes": 8,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "was born on the 25th of December, O. S. 1642",
+     "locator": "Life of Newton"
+    },
+    {
+     "work": "principia",
+     "quote": "In 1703, he was chosen President of the Royal Society of London",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "1703 - 1642 = 61.",
+   "keys": [
+    "President"
+   ],
+   "lcs_bytes": 39,
+   "option_counts_T": [
+    5,
+    0,
+    1,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PRI-12",
+   "kind": "inference",
+   "work": "principia",
+   "stem": "A wooden vessel was 4 feet long, 1 foot broad and 1 foot high; its content in cubic feet is ",
+   "options": [
+    "3",
+    "4",
+    "6",
+    "2"
+   ],
+   "answer_index": 1,
+   "option_bytes": 1,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "I procured a wooden vessel 4 feet long, 1 foot broad, and 1 foot high.",
+     "locator": "Book II"
+    }
+   ],
+   "reasoning": "4 x 1 x 1 = 4.",
+   "keys": [
+    "wooden vessel"
+   ],
+   "lcs_bytes": 26,
+   "option_counts_T": [
+    81125,
+    67295,
+    55803,
+    118326
+   ],
+   "option_counts_C": [
+    52764,
+    43600,
+    39526,
+    77355
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PRI-13",
+   "kind": "inference",
+   "work": "principia",
+   "stem": "The clock went slower at the rate of 2' 13'' in 24 hours; in 48 hours it goes slower by ",
+   "options": [
+    "4' 36''",
+    "4' 16''",
+    "5' 26''",
+    "4' 26''"
+   ],
+   "answer_index": 3,
+   "option_bytes": 7,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "he found his clock to go slower than before at the rate of 2' 13'' in 24 hours.",
+     "locator": "Book III"
+    }
+   ],
+   "reasoning": "2 x 2' 13'' = 4' 26''.",
+   "keys": [
+    "clock"
+   ],
+   "lcs_bytes": 35,
+   "option_counts_T": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-REL-06",
+   "kind": "inference",
+   "work": "relativity",
+   "stem": "The earth travels in its orbit at about 30 kilometres per second; in ten seconds it travels about ",
+   "options": [
+    "400 km",
+    "200 km",
+    "300 km",
+    "600 km"
+   ],
+   "answer_index": 2,
+   "option_bytes": 6,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "a velocity of about 30 kilometres per second",
+     "locator": "Part I"
+    }
+   ],
+   "reasoning": "10 x 30 = 300.",
+   "keys": [
+    "30 kilometres"
+   ],
+   "lcs_bytes": 31,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-REL-07",
+   "kind": "inference",
+   "work": "relativity",
+   "stem": "Light travels with a velocity of 300,000 km./sec.; in two seconds it travels ",
+   "options": [
+    "300,000 km",
+    "900,000 km",
+    "200,000 km",
+    "600,000 km"
+   ],
+   "answer_index": 3,
+   "option_bytes": 10,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "a velocity _c_ = 300,000 km./sec.",
+     "locator": "Part I"
+    }
+   ],
+   "reasoning": "2 x 300,000 = 600,000.",
+   "keys": [
+    "300,000"
+   ],
+   "lcs_bytes": 21,
+   "option_counts_T": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-REL-09",
+   "kind": "inference",
+   "work": "relativity",
+   "stem": "Mercury's orbit rotates 43 seconds of arc per century; in half a century it is about ",
+   "options": [
+    "23.5 seconds",
+    "20.5 seconds",
+    "22.5 seconds",
+    "21.5 seconds"
+   ],
+   "answer_index": 3,
+   "option_bytes": 12,
+   "quotes": [
+    {
+     "work": "relativity",
+     "quote": "in the case of Mercury it must amount to 43 seconds of arc per century",
+     "locator": "Part II"
+    }
+   ],
+   "reasoning": "43 / 2 = 21.5.",
+   "keys": [
+    "seconds of arc"
+   ],
+   "lcs_bytes": 31,
+   "option_counts_T": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PLA-11",
+   "kind": "inference",
+   "work": "republic",
+   "stem": "In the Republic there are five forms of the State and five of the soul; the total number of forms is ",
+   "options": [
+    "two",
+    "six",
+    "one",
+    "ten"
+   ],
+   "answer_index": 3,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "republic",
+     "quote": "There are five of the State, and five of the soul, I said.",
+     "locator": "Republic"
+    },
+    {
+     "work": "republic",
+     "quote": "Thus there are five forms in all, both of states and of souls...",
+     "locator": "Republic"
+    }
+   ],
+   "reasoning": "5 + 5 = 10.",
+   "keys": [
+    "five forms"
+   ],
+   "lcs_bytes": 22,
+   "option_counts_T": [
+    28489,
+    4890,
+    104881,
+    66730
+   ],
+   "option_counts_C": [
+    22834,
+    5297,
+    111465,
+    66179
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PLA-12",
+   "kind": "inference",
+   "work": "republic",
+   "stem": "In the Republic every wrong is punished tenfold in a journey of a thousand years, and the life of man is reckoned at a hundred years; the penalty is paid in times numbering ",
+   "options": [
+    "ten",
+    "one",
+    "two",
+    "six"
+   ],
+   "answer_index": 0,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "republic",
+     "quote": "He said that for every evil deed they were punished tenfold--now the journey was of a thousand years' duration, because the life of man was reckoned as a hundred years",
+     "locator": "Republic"
+    }
+   ],
+   "reasoning": "1000 / 100 = 10.",
+   "keys": [
+    "tenfold"
+   ],
+   "lcs_bytes": 24,
+   "option_counts_T": [
+    66730,
+    104881,
+    28489,
+    4890
+   ],
+   "option_counts_C": [
+    66179,
+    111465,
+    22834,
+    5297
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-EUC-11",
+   "kind": "inference",
+   "work": "euclid",
+   "stem": "A pentagon has five sides and a hexagon six sides; the hexagon has more sides than the pentagon by ",
+   "options": [
+    "six",
+    "one",
+    "two",
+    "ten"
+   ],
+   "answer_index": 1,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "A polygon which has five sides is called a pentagon;",
+     "locator": "Definitions"
+    },
+    {
+     "work": "euclid",
+     "quote": "one which has six sides, a hexagon, and so on.",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "6 - 5 = 1.",
+   "keys": [
+    "hexagon"
+   ],
+   "lcs_bytes": 16,
+   "option_counts_T": [
+    4890,
+    104881,
+    28489,
+    66730
+   ],
+   "option_counts_C": [
+    5297,
+    111465,
+    22834,
+    66179
+   ],
+   "answer_most_frequent_in_T": true
+  },
+  {
+   "id": "I-EUC-12",
+   "kind": "inference",
+   "work": "euclid",
+   "stem": "A triangle has six exterior angles and a triangle has three angles; the exterior angles outnumber the interior angles by a factor of ",
+   "options": [
+    "ten",
+    "one",
+    "six",
+    "two"
+   ],
+   "answer_index": 3,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "euclid",
+     "quote": "Hence a triangle has six exterior angles",
+     "locator": "Definitions"
+    },
+    {
+     "work": "euclid",
+     "quote": "An acute-angled triangle is one that has its three angles acute",
+     "locator": "Definitions"
+    }
+   ],
+   "reasoning": "6 / 3 = 2.",
+   "keys": [
+    "exterior angles"
+   ],
+   "lcs_bytes": 33,
+   "option_counts_T": [
+    66730,
+    104881,
+    4890,
+    28489
+   ],
+   "option_counts_C": [
+    66179,
+    111465,
+    5297,
+    22834
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PLA-14",
+   "kind": "inference",
+   "work": "republic",
+   "stem": "In the Republic a woman bears children from twenty until forty years of age and a man begets children from five-and-twenty until fifty-five; the man's period exceeds the woman's by years numbering ",
+   "options": [
+    "ten",
+    "one",
+    "six",
+    "two"
+   ],
+   "answer_index": 0,
+   "option_bytes": 3,
+   "quotes": [
+    {
+     "work": "republic",
+     "quote": "A woman, I said, at twenty years of age may begin to bear children to the State, and continue to bear them until forty;",
+     "locator": "Republic"
+    },
+    {
+     "work": "republic",
+     "quote": "a man may begin at five-and-twenty, when he has passed the point at which the pulse of life beats quickest, and continue to beget children until he be fifty-five.",
+     "locator": "Republic"
+    }
+   ],
+   "reasoning": "30 - 20 = 10.",
+   "keys": [
+    "bear children"
+   ],
+   "lcs_bytes": 24,
+   "option_counts_T": [
+    66730,
+    104881,
+    4890,
+    28489
+   ],
+   "option_counts_C": [
+    66179,
+    111465,
+    5297,
+    22834
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-PRI-14",
+   "kind": "inference",
+   "work": "principia",
+   "stem": "Newton was born on the 25th of December, 1642, and admitted to Trinity College on the 5th of June, 1660; his age in completed years at his admission was ",
+   "options": [
+    "17 years",
+    "16 years",
+    "18 years",
+    "19 years"
+   ],
+   "answer_index": 0,
+   "option_bytes": 8,
+   "quotes": [
+    {
+     "work": "principia",
+     "quote": "was born on the 25th of December, O. S. 1642",
+     "locator": "Life of Newton"
+    },
+    {
+     "work": "principia",
+     "quote": "was duly admitted, on the 5th day of June 1660, in the eighteenth year of his age.",
+     "locator": "Life of Newton"
+    }
+   ],
+   "reasoning": "June 1660 minus Dec 1642 is 17 years and a half.",
+   "keys": [
+    "admitted"
+   ],
+   "lcs_bytes": 35,
+   "option_counts_T": [
+    4,
+    5,
+    1,
+    9
+   ],
+   "option_counts_C": [
+    3,
+    2,
+    2,
+    5
+   ],
+   "answer_most_frequent_in_T": false
+  },
+  {
+   "id": "I-OPT-11",
+   "kind": "inference",
+   "work": "opticks",
+   "stem": "The Halo is at a distance of 22-1/2 Degrees from the Moon; the angle across the Halo from side to side is ",
+   "options": [
+    "65 Degrees",
+    "35 Degrees",
+    "45 Degrees",
+    "55 Degrees"
+   ],
+   "answer_index": 2,
+   "option_bytes": 10,
+   "quotes": [
+    {
+     "work": "opticks",
+     "quote": "The Halo at the distance of 22-1/2 Degrees from the Moon is of another sort.",
+     "locator": "Book II, Part IV"
+    }
+   ],
+   "reasoning": "2 x 22-1/2 = 45.",
+   "keys": [
+    "Halo"
+   ],
+   "lcs_bytes": 41,
+   "option_counts_T": [
+    0,
+    0,
+    7,
+    0
+   ],
+   "option_counts_C": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "answer_most_frequent_in_T": true
+  }
+ ]
+}

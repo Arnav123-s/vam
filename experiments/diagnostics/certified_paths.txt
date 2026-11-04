@@ -1,0 +1,9 @@
+# python experiments/diagnostics/certified_paths.py 40   (planner session, 2026-10-21; vam/*.md text at that time)
+trained 298814 bytes, train bpb 2.645, 2.9s
+h= 8 hbar=0.25: collapse decisions equal 40/40; nodes full     511, certified collapse   176.0, certified sample(tol 1e-3)   464.5, max |dZ| 3.49e-04; least action exact 40/40 in 11.4 nodes
+h= 8 hbar=0.50: collapse decisions equal 40/40; nodes full     511, certified collapse   184.4, certified sample(tol 1e-3)   471.1, max |dZ| 3.15e-04; least action exact 40/40 in 11.4 nodes
+h= 8 hbar=1.00: collapse decisions equal 40/40; nodes full     511, certified collapse   163.8, certified sample(tol 1e-3)   477.7, max |dZ| 4.00e-04; least action exact 40/40 in 11.4 nodes
+h=12 hbar=0.25: collapse decisions equal 40/40; nodes full    8191, certified collapse  3994.0, certified sample(tol 1e-3)  7598.4, max |dZ| 1.54e-04; least action exact 40/40 in 17.5 nodes
+h=12 hbar=0.50: collapse decisions equal 40/40; nodes full    8191, certified collapse  3906.8, certified sample(tol 1e-3)  7620.5, max |dZ| 2.55e-04; least action exact 40/40 in 17.5 nodes
+h=12 hbar=1.00: collapse decisions equal 40/40; nodes full    8191, certified collapse  3482.9, certified sample(tol 1e-3)  7536.9, max |dZ| 3.49e-04; least action exact 40/40 in 17.5 nodes
+# The training text is vam/*.md as it stood then; the docs have grown since, so a rerun gives close but not identical numbers.

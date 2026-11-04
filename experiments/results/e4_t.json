@@ -1,0 +1,77 @@
+{
+ "experiment": "E4 control added after the result: E3's base with sink rate 0",
+ "protocol": "experiments/PROTOCOL.md, E4 Amendment 2",
+ "label": "added after the result",
+ "provenance": {
+  "utc": "2026-10-20T20:17:17Z",
+  "commit": "a525097419269e8483023f81d23b320a9f24a0c2",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "numba": "0.68.0",
+  "machine": "x86_64",
+  "seed": 20261018,
+  "manifest": "experiments/data/pg19/MANIFEST.json",
+  "smoke": false,
+  "manifest_sha256": "8a8dace3a8be8492e2d1ed789f9e9da0298f7647937323b8a9f249f701684565"
+ },
+ "E3_base_sink_rate_0": {
+  "spec": {
+   "machine": "hier",
+   "law": "counting",
+   "prior": 4.0,
+   "coherence": 1.0,
+   "governor": true,
+   "protect": 0.5,
+   "sink_rate": 0.0,
+   "verify": 3,
+   "hier_levels": ""
+  },
+  "train_bpb": 1.8280168295477488,
+  "A_validation": 1.8591812604954647,
+  "A_test": 2.124260525100312,
+  "A_heldout": 1.9470265892306555,
+  "B_test": 2.4644555518276974,
+  "B_heldout": 2.356102729219744,
+  "counters": {
+   "evictions": 17921017,
+   "refused": 155177692,
+   "protected": 3460922,
+   "occupancy": {
+    "2": 0.09039545059204102,
+    "3": 0.2990269660949707,
+    "4": 0.7348074913024902,
+    "5": 0.8744480609893799
+   },
+   "global_occupancy": 0.49966949224472046
+  },
+  "decomposition": {
+   "0": {
+    "share": 0.23449255861987384,
+    "bpb": 3.0966633742558503,
+    "bits": 3001670.128587178
+   },
+   "8": {
+    "share": 0.5639390677960157,
+    "bpb": 1.8999577241195564,
+    "bits": 4429105.448158545
+   },
+   "16": {
+    "share": 0.17817606415933004,
+    "bpb": 1.6629239555943638,
+    "bits": 1224790.0551660056
+   },
+   "32": {
+    "share": 0.023392309424780506,
+    "bpb": 1.2979639393172158,
+    "bits": 125509.21904015682
+   },
+   "all": {
+    "share": 1.0,
+    "bpb": 2.1242605251003126,
+    "bits": 8781074.850951888
+   }
+  }
+ },
+ "seconds": 447.9
+}

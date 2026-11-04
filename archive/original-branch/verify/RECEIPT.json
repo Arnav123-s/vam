@@ -1,0 +1,1615 @@
+{
+  "verdict": "PASS",
+  "created_utc": "2026-10-18T12:53:45+00:00",
+  "seconds": 405.91,
+  "mode": "full",
+  "commit": "2eb4f7060fcabd689aca71c2f9e370056754cf15",
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "pytest": "9.1.1",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+  },
+  "specification": {
+    "VAM_Coupled_Theory_and_Proofs.md": "df2de9efb9c335918940455da962aec4fe90f6d8dbf6c51d92a626dd5c8d1523",
+    "VAM_Framework_Foundational_Principles.md": "2c56d110c47df669daa51ba3c688f214ad79e219aebd42e5c7e1cf79c924b0d9"
+  },
+  "tests": {
+    "exit_code": 0,
+    "counts": {
+      "passed": 267
+    },
+    "results": [
+      {
+        "test": "tests/test_bitkernel.py::test_equals_the_pointer_engine[1-1-False]",
+        "outcome": "passed",
+        "seconds": 0.4293
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_equals_the_pointer_engine[2-3-False]",
+        "outcome": "passed",
+        "seconds": 0.0219
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_equals_the_pointer_engine[3-3-True]",
+        "outcome": "passed",
+        "seconds": 0.022
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_equals_the_pointer_engine[2-2-True]",
+        "outcome": "passed",
+        "seconds": 0.0215
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_equals_the_dense_coherent_engine",
+        "outcome": "passed",
+        "seconds": 0.5937
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_rejects_a_massive_field",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_step_and_run_agree",
+        "outcome": "passed",
+        "seconds": 0.0307
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_compiled_and_reference_paths_agree",
+        "outcome": "passed",
+        "seconds": 0.0472
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_register_holds_the_last_k_bits",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_bits_per_byte",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_learns_a_deterministic_stream_down_to_its_window_floor",
+        "outcome": "passed",
+        "seconds": 0.0071
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_state_size_is_constant",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_continuation_distribution_equals_the_machine",
+        "outcome": "passed",
+        "seconds": 0.5485
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_generation_matches_macro_micro_and_does_not_learn",
+        "outcome": "passed",
+        "seconds": 123.2458
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_sampled_generation_is_reproducible",
+        "outcome": "passed",
+        "seconds": 0.0057
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_generated_bits_pack_into_bytes",
+        "outcome": "passed",
+        "seconds": 0.8891
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_measured_throughput",
+        "outcome": "passed",
+        "seconds": 0.8288
+      },
+      {
+        "test": "tests/test_corpus.py::test_cleaning_keeps_only_the_book_text",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_corpus.py::test_cleaning_rejects_bytes_that_are_not_utf8",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_corpus.py::test_split_by_position_at_line_ends",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_corpus.py::test_controls_rearrange_without_changing_a_byte",
+        "outcome": "passed",
+        "seconds": 0.0014
+      },
+      {
+        "test": "tests/test_corpus.py::test_word_shuffle_stays_inside_each_sentence",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_corpus.py::test_manifest_streams_and_hashes",
+        "outcome": "passed",
+        "seconds": 0.0016
+      },
+      {
+        "test": "tests/test_f07_geometry_loop.py::test_metric_sets_slower_transport_where_density_is_higher",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_f07_geometry_loop.py::test_loop_is_norm_preserving",
+        "outcome": "passed",
+        "seconds": 0.1025
+      },
+      {
+        "test": "tests/test_f07_geometry_loop.py::test_vector_concentration_bends_its_own_flow",
+        "outcome": "passed",
+        "seconds": 0.4112
+      },
+      {
+        "test": "tests/test_f07_geometry_loop.py::test_the_field_is_dynamic_and_driven_by_the_vectors",
+        "outcome": "passed",
+        "seconds": 0.087
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_partial_trace_of_product",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_space_embed_matches_kron_and_permutation",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_space_reduce_round_trip",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_density_checks",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_purity_bounds",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_condition_refuses_zero_probability",
+        "outcome": "passed",
+        "seconds": 0.0001
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_kraus_representations_agree",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_compose_and_compress",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_collision_channel_is_cptp_and_matches_partial_trace",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_instrument_requires_completeness",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_trace_distance_and_entropy",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_unitary_from_hamiltonian_is_unitary_for_long_times",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_long_runs.py::test_bit_kernel_storage_is_constant_over_a_million_events",
+        "outcome": "passed",
+        "seconds": 0.0173
+      },
+      {
+        "test": "tests/test_long_runs.py::test_nested_storage_is_constant_over_a_million_events",
+        "outcome": "passed",
+        "seconds": 0.1277
+      },
+      {
+        "test": "tests/test_long_runs.py::test_coherent_machine_stays_a_valid_density_over_twenty_thousand_events",
+        "outcome": "passed",
+        "seconds": 14.5689
+      },
+      {
+        "test": "tests/test_nested.py::test_one_level_is_the_bit_kernel[law0]",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_nested.py::test_one_level_is_the_bit_kernel[law1]",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_nested.py::test_without_inheritance_every_level_is_its_own_bit_kernel",
+        "outcome": "passed",
+        "seconds": 0.0027
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_exact_reference_until_the_first_eviction[law0-mixture-0-True-0.0]",
+        "outcome": "passed",
+        "seconds": 0.1094
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_exact_reference_until_the_first_eviction[law1-mature-1-True-0.0]",
+        "outcome": "passed",
+        "seconds": 0.0975
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_exact_reference_until_the_first_eviction[law2-mature-0-False-0.0]",
+        "outcome": "passed",
+        "seconds": 0.106
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_exact_reference_until_the_first_eviction[law3-mixture-3-True-4.0]",
+        "outcome": "passed",
+        "seconds": 0.1233
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_table_reference_with_forgetting[law0-mixture-0-True-0.0]",
+        "outcome": "passed",
+        "seconds": 0.1119
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_table_reference_with_forgetting[law1-mature-1-True-0.0]",
+        "outcome": "passed",
+        "seconds": 0.0961
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_table_reference_with_forgetting[law2-mature-0-False-0.0]",
+        "outcome": "passed",
+        "seconds": 0.079
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_table_reference_with_forgetting[law3-mixture-3-True-4.0]",
+        "outcome": "passed",
+        "seconds": 0.0976
+      },
+      {
+        "test": "tests/test_nested.py::test_python_hash_matches_the_compiled_tables",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_nested.py::test_a_new_distinction_starts_as_the_coarser_readout[law0]",
+        "outcome": "passed",
+        "seconds": 0.0567
+      },
+      {
+        "test": "tests/test_nested.py::test_a_new_distinction_starts_as_the_coarser_readout[law1]",
+        "outcome": "passed",
+        "seconds": 0.0544
+      },
+      {
+        "test": "tests/test_nested.py::test_creating_a_distinction_leaves_the_prediction_unchanged",
+        "outcome": "passed",
+        "seconds": 0.0984
+      },
+      {
+        "test": "tests/test_nested.py::test_storage_is_fixed_and_forgetting_is_counted",
+        "outcome": "passed",
+        "seconds": 0.0084
+      },
+      {
+        "test": "tests/test_nested.py::test_frozen_reading_changes_no_table",
+        "outcome": "passed",
+        "seconds": 0.0017
+      },
+      {
+        "test": "tests/test_nested.py::test_deep_levels_resolve_what_a_short_window_cannot",
+        "outcome": "passed",
+        "seconds": 0.0157
+      },
+      {
+        "test": "tests/test_nested.py::test_deep_levels_cost_little_on_a_short_memory_source",
+        "outcome": "passed",
+        "seconds": 0.3593
+      },
+      {
+        "test": "tests/test_nested.py::test_a_prior_slows_a_new_sector_without_moving_it",
+        "outcome": "passed",
+        "seconds": 0.0262
+      },
+      {
+        "test": "tests/test_nested.py::test_continuations_are_the_machines_own_predictions",
+        "outcome": "passed",
+        "seconds": 0.0011
+      },
+      {
+        "test": "tests/test_nested.py::test_generation_continues_a_learned_text_and_does_not_learn",
+        "outcome": "passed",
+        "seconds": 0.2566
+      },
+      {
+        "test": "tests/test_nested.py::test_rejects_bad_configurations",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_nested.py::test_measured_throughput",
+        "outcome": "passed",
+        "seconds": 3.1019
+      },
+      {
+        "test": "tests/test_sources.py::test_binary_entropy",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_sources.py::test_hmm_rejects_an_invalid_model",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_sources.py::test_markov_bits_floor_is_the_entropy_rate_once_the_window_covers_the_order",
+        "outcome": "passed",
+        "seconds": 0.0881
+      },
+      {
+        "test": "tests/test_sources.py::test_markov_bits_emit_the_table",
+        "outcome": "passed",
+        "seconds": 0.0775
+      },
+      {
+        "test": "tests/test_sources.py::test_incomplete_codes_oracle_is_the_t22_machine",
+        "outcome": "passed",
+        "seconds": 0.1131
+      },
+      {
+        "test": "tests/test_sources.py::test_incomplete_codes_floors_fall_toward_the_entropy_rate",
+        "outcome": "passed",
+        "seconds": 0.7159
+      },
+      {
+        "test": "tests/test_sources.py::test_byte_markov_floor_matches_an_independent_bit_hmm[16-ks0]",
+        "outcome": "passed",
+        "seconds": 0.4846
+      },
+      {
+        "test": "tests/test_sources.py::test_byte_markov_floor_matches_an_independent_bit_hmm[4-ks1]",
+        "outcome": "passed",
+        "seconds": 0.0385
+      },
+      {
+        "test": "tests/test_sources.py::test_byte_markov_oracle_multiplies_to_the_letter_probabilities",
+        "outcome": "passed",
+        "seconds": 0.0442
+      },
+      {
+        "test": "tests/test_sources.py::test_byte_markov_floors_are_monotone_and_above_the_rate",
+        "outcome": "passed",
+        "seconds": 0.0148
+      },
+      {
+        "test": "tests/test_sources.py::test_delayed_echo_floor_matches_its_hmm",
+        "outcome": "passed",
+        "seconds": 0.028
+      },
+      {
+        "test": "tests/test_sources.py::test_conditional_entropy_of_a_table",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_sources.py::test_contexts_hold_the_previous_bits",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_sources.py::test_kt_equals_a_naive_loop",
+        "outcome": "passed",
+        "seconds": 0.0118
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_joint_state_marginals",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_factor_form_is_positive",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_signed_weight_observable_with_positive_density",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_congruence_preserves_positivity_and_density_products_do_not",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_reciprocal_heisenberg_equations[1.0]",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_reciprocal_heisenberg_equations[0.37]",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_mean_field_exact_only_for_product_states",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_density_metric_positive_and_state_dependent",
+        "outcome": "passed",
+        "seconds": 0.0015
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_bits_round_trip_for_any_bytes",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_kraus_completeness_exact",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_population_maps_match_kraus_and_columns_sum_to_one",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_exact_table_with_rationals",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_machine_reproduces_table_and_string_probability",
+        "outcome": "passed",
+        "seconds": 0.0016
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_three_parses_each_one_ninth_and_state_keeps_the_ambiguity",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_brute_force_agrees_with_density_on_all_short_strings",
+        "outcome": "passed",
+        "seconds": 0.5971
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_order_survives_in_present_state",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_bch_second_order_term_is_the_commutator",
+        "outcome": "passed",
+        "seconds": 0.0122
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_generator_level_boundary_hamiltonian",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_direct_interior_exterior_term_is_detected",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_generator_level_boundary_with_local_dissipators",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_pointer_blanket_has_zero_cmi",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_quantum_markov_chain_form_has_zero_cmi",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_relay_counterexample_cmi_one_bit",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_activity_registers_switch_boundaries",
+        "outcome": "passed",
+        "seconds": 0.0014
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_zero_mean_weight_is_not_absence",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_t05_spiral_blanket.py::test_exact_numbers_symbolically",
+        "outcome": "passed",
+        "seconds": 0.1271
+      },
+      {
+        "test": "tests/test_t05_spiral_blanket.py::test_numeric_module_matches",
+        "outcome": "passed",
+        "seconds": 0.0043
+      },
+      {
+        "test": "tests/test_t05_spiral_blanket.py::test_conditional_law_independent_of_exterior",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_t05_spiral_blanket.py::test_internal_fixed_point_and_spiral",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_t05_spiral_blanket.py::test_blanket_on_simulated_data",
+        "outcome": "passed",
+        "seconds": 0.6081
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_clifford_relations[1]",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_clifford_relations[2]",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_clifford_relations[3]",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_wilson_spectrum_matches_dispersion",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_staggered_chain_is_number_conserving_and_maps_to_hopping",
+        "outcome": "passed",
+        "seconds": 0.0016
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_staggered_ring_dispersion_is_lattice_dirac",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_split_step_walk_unitary_dispersion_and_exact_cone",
+        "outcome": "passed",
+        "seconds": 0.0076
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_continuous_time_lattice_hamiltonian_has_tails_beyond_the_cone",
+        "outcome": "passed",
+        "seconds": 0.0022
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_checkerboard_path_sum_equals_walk[1]",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_checkerboard_path_sum_equals_walk[4]",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_checkerboard_path_sum_equals_walk[9]",
+        "outcome": "passed",
+        "seconds": 0.0033
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_dirac_collision_channel_is_cptp",
+        "outcome": "passed",
+        "seconds": 0.0011
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_lindblad_semigroup_is_cptp",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_dephasing_einselection_closed_form",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_sector_dissipator_keeps_interior_coherence",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_locks_from_dynamics",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_finite_path_sum_is_exact",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_two_path_influence_functional_equals_partial_trace[False]",
+        "outcome": "passed",
+        "seconds": 0.0023
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_two_path_influence_functional_equals_partial_trace[True]",
+        "outcome": "passed",
+        "seconds": 0.0022
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_pure_environment_influence_is_an_overlap",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_dark_port_table[1.0-0.0]",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_dark_port_table[0.5-0.25]",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_dark_port_table[0.0-0.5]",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_dark_port_complex_overlap",
+        "outcome": "passed",
+        "seconds": 0.002
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_phase_error_bound",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_dirac_plane_wave_dispersion[p0]",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_dirac_plane_wave_dispersion[p1]",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_wkb_dispersion_relation_symbolically",
+        "outcome": "passed",
+        "seconds": 0.0253
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_characteristics_approach_newton_as_c_grows",
+        "outcome": "passed",
+        "seconds": 0.0192
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_stationary_phase_leading_term_and_error_order",
+        "outcome": "passed",
+        "seconds": 0.1761
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_nonstationary_channel_decays_faster_than_any_power",
+        "outcome": "passed",
+        "seconds": 0.0074
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_needle_separation",
+        "outcome": "passed",
+        "seconds": 0.019
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_25_configuration_interference_for_every_r",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_geometric_series_vanishes_exactly",
+        "outcome": "passed",
+        "seconds": 0.0478
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_nested_readout_identifies_seven",
+        "outcome": "passed",
+        "seconds": 0.0053
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_streaming_residue_machine_reads_needle_with_certainty",
+        "outcome": "passed",
+        "seconds": 0.1619
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_macro_micro_threading_free_particle",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_threading_symbolically",
+        "outcome": "passed",
+        "seconds": 0.0229
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_wave_packet_endpoint_and_spread",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_dirac_packet_follows_newton_for_large_c",
+        "outcome": "passed",
+        "seconds": 0.0058
+      },
+      {
+        "test": "tests/test_t09_two_mode.py::test_state_after_ts",
+        "outcome": "passed",
+        "seconds": 0.0388
+      },
+      {
+        "test": "tests/test_t09_two_mode.py::test_correlations_change_the_differential_equation",
+        "outcome": "passed",
+        "seconds": 0.0102
+      },
+      {
+        "test": "tests/test_t09_two_mode.py::test_readout_feedback_and_next_output",
+        "outcome": "passed",
+        "seconds": 0.4335
+      },
+      {
+        "test": "tests/test_t09_two_mode.py::test_machine_reproduces_output_pairs",
+        "outcome": "passed",
+        "seconds": 0.0035
+      },
+      {
+        "test": "tests/test_t09_two_mode.py::test_five_steps_all_32_branches",
+        "outcome": "passed",
+        "seconds": 0.0223
+      },
+      {
+        "test": "tests/test_t09_two_mode.py::test_same_vector_marginal_different_weights_different_response",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_event_equation_equals_composed_maps",
+        "outcome": "passed",
+        "seconds": 0.0078
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_theorem_positivity_normalization_and_sum",
+        "outcome": "passed",
+        "seconds": 0.1276
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_predicted_stream_probabilities_sum_to_one",
+        "outcome": "passed",
+        "seconds": 0.2898
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_induction_sequential_normalized_events_equal_one_linear_composition",
+        "outcome": "passed",
+        "seconds": 0.0025
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_markov_property_against_the_generative_process",
+        "outcome": "passed",
+        "seconds": 0.103
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_machine_keeps_only_the_present_state",
+        "outcome": "passed",
+        "seconds": 0.4706
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_equal_present_states_have_identical_futures",
+        "outcome": "passed",
+        "seconds": 0.026
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_output_is_conditioned_on_once",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_feedback_must_be_trace_preserving",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_feedback_changes_state_without_changing_total_probability",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_zero_probability_observation_is_not_normalized",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_zero_probability_inject_policy_keeps_interpretation_unresolved",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_conditioning_requires_a_complete_prediction",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_relation_preserving_map",
+        "outcome": "passed",
+        "seconds": 0.0025
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_many_fine_configurations_become_one",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_retention_identity_holds_for_relational_events",
+        "outcome": "passed",
+        "seconds": 0.0023
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_retention_gives_identical_future_probabilities_and_states",
+        "outcome": "passed",
+        "seconds": 0.0321
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_retention_fails_when_the_nuisance_feeds_back",
+        "outcome": "passed",
+        "seconds": 0.0015
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_algebra_canalization_satisfies_the_identity_and_is_cptp",
+        "outcome": "passed",
+        "seconds": 0.0044
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_generic_dynamics_retains_everything",
+        "outcome": "passed",
+        "seconds": 0.005
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_classical_dynamics_retains_only_populations",
+        "outcome": "passed",
+        "seconds": 0.0014
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_incomplete_codes_need_only_populations",
+        "outcome": "passed",
+        "seconds": 0.1655
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_two_mode_machine_keeps_every_distinction",
+        "outcome": "passed",
+        "seconds": 0.0039
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_algebra_respects_declared_seeds",
+        "outcome": "passed",
+        "seconds": 0.0186
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_continuous_retention_identity",
+        "outcome": "passed",
+        "seconds": 0.0024
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_lock_converges_exponentially_with_the_gap",
+        "outcome": "passed",
+        "seconds": 0.0011
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_z_then_x_locks_erase_z",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_isometric_nesting_preserves_expectations",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_nesting_the_old_distinction_survives_a_new_lock",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_fixed_dimension_state_keeps_the_function_not_the_history",
+        "outcome": "passed",
+        "seconds": 1.004
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_exact_table",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_closed_forms_solve_the_moment_equations_symbolically",
+        "outcome": "passed",
+        "seconds": 0.0439
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_reciprocity_from_one_energy",
+        "outcome": "passed",
+        "seconds": 0.0074
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_exact_ou_transitions_reproduce_the_table_statistically",
+        "outcome": "passed",
+        "seconds": 0.0318
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_zero_noise_idealization_is_deterministic",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_gated_law_reaches_a_conditional_expectation_forward",
+        "outcome": "passed",
+        "seconds": 2.7933
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_gated_law_leaves_inactive_sectors_unchanged",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_consolidation_multipliers_exact",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_consolidation_power_formula",
+        "outcome": "passed",
+        "seconds": 0.0031
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_repetition_also_consolidates_a_mistaken_organization",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_generalization_bound_under_a_common_process",
+        "outcome": "passed",
+        "seconds": 0.0171
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_bound_includes_adaptive_output_feedback",
+        "outcome": "passed",
+        "seconds": 0.0065
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_postselection_can_amplify_differences",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_factor_form_with_hierarchical_isometries_keeps_correlations",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_coarse_isometry_alone_loses_trace_and_the_remainder_flag_restores_it",
+        "outcome": "passed",
+        "seconds": 0.0014
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_coarse_channel_removes_cross_sector_coherence",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_a_mixture_is_not_evidence_of_cross_layer_coherence",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_support_invariant_dynamics_never_populates_the_forbidden_complement",
+        "outcome": "passed",
+        "seconds": 0.0011
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_a_zero_eigenvalue_alone_is_not_a_constraint",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_disjoint_updates_commute_and_overlapping_ones_do_not",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_an_input_changes_distant_observables_only_inside_the_cone",
+        "outcome": "passed",
+        "seconds": 0.0909
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_trotter_local_error_is_second_order_in_the_commutator",
+        "outcome": "passed",
+        "seconds": 0.0016
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_strong_cancellation_needs_high_precision",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_exact_recovery_needs_as_many_bits_as_inputs",
+        "outcome": "passed",
+        "seconds": 0.0379
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_dense_storage_counts",
+        "outcome": "passed",
+        "seconds": 0.002
+      },
+      {
+        "test": "tests/test_tensornet.py::test_round_trip_is_exact[dims0]",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_tensornet.py::test_round_trip_is_exact[dims1]",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_tensornet.py::test_round_trip_is_exact[dims2]",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_tensornet.py::test_round_trip_is_exact[dims3]",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_tensornet.py::test_product_ordering",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_tensornet.py::test_local_gates_match_dense",
+        "outcome": "passed",
+        "seconds": 0.0076
+      },
+      {
+        "test": "tests/test_tensornet.py::test_non_unitary_local_operator_and_norm",
+        "outcome": "passed",
+        "seconds": 0.0017
+      },
+      {
+        "test": "tests/test_tensornet.py::test_truncation_is_optimal_and_accounted",
+        "outcome": "passed",
+        "seconds": 0.0016
+      },
+      {
+        "test": "tests/test_tensornet.py::test_cutoff_drops_only_negligible_weight",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_tensornet.py::test_expectations_and_reduced_densities",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_tensornet.py::test_entanglement_entropy_matches_schmidt",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_tensornet.py::test_canonical_gauge_does_not_change_the_state",
+        "outcome": "passed",
+        "seconds": 0.0011
+      },
+      {
+        "test": "tests/test_tensornet.py::test_storage_count_is_the_t13_4_formula",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_tensornet.py::test_staggered_dirac_chain_evolution_matches_dense",
+        "outcome": "passed",
+        "seconds": 1.5462
+      },
+      {
+        "test": "tests/test_tensornet.py::test_exact_event_cone_at_scale",
+        "outcome": "passed",
+        "seconds": 0.2061
+      },
+      {
+        "test": "tests/test_tensornet.py::test_truncation_breaks_the_cone_only_by_the_discarded_weight",
+        "outcome": "passed",
+        "seconds": 0.1719
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_product_and_from_mps",
+        "outcome": "passed",
+        "seconds": 0.002
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_channels_and_gates_match_dense",
+        "outcome": "passed",
+        "seconds": 2.0233
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_accepts_kraus_lists",
+        "outcome": "passed",
+        "seconds": 0.0011
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_conditioning_on_an_outcome",
+        "outcome": "passed",
+        "seconds": 0.0011
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_kraus_dimension_is_compressed_exactly",
+        "outcome": "passed",
+        "seconds": 0.0026
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_truncation_keeps_positivity_and_trace",
+        "outcome": "passed",
+        "seconds": 0.0233
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_expectation_and_reduced_density",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_dephasing_keeps_sector_coherence_like_dense",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_storage_count",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_vam1.py::test_function_maps_equal_their_kraus_forms[cfg0]",
+        "outcome": "passed",
+        "seconds": 0.0073
+      },
+      {
+        "test": "tests/test_vam1.py::test_function_maps_equal_their_kraus_forms[cfg1]",
+        "outcome": "passed",
+        "seconds": 0.0075
+      },
+      {
+        "test": "tests/test_vam1.py::test_function_maps_equal_their_kraus_forms[cfg2]",
+        "outcome": "passed",
+        "seconds": 0.011
+      },
+      {
+        "test": "tests/test_vam1.py::test_function_maps_equal_their_kraus_forms[cfg3]",
+        "outcome": "passed",
+        "seconds": 0.1268
+      },
+      {
+        "test": "tests/test_vam1.py::test_observation_is_the_reduced_port_measurement",
+        "outcome": "passed",
+        "seconds": 0.0022
+      },
+      {
+        "test": "tests/test_vam1.py::test_one_excitation_sector_is_the_split_step_dirac_walk",
+        "outcome": "passed",
+        "seconds": 0.0494
+      },
+      {
+        "test": "tests/test_vam1.py::test_exact_event_cone",
+        "outcome": "passed",
+        "seconds": 0.2603
+      },
+      {
+        "test": "tests/test_vam1.py::test_massless_chain_is_an_exact_sliding_context",
+        "outcome": "passed",
+        "seconds": 0.2438
+      },
+      {
+        "test": "tests/test_vam1.py::test_pointer_engine_equals_the_dense_engine[cfg0]",
+        "outcome": "passed",
+        "seconds": 0.3936
+      },
+      {
+        "test": "tests/test_vam1.py::test_pointer_engine_equals_the_dense_engine[cfg1]",
+        "outcome": "passed",
+        "seconds": 0.4177
+      },
+      {
+        "test": "tests/test_vam1.py::test_pointer_engine_equals_the_dense_engine[cfg2]",
+        "outcome": "passed",
+        "seconds": 0.047
+      },
+      {
+        "test": "tests/test_vam1.py::test_every_external_bit_is_followed_by_an_emission_with_the_machines_own_prediction",
+        "outcome": "passed",
+        "seconds": 0.3477
+      },
+      {
+        "test": "tests/test_vam1.py::test_massless_emission_and_reentry_leave_every_prediction_unchanged",
+        "outcome": "passed",
+        "seconds": 0.9053
+      },
+      {
+        "test": "tests/test_vam1.py::test_with_mass_the_reentered_output_reaches_the_context",
+        "outcome": "passed",
+        "seconds": 0.0213
+      },
+      {
+        "test": "tests/test_vam1.py::test_reentered_outputs_are_not_evidence",
+        "outcome": "passed",
+        "seconds": 0.0147
+      },
+      {
+        "test": "tests/test_vam1.py::test_coherent_engine_keeps_every_event_a_valid_density",
+        "outcome": "passed",
+        "seconds": 0.3081
+      },
+      {
+        "test": "tests/test_vam1.py::test_floor_keeps_every_bit_possible",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_vam1.py::test_weights_learn_the_conditional_statistics_forward[False]",
+        "outcome": "passed",
+        "seconds": 2.8878
+      },
+      {
+        "test": "tests/test_vam1.py::test_weights_learn_the_conditional_statistics_forward[True]",
+        "outcome": "passed",
+        "seconds": 2.657
+      },
+      {
+        "test": "tests/test_vam1.py::test_the_literal_law_consolidates_geometrically_as_in_t12_2",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_vam1.py::test_the_count_dependent_friction_is_frequency_counting_not_t12_2",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_vam1.py::test_consolidation_beats_constant_friction_on_a_stationary_source",
+        "outcome": "passed",
+        "seconds": 1.9725
+      },
+      {
+        "test": "tests/test_vam1.py::test_generation_emits_the_learned_continuation",
+        "outcome": "passed",
+        "seconds": 94.1656
+      },
+      {
+        "test": "tests/test_vam1.py::test_generation_outputs_are_the_machines_own_predictions",
+        "outcome": "passed",
+        "seconds": 0.1745
+      },
+      {
+        "test": "tests/test_vam1.py::test_canalization_keeps_exactly_what_the_future_can_reveal_at_every_weight[2-1-0.0-2]",
+        "outcome": "passed",
+        "seconds": 37.7238
+      },
+      {
+        "test": "tests/test_vam1.py::test_canalization_keeps_exactly_what_the_future_can_reveal_at_every_weight[2-2-0.0-4]",
+        "outcome": "passed",
+        "seconds": 24.2234
+      },
+      {
+        "test": "tests/test_vam1.py::test_canalization_keeps_exactly_what_the_future_can_reveal_at_every_weight[2-1-0.7-None]",
+        "outcome": "passed",
+        "seconds": 19.5615
+      },
+      {
+        "test": "tests/test_vam1.py::test_a_canalization_built_from_one_weight_alone_would_erase_what_learning_needs",
+        "outcome": "passed",
+        "seconds": 27.9756
+      },
+      {
+        "test": "tests/test_vam1.py::test_canalized_learning_machine_predicts_exactly_as_the_plain_one[0.0]",
+        "outcome": "passed",
+        "seconds": 2.8595
+      },
+      {
+        "test": "tests/test_vam1.py::test_canalized_learning_machine_predicts_exactly_as_the_plain_one[0.6]",
+        "outcome": "passed",
+        "seconds": 13.2022
+      },
+      {
+        "test": "tests/test_vam1.py::test_canalized_machine_keeps_every_output_string_probability",
+        "outcome": "passed",
+        "seconds": 12.9625
+      }
+    ]
+  },
+  "headline_results": [
+    {
+      "result": "completion probability after 0",
+      "source": "T2.2",
+      "computed": 0.5,
+      "expected": 0.5,
+      "abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "completion probability after 01",
+      "source": "T2.2",
+      "computed": 0.7499999999999999,
+      "expected": 0.75,
+      "abs_error": 1.1102230246251565e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "completion probability after 010",
+      "source": "T2.2",
+      "computed": 0.6666666666666666,
+      "expected": 0.6666666666666666,
+      "abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "marginal purity after the joint interaction",
+      "source": "T9.1",
+      "computed": 0.8749999999999996,
+      "expected": 0.875,
+      "abs_error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "exact vector derivative 2<Y_Q Z_W>",
+      "source": "T9.2",
+      "computed": -1.4142135623730945,
+      "expected": -1.4142135623730951,
+      "abs_error": 6.661338147750939e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "independent-marginal derivative",
+      "source": "T9.2",
+      "computed": -0.7071067811865472,
+      "expected": -0.7071067811865475,
+      "abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "next zero probability after re-entered 0",
+      "source": "T9.4",
+      "computed": 0.9166666666666659,
+      "expected": 0.9166666666666666,
+      "abs_error": 7.771561172376096e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "next zero probability after re-entered 1",
+      "source": "T9.4",
+      "computed": 0.2499999999999996,
+      "expected": 0.25,
+      "abs_error": 3.885780586188048e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "two-output probability 00",
+      "source": "T9.4",
+      "computed": 0.6874999999999993,
+      "expected": 0.6875,
+      "abs_error": 6.661338147750939e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "two-output probability 01",
+      "source": "T9.4",
+      "computed": 0.062499999999999896,
+      "expected": 0.0625,
+      "abs_error": 1.0408340855860843e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "two-output probability 10",
+      "source": "T9.4",
+      "computed": 0.0624999999999999,
+      "expected": 0.0625,
+      "abs_error": 9.71445146547012e-17,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "two-output probability 11",
+      "source": "T9.4",
+      "computed": 0.18749999999999992,
+      "expected": 0.1875,
+      "abs_error": 8.326672684688674e-17,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "25-configuration needle probability (worst r)",
+      "source": "T8.3",
+      "computed": 0.9999999999999991,
+      "expected": 1.0,
+      "abs_error": 8.881784197001252e-16,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "result": "25-configuration wrong-channel amplitude (worst r)",
+      "source": "T8.3",
+      "computed": 2.6931395030291264e-15,
+      "expected": 0.0,
+      "abs_error": 2.6931395030291264e-15,
+      "tolerance": 5e-15,
+      "pass": true
+    },
+    {
+      "result": "wrong-channel residual at r = 7 (document: about 1.3e-15)",
+      "source": "T15.2",
+      "computed": 1.2848245146200112e-15,
+      "expected": 0.0,
+      "abs_error": 1.2848245146200112e-15,
+      "tolerance": 1.5e-15,
+      "pass": true
+    },
+    {
+      "result": "free trajectory location at the first quarter time",
+      "source": "T8.4",
+      "computed": 0.5000000000008327,
+      "expected": 0.5,
+      "abs_error": 8.326672684688674e-13,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "result": "split action 1/2 + 3/2",
+      "source": "T8.4",
+      "computed": 2.0,
+      "expected": 2.0,
+      "abs_error": 0.0,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "result": "unsplit action",
+      "source": "T8.4",
+      "computed": 2.0,
+      "expected": 2.0,
+      "abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "spiral eigenvalue (lower)",
+      "source": "T5",
+      "computed": [
+        -2.0,
+        -2.0000000000000004
+      ],
+      "expected": [
+        -2.0,
+        -2.0
+      ],
+      "abs_error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "spiral eigenvalue (upper)",
+      "source": "T5",
+      "computed": [
+        -2.0,
+        2.0000000000000004
+      ],
+      "expected": [
+        -2.0,
+        2.0
+      ],
+      "abs_error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "spiral radius multiplier at log 2",
+      "source": "T5",
+      "computed": 0.25000000000000017,
+      "expected": 0.25,
+      "abs_error": 1.6653345369377348e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "weight mean at log 2",
+      "source": "T12.1",
+      "computed": 0.4,
+      "expected": 0.4,
+      "abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "weight variance at log 2",
+      "source": "T12.1",
+      "computed": 0.015,
+      "expected": 0.015,
+      "abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "dense coherent engine against the bit kernel",
+      "source": "D8",
+      "computed": 3.3306690738754696e-16,
+      "expected": 0.0,
+      "abs_error": 3.3306690738754696e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "pointer engine against the bit kernel",
+      "source": "D8",
+      "computed": 2.220446049250313e-16,
+      "expected": 0.0,
+      "abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "one nested level against the bit kernel",
+      "source": "D9",
+      "computed": 0.0,
+      "expected": 0.0,
+      "abs_error": 0.0,
+      "tolerance": 1e-13,
+      "pass": true
+    }
+  ],
+  "experiment_results": {
+    "e1.json": "417ddd4c586d6a3883e6499eed39f3d474bdfb1c25c93ce1904bc967f709ba43",
+    "e1_small.json": "a251c2435daac40296230289c4853e8b47ebebf82edd417988ffa58c070f121e",
+    "e1b.json": "1523800108976145bfcde6e76897564052092734946f37459b26c6513110454b"
+  }
+}

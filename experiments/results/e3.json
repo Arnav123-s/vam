@@ -1,0 +1,4234 @@
+{
+ "experiment": "E3 nested fractal architecture",
+ "protocol": "experiments/PROTOCOL.md#e3-the-nested-fractal-architecture-layer-by-layer",
+ "provenance": {
+  "utc": "2026-10-20T12:50:38Z",
+  "commit": "1029e497d142eb6e77878d5baac5cf6a123768cf+uncommitted",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "numba": "0.68.0",
+  "machine": "x86_64",
+  "seed": 20261018,
+  "manifest": "experiments/data/pg19/MANIFEST.json",
+  "smoke": false,
+  "manifest_sha256": "8a8dace3a8be8492e2d1ed789f9e9da0298f7647937323b8a9f249f701684565",
+  "resumed": true,
+  "cache_bond_used": 90,
+  "host_bounds": {
+   "detected": true,
+   "l1d_bytes": 32768,
+   "l2_bytes": 1048576,
+   "l3_bytes": 34603008,
+   "line_bytes": 64,
+   "max_mpo_bond": 64,
+   "max_density_dim": 45
+  }
+ },
+ "stream_bytes": {
+  "A_train": 33092931,
+  "A_validation": 4136132,
+  "A_test": 4133709,
+  "A_heldout": 2773780,
+  "B_train": 46077339,
+  "B_test": 5754706,
+  "B_heldout": 8309885,
+  "A_train_sentence_shuffled": 33092931,
+  "A_test_word_shuffled": 4133709,
+  "A_heldout_word_shuffled": 2773780
+ },
+ "part1": {
+  "N_L1": {
+   "bounds": {
+    "hardware": {
+     "word_bits": 64,
+     "line_bytes": 64,
+     "l1d_bytes": 32768,
+     "l2_bytes": 1048576,
+     "l3_bytes": 34603008,
+     "mantissa_bits": 52,
+     "detected": true,
+     "line_words": 8
+    },
+    "silicon_um_sphere_bekenstein_bits": 1.5712202388431784e+22,
+    "register_cap_bits": 64,
+    "parameter_resolution": 2.220446049250313e-16,
+    "max_density_dim": {
+     "1": 45,
+     "2": 256,
+     "3": 1470
+    },
+    "max_density_qubits": {
+     "1": 5,
+     "2": 8,
+     "3": 10
+    },
+    "max_mpo_bond": {
+     "1": 11,
+     "2": 64,
+     "3": 367
+    }
+   },
+   "register_cap_bits": 64,
+   "deepest_level_bits": 64,
+   "flow_max_difference_reading": {
+    "c2k1t0.3g0.7context": 5.001332681331405e-11,
+    "c2k2t0.5ginfcontext": 1.6715073769546507e-11,
+    "c2k1t0.4g0.5all": 3.22475379732623e-11,
+    "c2k2t0.0ginfcontext": 2.5984547846746864e-11
+   },
+   "flow_max_difference_generation": 5.909875819880173e-12,
+   "loss_integral_max_difference": 8.881784197001252e-16,
+   "criteria": {
+    "a_register": true,
+    "b_flow": true,
+    "c_integral": true
+   },
+   "seconds": 12.6
+  },
+  "N_L2": {
+   "known_sources": [
+    {
+     "source": "S1_markov2",
+     "window": 6,
+     "states": 4,
+     "rank": 4,
+     "weakest_direction": 0.038668901918593485,
+     "cutoff": 0.033944730038257195,
+     "resolvable": true,
+     "pass": true
+    },
+    {
+     "source": "S1_markov2",
+     "window": 8,
+     "states": 4,
+     "rank": 3,
+     "weakest_direction": 0.03866890191859339,
+     "cutoff": 0.07662725810563137,
+     "resolvable": false,
+     "pass": true
+    },
+    {
+     "source": "S2_codes",
+     "window": 6,
+     "states": 3,
+     "rank": 3,
+     "weakest_direction": 0.2269542612305015,
+     "cutoff": 0.02319773917526507,
+     "resolvable": true,
+     "pass": true
+    },
+    {
+     "source": "S2_codes",
+     "window": 8,
+     "states": 3,
+     "rank": 3,
+     "weakest_direction": 0.2303800124708156,
+     "cutoff": 0.0424830209241652,
+     "resolvable": true,
+     "pass": true
+    },
+    {
+     "source": "S4_echo3",
+     "window": 6,
+     "states": 8,
+     "rank": 8,
+     "weakest_direction": 0.5119999999999997,
+     "cutoff": 0.031939134736307266,
+     "resolvable": true,
+     "pass": true
+    },
+    {
+     "source": "S4_echo3",
+     "window": 8,
+     "states": 8,
+     "rank": 8,
+     "weakest_direction": 0.5120000000000011,
+     "cutoff": 0.08721398024816888,
+     "resolvable": true,
+     "pass": true
+    },
+    {
+     "source": "S4_echo4",
+     "window": 6,
+     "states": 16,
+     "rank": 16,
+     "weakest_direction": 0.24010000000000017,
+     "cutoff": 0.05647994801242763,
+     "resolvable": true,
+     "pass": true
+    },
+    {
+     "source": "S4_echo4",
+     "window": 8,
+     "states": 16,
+     "rank": 16,
+     "weakest_direction": 0.24010000000000167,
+     "cutoff": 0.07260424249603545,
+     "resolvable": true,
+     "pass": true
+    },
+    {
+     "source": "iid",
+     "window": 6,
+     "states": 1,
+     "rank": 1,
+     "pass": true
+    },
+    {
+     "source": "iid",
+     "window": 8,
+     "states": 1,
+     "rank": 1,
+     "pass": true
+    }
+   ],
+   "text_depth_profile": [
+    {
+     "depth_bytes": 1,
+     "rank": 0,
+     "rows": 130,
+     "cols": 130,
+     "edge": 0.011134526963072896,
+     "split_edge": 1.0000002384186926,
+     "cutoff": 1.100000262260562
+    },
+    {
+     "depth_bytes": 2,
+     "rank": 0,
+     "rows": 2753,
+     "cols": 130,
+     "edge": 0.03118691795330083,
+     "split_edge": 1.0000004768376132,
+     "cutoff": 1.1000005245213746
+    },
+    {
+     "depth_bytes": 3,
+     "rank": 0,
+     "rows": 22507,
+     "cols": 130,
+     "edge": 0.07882087084957641,
+     "split_edge": 1.000000715256761,
+     "cutoff": 1.100000786782437
+    },
+    {
+     "depth_bytes": 4,
+     "rank": 0,
+     "rows": 92619,
+     "cols": 130,
+     "edge": 0.15416777501726564,
+     "split_edge": 1.0000009536761354,
+     "cutoff": 1.100001049043749
+    },
+    {
+     "depth_bytes": 5,
+     "rank": 0,
+     "rows": 248007,
+     "cols": 130,
+     "edge": 0.2487329442965079,
+     "split_edge": 1.0000011920957383,
+     "cutoff": 1.1000013113053122
+    },
+    {
+     "depth_bytes": 6,
+     "rank": 0,
+     "rows": 506826,
+     "cols": 130,
+     "edge": 0.35318330157146083,
+     "split_edge": 1.000001430515568,
+     "cutoff": 1.100001573567125
+    },
+    {
+     "depth_bytes": 7,
+     "rank": 0,
+     "rows": 858532,
+     "cols": 130,
+     "edge": 0.4579944120592952,
+     "split_edge": 1.0000016689356246,
+     "cutoff": 1.1000018358291872
+    }
+   ],
+   "turnaround_bytes": 1,
+   "text_bytes": 4194304,
+   "criteria": {
+    "a_known_sources": true
+   },
+   "seconds": 24.5
+  },
+  "N_L3": {
+   "eps": 0.000244140625,
+   "min": 0.00024414062499999992,
+   "max": 0.9997558593750001,
+   "criteria": {
+    "bounded": true
+   },
+   "seconds": 0.0
+  },
+  "N_L4_L5_L6_chain_blankets": {
+   "config": {
+    "cells": 8,
+    "context": 2,
+    "theta": 0.5,
+    "bits": 40,
+    "events": 5,
+    "cell": 6
+   },
+   "engines": {
+    "plain_bond64": {
+     "discarded": 0.9585608255834425,
+     "bonds": [
+      2,
+      5,
+      16,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      16,
+      4,
+      4,
+      4
+     ],
+     "seconds": 22.9,
+     "renyi2_per_qubit_end": 0.502566796323892,
+     "renyi2_per_qubit_max": 0.5237862998851823,
+     "governed_since": null,
+     "cone_leak": 0.0015457396726522893,
+     "changes": [
+      [
+       8.007612438100822e-16,
+       5.080670968527217e-16,
+       1.0562158823391722e-15,
+       8.48345166310515e-16,
+       6.321047101099806e-16,
+       1.163519424767275e-15,
+       1.2331496230263887e-15,
+       0.3779236318323518,
+       0.0
+      ],
+      [
+       0.0003260931363458876,
+       0.00018235516730777046,
+       0.0015457396726522893,
+       0.0002196370702491869,
+       0.0008402628089018747,
+       0.0002831857522880187,
+       0.145124770494405,
+       0.0002233078633468097,
+       0.0
+      ],
+      [
+       4.356748187596651e-05,
+       0.0015182023943634806,
+       6.123456571580869e-05,
+       0.0013780054160689329,
+       0.0001568885663493906,
+       0.12653576470532638,
+       0.00011083212901005015,
+       0.03493885539843122,
+       0.0
+      ],
+      [
+       0.0004783016576354567,
+       1.3356049327568896e-05,
+       0.002265055041758844,
+       0.00017456003596872977,
+       0.1079824877171397,
+       0.000373986580461084,
+       0.021388422488499183,
+       0.00028701969103032407,
+       0.0
+      ],
+      [
+       1.6500195555963073e-05,
+       0.0020585381319492336,
+       0.0003218910776001876,
+       0.0906494688774537,
+       0.0008648497144185524,
+       0.0220742974015754,
+       0.00032452032467270253,
+       0.01754518701363047,
+       0.0
+      ]
+     ],
+     "cmi_bits": [
+      0.07701783984338562,
+      0.1710673294022289,
+      0.028643428892655365,
+      0.2064744402783667,
+      0.06359850362992336,
+      0.2981297363299378
+     ],
+     "operator_entropy_bits": [
+      0.3019873903977559,
+      0.45736423433991225,
+      0.6748677763173472,
+      1.7856189758543908,
+      2.816551583387718,
+      1.6121726309763016,
+      1.8932676084900408,
+      2.051914310905345,
+      2.0163325335085833,
+      2.0403659079853522,
+      2.163859819285825,
+      1.7075927068991685,
+      1.7602446746803535,
+      1.442335219019903,
+      1.2156515443566176,
+      1.348680075786416e-44
+     ]
+    },
+    "governed_cache_bond": {
+     "discarded": 1.4866694724172503e-07,
+     "bonds": [
+      2,
+      5,
+      16,
+      35,
+      82,
+      84,
+      90,
+      90,
+      90,
+      90,
+      90,
+      32,
+      16,
+      4,
+      4,
+      4
+     ],
+     "seconds": 32.1,
+     "renyi2_per_qubit_end": 0.6298458222865851,
+     "renyi2_per_qubit_max": 0.7161464845518698,
+     "governed_since": 1,
+     "cone_leak": 1.5533699645140263e-06,
+     "changes": [
+      [
+       1.9406069675272428e-16,
+       7.57463949091461e-16,
+       5.136182839562496e-16,
+       4.456163114565861e-16,
+       2.0512854864645097e-16,
+       2.964737844498354e-16,
+       4.512057312005005e-16,
+       0.3240755775599292,
+       0.0
+      ],
+      [
+       9.658788944398202e-08,
+       8.234350514987887e-08,
+       1.1972524588803467e-07,
+       1.3702234752270608e-07,
+       9.680665757537089e-08,
+       9.98588218087404e-08,
+       0.06040170948253844,
+       2.6536655327935615e-08,
+       0.0
+      ],
+      [
+       7.84529056228394e-09,
+       1.0248747313035267e-06,
+       6.728949002448249e-08,
+       1.8435128321758205e-06,
+       2.090774539054152e-07,
+       0.0437333155315526,
+       1.614079272599378e-07,
+       0.016940403880746864,
+       0.0
+      ],
+      [
+       1.5533699645140263e-06,
+       9.73273653170903e-07,
+       2.811467236117068e-06,
+       9.770134228812837e-07,
+       0.03368586263022395,
+       1.6196360962383894e-07,
+       0.012041130466166526,
+       9.84754393953997e-08,
+       0.0
+      ],
+      [
+       4.373875831130331e-08,
+       8.456992842677829e-07,
+       7.07699583706034e-07,
+       0.025938188100620548,
+       8.625679734156068e-07,
+       0.010184254458574953,
+       2.5651167701035144e-07,
+       0.010948411971575936,
+       0.0
+      ]
+     ],
+     "cmi_bits": [
+      0.041694160041471306,
+      0.004989737619091272,
+      0.0017255857351088366,
+      0.005915004019053427,
+      0.0029560265832744292,
+      0.02434278430256498
+     ],
+     "operator_entropy_bits": [
+      0.22827276770480012,
+      0.23222035794312626,
+      0.4092654080971281,
+      0.3298443610323852,
+      0.30020269180567627,
+      0.11802089505205011,
+      0.13179089512578832,
+      0.17240590042460535,
+      0.1675704302593303,
+      0.163902646603951,
+      0.18712587606863487,
+      0.23310897251980295,
+      0.22596970641912564,
+      0.2212213996020945,
+      0.11562560277169151,
+      9.643989904162433e-37
+     ]
+    },
+    "governed_page_threshold": {
+     "discarded": 0.37086173319088384,
+     "bonds": [
+      2,
+      5,
+      16,
+      39,
+      82,
+      81,
+      90,
+      90,
+      90,
+      89,
+      87,
+      32,
+      16,
+      4,
+      4,
+      4
+     ],
+     "seconds": 44.2,
+     "renyi2_per_qubit_end": 0.6262576760539738,
+     "renyi2_per_qubit_max": 0.7205815703047372,
+     "governed_since": 34,
+     "cone_leak": 1.6428860694615107e-06,
+     "changes": [
+      [
+       2.7084566379837955e-16,
+       2.025357928320591e-16,
+       6.246466020091355e-16,
+       3.6139620760591523e-16,
+       1.951704146877933e-16,
+       8.393792487382784e-16,
+       8.393324489591627e-17,
+       0.32714768046418197,
+       0.0
+      ],
+      [
+       6.732511036768594e-08,
+       5.076420194968789e-08,
+       1.0254757525242756e-07,
+       2.8281647856953653e-08,
+       8.737183039563963e-08,
+       4.001449978710196e-08,
+       0.06129637998022825,
+       3.084345003628607e-08,
+       0.0
+      ],
+      [
+       3.650739437887212e-07,
+       1.8607145335133415e-07,
+       4.0814241894851484e-07,
+       1.6178368607157836e-06,
+       7.555646981048671e-07,
+       0.044144005785811444,
+       2.0688205041446975e-07,
+       0.017099258718340688,
+       0.0
+      ],
+      [
+       1.6428860694615107e-06,
+       6.852343324356691e-07,
+       3.6031722560376902e-06,
+       2.4204943893657603e-07,
+       0.034002630933169326,
+       8.839548478398225e-07,
+       0.012128752762958028,
+       2.3021397652707786e-07,
+       0.0
+      ],
+      [
+       6.629427313447845e-07,
+       8.831687067364493e-07,
+       1.9488098701971992e-07,
+       0.02618176370178734,
+       2.996377534633664e-07,
+       0.010240993590991504,
+       7.520827001866737e-07,
+       0.01105043920901791,
+       0.0
+      ]
+     ],
+     "cmi_bits": [
+      0.04143272781699192,
+      0.005250812052565834,
+      0.001368995913399118,
+      0.005631662482581845,
+      0.0025039587222819293,
+      0.022751055528971165
+     ],
+     "operator_entropy_bits": [
+      0.24513799510045134,
+      0.23389822007306083,
+      0.41864679511863995,
+      0.32815049633061766,
+      0.296506136323175,
+      0.1094199099076496,
+      0.12264277373494625,
+      0.1599594249769183,
+      0.1565724866540715,
+      0.15395056367918797,
+      0.1762911336035555,
+      0.22020126044115576,
+      0.21498848808256998,
+      0.21107414804878888,
+      0.11767476059019444,
+      3.961825247565887e-62
+     ]
+    },
+    "governed_entropy_bond": {
+     "discarded": 0.1473798071441712,
+     "bonds": [
+      2,
+      3,
+      8,
+      6,
+      10,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      5,
+      6,
+      4,
+      4,
+      4
+     ],
+     "seconds": 0.7,
+     "renyi2_per_qubit_end": 0.633162575437375,
+     "renyi2_per_qubit_max": 0.7138820616117443,
+     "governed_since": 1,
+     "cone_leak": 0.0011548188099749712,
+     "changes": [
+      [
+       1.8738388205972227e-16,
+       9.056269403437712e-17,
+       2.4922630773296727e-16,
+       2.1516822220728197e-16,
+       3.7470568274573315e-16,
+       5.612292976319826e-09,
+       4.011712948756716e-16,
+       0.3137832026083357,
+       0.0
+      ],
+      [
+       0.0007693954759614011,
+       6.534335180320706e-05,
+       0.0009522539946454217,
+       0.00010401742898952538,
+       0.000523110607347742,
+       0.00014196488753664613,
+       0.05516794003778144,
+       0.00033687098536610785,
+       0.0
+      ],
+      [
+       2.0917746388131077e-06,
+       0.0011548188099749712,
+       4.504866014941398e-05,
+       0.0005391221673961819,
+       0.00018660571926401145,
+       0.03956622114021179,
+       0.0001591733692672607,
+       0.013185740117984856,
+       0.0
+      ],
+      [
+       0.001138021073969854,
+       1.6348179312786204e-05,
+       0.00047161732744765983,
+       0.00017850971496280454,
+       0.030157678035869724,
+       0.0003345115375635178,
+       0.010464480646878618,
+       1.457214105326851e-05,
+       0.0
+      ],
+      [
+       5.464251623009455e-06,
+       0.00047789038894946586,
+       7.672027683009854e-05,
+       0.023098808075554707,
+       6.618273137721125e-05,
+       0.008771319398250597,
+       0.00021079895260902456,
+       0.009240691160760926,
+       0.0
+      ]
+     ],
+     "cmi_bits": [
+      0.039506534858304576,
+      0.00529297091486125,
+      0.0021944251208561028,
+      0.008295197498726203,
+      0.001681905245080273,
+      0.026720716276341427
+     ],
+     "operator_entropy_bits": [
+      0.22742746361684016,
+      0.22712236146130926,
+      0.40671396856060893,
+      0.3290803390399161,
+      0.29616778333420846,
+      0.11885187094266728,
+      0.136147751940986,
+      0.1800527938863291,
+      0.17519410603153193,
+      0.17137979614272614,
+      0.19160658884401785,
+      0.23776456013369526,
+      0.22979075101188684,
+      0.2296641211727421,
+      0.1161981251372064,
+      9.066567944567944e-37
+     ]
+    },
+    "plain_untruncated_einselect_all": {
+     "discarded": 1.8670236056698834e-27,
+     "bonds": [
+      2,
+      3,
+      8,
+      12,
+      32,
+      32,
+      128,
+      121,
+      128,
+      32,
+      32,
+      8,
+      8,
+      2,
+      4,
+      2
+     ],
+     "seconds": 12.7,
+     "renyi2_per_qubit_end": 0.6298619632805054,
+     "renyi2_per_qubit_max": 0.7161693808940823,
+     "governed_since": null,
+     "cone_leak": 1.061650767297806e-15,
+     "changes": [
+      [
+       1.8733949542945355e-16,
+       5.273559366969494e-16,
+       8.049116928532385e-16,
+       1.061650767297806e-15,
+       9.194034422677078e-16,
+       2.445960101127298e-16,
+       3.677613769088326e-16,
+       0.3204725295073118,
+       0.0
+      ],
+      [
+       5.652739841030621e-16,
+       3.0531133177191805e-16,
+       5.134781488891349e-16,
+       9.43689570931383e-16,
+       9.346690088563038e-15,
+       7.355227538141662e-16,
+       0.06034473306933665,
+       7.395197234673366e-16,
+       0.0
+      ],
+      [
+       3.3431656181541813e-16,
+       7.91033905045424e-16,
+       3.191891195797325e-16,
+       1.824929096727601e-15,
+       6.938893903907228e-16,
+       0.043723137125198624,
+       5.169475958411334e-16,
+       0.01694344451364661,
+       0.0
+      ],
+      [
+       9.035795528333046e-16,
+       4.649058915617843e-16,
+       3.9968028886505635e-15,
+       9.992007221626409e-16,
+       0.033680450059594226,
+       1.249000902703301e-16,
+       0.01204005361082175,
+       8.262128722620377e-17,
+       0.0
+      ],
+      [
+       3.981676653481307e-16,
+       6.800116025829084e-16,
+       1.1171619185290638e-15,
+       0.025934183680840203,
+       6.175615574477433e-16,
+       0.010184900929704727,
+       4.898859096158523e-15,
+       0.010945078250781337,
+       0.0
+      ]
+     ],
+     "cmi_bits": [
+      0.041694328756921806,
+      0.0049921783870878755,
+      0.0017265095554090948,
+      0.005917352126155961,
+      0.0029564863685429543,
+      0.024339550866240955
+     ],
+     "operator_entropy_bits": [
+      0.22826265663854728,
+      0.23222847027401966,
+      0.40928168594640724,
+      0.32986017924748584,
+      0.29868927907559367,
+      0.11803587151671245,
+      0.13176276734501294,
+      0.1724033102735266,
+      0.16755422478491222,
+      0.16389414585635478,
+      0.18696205915331213,
+      0.2330874386777394,
+      0.22582641697121006,
+      0.22119850661741863,
+      0.11442850372970412,
+      -0.0
+     ]
+    },
+    "governed_untruncated_sink_rate_40": {
+     "discarded": 1.8679987400829448e-27,
+     "bonds": [
+      2,
+      3,
+      8,
+      12,
+      32,
+      32,
+      128,
+      121,
+      128,
+      32,
+      32,
+      8,
+      8,
+      2,
+      4,
+      2
+     ],
+     "seconds": 12.1,
+     "renyi2_per_qubit_end": 0.6298619632805049,
+     "renyi2_per_qubit_max": 0.7161693808940823,
+     "governed_since": 1,
+     "cone_leak": 1.1102230246251565e-15,
+     "changes": [
+      [
+       6.839388236441451e-16,
+       2.0122792321330962e-16,
+       6.38378239159465e-16,
+       4.85722573273506e-16,
+       6.557254739192331e-16,
+       3.5475095083725705e-16,
+       2.775557561580204e-16,
+       0.3204725295073123,
+       0.0
+      ],
+      [
+       9.666190203956663e-16,
+       3.920475055707584e-16,
+       5.967448757360216e-16,
+       1.1102230246251565e-15,
+       9.801187639268959e-15,
+       7.077671781985373e-16,
+       0.06034473306933669,
+       4.614506410970936e-16,
+       0.0
+      ],
+      [
+       1.2785453297736135e-16,
+       9.159339953157541e-16,
+       1.0026701691145945e-15,
+       1.3461454173580027e-15,
+       5.551115123125783e-16,
+       0.04372313712519993,
+       8.847089727481713e-16,
+       0.01694344451364616,
+       0.0
+      ],
+      [
+       9.888605986844876e-16,
+       4.718447854656915e-16,
+       4.32986979603811e-15,
+       7.91033905045424e-16,
+       0.03368045005959512,
+       9.43689570931383e-16,
+       0.012040053610822096,
+       9.948926056474994e-17,
+       0.0
+      ],
+      [
+       9.7900191003969e-16,
+       9.78384040450919e-16,
+       1.0061396160665481e-15,
+       0.02593418368084155,
+       5.065392549852277e-16,
+       0.010184900929704782,
+       4.891920202256308e-15,
+       0.010945078250780976,
+       0.0
+      ]
+     ],
+     "cmi_bits": [
+      0.04169432875691914,
+      0.004992178387088764,
+      0.001726509555409983,
+      0.005917352126155961,
+      0.002956486368541178,
+      0.024339550866241844
+     ],
+     "operator_entropy_bits": [
+      0.22826265663854717,
+      0.2322284702740203,
+      0.409281685946408,
+      0.3298601792474863,
+      0.29868927907559495,
+      0.11803587151671312,
+      0.1317627673450137,
+      0.17240331027352737,
+      0.16755422478491283,
+      0.16389414585635587,
+      0.1869620591533128,
+      0.23308743867774076,
+      0.22582641697121103,
+      0.22119850661741955,
+      0.11442850372970415,
+      3.744796263990816e-102
+     ]
+    }
+   },
+   "criteria": {
+    "untruncated_cone_leak": true
+   },
+   "seconds": 157.9
+  },
+  "N_L5_L6_chain_fidelity": {
+   "config": {
+    "cells": 12,
+    "context": 4,
+    "theta": 0.3,
+    "bits": 120
+   },
+   "reference": "governed, bond 128",
+   "max_abs_q_difference_vs_reference": {
+    "32": 8.535777068974237e-05,
+    "64": 6.627198583353255e-06,
+    "90": 1.9929128101114912e-06,
+    "entropy_margin_2": 0.007233209135405927,
+    "entropy_margin_4": 0.0015489151776169052,
+    "entropy_margin_8": 0.0006256079600819309
+   },
+   "discarded_per_event": {
+    "32": 3.300660157447925e-05,
+    "64": 9.616894777111592e-07,
+    "90": 1.4029382135047072e-07,
+    "128": 1.5844403168759564e-08,
+    "entropy_margin_2": 0.04537322346157609,
+    "entropy_margin_4": 0.0104736506133849,
+    "entropy_margin_8": 0.0008135999809031361
+   },
+   "largest_bond": {
+    "32": 32,
+    "64": 64,
+    "90": 90,
+    "128": 128,
+    "entropy_margin_2": 5,
+    "entropy_margin_4": 9,
+    "entropy_margin_8": 18
+   },
+   "mean_bond": {
+    "32": 23.0,
+    "64": 40.875,
+    "90": 54.25,
+    "128": 71.70833333333333,
+    "entropy_margin_2": 3.2083333333333335,
+    "entropy_margin_4": 5.583333333333333,
+    "entropy_margin_8": 10.0
+   },
+   "renyi2_per_qubit_max": {
+    "32": 0.5529563945782877,
+    "64": 0.5532125038508828,
+    "90": 0.5532290132289898,
+    "128": 0.5532361221833707,
+    "entropy_margin_2": 0.4069888524177278,
+    "entropy_margin_4": 0.5402959909604788,
+    "entropy_margin_8": 0.5489859571224344
+   },
+   "bits_per_bit": {
+    "32": 1.0078614966644863,
+    "64": 1.0078627945588319,
+    "90": 1.0078623810200351,
+    "128": 1.0078624480732026,
+    "entropy_margin_2": 1.0085528214121717,
+    "entropy_margin_4": 1.0078071368530148,
+    "entropy_margin_8": 1.0078316708788964
+   },
+   "seconds_by_engine": {
+    "32": 43.1,
+    "64": 137.0,
+    "90": 263.1,
+    "128": 544.0,
+    "entropy_margin_2": 3.0,
+    "entropy_margin_4": 5.8,
+    "entropy_margin_8": 9.8
+   },
+   "ungoverned_reference": "experiments/diagnostics/context_convergence.txt: 5.6e-4 at bond 64 (93 bits)",
+   "seconds": 1005.8
+  },
+  "N_L5_area_law": {
+   "rows": [
+    {
+     "cells": 4,
+     "engine": "plain_bond64",
+     "max_cut_entropy_bits": 1.5489619917259887,
+     "middle_cut_entropy_bits": 1.3576129343209158,
+     "largest_bond": 32,
+     "discarded": 2.517558910928148e-28,
+     "seconds": 0.7
+    },
+    {
+     "cells": 4,
+     "engine": "governed_cache_bond",
+     "max_cut_entropy_bits": 0.8318964829502926,
+     "middle_cut_entropy_bits": 0.2835497888209762,
+     "largest_bond": 16,
+     "discarded": 6.009219183222556e-13,
+     "seconds": 0.5
+    },
+    {
+     "cells": 6,
+     "engine": "plain_bond64",
+     "max_cut_entropy_bits": 1.645863644826398,
+     "middle_cut_entropy_bits": 0.26194941195907934,
+     "largest_bond": 64,
+     "discarded": 0.11182703119886046,
+     "seconds": 12.2
+    },
+    {
+     "cells": 6,
+     "engine": "governed_cache_bond",
+     "max_cut_entropy_bits": 0.6620592815912968,
+     "middle_cut_entropy_bits": 0.01722150054887129,
+     "largest_bond": 66,
+     "discarded": 4.356586165764897e-11,
+     "seconds": 8.9
+    },
+    {
+     "cells": 8,
+     "engine": "plain_bond64",
+     "max_cut_entropy_bits": 2.816551583387718,
+     "middle_cut_entropy_bits": 2.0163325335085833,
+     "largest_bond": 64,
+     "discarded": 0.9585608255834425,
+     "seconds": 24.3
+    },
+    {
+     "cells": 8,
+     "engine": "governed_cache_bond",
+     "max_cut_entropy_bits": 0.4092654080971281,
+     "middle_cut_entropy_bits": 0.1675704302593303,
+     "largest_bond": 90,
+     "discarded": 1.4866694724172503e-07,
+     "seconds": 32.5
+    },
+    {
+     "cells": 10,
+     "engine": "plain_bond64",
+     "max_cut_entropy_bits": 3.4727664935888862,
+     "middle_cut_entropy_bits": 3.009562734391639,
+     "largest_bond": 64,
+     "discarded": 2.3491650486141573,
+     "seconds": 33.0
+    },
+    {
+     "cells": 10,
+     "engine": "governed_cache_bond",
+     "max_cut_entropy_bits": 0.30068089221481326,
+     "middle_cut_entropy_bits": 0.2336574829793309,
+     "largest_bond": 90,
+     "discarded": 8.295880396945524e-07,
+     "seconds": 53.4
+    }
+   ],
+   "seconds": 166.0
+  },
+  "N_L6_chain_sink_cost": {
+   "rows": [
+    {
+     "cells": 3,
+     "context": 2,
+     "theta": 0.5,
+     "dephasing": Infinity,
+     "bits": 2048,
+     "plain_bits_per_bit": 0.9480919060397242,
+     "sinks_bits_per_bit": 0.9480919060397242,
+     "max_abs_q_change": 1.3600232051658168e-15,
+     "max_abs_w_change": 3.219646771412954e-15,
+     "discarded": 1.1739022098729533e-27,
+     "seconds": 26.0
+    },
+    {
+     "cells": 3,
+     "context": 1,
+     "theta": 1.1,
+     "dephasing": Infinity,
+     "bits": 2048,
+     "plain_bits_per_bit": 0.963766153739431,
+     "sinks_bits_per_bit": 0.9637661537394309,
+     "max_abs_q_change": 4.6629367034256575e-15,
+     "max_abs_w_change": 5.88418203051333e-15,
+     "discarded": 1.7901773514164392e-28,
+     "seconds": 26.1
+    },
+    {
+     "cells": 4,
+     "context": 2,
+     "theta": 0.3,
+     "dephasing": Infinity,
+     "bits": 2048,
+     "plain_bits_per_bit": 0.9485567277931457,
+     "sinks_bits_per_bit": 0.9485567277931458,
+     "max_abs_q_change": 3.219646771412954e-15,
+     "max_abs_w_change": 4.218847493575595e-15,
+     "discarded": 6.475829092437494e-26,
+     "seconds": 81.1
+    },
+    {
+     "cells": 4,
+     "context": 1,
+     "theta": 0.7,
+     "dephasing": Infinity,
+     "bits": 2048,
+     "plain_bits_per_bit": 0.9548115714576183,
+     "sinks_bits_per_bit": 0.9549499746203639,
+     "max_abs_q_change": 0.02795945184819293,
+     "max_abs_w_change": 0.016269992806525302,
+     "discarded": 3.859952016454824e-26,
+     "seconds": 56.5
+    },
+    {
+     "cells": 5,
+     "context": 2,
+     "theta": 0.5,
+     "dephasing": Infinity,
+     "bits": 2048,
+     "plain_bits_per_bit": 0.9463971358458317,
+     "sinks_bits_per_bit": 0.9463523031090594,
+     "max_abs_q_change": 0.007543572210928495,
+     "max_abs_w_change": 0.0062584966935674835,
+     "discarded": 3.592340072647288e-25,
+     "seconds": 1112.3
+    },
+    {
+     "cells": 3,
+     "context": 1,
+     "theta": 1.0,
+     "dephasing": 0.7,
+     "bits": 2048,
+     "plain_bits_per_bit": 0.9619813544270666,
+     "sinks_bits_per_bit": 0.9618628304608109,
+     "max_abs_q_change": 0.059085845554725513,
+     "max_abs_w_change": 0.022190322577502974,
+     "discarded": 1.781818585814799e-28,
+     "seconds": 26.5
+    },
+    {
+     "cells": 4,
+     "context": 3,
+     "theta": 0.8,
+     "dephasing": 2.0,
+     "bits": 2048,
+     "plain_bits_per_bit": 0.9472323200004482,
+     "sinks_bits_per_bit": 0.9472386130638775,
+     "max_abs_q_change": 0.0010188395035253262,
+     "max_abs_w_change": 0.0012258481393745413,
+     "discarded": 1.77394248534958e-25,
+     "seconds": 486.4
+    }
+   ],
+   "seconds": 1814.9
+  },
+  "N_L5_L6_text_survival": {
+   "rows": {
+    "plain": {
+     "before": 0.6578947368421053,
+     "after": 0.0,
+     "refused": 0,
+     "protected": 0,
+     "evictions": 156463
+    },
+    "verify_2": {
+     "before": 0.6004784688995215,
+     "after": 0.5909090909090909,
+     "refused": 134139,
+     "protected": 0,
+     "evictions": 13220
+    },
+    "governor": {
+     "before": 0.6578947368421053,
+     "after": 0.6507177033492823,
+     "refused": 133138,
+     "protected": 587,
+     "evictions": 12545
+    }
+   },
+   "criteria": {
+    "survival": true
+   },
+   "seconds": 0.2
+  },
+  "N_L7": {
+   "hbar0_equals_max_planner": true,
+   "hbar1_Z_minus_prediction": 1.1102230246251565e-16,
+   "criteria": {
+    "hbar0": true,
+    "hbar1": true
+   },
+   "seconds": 43.1
+  }
+ },
+ "part2": {
+  "start_A_validation_bpb": 2.0316126330797104,
+  "e2_start_bpb": 2.0316126330797104,
+  "reproduced": true,
+  "stages": [
+   {
+    "stage": "depths",
+    "candidates": [
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "depths": [
+       8
+      ]
+     }
+    ],
+    "chosen": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0
+    }
+   },
+   {
+    "stage": "coherence",
+    "candidates": [
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 0.25
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 0.5
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 0.75
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0
+     }
+    ],
+    "chosen": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0
+    }
+   },
+   {
+    "stage": "verify",
+    "candidates": [
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "verify": 2
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "verify": 3
+     }
+    ],
+    "chosen": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "verify": 3
+    }
+   },
+   {
+    "stage": "governor",
+    "candidates": [
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "verify": 3
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.1
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.1,
+      "verify": 3
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.25
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.25,
+      "verify": 3
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.5
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 0.5,
+      "verify": 3
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 1.0
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 0.5,
+      "sink_rate": 1.0,
+      "verify": 3
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 1.0,
+      "sink_rate": 0.1
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 1.0,
+      "sink_rate": 0.1,
+      "verify": 3
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 1.0,
+      "sink_rate": 0.25
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 1.0,
+      "sink_rate": 0.25,
+      "verify": 3
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 1.0,
+      "sink_rate": 0.5
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 1.0,
+      "sink_rate": 0.5,
+      "verify": 3
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 1.0,
+      "sink_rate": 1.0
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 1.0,
+      "sink_rate": 1.0,
+      "verify": 3
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 2.0,
+      "sink_rate": 0.1
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 2.0,
+      "sink_rate": 0.1,
+      "verify": 3
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 2.0,
+      "sink_rate": 0.25
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 2.0,
+      "sink_rate": 0.25,
+      "verify": 3
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 2.0,
+      "sink_rate": 0.5
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 2.0,
+      "sink_rate": 0.5,
+      "verify": 3
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 2.0,
+      "sink_rate": 1.0
+     },
+     {
+      "machine": "nested",
+      "law": "counting",
+      "prior": 4.0,
+      "coherence": 1.0,
+      "governor": true,
+      "protect": 2.0,
+      "sink_rate": 1.0,
+      "verify": 3
+     }
+    ],
+    "chosen": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.1,
+     "verify": 3
+    }
+   }
+  ],
+  "chosen": {
+   "machine": "nested",
+   "law": "counting",
+   "prior": 4.0,
+   "coherence": 1.0,
+   "governor": true,
+   "protect": 0.5,
+   "sink_rate": 0.1,
+   "verify": 3
+  },
+  "rows": [
+   {
+    "key": "{\"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0
+    },
+    "A_train_bpb": 1.8301583961108523,
+    "A_validation_bpb": 2.0316126330797104,
+    "evictions": 152692208,
+    "refused": 0,
+    "protected": 0,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.501401424407959,
+     "4": 0.9875259399414062,
+     "5": 0.9999959468841553
+    },
+    "seconds": 289.7
+   },
+   {
+    "key": "{\"depths\": [8], \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "depths": [
+      8
+     ]
+    },
+    "A_train_bpb": 5.274836256234397,
+    "A_validation_bpb": 5.275854374157723,
+    "evictions": 0,
+    "refused": 0,
+    "protected": 0,
+    "occupancy": {},
+    "seconds": 11.1
+   },
+   {
+    "key": "{\"coherence\": 0.25, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 0.25
+    },
+    "A_train_bpb": 1.831441486770055,
+    "A_validation_bpb": 2.03061803660128,
+    "evictions": 152692208,
+    "refused": 0,
+    "protected": 0,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.501401424407959,
+     "4": 0.9875259399414062,
+     "5": 0.9999959468841553
+    },
+    "seconds": 285.5
+   },
+   {
+    "key": "{\"coherence\": 0.5, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 0.5
+    },
+    "A_train_bpb": 1.8326546428671964,
+    "A_validation_bpb": 2.030047795837704,
+    "evictions": 152692208,
+    "refused": 0,
+    "protected": 0,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.501401424407959,
+     "4": 0.9875259399414062,
+     "5": 0.9999959468841553
+    },
+    "seconds": 285.4
+   },
+   {
+    "key": "{\"coherence\": 0.75, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 0.75
+    },
+    "A_train_bpb": 1.8337584383697494,
+    "A_validation_bpb": 2.0297081727134056,
+    "evictions": 152692208,
+    "refused": 0,
+    "protected": 0,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.501401424407959,
+     "4": 0.9875259399414062,
+     "5": 0.9999959468841553
+    },
+    "seconds": 277.8
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0
+    },
+    "A_train_bpb": 1.8347539313285737,
+    "A_validation_bpb": 2.0295034197603155,
+    "evictions": 152692208,
+    "refused": 0,
+    "protected": 0,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.501401424407959,
+     "4": 0.9875259399414062,
+     "5": 0.9999959468841553
+    },
+    "seconds": 276.1
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"verify\": 2}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "verify": 2
+    },
+    "A_train_bpb": 1.8305318751443598,
+    "A_validation_bpb": 1.9571558062186727,
+    "evictions": 38017374,
+    "refused": 124395268,
+    "protected": 0,
+    "occupancy": {
+     "2": 0.10491681098937988,
+     "3": 0.36281800270080566,
+     "4": 0.8516147136688232,
+     "5": 0.964461088180542
+    },
+    "seconds": 291.9
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "verify": 3
+    },
+    "A_train_bpb": 1.836746083822469,
+    "A_validation_bpb": 1.9346337736973633,
+    "evictions": 20339050,
+    "refused": 152946262,
+    "protected": 0,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7346363067626953,
+     "5": 0.874401330947876
+    },
+    "seconds": 289.4
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.1}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.1
+    },
+    "A_train_bpb": 1.8074923259233235,
+    "A_validation_bpb": 1.8766947698396104,
+    "evictions": 40008503,
+    "refused": 112932544,
+    "protected": 3996517,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.5002470016479492,
+     "4": 0.8722712993621826,
+     "5": 0.9722461700439453
+    },
+    "seconds": 298.5
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.1, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.1,
+     "verify": 3
+    },
+    "A_train_bpb": 1.82660346237551,
+    "A_validation_bpb": 1.867616832051096,
+    "evictions": 18410238,
+    "refused": 153272199,
+    "protected": 2059956,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7348003387451172,
+     "5": 0.8744480609893799
+    },
+    "seconds": 286.8
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.25}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.25
+    },
+    "A_train_bpb": 1.8082362245103645,
+    "A_validation_bpb": 1.891345903206665,
+    "evictions": 40808157,
+    "refused": 112551722,
+    "protected": 2854080,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.5002470016479492,
+     "4": 0.8722431659698486,
+     "5": 0.9722456932067871
+    },
+    "seconds": 282.8
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.25, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.25,
+     "verify": 3
+    },
+    "A_train_bpb": 1.8264005029084547,
+    "A_validation_bpb": 1.8750995349135275,
+    "evictions": 18727268,
+    "refused": 152888208,
+    "protected": 1568436,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7347893714904785,
+     "5": 0.874457597732544
+    },
+    "seconds": 269.7
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.5}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.5
+    },
+    "A_train_bpb": 1.8099373081548267,
+    "A_validation_bpb": 1.9062940772102093,
+    "evictions": 41354062,
+    "refused": 112429109,
+    "protected": 2199661,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.5002470016479492,
+     "4": 0.8722131252288818,
+     "5": 0.9722404479980469
+    },
+    "seconds": 283.4
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 0.5, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 0.5,
+     "verify": 3
+    },
+    "A_train_bpb": 1.8267348924119782,
+    "A_validation_bpb": 1.8848853627748416,
+    "evictions": 18971240,
+    "refused": 152730313,
+    "protected": 1254441,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7347779273986816,
+     "5": 0.8744497299194336
+    },
+    "seconds": 273.8
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 1.0}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 1.0
+    },
+    "A_train_bpb": 1.8123797588408752,
+    "A_validation_bpb": 1.9189368080839884,
+    "evictions": 41735189,
+    "refused": 112399070,
+    "protected": 1792334,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.5002470016479492,
+     "4": 0.8721923828125,
+     "5": 0.9722354412078857
+    },
+    "seconds": 268.2
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 0.5, \"sink_rate\": 1.0, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 0.5,
+     "sink_rate": 1.0,
+     "verify": 3
+    },
+    "A_train_bpb": 1.827678513849507,
+    "A_validation_bpb": 1.8956976565071828,
+    "evictions": 19155984,
+    "refused": 152668584,
+    "protected": 1044536,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7347612380981445,
+     "5": 0.8744430541992188
+    },
+    "seconds": 269.5
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 1.0, \"sink_rate\": 0.1}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 1.0,
+     "sink_rate": 0.1
+    },
+    "A_train_bpb": 1.8094062192458766,
+    "A_validation_bpb": 1.884768072547242,
+    "evictions": 41399992,
+    "refused": 112694276,
+    "protected": 2391417,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.5002470016479492,
+     "4": 0.8722224235534668,
+     "5": 0.9722335338592529
+    },
+    "seconds": 281.0
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 1.0, \"sink_rate\": 0.1, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 1.0,
+     "sink_rate": 0.1,
+     "verify": 3
+    },
+    "A_train_bpb": 1.827290745700678,
+    "A_validation_bpb": 1.8725090139572067,
+    "evictions": 19065155,
+    "refused": 152999140,
+    "protected": 1286471,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7347707748413086,
+     "5": 0.8744449615478516
+    },
+    "seconds": 293.6
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 1.0, \"sink_rate\": 0.25}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 1.0,
+     "sink_rate": 0.25
+    },
+    "A_train_bpb": 1.8103494440056305,
+    "A_validation_bpb": 1.8983712435321491,
+    "evictions": 41930577,
+    "refused": 112509694,
+    "protected": 1692450,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.5002470016479492,
+     "4": 0.872201681137085,
+     "5": 0.9722297191619873
+    },
+    "seconds": 276.9
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 1.0, \"sink_rate\": 0.25, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 1.0,
+     "sink_rate": 0.25,
+     "verify": 3
+    },
+    "A_train_bpb": 1.8273278558288573,
+    "A_validation_bpb": 1.8804729018828203,
+    "evictions": 19287764,
+    "refused": 152790583,
+    "protected": 968801,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7347562313079834,
+     "5": 0.8744466304779053
+    },
+    "seconds": 289.3
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 1.0, \"sink_rate\": 0.5}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 1.0,
+     "sink_rate": 0.5
+    },
+    "A_train_bpb": 1.8120617983234768,
+    "A_validation_bpb": 1.9133232482201157,
+    "evictions": 42279467,
+    "refused": 112466497,
+    "protected": 1305157,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.5002470016479492,
+     "4": 0.8721804618835449,
+     "5": 0.9722247123718262
+    },
+    "seconds": 283.9
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 1.0, \"sink_rate\": 0.5, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 1.0,
+     "sink_rate": 0.5,
+     "verify": 3
+    },
+    "A_train_bpb": 1.8277300232704266,
+    "A_validation_bpb": 1.8894869826438176,
+    "evictions": 19449940,
+    "refused": 152718101,
+    "protected": 775078,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7347486019134521,
+     "5": 0.874441385269165
+    },
+    "seconds": 281.5
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 1.0, \"sink_rate\": 1.0}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 1.0,
+     "sink_rate": 1.0
+    },
+    "A_train_bpb": 1.8142876313908725,
+    "A_validation_bpb": 1.9248169492023721,
+    "evictions": 42509218,
+    "refused": 112466118,
+    "protected": 1075537,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.5002470016479492,
+     "4": 0.8721630573272705,
+     "5": 0.972222089767456
+    },
+    "seconds": 288.6
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 1.0, \"sink_rate\": 1.0, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 1.0,
+     "sink_rate": 1.0,
+     "verify": 3
+    },
+    "A_train_bpb": 1.8286764635653603,
+    "A_validation_bpb": 1.8995760696568467,
+    "evictions": 19567161,
+    "refused": 152700172,
+    "protected": 651093,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7347345352172852,
+     "5": 0.8744349479675293
+    },
+    "seconds": 283.6
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 2.0, \"sink_rate\": 0.1}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 2.0,
+     "sink_rate": 0.1
+    },
+    "A_train_bpb": 1.812260837408609,
+    "A_validation_bpb": 1.8941332868499228,
+    "evictions": 42395222,
+    "refused": 112619846,
+    "protected": 1326712,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.5002470016479492,
+     "4": 0.8721623420715332,
+     "5": 0.9722180366516113
+    },
+    "seconds": 288.3
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 2.0, \"sink_rate\": 0.1, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 2.0,
+     "sink_rate": 0.1,
+     "verify": 3
+    },
+    "A_train_bpb": 1.8286791624683754,
+    "A_validation_bpb": 1.8796102895187938,
+    "evictions": 19561204,
+    "refused": 152883747,
+    "protected": 741735,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7347285747528076,
+     "5": 0.8744337558746338
+    },
+    "seconds": 303.9
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 2.0, \"sink_rate\": 0.25}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 2.0,
+     "sink_rate": 0.25
+    },
+    "A_train_bpb": 1.8132789398861802,
+    "A_validation_bpb": 1.9079904290038947,
+    "evictions": 42720770,
+    "refused": 112543420,
+    "protected": 930302,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.5002470016479492,
+     "4": 0.8721497058868408,
+     "5": 0.9722189903259277
+    },
+    "seconds": 276.5
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 2.0, \"sink_rate\": 0.25, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 2.0,
+     "sink_rate": 0.25,
+     "verify": 3
+    },
+    "A_train_bpb": 1.8287745208781674,
+    "A_validation_bpb": 1.8875671837574988,
+    "evictions": 19703543,
+    "refused": 152783597,
+    "protected": 553584,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7347099781036377,
+     "5": 0.8744299411773682
+    },
+    "seconds": 290.2
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 2.0, \"sink_rate\": 0.5}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 2.0,
+     "sink_rate": 0.5
+    },
+    "A_train_bpb": 1.8147909840272123,
+    "A_validation_bpb": 1.9219970624224314,
+    "evictions": 42928765,
+    "refused": 112535029,
+    "protected": 715673,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.5002470016479492,
+     "4": 0.8721354007720947,
+     "5": 0.9722170829772949
+    },
+    "seconds": 288.4
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 2.0, \"sink_rate\": 0.5, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 2.0,
+     "sink_rate": 0.5,
+     "verify": 3
+    },
+    "A_train_bpb": 1.8291813783420783,
+    "A_validation_bpb": 1.895854723894201,
+    "evictions": 19805343,
+    "refused": 152758648,
+    "protected": 441374,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7347064018249512,
+     "5": 0.8744325637817383
+    },
+    "seconds": 290.0
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 2.0, \"sink_rate\": 1.0}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 2.0,
+     "sink_rate": 1.0
+    },
+    "A_train_bpb": 1.8165101946822373,
+    "A_validation_bpb": 1.9314427773974971,
+    "evictions": 43061096,
+    "refused": 112543829,
+    "protected": 591704,
+    "occupancy": {
+     "2": 0.13504791259765625,
+     "3": 0.5002470016479492,
+     "4": 0.8721251487731934,
+     "5": 0.9722142219543457
+    },
+    "seconds": 293.6
+   },
+   {
+    "key": "{\"coherence\": 1.0, \"governor\": true, \"law\": \"counting\", \"machine\": \"nested\", \"prior\": 4.0, \"protect\": 2.0, \"sink_rate\": 1.0, \"verify\": 3}",
+    "spec": {
+     "machine": "nested",
+     "law": "counting",
+     "prior": 4.0,
+     "coherence": 1.0,
+     "governor": true,
+     "protect": 2.0,
+     "sink_rate": 1.0,
+     "verify": 3
+    },
+    "A_train_bpb": 1.8300047312460703,
+    "A_validation_bpb": 1.9049661373360751,
+    "evictions": 19876375,
+    "refused": 152758459,
+    "protected": 370950,
+    "occupancy": {
+     "2": 0.09039545059204102,
+     "3": 0.2990269660949707,
+     "4": 0.7346963882446289,
+     "5": 0.8744266033172607
+    },
+    "seconds": 289.4
+   }
+  ]
+ },
+ "part3": {
+  "spec": {
+   "machine": "nested",
+   "law": "counting",
+   "prior": 4.0,
+   "coherence": 1.0,
+   "governor": true,
+   "protect": 0.5,
+   "sink_rate": 0.1,
+   "verify": 3
+  },
+  "arms": {
+   "A_only": {
+    "train_bpb": 1.82660346237551,
+    "A_test": 2.1308646799718534,
+    "A_heldout": 1.9540079139705417,
+    "B_test": 2.4675816271506847,
+    "B_heldout": 2.35954700183682,
+    "counters": {
+     "evictions": 18410238,
+     "refused": 153272199,
+     "protected": 2059956,
+     "occupancy": {
+      "2": 0.09039545059204102,
+      "3": 0.2990269660949707,
+      "4": 0.7348003387451172,
+      "5": 0.8744480609893799
+     }
+    }
+   },
+   "A_then_B": {
+    "train_bpb_B": 1.9252429306085517,
+    "A_test": 2.185571754398498,
+    "A_heldout": 2.0208664552560878,
+    "B_test": 2.090444938668441,
+    "B_heldout": 2.0634015996057045,
+    "counters": {
+     "evictions": 49935628,
+     "refused": 390097021,
+     "protected": 8722977,
+     "occupancy": {
+      "2": 0.11476707458496094,
+      "3": 0.42043185234069824,
+      "4": 0.9056093692779541,
+      "5": 0.9758646488189697
+     }
+    }
+   },
+   "B_only": {
+    "train_bpb_B": 1.9508973659762145,
+    "A_test": 2.382126338108392,
+    "A_heldout": 2.143496466721766,
+    "B_test": 2.1047108245269164,
+    "B_heldout": 2.073714981445934,
+    "counters": {
+     "evictions": 30196925,
+     "refused": 246295390,
+     "protected": 4106420,
+     "occupancy": {
+      "2": 0.08591675758361816,
+      "3": 0.32990336418151855,
+      "4": 0.8328888416290283,
+      "5": 0.9283814430236816
+     }
+    }
+   },
+   "shuffled_A_then_B": {
+    "after_A": {
+     "A_test": 2.1362211550020564,
+     "A_heldout": 1.9583694092595283,
+     "B_test": 2.4688811802769663,
+     "B_heldout": 2.3592481943556276
+    },
+    "A_test": 2.1850495832900783,
+    "A_heldout": 2.0208771504023773,
+    "B_test": 2.087965143776132,
+    "B_heldout": 2.0631952802679447,
+    "counters": {
+     "evictions": 50044110,
+     "refused": 392816686,
+     "protected": 8621768,
+     "occupancy": {
+      "2": 0.1150825023651123,
+      "3": 0.42246341705322266,
+      "4": 0.905348539352417,
+      "5": 0.9751548767089844
+     }
+    }
+   }
+  },
+  "transfer": {
+   "A_then_B_minus_B_only": -0.014265885858475436,
+   "shuffled_A_then_B_minus_B_only": -0.01674568075078442
+  },
+  "t12_3": {
+   "part2_weight_drift_per_MiB": [
+    1002.8671138818517,
+    925.6057142482185,
+    888.8801563735713,
+    880.2814430778307,
+    962.2134181503841,
+    946.1848034067406,
+    904.2460245719913,
+    949.6333404153835,
+    941.3687051697223,
+    927.3372293327657,
+    944.7768422316892,
+    919.7903320059424,
+    988.8300096897694,
+    937.6645451941663,
+    861.4518640222402,
+    889.1455843924654,
+    920.7063774976946,
+    865.2661933950341,
+    831.0730836693417,
+    885.3765586485899,
+    899.373580564981,
+    950.182432008607,
+    960.5148708079514,
+    972.0580951961915,
+    955.6632293898573,
+    974.3026075503946,
+    938.9820238097919,
+    929.5453519281053,
+    973.6352271582084,
+    946.1932622911391,
+    921.7952383928749,
+    697.4072541149316
+   ],
+   "part3": {
+    "A_test": 2.1308646799718534,
+    "A_test_word_shuffled": 2.717741467716515,
+    "A_heldout": 1.9540079139705417,
+    "A_heldout_word_shuffled": 2.5786010659953336
+   }
+  },
+  "learning_curves_bpb_per_MiB": {
+   "A_then_B": [
+    2.2108362868803857,
+    1.9804692594812288,
+    1.784596186368585,
+    1.6990318325666076,
+    1.918326627877702,
+    1.8647822197341517,
+    1.7007405782766258,
+    1.8848602465465167,
+    1.8458041940889283,
+    1.8121346696722878,
+    1.8970435261207768,
+    1.8414263583709518,
+    2.035449424952651,
+    1.8688669691493842,
+    1.6476235909550898,
+    1.7031068234282736,
+    1.8045927028083284,
+    1.651543826761706,
+    1.5750016152406237,
+    1.6517768103405075,
+    1.687362941960144,
+    1.7966599161316963,
+    1.9527069901614336,
+    1.928535621902412,
+    1.8873284078635384,
+    1.9486457437512006,
+    1.8087774308360833,
+    1.7885533206365645,
+    1.8793098512293152,
+    1.832196107096448,
+    1.83147927562569,
+    1.6571701858558743,
+    2.116531734903077,
+    2.050781164794818,
+    1.8512987798289355,
+    1.9948928469826877,
+    2.1336573121898166,
+    2.0150045671441665,
+    1.9314131369721985,
+    1.8546665022068645,
+    1.9227816708956729,
+    1.9785590759117535,
+    1.9211089701336261,
+    1.9659938162654804,
+    1.9209739606776286,
+    1.8782741681247994,
+    1.939216340474788,
+    1.921467291402449,
+    1.9077289099560923,
+    1.9138225144060108,
+    1.784816102024068,
+    1.7110035697934118,
+    2.384105700578281,
+    1.90050403007855,
+    1.9730751301633178,
+    1.9213992913107458,
+    2.0478923731134637,
+    2.05754256315422,
+    1.9235465911524847,
+    1.9458583897442328,
+    1.9174476748924238,
+    1.810007797797783,
+    1.886639659737272,
+    1.89465542048355,
+    1.8413501114122521,
+    1.9047117922588939,
+    1.8236384948275015,
+    1.788823865081521,
+    1.8806025428682887,
+    1.955743199664654,
+    1.866368846408382,
+    1.79173309706404,
+    1.9259893130540804,
+    1.8115321476984811,
+    1.846292595896548,
+    1.8955358911604796
+   ],
+   "B_only": [
+    2.333857515105507,
+    2.1322007870707105,
+    1.890850294275495,
+    2.0880846162495397,
+    2.158806817418008,
+    2.0328265137452286,
+    1.9744975513608902,
+    1.896896837621275,
+    2.0176271715307,
+    2.0735480955066734,
+    1.9860214843702189,
+    1.9953973339216904,
+    1.941625614034405,
+    1.9157081770078315,
+    1.9821710644331345,
+    1.9083858992538771,
+    1.918611379788801,
+    1.9133765839788544,
+    1.7899503368309035,
+    1.7095576727594919,
+    2.368811586005769,
+    1.906214967895159,
+    1.9828738586806827,
+    1.9247278505073835,
+    2.054578394266871,
+    2.089359907726378,
+    1.935268484879018,
+    1.9491068099535465,
+    1.9215156136284959,
+    1.814230267054163,
+    1.9016594311337445,
+    1.9071428638881116,
+    1.8466692884173912,
+    1.9057870719155354,
+    1.8249821723368589,
+    1.8037287575578338,
+    1.884226586991149,
+    1.9656738636918787,
+    1.8719682950857206,
+    1.8054718852599494,
+    1.9339903567070662,
+    1.822168550827877,
+    1.852432240225506,
+    1.9042222584118647
+   ],
+   "shuffled_A_then_B": [
+    2.221290224648824,
+    1.9916110694333709,
+    1.80014505776217,
+    1.7137487176433552,
+    1.9657672127953507,
+    1.872907660051383,
+    1.7196056768254744,
+    1.8952275049039053,
+    1.8550150733078823,
+    1.823613042251729,
+    1.8895997053161357,
+    1.8546411087568304,
+    2.0543913893007533,
+    1.918680217966939,
+    1.6484246267064284,
+    1.68519719238735,
+    1.8127244838697087,
+    1.6437177830255816,
+    1.5902212574560095,
+    1.6639649242237122,
+    1.7024049650883537,
+    1.8012503593256484,
+    1.9671709069046905,
+    1.9712728826772845,
+    1.8692561752811399,
+    1.9605651933726898,
+    1.8269463384403382,
+    1.793105171373689,
+    1.900847700987482,
+    1.850099591283801,
+    1.8234560405459972,
+    1.6831609112342305,
+    2.1179114151645266,
+    2.054074177148669,
+    1.8541673853616714,
+    1.9958826390332356,
+    2.13456194426115,
+    2.014803322569178,
+    1.9316735232010362,
+    1.8552635402720346,
+    1.924230316737126,
+    1.9791304631231754,
+    1.9220746898531318,
+    1.9662317336614956,
+    1.9206640897258023,
+    1.8788039068330993,
+    1.9401800233013475,
+    1.9218567030063864,
+    1.9079396765209191,
+    1.913762977556329,
+    1.785081961023235,
+    1.711225992175337,
+    2.38403837707004,
+    1.9008442560604333,
+    1.9731884744733983,
+    1.9215173738231326,
+    2.04834775711384,
+    2.0578103353479653,
+    1.9241588768522961,
+    1.945797770738607,
+    1.9176010818249685,
+    1.8099090781736136,
+    1.8869888449485237,
+    1.8948945219546025,
+    1.8413593693308843,
+    1.9050808250520652,
+    1.8237781910975654,
+    1.7899812330408316,
+    1.8808110524859498,
+    1.9563924416348448,
+    1.86671492273723,
+    1.7915367884433697,
+    1.925993064568957,
+    1.812521148314629,
+    1.8464690227000928,
+    1.895674797686133
+   ]
+  },
+  "generation": [
+   {
+    "prompt": "misapprehension usually takes is that of a failure to",
+    "max": " be recognized that the same time the community ",
+    "sample": "\npractical utting them ree points of animals,\nto"
+   },
+   {
+    "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+    "max": "                                                ",
+    "sample": "   _A_, and _look forth the seventeese: general "
+   },
+   {
+    "prompt": "\nThe salient points in this account are these, that, at the end",
+    "max": " of the same time the community at large and the",
+    "sample": " of the woman and B by means of apples of politi"
+   },
+   {
+    "prompt": "students were invited and work begun. A band of men, whose",
+    "max": " special relation to the subject to the subject ",
+    "sample": " we can also the good.[187 |3 as an After diffic"
+   },
+   {
+    "prompt": "philosophical controversy; having shown one axiom to be",
+    "max": " recognized that the same time the community at ",
+    "sample": " felt iron will leather, I must table proposed t"
+   },
+   {
+    "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+    "max": " of the same time the community at large and the",
+    "sample": ", we should train utilities the origin of much l"
+   },
+   {
+    "prompt": "\n    Hearing in scouting                                       ",
+    "max": "                                                ",
+    "sample": "     3/4!\ufffd\u0002[\u000bs\ufffd\u0003\ufffdC)\u0003+K;C\ufffd++q\u0003#\u000b\u02d9\u0003{1\u0003\ufffd+\u000b\u001bCKs9\u0003{1"
+   },
+   {
+    "prompt": "which was not previously in the senses. To be out of one's",
+    "max": " own particular case of the same time the commun",
+    "sample": " indeed it is plain the popularly upon here, and"
+   }
+  ]
+ },
+ "part4": {
+  "bytes": 48,
+  "prompts": 8,
+  "settings": [
+   {
+    "hbar": 0.0,
+    "form": "euclidean",
+    "mode": "collapse",
+    "verified": false,
+    "repeated_8byte_windows": 0.27134146341463417,
+    "words_in_A_train_vocabulary": 0.9811320754716981,
+    "words": 53,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.6894287700802733,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " be recognized that the same time the community "
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " special relation to the subject to the subject "
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " recognized that the same time the community at "
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own particular case of the same time the commun"
+     }
+    ],
+    "seconds": 14.3
+   },
+   {
+    "hbar": 0.0,
+    "form": "euclidean",
+    "mode": "collapse",
+    "verified": true,
+    "repeated_8byte_windows": 0.24390243902439024,
+    "words_in_A_train_vocabulary": 0.9827586206896551,
+    "words": 58,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.6947709782221834,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " the subject of the same time the community at l"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " properties of the same time the community at la"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " the community at large and the results of the s"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own particular case of the same time the commun"
+     }
+    ],
+    "seconds": 11.7
+   },
+   {
+    "hbar": 0.0,
+    "form": "euclidean",
+    "mode": "sample",
+    "verified": false,
+    "repeated_8byte_windows": 0.27134146341463417,
+    "words_in_A_train_vocabulary": 0.9811320754716981,
+    "words": 53,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.6894287700802733,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " be recognized that the same time the community "
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " special relation to the subject to the subject "
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " recognized that the same time the community at "
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own particular case of the same time the commun"
+     }
+    ],
+    "seconds": 12.7
+   },
+   {
+    "hbar": 0.0,
+    "form": "euclidean",
+    "mode": "sample",
+    "verified": true,
+    "repeated_8byte_windows": 0.24390243902439024,
+    "words_in_A_train_vocabulary": 0.9827586206896551,
+    "words": 58,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.6947709782221834,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " the subject of the same time the community at l"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " properties of the same time the community at la"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " the community at large and the results of the s"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own particular case of the same time the commun"
+     }
+    ],
+    "seconds": 9.0
+   },
+   {
+    "hbar": 0.0,
+    "form": "feynman",
+    "mode": "collapse",
+    "verified": false,
+    "repeated_8byte_windows": 0.27134146341463417,
+    "words_in_A_train_vocabulary": 0.9811320754716981,
+    "words": 53,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.6894287700802733,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " be recognized that the same time the community "
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " special relation to the subject to the subject "
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " recognized that the same time the community at "
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own particular case of the same time the commun"
+     }
+    ],
+    "seconds": 13.5
+   },
+   {
+    "hbar": 0.0,
+    "form": "feynman",
+    "mode": "collapse",
+    "verified": true,
+    "repeated_8byte_windows": 0.24390243902439024,
+    "words_in_A_train_vocabulary": 0.9827586206896551,
+    "words": 58,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.6947709782221834,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " the subject of the same time the community at l"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " properties of the same time the community at la"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " the community at large and the results of the s"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own particular case of the same time the commun"
+     }
+    ],
+    "seconds": 12.4
+   },
+   {
+    "hbar": 0.0,
+    "form": "feynman",
+    "mode": "sample",
+    "verified": false,
+    "repeated_8byte_windows": 0.27134146341463417,
+    "words_in_A_train_vocabulary": 0.9811320754716981,
+    "words": 53,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.6894287700802733,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " be recognized that the same time the community "
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " special relation to the subject to the subject "
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " recognized that the same time the community at "
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own particular case of the same time the commun"
+     }
+    ],
+    "seconds": 10.2
+   },
+   {
+    "hbar": 0.0,
+    "form": "feynman",
+    "mode": "sample",
+    "verified": true,
+    "repeated_8byte_windows": 0.24390243902439024,
+    "words_in_A_train_vocabulary": 0.9827586206896551,
+    "words": 58,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.6947709782221834,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " the subject of the same time the community at l"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " properties of the same time the community at la"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " the community at large and the results of the s"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the same time the community at large and the"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own particular case of the same time the commun"
+     }
+    ],
+    "seconds": 11.4
+   },
+   {
+    "hbar": 0.25,
+    "form": "euclidean",
+    "mode": "collapse",
+    "verified": false,
+    "repeated_8byte_windows": 0.24390243902439024,
+    "words_in_A_train_vocabulary": 1.0,
+    "words": 56,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.758199775711384,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " be consideration of the same time the streets a"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time the streets and the results of"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " special science of the same time the streets an"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " recognized that the same time the streets and t"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the same time the streets and the results of"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own particular case of the same time the street"
+     }
+    ],
+    "seconds": 10.8
+   },
+   {
+    "hbar": 0.25,
+    "form": "euclidean",
+    "mode": "collapse",
+    "verified": true,
+    "repeated_8byte_windows": 0.24390243902439024,
+    "words_in_A_train_vocabulary": 0.9821428571428571,
+    "words": 56,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.6624472621808434,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " be the community at large, and the relation to "
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time the community at large, and th"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " properties of the same time the community at la"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " the community at large, and the relation to the"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the same time the community at large, and th"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own particular case of the same time the commun"
+     }
+    ],
+    "seconds": 15.8
+   },
+   {
+    "hbar": 0.25,
+    "form": "euclidean",
+    "mode": "sample",
+    "verified": false,
+    "repeated_8byte_windows": 0.27134146341463417,
+    "words_in_A_train_vocabulary": 0.9814814814814815,
+    "words": 54,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.6916961308354201,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " the community at large, and the other hand, the"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time the properties of the same tim"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " special interest in the former considerations o"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " found that the particular forms of the principl"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the school of to-day is the most importance "
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own part, and the relation of the present the c"
+     }
+    ],
+    "seconds": 13.0
+   },
+   {
+    "hbar": 0.25,
+    "form": "euclidean",
+    "mode": "sample",
+    "verified": true,
+    "repeated_8byte_windows": 0.2621951219512195,
+    "words_in_A_train_vocabulary": 0.9827586206896551,
+    "words": 58,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.7449823646796521,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " the community at large, and the same time the c"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time the results of the children of"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " specimens of the conditions of the same time th"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " complete the common school work is the properti"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the school is to be conduct of the same time"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own part, and the relation of the present the c"
+     }
+    ],
+    "seconds": 12.0
+   },
+   {
+    "hbar": 0.25,
+    "form": "feynman",
+    "mode": "collapse",
+    "verified": false,
+    "repeated_8byte_windows": 0.12195121951219512,
+    "words_in_A_train_vocabulary": 0.9333333333333333,
+    "words": 60,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 1.252383281807037,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " make that the Class of air (of the body will pr"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "      in the case of cookes and Narrough a mixtu"
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the body will prevention of an engineer.\n\n  "
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " more changes in mathematics would not be said, "
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " done by hanging and old for the presence (const"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " respectively, or transmits are all of the body "
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own intervals, this manner, the perforated the "
+     }
+    ],
+    "seconds": 12.9
+   },
+   {
+    "hbar": 0.25,
+    "form": "feynman",
+    "mode": "collapse",
+    "verified": true,
+    "repeated_8byte_windows": 0.12195121951219512,
+    "words_in_A_train_vocabulary": 0.90625,
+    "words": 64,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 1.100293538035591,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " be done by one of the National polication of an"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "      in the cause of the National polication of"
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the National polication of an element of the"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " he value of the National polication of an eleme"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " done by one of the National polication of an el"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " respectively to the attempt to different wage t"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own order to make this requiring the age of dis"
+     }
+    ],
+    "seconds": 10.1
+   },
+   {
+    "hbar": 0.25,
+    "form": "feynman",
+    "mode": "sample",
+    "verified": false,
+    "repeated_8byte_windows": 0.0,
+    "words_in_A_train_vocabulary": 0.9836065573770492,
+    "words": 61,
+    "printable_bytes": 0.8880208333333334,
+    "valid_utf8": 0.75,
+    "own_bits_per_byte": 1.8973057397965707,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": "\npracticable'_{0}..\\xac.N\\x8c\\xaeE\\x84\r\\x8c\\xac.\\xcd-\\xcc\\xe4\r-\\xc4\fm\\xee\\xad\u038c\\xad\\xcc-\\xccl"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "   This acquirements and yet glance with itself "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the Necessary that one (hat rapidity; the oi"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " meaning of pupils functions; as May\nexpress the"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " felt\nirritate their\nsome\n       human race! \"kn"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": ", we should be at all soon as those of the weigh"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "     572\u0007\\x96V\u0017\"\u0003\u0013s\\xab\u000ba\u0003k\u000b\\xc9\u0003\u0013)\u0003{\u0013S+\u001b\\xa3\\x99a\u0002Y\\x88\u0012H\u001a\u0018]\\x99H\u001a\u0018Y"
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " intentionable imitations (On\n     (_A._\n       "
+     }
+    ],
+    "seconds": 12.3
+   },
+   {
+    "hbar": 0.25,
+    "form": "feynman",
+    "mode": "sample",
+    "verified": true,
+    "repeated_8byte_windows": 0.0,
+    "words_in_A_train_vocabulary": 0.819672131147541,
+    "words": 61,
+    "printable_bytes": 0.8359375,
+    "valid_utf8": 0.625,
+    "own_bits_per_byte": 2.1367853836490065,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": "\napprenticese\ntirk, the\nguardianship. The\nUniver"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "   This acid.\n\n\nSec. Hinal ster interest equal ("
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of thy\"\u0005D\\x84R\u00044\\xf44\\x942\u0006\\xe6\\xf7B\u0006&VV\\xe2\u0006\\xd6\u0016FR\u0006f\\xf7\"\u0007F\\x86R\u0007\u0007V&\u01976\\x86"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " faculty of deformity.[10Q\u0001\u0001\u0001\u0001\u0001\u0001\u0003Kq\u0003\\x83\\x93+\\x9b+s\u001b)\u0003\\xa3y\u0003"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " fears\nvitable rheatening\nnoun is very speculati"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": ", we should be in For this able to put than any "
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "     79.5\\xcb\u0002\\x9d\u001a\u0019Z\\\\x88\u001b\u071d\u001a[\u06c8\u001a[\\x9d\u001b\\xc8\t\\x97B\u0006\\xd6WF\u0016\\xc2\u0002\\x87v\\x97F\\x82\u0007&W7"
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " impersonal implicity, from one deplopment, Sand"
+     }
+    ],
+    "seconds": 10.5
+   },
+   {
+    "hbar": 0.5,
+    "form": "euclidean",
+    "mode": "collapse",
+    "verified": false,
+    "repeated_8byte_windows": 0.25609756097560976,
+    "words_in_A_train_vocabulary": 0.9830508474576272,
+    "words": 59,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.703706399740523,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " be consideration of the same time and the commu"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time and the community at large, an"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " complete the results of the same time and the c"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " recognized as a state of the same time and the "
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the same time and the community at large, an"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own part, and the community at large, and the c"
+     }
+    ],
+    "seconds": 12.3
+   },
+   {
+    "hbar": 0.5,
+    "form": "euclidean",
+    "mode": "collapse",
+    "verified": true,
+    "repeated_8byte_windows": 0.25609756097560976,
+    "words_in_A_train_vocabulary": 0.9649122807017544,
+    "words": 57,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.6878665186169569,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " be consideration of the same time and the commu"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the same time and the community at large, an"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " complete the first order of the same time and t"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " consideration of the same time and the communit"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the same time and the community at large, an"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own part, and the community at large, and the c"
+     }
+    ],
+    "seconds": 11.9
+   },
+   {
+    "hbar": 0.5,
+    "form": "euclidean",
+    "mode": "sample",
+    "verified": false,
+    "repeated_8byte_windows": 0.13719512195121952,
+    "words_in_A_train_vocabulary": 1.0,
+    "words": 68,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 1.0623952126470304,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " practical work in which the good of the pupils "
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "   _A_, and the same thing which is the general "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the second movement of the results of the fi"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " seems to be the colors to be avoided in this co"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " feared to the real form in _and_ which the subj"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": ", which is the mother to the control of the cont"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own powers of a heavy like manner of providing "
+     }
+    ],
+    "seconds": 15.2
+   },
+   {
+    "hbar": 0.5,
+    "form": "euclidean",
+    "mode": "sample",
+    "verified": true,
+    "repeated_8byte_windows": 0.13414634146341464,
+    "words_in_A_train_vocabulary": 0.9848484848484849,
+    "words": 66,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.9570282836390903,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " the constitutional and the negative and to repr"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "   _A_, and the same thing which is the general "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the second movement of the results of the fi"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " scale of comparison of the starting point of vi"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " fear of the action of its own intellectual form"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": ", which is the mother to the control of the comm"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own point of the results of the work of the com"
+     }
+    ],
+    "seconds": 13.8
+   },
+   {
+    "hbar": 0.5,
+    "form": "feynman",
+    "mode": "collapse",
+    "verified": false,
+    "repeated_8byte_windows": 0.12195121951219512,
+    "words_in_A_train_vocabulary": 0.9310344827586207,
+    "words": 58,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 1.3824320328135145,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " another\nlance compound that the lines of a figu"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "      or of marriages are encountered\nmediate do"
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the logical engineering each other, may be d"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " easily on the development. As February importan"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " of money and Machinery of oxides\n      lime. As"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of morality of five to it. As made limits of ma"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " dutyramident Lach side of the logical engineeri"
+     }
+    ],
+    "seconds": 12.0
+   },
+   {
+    "hbar": 0.5,
+    "form": "feynman",
+    "mode": "collapse",
+    "verified": true,
+    "repeated_8byte_windows": 0.12195121951219512,
+    "words_in_A_train_vocabulary": 0.96875,
+    "words": 64,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 1.2519424480234436,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " any given days of Education, though the fluids "
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "      or life. A mode of our minds reason of the"
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the listakespear stage of experienced as met"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " men were at presented by it, it is a first of t"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " adopted for labour and others that every simple"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of labour and others that every simple developm"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " do not allow the logical expected to apply to t"
+     }
+    ],
+    "seconds": 12.3
+   },
+   {
+    "hbar": 0.5,
+    "form": "feynman",
+    "mode": "sample",
+    "verified": false,
+    "repeated_8byte_windows": 0.0,
+    "words_in_A_train_vocabulary": 0.8983050847457628,
+    "words": 59,
+    "printable_bytes": 0.8802083333333334,
+    "valid_utf8": 0.625,
+    "own_bits_per_byte": 2.1924104987822584,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": "\na hostile \u201cty of quartz, will kinds of Things"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "   DATITAL\b\u001a\u001a\\\\xc8\u001b\\xdd\u06c8\u001bY\\\\x98]\u001a[\u06d7\u02c2\\x82\\x8c\\x8b\\x88\u0010]\u0019Y\b\u0019\\x9d\\\\x9b\\x98X\\xd9K\\x88"
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the one peality countries that\nhair,\n Romans"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " ease and faithful denspire regulations. So, don"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " calculty is ential begin\n  IL\\xaf$\f\ucb84\u000e\r\f.l\\xaed\r\\xec\\xc4\u000e\u000e"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": ", writings just receives. We are _infant both ex"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "      or material con_.\n\n[41]!\u0015H\\x81\u0011=\rQI them unse"
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own oxides of injury. For this determine where "
+     }
+    ],
+    "seconds": 11.7
+   },
+   {
+    "hbar": 0.5,
+    "form": "feynman",
+    "mode": "sample",
+    "verified": true,
+    "repeated_8byte_windows": 0.0,
+    "words_in_A_train_vocabulary": 0.8103448275862069,
+    "words": 58,
+    "printable_bytes": 0.8411458333333334,
+    "valid_utf8": 0.5,
+    "own_bits_per_byte": 2.410368914962745,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": "\na he university\nof questions for an acid than t"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "   DAY, and New [16] Deations which she occupati"
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the\nnames doubtf\\x966\u0016&\\xc6R\u0007\u0006\\xc6\u0017\\x972\u0006f\u0017\"\u0006\u00172\u0007\u0006\\xf7V\\xe6G2\u0007v"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " ease and fat, when NOR RECORAAKjm,\\x8c\\xaeL.\\x8d-\\xed\\xceaDM\\xed\\xad"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " called? Briments\\xe0Q\u0011\u054d\\xd1|\\x81\\x89\\x94\\x81\u0645\\xb1\\xa5\\x90\\xb8\\x81I\\xbd\u055d\\xa0\\x81\\xbd\u0461\\x95\\xc8\\xec\\x81"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": ", writings (vices and renders thorose \"lerated h"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "      kindred powerful pulpitates rovo\u0003\t\u0003\\x9b{\u001bK+\\xa3\\xc9"
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " at the kin places_: \u201cfirst botuerhaps\ndoes no"
+     }
+    ],
+    "seconds": 10.9
+   },
+   {
+    "hbar": 1.0,
+    "form": "euclidean",
+    "mode": "collapse",
+    "verified": false,
+    "repeated_8byte_windows": 0.43292682926829273,
+    "words_in_A_train_vocabulary": 1.0,
+    "words": 72,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.8536701932248986,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " be able to do with the former are not always be"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "      complete and consequently and consequently"
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the first of the first of the first of the f"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " ends of the first of the first of the first of "
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " able to do with the former are not always be do"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the first of the first of the first of the f"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own conditions of the first of the first of the"
+     }
+    ],
+    "seconds": 12.3
+   },
+   {
+    "hbar": 1.0,
+    "form": "euclidean",
+    "mode": "collapse",
+    "verified": true,
+    "repeated_8byte_windows": 0.3536585365853659,
+    "words_in_A_train_vocabulary": 1.0,
+    "words": 66,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 0.8735961109752467,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " be able to do with the former and consequently "
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "      complete and consequently and consequently"
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the first of the first of the first of the f"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " decomposed of any of the first of the first of "
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " able to do with the former and consequently and"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " of the first of the first of the first of the f"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " own children are being an excess of another com"
+     }
+    ],
+    "seconds": 10.1
+   },
+   {
+    "hbar": 1.0,
+    "form": "euclidean",
+    "mode": "sample",
+    "verified": false,
+    "repeated_8byte_windows": 0.0,
+    "words_in_A_train_vocabulary": 0.9264705882352942,
+    "words": 68,
+    "printable_bytes": 0.953125,
+    "valid_utf8": 0.875,
+    "own_bits_per_byte": 1.8222780999608734,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": "\npractical utting them ree points of animals,\nto"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "   _A_, and _look forth the seventeese: general "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the woman and B by means of apples of politi"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " we can also the good.[187 |3 as an After diffic"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " felt iron will leather, I must table proposed t"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": ", we should train utilities the origin of much l"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "     3/4!\\xa9\u0002[\u000bs\\xa1\u0003\\xa3C)\u0003+K;C\\xa3++q\u0003#\u000b\u02d9\u0003{1\u0003\\xa3+\u000b\u001bCKs9\u0003{1"
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " indeed it is plain the popularly upon here, and"
+     }
+    ],
+    "seconds": 14.7
+   },
+   {
+    "hbar": 1.0,
+    "form": "euclidean",
+    "mode": "sample",
+    "verified": true,
+    "repeated_8byte_windows": 0.0,
+    "words_in_A_train_vocabulary": 0.8857142857142857,
+    "words": 70,
+    "printable_bytes": 0.9479166666666666,
+    "valid_utf8": 0.875,
+    "own_bits_per_byte": 1.8613926314209914,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": "\npractical utting them read, for instances\nwhich"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": "   _A_, and _look forth the seventeese: general "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of the woman and B by means of apples of politi"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " we can also the good.[187 |3 as an After diffic"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " felt iron oxide, it is undesigns which the flan"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": ", was a\n     yard and people additional calcanin"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "     3/4!\\xa9\u0002[\u000bs\\xa1\u0003\\xa3C)\u0003+K;C\\xa3A\u0003{q\u0003\u000b\\x93K\\x9b)\u00033\\x93+\\x8b\\xab+s\\xa3c\\xc9\u0003C"
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " in this ten homestic methods, no more or less e"
+     }
+    ],
+    "seconds": 12.7
+   },
+   {
+    "hbar": 1.0,
+    "form": "feynman",
+    "mode": "collapse",
+    "verified": false,
+    "repeated_8byte_windows": 0.12195121951219512,
+    "words_in_A_train_vocabulary": 0.9411764705882353,
+    "words": 51,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 1.5061781359432669,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " designated as endeavouring enets manner edge si"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": " English\nmanifestations are false, many figures "
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": "ing on matters confidence in endless about a fie"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " endeavouring enets manner edge significance. If"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " done outer labour. Among else business manager "
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " in endless about a field after end possible adm"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " done outer labour. Among else business manager "
+     }
+    ],
+    "seconds": 9.9
+   },
+   {
+    "hbar": 1.0,
+    "form": "feynman",
+    "mode": "collapse",
+    "verified": true,
+    "repeated_8byte_windows": 0.12195121951219512,
+    "words_in_A_train_vocabulary": 0.9298245614035088,
+    "words": 57,
+    "printable_bytes": 1.0,
+    "valid_utf8": 1.0,
+    "own_bits_per_byte": 1.5255023197522712,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": " described as material bare ends composed of fic"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": " English\nendered and ending of manganese books o"
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": "ing of manganese books outer market value to dep"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " endeavouring enets manner education by filled o"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " done outer market value to dependent season art"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": " are equal each field good\nendered and ending of"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "                                                "
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " done outer market value to dependent season art"
+     }
+    ],
+    "seconds": 12.0
+   },
+   {
+    "hbar": 1.0,
+    "form": "feynman",
+    "mode": "sample",
+    "verified": false,
+    "repeated_8byte_windows": 0.0,
+    "words_in_A_train_vocabulary": 0.8076923076923077,
+    "words": 52,
+    "printable_bytes": 0.8515625,
+    "valid_utf8": 0.625,
+    "own_bits_per_byte": 2.4517701041486846,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": "\narrents would_) Finangree atoms in other Tis\npe"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": " Botany=-=-=\n\n\nMRS. Among even gildespace pelple"
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of Marbloadine.\n Beck3+\\x9b\\x9b+!\u0003\\x83\\x93{3{\\xabs#cKs;\\x99pPR#y\u0003"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " edge point progress is perhaps fallacies Dr. Jo"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " felt_\nr\\x99pPR\u001bc+\\xb3+\\x91\u0003s\u000b\\xa3\\xab\\x93\u000ba\u0003\u000bK\\x91\\xeb\\x83{\\x9b+c\\xc9\u0003\u000b#y\u0003\u000b\u0013\\x93K{\\xab"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": ", from Geost pass at applied mechanically meet l"
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "     77\\xbb\\x900\\xb17\\xba\\xba\u00104\\xba\u0017/\\x8534\\xb73\\xb6<\\x900\\xb17\\xba\\xba\u00101\\xb0\\xb92\\x901\\xb7\\xb6\\xb87\\xba\\xb72\u0010!"
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " interrupted laboratories the fourth\ndinnotion. "
+     }
+    ],
+    "seconds": 11.2
+   },
+   {
+    "hbar": 1.0,
+    "form": "feynman",
+    "mode": "sample",
+    "verified": true,
+    "repeated_8byte_windows": 0.0,
+    "words_in_A_train_vocabulary": 0.7058823529411765,
+    "words": 51,
+    "printable_bytes": 0.9140625,
+    "valid_utf8": 0.75,
+    "own_bits_per_byte": 2.4167868557700007,
+    "outputs": [
+     {
+      "prompt": "misapprehension usually takes is that of a failure to",
+      "text": "\narrents feeding contrary endeavorgivenlest in e"
+     },
+     {
+      "prompt": "\nY\n\n  Yeast, ii. 234.\n  Yttria, ii. 44.\n  Yttrium, i. 13.\n\nZ\n\n ",
+      "text": " Botanist Phing\nbrounted?--Suggested; these\nlong"
+     },
+     {
+      "prompt": "\nThe salient points in this account are these, that, at the end",
+      "text": " of Jusvowels done\nbrishness is apparatus roachi"
+     },
+     {
+      "prompt": "students were invited and work begun. A band of men, whose",
+      "text": " edge point progress or pect: as elseen as indiv"
+     },
+     {
+      "prompt": "philosophical controversy; having shown one axiom to be",
+      "text": " felt_\nr\\x99pPR\u001ba\u0003;xQ\u0001\u0001\u0001\u0003k\u000bs\\xc9\u0003\u000b\u001bK#\\xab)\u0003\\x93+\\x9b{\\x93\\xa1\u0003\\xa3y\u0003\u000b#\\xb3\u000b"
+     },
+     {
+      "prompt": "what is called a fillip, &c. &c. I confound all these motions",
+      "text": ", graspentertained ends conducted.\nAnother will "
+     },
+     {
+      "prompt": "\n    Hearing in scouting                                       ",
+      "text": "     73 7) Wasticatio_.\n\n[41Y\u0003\u0013c{{!\u00033\\x93++c\\xc9\u0003\\x9b+\\xa3\\xa3K"
+     },
+     {
+      "prompt": "which was not previously in the senses. To be out of one's",
+      "text": " interrupted laboratory distinct\nsepapportional "
+     }
+    ],
+    "seconds": 11.0
+   }
+  ]
+ },
+ "seconds": 2778.4
+}

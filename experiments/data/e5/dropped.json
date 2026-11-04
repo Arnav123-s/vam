@@ -1,0 +1,190 @@
+{
+ "dropped": [
+  {
+   "id": "R-OPT-05",
+   "kind": "recall",
+   "why": [
+    "lcs>80"
+   ]
+  },
+  {
+   "id": "R-OPT-09",
+   "kind": "recall",
+   "why": [
+    "lcs>80"
+   ]
+  },
+  {
+   "id": "R-OPT-10",
+   "kind": "recall",
+   "why": [
+    "lcs>80"
+   ]
+  },
+  {
+   "id": "R-NOT-12",
+   "kind": "recall",
+   "why": [
+    "lcs>80"
+   ]
+  },
+  {
+   "id": "R-PRI-03",
+   "kind": "recall",
+   "why": [
+    "lcs>80"
+   ]
+  },
+  {
+   "id": "R-PRI-09",
+   "kind": "recall",
+   "why": [
+    "lcs>80"
+   ]
+  },
+  {
+   "id": "R-PRI-12",
+   "kind": "recall",
+   "why": [
+    "lcs>80"
+   ]
+  },
+  {
+   "id": "R-PRI-13",
+   "kind": "recall",
+   "why": [
+    "lcs>80"
+   ]
+  },
+  {
+   "id": "I-PRI-04",
+   "kind": "inference",
+   "why": [
+    "lcs>48"
+   ]
+  },
+  {
+   "id": "I-PLA-02",
+   "kind": "inference",
+   "why": [
+    "cooccurrence"
+   ]
+  },
+  {
+   "id": "I-PLA-03",
+   "kind": "inference",
+   "why": [
+    "cooccurrence"
+   ]
+  },
+  {
+   "id": "I-PLA-04",
+   "kind": "inference",
+   "why": [
+    "cooccurrence"
+   ]
+  },
+  {
+   "id": "R-REL-05",
+   "kind": "recall",
+   "why": [
+    "quote-not-in-trained-S5"
+   ]
+  },
+  {
+   "id": "R-EUC-11",
+   "kind": "recall",
+   "why": [
+    "lcs>80"
+   ]
+  },
+  {
+   "id": "R-EUC-14",
+   "kind": "recall",
+   "why": [
+    "lcs>80"
+   ]
+  },
+  {
+   "id": "R-EUC-19",
+   "kind": "recall",
+   "why": [
+    "lcs>80"
+   ]
+  },
+  {
+   "id": "R-EUC-20",
+   "kind": "recall",
+   "why": [
+    "lcs>80"
+   ]
+  },
+  {
+   "id": "I-EUC-01",
+   "kind": "inference",
+   "why": [
+    "lcs>48"
+   ]
+  },
+  {
+   "id": "I-EUC-04",
+   "kind": "inference",
+   "why": [
+    "lcs>48"
+   ]
+  },
+  {
+   "id": "I-EUC-08",
+   "kind": "inference",
+   "why": [
+    "cooccurrence"
+   ]
+  },
+  {
+   "id": "I-NOT-14",
+   "kind": "inference",
+   "why": [
+    "lcs>48"
+   ]
+  },
+  {
+   "id": "I-NOT-16",
+   "kind": "inference",
+   "why": [
+    "lcs>48"
+   ]
+  },
+  {
+   "id": "I-PRI-09",
+   "kind": "inference",
+   "why": [
+    "lcs>48"
+   ]
+  },
+  {
+   "id": "I-REL-08",
+   "kind": "inference",
+   "why": [
+    "quote-not-in-trained-S5"
+   ]
+  },
+  {
+   "id": "I-PLA-13",
+   "kind": "inference",
+   "why": [
+    "cooccurrence"
+   ]
+  },
+  {
+   "id": "I-REL-10",
+   "kind": "inference",
+   "why": [
+    "quote-not-in-trained-S5"
+   ]
+  }
+ ],
+ "kept": {
+  "recall": 79,
+  "inference": 61
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "provenance": {
+  "utc": "2026-10-22T15:46:03Z",
+  "commit": "bf61ed723338fc777aa0c7c65b7f2af34468e522+uncommitted",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "numba": "0.68.0",
+  "machine": "x86_64",
+  "smoke": false
+ },
+ "off": {
+  "seconds": 102.38554464999999,
+  "seconds_per_MiB": 34.12851488333333,
+  "compiles": [],
+  "compile_seconds": 0
+ },
+ "K": {
+  "seconds": 141.30880433199997,
+  "seconds_per_MiB": 47.102934777333324,
+  "compiles": [
+   {
+    "bytes": 237140,
+    "index": 0,
+    "seconds": 2.0979427200000487,
+    "rows": 4608,
+    "classes_used": 256,
+    "rows_per_class": [
+     1.0,
+     5.0,
+     11.0,
+     26.0,
+     89.0
+    ],
+    "mass_per_class": [
+     31.0,
+     201.5,
+     343.5,
+     627.25,
+     42525.0
+    ],
+    "mass_in_map_share": 0.9038579407626102
+   },
+   {
+    "bytes": 467501,
+    "index": 1,
+    "seconds": 3.603082738000012,
+    "rows": 8186,
+    "classes_used": 256,
+    "rows_per_class": [
+     1.0,
+     6.0,
+     18.0,
+     50.0,
+     191.0
+    ],
+    "mass_per_class": [
+     50.0,
+     464.75,
+     783.0,
+     1233.75,
+     78427.0
+    ],
+    "mass_in_map_share": 0.9293496166866781,
+    "churn": 0.11509223766481164
+   },
+   {
+    "bytes": 695308,
+    "index": 2,
+    "seconds": 7.856879590999938,
+    "rows": 10533,
+    "classes_used": 255,
+    "rows_per_class": [
+     0.0,
+     7.0,
+     23.0,
+     63.0,
+     258.0
+    ],
+    "mass_per_class": [
+     0.0,
+     742.75,
+     1194.0,
+     2031.75,
+     115964.0
+    ],
+    "mass_in_map_share": 0.9441488568958837,
+    "churn": 0.09060650947706629
+   }
+  ],
+  "compile_seconds": 13.557905048999999
+ },
+ "A_train_MiB": 31.5598783493042,
+ "V": 32768,
+ "stop_seconds": 2700.0,
+ "extrapolated_arm_seconds_at_V": 1484.032632301564,
+ "recommended_V": 32768,
+ "extrapolated_arm_seconds_at_recommended_V": 1484.032632301564,
+ "over_the_stop": false
+}

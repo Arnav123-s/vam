@@ -1,0 +1,3912 @@
+{
+  "verdict": "FAIL",
+  "created_utc": "2026-10-22T01:55:56+00:00",
+  "seconds": 3774.1,
+  "mode": "full",
+  "commit": "c4b6fab44dd72a075d6bc9d4f4dd9a93855a2609",
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "pytest": "9.1.1",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+  },
+  "specification": {
+    "VAM_Coupled_Theory_and_Proofs.md": "df2de9efb9c335918940455da962aec4fe90f6d8dbf6c51d92a626dd5c8d1523",
+    "VAM_Framework_Foundational_Principles.md": "2c56d110c47df669daa51ba3c688f214ad79e219aebd42e5c7e1cf79c924b0d9",
+    "VAM_Nested_Fractal_Architecture.md": "4d4079cc61e987df2235c4f4c36752af2f02ec4681de494c972373a7144fefa2"
+  },
+  "tests": {
+    "exit_code": 1,
+    "counts": {
+      "passed": 722,
+      "failed": 1
+    },
+    "results": [
+      {
+        "test": "tests/test_bitkernel.py::test_equals_the_pointer_engine[1-1-False]",
+        "outcome": "passed",
+        "seconds": 0.1995
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_equals_the_pointer_engine[2-3-False]",
+        "outcome": "passed",
+        "seconds": 0.0253
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_equals_the_pointer_engine[3-3-True]",
+        "outcome": "passed",
+        "seconds": 0.0246
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_equals_the_pointer_engine[2-2-True]",
+        "outcome": "passed",
+        "seconds": 0.0248
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_equals_the_dense_coherent_engine",
+        "outcome": "passed",
+        "seconds": 0.6968
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_rejects_a_massive_field",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_step_and_run_agree",
+        "outcome": "passed",
+        "seconds": 0.0312
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_compiled_and_reference_paths_agree",
+        "outcome": "passed",
+        "seconds": 0.0587
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_register_holds_the_last_k_bits",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_bits_per_byte",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_learns_a_deterministic_stream_down_to_its_window_floor",
+        "outcome": "passed",
+        "seconds": 0.0049
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_state_size_is_constant",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_continuation_distribution_equals_the_machine",
+        "outcome": "passed",
+        "seconds": 0.6512
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_generation_matches_macro_micro_and_does_not_learn",
+        "outcome": "passed",
+        "seconds": 114.3659
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_sampled_generation_is_reproducible",
+        "outcome": "passed",
+        "seconds": 0.0153
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_generated_bits_pack_into_bytes",
+        "outcome": "passed",
+        "seconds": 1.2025
+      },
+      {
+        "test": "tests/test_bitkernel.py::test_measured_throughput",
+        "outcome": "passed",
+        "seconds": 1.1594
+      },
+      {
+        "test": "tests/test_corpus.py::test_cleaning_keeps_only_the_book_text",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_corpus.py::test_cleaning_rejects_bytes_that_are_not_utf8",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_corpus.py::test_split_by_position_at_line_ends",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_corpus.py::test_controls_rearrange_without_changing_a_byte",
+        "outcome": "passed",
+        "seconds": 0.0016
+      },
+      {
+        "test": "tests/test_corpus.py::test_word_shuffle_stays_inside_each_sentence",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_corpus.py::test_manifest_streams_and_hashes",
+        "outcome": "passed",
+        "seconds": 0.0022
+      },
+      {
+        "test": "tests/test_e3_audit2.py::test_cache_bond_is_pinned_not_detected",
+        "outcome": "passed",
+        "seconds": 0.0184
+      },
+      {
+        "test": "tests/test_e3_audit2.py::test_host_bounds_are_recorded_for_information",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_e3_audit2.py::test_only_one_setting_is_the_machines_own_instrument",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_e3_audit2.py::test_hbar_zero_settings_are_reported_once_per_verified_value",
+        "outcome": "passed",
+        "seconds": 0.0001
+      },
+      {
+        "test": "tests/test_e3_memory.py::test_writing_grid_is_unchanged_by_the_memory_fix",
+        "outcome": "passed",
+        "seconds": 7.2037
+      },
+      {
+        "test": "tests/test_e3_memory.py::test_writing_grid_resumes_after_the_last_saved_setting",
+        "outcome": "passed",
+        "seconds": 12.9786
+      },
+      {
+        "test": "tests/test_e3_t4.py::test_page_trigger_is_the_default_and_unchanged",
+        "outcome": "passed",
+        "seconds": 1.0015
+      },
+      {
+        "test": "tests/test_e3_t4.py::test_cache_trigger_acts_before_the_cap_binds_and_copies",
+        "outcome": "passed",
+        "seconds": 0.9197
+      },
+      {
+        "test": "tests/test_e3_t4.py::test_floor_profile_keeps_only_well_sampled_rows_and_the_null_never_exceeds_rank_one",
+        "outcome": "passed",
+        "seconds": 0.1849
+      },
+      {
+        "test": "tests/test_e3_t4.py::test_report_subsection_is_labelled_added_after_the_result",
+        "outcome": "passed",
+        "seconds": 5.0188
+      },
+      {
+        "test": "tests/test_e4.py::test_base_is_e3s_chosen_row",
+        "outcome": "passed",
+        "seconds": 0.0017
+      },
+      {
+        "test": "tests/test_e4.py::test_window_classes_find_the_longest_match",
+        "outcome": "passed",
+        "seconds": 0.3031
+      },
+      {
+        "test": "tests/test_e4.py::test_decomposition_accounts_for_every_bit",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_e4.py::test_simpler_settings_have_fewer_options_on",
+        "outcome": "passed",
+        "seconds": 0.0001
+      },
+      {
+        "test": "tests/test_e4.py::test_report_labels_and_dedupes_like_e3",
+        "outcome": "passed",
+        "seconds": 0.0001
+      },
+      {
+        "test": "tests/test_e4.py::test_the_whole_smoke_run_on_synthetic_streams",
+        "outcome": "passed",
+        "seconds": 486.2436
+      },
+      {
+        "test": "tests/test_e5.py::test_the_question_file_matches_the_fixed_hash",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_e5.py::test_a_different_question_file_stops_the_run",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_e5.py::test_the_machine_is_e4s_chosen_configuration",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_e5.py::test_the_question_set_is_what_the_protocol_says",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_e5.py::test_snapshot_costs_equal_a_full_copy_bit_for_bit",
+        "outcome": "passed",
+        "seconds": 0.3007
+      },
+      {
+        "test": "tests/test_e5.py::test_frozen_reads_change_none_of_the_four_arrays_and_the_state_is_restored",
+        "outcome": "passed",
+        "seconds": 0.0121
+      },
+      {
+        "test": "tests/test_e5.py::test_the_gates_pass_and_return_the_costs",
+        "outcome": "passed",
+        "seconds": 0.2021
+      },
+      {
+        "test": "tests/test_e5.py::test_a_changed_table_fails_the_gate",
+        "outcome": "passed",
+        "seconds": 0.1016
+      },
+      {
+        "test": "tests/test_e5.py::test_arm_c_pauses_at_the_byte_offsets_where_ts_stages_end",
+        "outcome": "passed",
+        "seconds": 0.0026
+      },
+      {
+        "test": "tests/test_e5.py::test_a_file_that_differs_from_sources_stops_the_run",
+        "outcome": "passed",
+        "seconds": 0.0014
+      },
+      {
+        "test": "tests/test_e5.py::test_an_arm_records_counters_heldout_gates_and_costs",
+        "outcome": "passed",
+        "seconds": 0.7767
+      },
+      {
+        "test": "tests/test_e5.py::test_the_thresholds_are_the_protocols",
+        "outcome": "passed",
+        "seconds": 0.0023
+      },
+      {
+        "test": "tests/test_e5.py::test_the_cheapest_option_is_chosen_and_a_tie_counts_wrong",
+        "outcome": "passed",
+        "seconds": 0.0001
+      },
+      {
+        "test": "tests/test_e5.py::test_p1_p2_p3_computed_from_saved_costs",
+        "outcome": "passed",
+        "seconds": 0.0092
+      },
+      {
+        "test": "tests/test_e5.py::test_the_section_is_written_from_the_saved_file",
+        "outcome": "passed",
+        "seconds": 0.0042
+      },
+      {
+        "test": "tests/test_e5.py::test_restore_rules_cut_like_the_assembly",
+        "outcome": "passed",
+        "seconds": 0.0112
+      },
+      {
+        "test": "tests/test_f07_geometry_loop.py::test_metric_sets_slower_transport_where_density_is_higher",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_f07_geometry_loop.py::test_loop_is_norm_preserving",
+        "outcome": "passed",
+        "seconds": 0.3029
+      },
+      {
+        "test": "tests/test_f07_geometry_loop.py::test_vector_concentration_bends_its_own_flow",
+        "outcome": "passed",
+        "seconds": 0.7834
+      },
+      {
+        "test": "tests/test_f07_geometry_loop.py::test_the_field_is_dynamic_and_driven_by_the_vectors",
+        "outcome": "passed",
+        "seconds": 0.2179
+      },
+      {
+        "test": "tests/test_hier.py::test_no_upper_level_is_the_nested_machine_bit_for_bit[e3_row]",
+        "outcome": "passed",
+        "seconds": 0.5557
+      },
+      {
+        "test": "tests/test_hier.py::test_no_upper_level_is_the_nested_machine_bit_for_bit[plain]",
+        "outcome": "passed",
+        "seconds": 0.5088
+      },
+      {
+        "test": "tests/test_hier.py::test_no_upper_level_is_the_nested_machine_bit_for_bit[verify2]",
+        "outcome": "passed",
+        "seconds": 0.5036
+      },
+      {
+        "test": "tests/test_hier.py::test_registers_respect_the_bounds_of_n_l1",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_hier.py::test_state_size_does_not_grow_with_the_stream",
+        "outcome": "passed",
+        "seconds": 0.6445
+      },
+      {
+        "test": "tests/test_hier.py::test_prepass_keys_equal_the_python_state_machine[none-content]",
+        "outcome": "passed",
+        "seconds": 0.8142
+      },
+      {
+        "test": "tests/test_hier.py::test_prepass_keys_equal_the_python_state_machine[none-text]",
+        "outcome": "passed",
+        "seconds": 0.8077
+      },
+      {
+        "test": "tests/test_hier.py::test_prepass_keys_equal_the_python_state_machine[comm-content]",
+        "outcome": "passed",
+        "seconds": 0.601
+      },
+      {
+        "test": "tests/test_hier.py::test_prepass_keys_equal_the_python_state_machine[comm-text]",
+        "outcome": "passed",
+        "seconds": 0.6965
+      },
+      {
+        "test": "tests/test_hier.py::test_prepass_keys_equal_the_python_state_machine[dup-content]",
+        "outcome": "passed",
+        "seconds": 0.4137
+      },
+      {
+        "test": "tests/test_hier.py::test_prepass_keys_equal_the_python_state_machine[dup-text]",
+        "outcome": "passed",
+        "seconds": 0.3574
+      },
+      {
+        "test": "tests/test_hier.py::test_units_and_sentences_have_the_declared_sizes",
+        "outcome": "passed",
+        "seconds": 0.6821
+      },
+      {
+        "test": "tests/test_hier.py::test_unit_codes_collide_rarely",
+        "outcome": "passed",
+        "seconds": 0.7194
+      },
+      {
+        "test": "tests/test_hier.py::test_compiled_equals_the_plain_reference[defaults]",
+        "outcome": "passed",
+        "seconds": 6.1165
+      },
+      {
+        "test": "tests/test_hier.py::test_compiled_equals_the_plain_reference[scopeglobal]",
+        "outcome": "passed",
+        "seconds": 6.4893
+      },
+      {
+        "test": "tests/test_hier.py::test_compiled_equals_the_plain_reference[scopeglobal-raise_barTrue]",
+        "outcome": "passed",
+        "seconds": 6.78
+      },
+      {
+        "test": "tests/test_hier.py::test_compiled_equals_the_plain_reference[raise_barTrue-upper_verify2]",
+        "outcome": "passed",
+        "seconds": 6.2173
+      },
+      {
+        "test": "tests/test_hier.py::test_compiled_equals_the_plain_reference[segmenttext-scopeglobal]",
+        "outcome": "passed",
+        "seconds": 6.6383
+      },
+      {
+        "test": "tests/test_hier.py::test_compiled_equals_the_plain_reference[controldup]",
+        "outcome": "passed",
+        "seconds": 4.2126
+      },
+      {
+        "test": "tests/test_hier.py::test_compiled_equals_the_plain_reference[controlcomm-upper_verify2]",
+        "outcome": "passed",
+        "seconds": 5.1524
+      },
+      {
+        "test": "tests/test_hier.py::test_compiled_equals_the_plain_reference[upper(1, 4)-upper_verify4-scopeglobal-raise_barTrue]",
+        "outcome": "passed",
+        "seconds": 2.9917
+      },
+      {
+        "test": "tests/test_hier.py::test_the_raised_bar_changes_the_refusals_at_every_verify_setting",
+        "outcome": "passed",
+        "seconds": 0.515
+      },
+      {
+        "test": "tests/test_hier.py::test_the_readout_lies_between_the_component_readouts",
+        "outcome": "passed",
+        "seconds": 0.7222
+      },
+      {
+        "test": "tests/test_hier.py::test_a_new_upper_sector_equal_to_the_coarser_readout_changes_nothing",
+        "outcome": "passed",
+        "seconds": 0.0001
+      },
+      {
+        "test": "tests/test_hier.py::test_containment_a_perturbed_byte_has_no_effect_beyond_the_span",
+        "outcome": "passed",
+        "seconds": 0.7692
+      },
+      {
+        "test": "tests/test_hier.py::test_verified_growth_keeps_noise_out_of_the_upper_levels",
+        "outcome": "passed",
+        "seconds": 4.985
+      },
+      {
+        "test": "tests/test_hier.py::test_proven_upper_sectors_survive_noise_and_plain_ones_do_not",
+        "outcome": "passed",
+        "seconds": 0.1524
+      },
+      {
+        "test": "tests/test_hier.py::test_label_entropy_per_cut_is_at_most_one_bit",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_hier.py::test_the_instrument_equals_the_prediction_on_the_full_state",
+        "outcome": "passed",
+        "seconds": 0.4847
+      },
+      {
+        "test": "tests/test_hier.py::test_the_planner_hbar0_equals_the_machines_max_generation",
+        "outcome": "passed",
+        "seconds": 0.6137
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_partial_trace_of_product",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_space_embed_matches_kron_and_permutation",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_space_reduce_round_trip",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_density_checks",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_purity_bounds",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_condition_refuses_zero_probability",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_kraus_representations_agree",
+        "outcome": "passed",
+        "seconds": 0.0032
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_compose_and_compress",
+        "outcome": "passed",
+        "seconds": 0.0016
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_collision_channel_is_cptp_and_matches_partial_trace",
+        "outcome": "passed",
+        "seconds": 0.0025
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_instrument_requires_completeness",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_trace_distance_and_entropy",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_infrastructure.py::test_unitary_from_hamiltonian_is_unitary_for_long_times",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_long_runs.py::test_bit_kernel_storage_is_constant_over_a_million_events",
+        "outcome": "passed",
+        "seconds": 0.0285
+      },
+      {
+        "test": "tests/test_long_runs.py::test_nested_storage_is_constant_over_a_million_events",
+        "outcome": "passed",
+        "seconds": 0.2636
+      },
+      {
+        "test": "tests/test_long_runs.py::test_coherent_machine_stays_a_valid_density_over_twenty_thousand_events",
+        "outcome": "passed",
+        "seconds": 25.6191
+      },
+      {
+        "test": "tests/test_nested.py::test_one_level_is_the_bit_kernel[law0]",
+        "outcome": "passed",
+        "seconds": 0.0017
+      },
+      {
+        "test": "tests/test_nested.py::test_one_level_is_the_bit_kernel[law1]",
+        "outcome": "passed",
+        "seconds": 0.0017
+      },
+      {
+        "test": "tests/test_nested.py::test_without_inheritance_every_level_is_its_own_bit_kernel",
+        "outcome": "passed",
+        "seconds": 0.0044
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_exact_reference_until_the_first_eviction[law0-mixture-0-True-0.0]",
+        "outcome": "passed",
+        "seconds": 1.5189
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_exact_reference_until_the_first_eviction[law1-mature-1-True-0.0]",
+        "outcome": "passed",
+        "seconds": 0.1477
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_exact_reference_until_the_first_eviction[law2-mature-0-False-0.0]",
+        "outcome": "passed",
+        "seconds": 0.158
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_exact_reference_until_the_first_eviction[law3-mixture-3-True-4.0]",
+        "outcome": "passed",
+        "seconds": 0.1768
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_table_reference_with_forgetting[law0-mixture-0-True-0.0]",
+        "outcome": "passed",
+        "seconds": 0.1398
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_table_reference_with_forgetting[law1-mature-1-True-0.0]",
+        "outcome": "passed",
+        "seconds": 0.1344
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_table_reference_with_forgetting[law2-mature-0-False-0.0]",
+        "outcome": "passed",
+        "seconds": 0.1301
+      },
+      {
+        "test": "tests/test_nested.py::test_compiled_machine_equals_the_table_reference_with_forgetting[law3-mixture-3-True-4.0]",
+        "outcome": "passed",
+        "seconds": 0.1424
+      },
+      {
+        "test": "tests/test_nested.py::test_python_hash_matches_the_compiled_tables",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_nested.py::test_a_new_distinction_starts_as_the_coarser_readout[law0]",
+        "outcome": "passed",
+        "seconds": 0.0639
+      },
+      {
+        "test": "tests/test_nested.py::test_a_new_distinction_starts_as_the_coarser_readout[law1]",
+        "outcome": "passed",
+        "seconds": 0.0629
+      },
+      {
+        "test": "tests/test_nested.py::test_creating_a_distinction_leaves_the_prediction_unchanged",
+        "outcome": "passed",
+        "seconds": 0.1103
+      },
+      {
+        "test": "tests/test_nested.py::test_storage_is_fixed_and_forgetting_is_counted",
+        "outcome": "passed",
+        "seconds": 0.0109
+      },
+      {
+        "test": "tests/test_nested.py::test_frozen_reading_changes_no_table",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_nested.py::test_deep_levels_resolve_what_a_short_window_cannot",
+        "outcome": "passed",
+        "seconds": 0.0164
+      },
+      {
+        "test": "tests/test_nested.py::test_deep_levels_cost_little_on_a_short_memory_source",
+        "outcome": "passed",
+        "seconds": 0.7348
+      },
+      {
+        "test": "tests/test_nested.py::test_a_prior_slows_a_new_sector_without_moving_it",
+        "outcome": "passed",
+        "seconds": 0.0504
+      },
+      {
+        "test": "tests/test_nested.py::test_continuations_are_the_machines_own_predictions",
+        "outcome": "passed",
+        "seconds": 0.002
+      },
+      {
+        "test": "tests/test_nested.py::test_generation_continues_a_learned_text_and_does_not_learn",
+        "outcome": "passed",
+        "seconds": 0.4397
+      },
+      {
+        "test": "tests/test_nested.py::test_rejects_bad_configurations",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_nested.py::test_measured_throughput",
+        "outcome": "failed",
+        "seconds": 15.4827
+      },
+      {
+        "test": "tests/test_nested.py::test_layers_compiled_equals_the_table_reference[coherence0.5]",
+        "outcome": "passed",
+        "seconds": 0.1489
+      },
+      {
+        "test": "tests/test_nested.py::test_layers_compiled_equals_the_table_reference[coherence1.0]",
+        "outcome": "passed",
+        "seconds": 0.1515
+      },
+      {
+        "test": "tests/test_nested.py::test_layers_compiled_equals_the_table_reference[verify2]",
+        "outcome": "passed",
+        "seconds": 0.1493
+      },
+      {
+        "test": "tests/test_nested.py::test_layers_compiled_equals_the_table_reference[verify3-door_bits6]",
+        "outcome": "passed",
+        "seconds": 0.1437
+      },
+      {
+        "test": "tests/test_nested.py::test_layers_compiled_equals_the_table_reference[governorTrue]",
+        "outcome": "passed",
+        "seconds": 0.1596
+      },
+      {
+        "test": "tests/test_nested.py::test_layers_compiled_equals_the_table_reference[governorTrue-door_bits4]",
+        "outcome": "passed",
+        "seconds": 0.1573
+      },
+      {
+        "test": "tests/test_nested.py::test_layers_compiled_equals_the_table_reference[governorTrue-verify2-coherence0.7-protect0.5-sink_rate0.5]",
+        "outcome": "passed",
+        "seconds": 0.1694
+      },
+      {
+        "test": "tests/test_nested.py::test_defaults_leave_the_machine_unchanged",
+        "outcome": "passed",
+        "seconds": 0.0034
+      },
+      {
+        "test": "tests/test_nested.py::test_coherent_mix_is_the_two_hypothesis_density_readout",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_nested.py::test_coherent_nesting_stays_isometric[0.5]",
+        "outcome": "passed",
+        "seconds": 0.1176
+      },
+      {
+        "test": "tests/test_nested.py::test_coherent_nesting_stays_isometric[1.0]",
+        "outcome": "passed",
+        "seconds": 0.1134
+      },
+      {
+        "test": "tests/test_nested.py::test_a_one_off_context_takes_no_slot",
+        "outcome": "passed",
+        "seconds": 0.0166
+      },
+      {
+        "test": "tests/test_nested.py::test_verified_patterns_survive_noise",
+        "outcome": "passed",
+        "seconds": 0.0322
+      },
+      {
+        "test": "tests/test_nested.py::test_governor_halts_growth_at_half_and_drains_protected_sectors",
+        "outcome": "passed",
+        "seconds": 0.972
+      },
+      {
+        "test": "tests/test_nested.py::test_frozen_reading_changes_no_storage_under_any_option[defaults]",
+        "outcome": "passed",
+        "seconds": 0.0032
+      },
+      {
+        "test": "tests/test_nested.py::test_frozen_reading_changes_no_storage_under_any_option[verify2]",
+        "outcome": "passed",
+        "seconds": 0.0027
+      },
+      {
+        "test": "tests/test_nested.py::test_frozen_reading_changes_no_storage_under_any_option[verify3-coherence0.5]",
+        "outcome": "passed",
+        "seconds": 0.0039
+      },
+      {
+        "test": "tests/test_nested.py::test_frozen_reading_changes_no_storage_under_any_option[governorTrue]",
+        "outcome": "passed",
+        "seconds": 0.0028
+      },
+      {
+        "test": "tests/test_nested.py::test_frozen_reading_changes_no_storage_under_any_option[governorTrue-verify2-protect0.5-sink_rate0.25]",
+        "outcome": "passed",
+        "seconds": 0.0031
+      },
+      {
+        "test": "tests/test_nfa_bounds.py::test_bekenstein_formula_matches_its_definition",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_nfa_bounds.py::test_bekenstein_hawking_of_a_solar_mass_black_hole",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_nfa_bounds.py::test_a_black_hole_saturates_bekenstein",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_nfa_bounds.py::test_register_is_the_binding_limit",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_nfa_bounds.py::test_hardware_parsing_and_fallback",
+        "outcome": "passed",
+        "seconds": 0.0019
+      },
+      {
+        "test": "tests/test_nfa_bounds.py::test_cache_caps",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_nfa_bounds.py::test_nested_depths_respect_the_register",
+        "outcome": "passed",
+        "seconds": 0.0023
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_cmi_of_known_states",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_engine_reduced_densities_match_dense",
+        "outcome": "passed",
+        "seconds": 0.2538
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_sink_eigenvalue_is_minus_two",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_purity_is_the_norm_of_the_stored_vector",
+        "outcome": "passed",
+        "seconds": 0.23
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_governed_engine_is_the_dense_machine_with_sinks[cfg0]",
+        "outcome": "passed",
+        "seconds": 0.3836
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_governed_engine_is_the_dense_machine_with_sinks[cfg1]",
+        "outcome": "passed",
+        "seconds": 0.3057
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_page_threshold_starts_the_governor_and_halts_growth",
+        "outcome": "passed",
+        "seconds": 0.3717
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_cache_bond_is_the_default",
+        "outcome": "passed",
+        "seconds": 0.0021
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_governor_keeps_the_mpo_faithful_and_the_blankets_tight",
+        "outcome": "passed",
+        "seconds": 55.7393
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_containment_is_exact_without_truncation",
+        "outcome": "passed",
+        "seconds": 0.8548
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_sinks_are_free_when_no_coherence_can_return[cfg0-True]",
+        "outcome": "passed",
+        "seconds": 2.744
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_sinks_are_free_when_no_coherence_can_return[cfg1-True]",
+        "outcome": "passed",
+        "seconds": 2.5156
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_sinks_are_free_when_no_coherence_can_return[cfg2-True]",
+        "outcome": "passed",
+        "seconds": 5.6749
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_sinks_are_free_when_no_coherence_can_return[cfg3-False]",
+        "outcome": "passed",
+        "seconds": 4.6617
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_sinks_are_free_when_no_coherence_can_return[cfg4-False]",
+        "outcome": "passed",
+        "seconds": 3.3001
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_entropy_bond_is_the_effective_number_of_directions",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_nfa_chain.py::test_entropy_governed_bonds_follow_the_area_law",
+        "outcome": "passed",
+        "seconds": 11.2093
+      },
+      {
+        "test": "tests/test_nfa_collapse.py::test_paths_carry_their_action",
+        "outcome": "passed",
+        "seconds": 0.0091
+      },
+      {
+        "test": "tests/test_nfa_collapse.py::test_hbar_one_is_the_machines_own_prediction",
+        "outcome": "passed",
+        "seconds": 0.0075
+      },
+      {
+        "test": "tests/test_nfa_collapse.py::test_hbar_zero_is_least_action_and_equals_the_max_planner",
+        "outcome": "passed",
+        "seconds": 1.1051
+      },
+      {
+        "test": "tests/test_nfa_collapse.py::test_small_hbar_approaches_least_action",
+        "outcome": "passed",
+        "seconds": 0.0036
+      },
+      {
+        "test": "tests/test_nfa_collapse.py::test_feynman_form_is_the_squared_amplitude",
+        "outcome": "passed",
+        "seconds": 0.0014
+      },
+      {
+        "test": "tests/test_nfa_collapse.py::test_generation_never_learns_and_continues_the_text",
+        "outcome": "passed",
+        "seconds": 0.7033
+      },
+      {
+        "test": "tests/test_nfa_collapse.py::test_verified_emission_uses_only_proven_sectors",
+        "outcome": "passed",
+        "seconds": 0.0014
+      },
+      {
+        "test": "tests/test_nfa_collapse.py::test_repetition_measures_loops",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_nfa_engine.py::test_constants_are_the_experiments_constants",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_nfa_engine.py::test_read_and_bpb_equal_the_experiments_path[plain]",
+        "outcome": "passed",
+        "seconds": 8.4109
+      },
+      {
+        "test": "tests/test_nfa_engine.py::test_read_and_bpb_equal_the_experiments_path[verify_coherent]",
+        "outcome": "passed",
+        "seconds": 6.2402
+      },
+      {
+        "test": "tests/test_nfa_engine.py::test_read_and_bpb_equal_the_experiments_path[governor]",
+        "outcome": "passed",
+        "seconds": 4.5108
+      },
+      {
+        "test": "tests/test_nfa_engine.py::test_write_equals_collapse_generate_with_the_same_arguments",
+        "outcome": "passed",
+        "seconds": 12.1367
+      },
+      {
+        "test": "tests/test_nfa_engine.py::test_write_default_is_the_machines_own_instrument_and_never_learns",
+        "outcome": "passed",
+        "seconds": 6.2718
+      },
+      {
+        "test": "tests/test_nfa_engine.py::test_layers_report_bounds_and_options",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_nfa_engine.py::test_cli_reads_and_writes",
+        "outcome": "passed",
+        "seconds": 0.5512
+      },
+      {
+        "test": "tests/test_nfa_flow.py::test_exchange_flow_is_exactly_a_swap",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_nfa_flow.py::test_embed_places_the_operator_on_its_qubits",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_nfa_flow.py::test_reading_events_are_integrated_flows[c2k1t0.3g0.7context]",
+        "outcome": "passed",
+        "seconds": 3.4683
+      },
+      {
+        "test": "tests/test_nfa_flow.py::test_reading_events_are_integrated_flows[c2k2t0.5ginfcontext]",
+        "outcome": "passed",
+        "seconds": 3.394
+      },
+      {
+        "test": "tests/test_nfa_flow.py::test_reading_events_are_integrated_flows[c2k1t0.4g0.5all]",
+        "outcome": "passed",
+        "seconds": 3.1768
+      },
+      {
+        "test": "tests/test_nfa_flow.py::test_reading_events_are_integrated_flows[c2k2t0.0ginfcontext]",
+        "outcome": "passed",
+        "seconds": 2.1329
+      },
+      {
+        "test": "tests/test_nfa_flow.py::test_reading_events_are_integrated_flows_three_cells[c3k2t0.2g1.3context]",
+        "outcome": "passed",
+        "seconds": 38.0467
+      },
+      {
+        "test": "tests/test_nfa_flow.py::test_reading_events_are_integrated_flows_three_cells[c3k3t1.0ginfall]",
+        "outcome": "passed",
+        "seconds": 39.3204
+      },
+      {
+        "test": "tests/test_nfa_flow.py::test_generation_events_are_integrated_flows",
+        "outcome": "passed",
+        "seconds": 1.438
+      },
+      {
+        "test": "tests/test_nfa_flow.py::test_loss_is_the_integral_of_the_observation_generator",
+        "outcome": "passed",
+        "seconds": 0.0085
+      },
+      {
+        "test": "tests/test_nfa_flow.py::test_plasticity_is_the_solution_of_its_differential_law",
+        "outcome": "passed",
+        "seconds": 0.0051
+      },
+      {
+        "test": "tests/test_nfa_flow.py::test_trajectory_records_a_sentence_and_its_basis",
+        "outcome": "passed",
+        "seconds": 2.1975
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_page_entropy_closed_forms",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_page_curve_turns_at_half",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_page_entropy_matches_random_states",
+        "outcome": "passed",
+        "seconds": 0.0215
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_noise_edge_of_a_gaussian_matrix",
+        "outcome": "passed",
+        "seconds": 0.0285
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_hankel_counts_and_exact_hankel_agree",
+        "outcome": "passed",
+        "seconds": 0.0905
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_exact_hankel_rank_is_the_number_of_states[markov2-src0-4]",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_exact_hankel_rank_is_the_number_of_states[codes-src1-3]",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_exact_hankel_rank_is_the_number_of_states[echo3-src2-8]",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_exact_hankel_rank_is_the_number_of_states[echo4-src3-16]",
+        "outcome": "passed",
+        "seconds": 0.0014
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_page_rank_recovers_the_hidden_states[markov2-src0-4-400000-6]",
+        "outcome": "passed",
+        "seconds": 0.2341
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_page_rank_recovers_the_hidden_states[codes-src1-3-100000-8]",
+        "outcome": "passed",
+        "seconds": 0.4229
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_page_rank_recovers_the_hidden_states[echo3-src2-8-100000-8]",
+        "outcome": "passed",
+        "seconds": 0.1199
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_page_rank_recovers_the_hidden_states[echo4-src3-16-400000-8]",
+        "outcome": "passed",
+        "seconds": 0.3063
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_iid_bits_have_rank_one",
+        "outcome": "passed",
+        "seconds": 1.3295
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_marchenko_pastur_alone_overcounts_structured_sources",
+        "outcome": "passed",
+        "seconds": 0.1251
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_never_more_directions_than_the_source_has",
+        "outcome": "passed",
+        "seconds": 0.4255
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_independent_past_and_future_have_one_direction",
+        "outcome": "passed",
+        "seconds": 0.0025
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_byte_hankel_counts_every_position_once",
+        "outcome": "passed",
+        "seconds": 0.0217
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_iid_bytes_have_one_direction_at_every_depth",
+        "outcome": "passed",
+        "seconds": 0.0613
+      },
+      {
+        "test": "tests/test_nfa_page.py::test_depth_profile_finds_the_depth_the_source_needs",
+        "outcome": "passed",
+        "seconds": 0.1128
+      },
+      {
+        "test": "tests/test_operator.py::test_the_o_loop_is_the_e4_loop_plus_the_e6_lines",
+        "outcome": "passed",
+        "seconds": 0.0077
+      },
+      {
+        "test": "tests/test_operator.py::test_o_off_equals_e4_bit_for_bit_learning_then_frozen",
+        "outcome": "passed",
+        "seconds": 1.3387
+      },
+      {
+        "test": "tests/test_operator.py::test_the_hier_config_is_the_one_hier_build_makes",
+        "outcome": "passed",
+        "seconds": 0.0239
+      },
+      {
+        "test": "tests/test_operator.py::test_the_store_counts_are_sums_whatever_the_chunking",
+        "outcome": "passed",
+        "seconds": 3.1282
+      },
+      {
+        "test": "tests/test_operator.py::test_compile_reads_the_counts_and_nothing_else",
+        "outcome": "passed",
+        "seconds": 0.9639
+      },
+      {
+        "test": "tests/test_operator.py::test_the_page_rank_rule_is_e4s_floor_rank",
+        "outcome": "passed",
+        "seconds": 0.1424
+      },
+      {
+        "test": "tests/test_operator.py::test_the_compile_recovers_a_three_state_hmm_with_the_bad_update_rule",
+        "outcome": "passed",
+        "seconds": 5.2495
+      },
+      {
+        "test": "tests/test_operator.py::test_the_rank_1_arm_is_the_unigram_and_does_not_depend_on_the_state",
+        "outcome": "passed",
+        "seconds": 0.5703
+      },
+      {
+        "test": "tests/test_operator.py::test_a_rank_1_spectral_compile_returns_the_unigram_on_iid_data",
+        "outcome": "passed",
+        "seconds": 0.0945
+      },
+      {
+        "test": "tests/test_operator.py::test_frozen_reads_leave_store_tables_and_operators_unchanged_and_the_snapshot_restores",
+        "outcome": "passed",
+        "seconds": 5.3607
+      },
+      {
+        "test": "tests/test_operator.py::test_a_copy_shares_the_store_and_the_operators_but_not_the_state",
+        "outcome": "passed",
+        "seconds": 1.1373
+      },
+      {
+        "test": "tests/test_operator.py::test_the_stage_costs_at_most_two_bits_per_node_against_its_input",
+        "outcome": "passed",
+        "seconds": 3.3994
+      },
+      {
+        "test": "tests/test_operator.py::test_reentry_changes_the_state_unless_an_eigenvector_and_never_the_counts",
+        "outcome": "passed",
+        "seconds": 6.1835
+      },
+      {
+        "test": "tests/test_operator.py::test_reading_does_not_reenter_external_bytes",
+        "outcome": "passed",
+        "seconds": 0.635
+      },
+      {
+        "test": "tests/test_operator.py::test_the_operators_used_for_a_block_do_not_depend_on_its_bytes",
+        "outcome": "passed",
+        "seconds": 5.188
+      },
+      {
+        "test": "tests/test_operator.py::test_a_nonpositive_mass_resets_the_state_and_is_counted",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_sources.py::test_binary_entropy",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_sources.py::test_hmm_rejects_an_invalid_model",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_sources.py::test_markov_bits_floor_is_the_entropy_rate_once_the_window_covers_the_order",
+        "outcome": "passed",
+        "seconds": 0.1611
+      },
+      {
+        "test": "tests/test_sources.py::test_markov_bits_emit_the_table",
+        "outcome": "passed",
+        "seconds": 0.0856
+      },
+      {
+        "test": "tests/test_sources.py::test_incomplete_codes_oracle_is_the_t22_machine",
+        "outcome": "passed",
+        "seconds": 0.2639
+      },
+      {
+        "test": "tests/test_sources.py::test_incomplete_codes_floors_fall_toward_the_entropy_rate",
+        "outcome": "passed",
+        "seconds": 1.1861
+      },
+      {
+        "test": "tests/test_sources.py::test_byte_markov_floor_matches_an_independent_bit_hmm[16-ks0]",
+        "outcome": "passed",
+        "seconds": 0.4002
+      },
+      {
+        "test": "tests/test_sources.py::test_byte_markov_floor_matches_an_independent_bit_hmm[4-ks1]",
+        "outcome": "passed",
+        "seconds": 0.0288
+      },
+      {
+        "test": "tests/test_sources.py::test_byte_markov_oracle_multiplies_to_the_letter_probabilities",
+        "outcome": "passed",
+        "seconds": 0.0737
+      },
+      {
+        "test": "tests/test_sources.py::test_byte_markov_floors_are_monotone_and_above_the_rate",
+        "outcome": "passed",
+        "seconds": 0.0279
+      },
+      {
+        "test": "tests/test_sources.py::test_delayed_echo_floor_matches_its_hmm",
+        "outcome": "passed",
+        "seconds": 0.0448
+      },
+      {
+        "test": "tests/test_sources.py::test_conditional_entropy_of_a_table",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_sources.py::test_contexts_hold_the_previous_bits",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_sources.py::test_kt_equals_a_naive_loop",
+        "outcome": "passed",
+        "seconds": 0.0203
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_joint_state_marginals",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_factor_form_is_positive",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_signed_weight_observable_with_positive_density",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_congruence_preserves_positivity_and_density_products_do_not",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_reciprocal_heisenberg_equations[1.0]",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_reciprocal_heisenberg_equations[0.37]",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_mean_field_exact_only_for_product_states",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_t01_t03_joint_densities.py::test_density_metric_positive_and_state_dependent",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_bits_round_trip_for_any_bytes",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_kraus_completeness_exact",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_population_maps_match_kraus_and_columns_sum_to_one",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_exact_table_with_rationals",
+        "outcome": "passed",
+        "seconds": 0.0016
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_machine_reproduces_table_and_string_probability",
+        "outcome": "passed",
+        "seconds": 0.0032
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_three_parses_each_one_ninth_and_state_keeps_the_ambiguity",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_brute_force_agrees_with_density_on_all_short_strings",
+        "outcome": "passed",
+        "seconds": 1.0963
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_order_survives_in_present_state",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_t02_bits_and_incomplete_inputs.py::test_bch_second_order_term_is_the_commutator",
+        "outcome": "passed",
+        "seconds": 0.0054
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_generator_level_boundary_hamiltonian",
+        "outcome": "passed",
+        "seconds": 0.0022
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_direct_interior_exterior_term_is_detected",
+        "outcome": "passed",
+        "seconds": 0.0017
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_generator_level_boundary_with_local_dissipators",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_pointer_blanket_has_zero_cmi",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_quantum_markov_chain_form_has_zero_cmi",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_relay_counterexample_cmi_one_bit",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_activity_registers_switch_boundaries",
+        "outcome": "passed",
+        "seconds": 0.0025
+      },
+      {
+        "test": "tests/test_t04_markov_boundaries.py::test_zero_mean_weight_is_not_absence",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_t05_spiral_blanket.py::test_exact_numbers_symbolically",
+        "outcome": "passed",
+        "seconds": 0.178
+      },
+      {
+        "test": "tests/test_t05_spiral_blanket.py::test_numeric_module_matches",
+        "outcome": "passed",
+        "seconds": 0.0015
+      },
+      {
+        "test": "tests/test_t05_spiral_blanket.py::test_conditional_law_independent_of_exterior",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_t05_spiral_blanket.py::test_internal_fixed_point_and_spiral",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t05_spiral_blanket.py::test_blanket_on_simulated_data",
+        "outcome": "passed",
+        "seconds": 1.0594
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_clifford_relations[1]",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_clifford_relations[2]",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_clifford_relations[3]",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_wilson_spectrum_matches_dispersion",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_staggered_chain_is_number_conserving_and_maps_to_hopping",
+        "outcome": "passed",
+        "seconds": 0.006
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_staggered_ring_dispersion_is_lattice_dirac",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_split_step_walk_unitary_dispersion_and_exact_cone",
+        "outcome": "passed",
+        "seconds": 0.0114
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_continuous_time_lattice_hamiltonian_has_tails_beyond_the_cone",
+        "outcome": "passed",
+        "seconds": 0.0035
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_checkerboard_path_sum_equals_walk[1]",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_checkerboard_path_sum_equals_walk[4]",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_checkerboard_path_sum_equals_walk[9]",
+        "outcome": "passed",
+        "seconds": 0.0045
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_dirac_collision_channel_is_cptp",
+        "outcome": "passed",
+        "seconds": 0.0016
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_lindblad_semigroup_is_cptp",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_dephasing_einselection_closed_form",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_sector_dissipator_keeps_interior_coherence",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_t06_dirac_zurek.py::test_locks_from_dynamics",
+        "outcome": "passed",
+        "seconds": 0.0017
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_finite_path_sum_is_exact",
+        "outcome": "passed",
+        "seconds": 0.0014
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_two_path_influence_functional_equals_partial_trace[False]",
+        "outcome": "passed",
+        "seconds": 0.0047
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_two_path_influence_functional_equals_partial_trace[True]",
+        "outcome": "passed",
+        "seconds": 0.0046
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_pure_environment_influence_is_an_overlap",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_dark_port_table[1.0-0.0]",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_dark_port_table[0.5-0.25]",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_dark_port_table[0.0-0.5]",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_dark_port_complex_overlap",
+        "outcome": "passed",
+        "seconds": 0.0105
+      },
+      {
+        "test": "tests/test_t07_paths.py::test_phase_error_bound",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_dirac_plane_wave_dispersion[p0]",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_dirac_plane_wave_dispersion[p1]",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_wkb_dispersion_relation_symbolically",
+        "outcome": "passed",
+        "seconds": 0.0502
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_characteristics_approach_newton_as_c_grows",
+        "outcome": "passed",
+        "seconds": 0.043
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_stationary_phase_leading_term_and_error_order",
+        "outcome": "passed",
+        "seconds": 0.2648
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_nonstationary_channel_decays_faster_than_any_power",
+        "outcome": "passed",
+        "seconds": 0.0104
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_needle_separation",
+        "outcome": "passed",
+        "seconds": 0.0272
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_25_configuration_interference_for_every_r",
+        "outcome": "passed",
+        "seconds": 0.0025
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_geometric_series_vanishes_exactly",
+        "outcome": "passed",
+        "seconds": 0.0996
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_nested_readout_identifies_seven",
+        "outcome": "passed",
+        "seconds": 0.0093
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_streaming_residue_machine_reads_needle_with_certainty",
+        "outcome": "passed",
+        "seconds": 0.3554
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_macro_micro_threading_free_particle",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_threading_symbolically",
+        "outcome": "passed",
+        "seconds": 0.0405
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_wave_packet_endpoint_and_spread",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_t08_feynman_newton.py::test_dirac_packet_follows_newton_for_large_c",
+        "outcome": "passed",
+        "seconds": 0.0076
+      },
+      {
+        "test": "tests/test_t09_two_mode.py::test_state_after_ts",
+        "outcome": "passed",
+        "seconds": 0.0521
+      },
+      {
+        "test": "tests/test_t09_two_mode.py::test_correlations_change_the_differential_equation",
+        "outcome": "passed",
+        "seconds": 0.014
+      },
+      {
+        "test": "tests/test_t09_two_mode.py::test_readout_feedback_and_next_output",
+        "outcome": "passed",
+        "seconds": 0.6623
+      },
+      {
+        "test": "tests/test_t09_two_mode.py::test_machine_reproduces_output_pairs",
+        "outcome": "passed",
+        "seconds": 0.0046
+      },
+      {
+        "test": "tests/test_t09_two_mode.py::test_five_steps_all_32_branches",
+        "outcome": "passed",
+        "seconds": 0.0469
+      },
+      {
+        "test": "tests/test_t09_two_mode.py::test_same_vector_marginal_different_weights_different_response",
+        "outcome": "passed",
+        "seconds": 0.0024
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_event_equation_equals_composed_maps",
+        "outcome": "passed",
+        "seconds": 0.0185
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_theorem_positivity_normalization_and_sum",
+        "outcome": "passed",
+        "seconds": 0.258
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_predicted_stream_probabilities_sum_to_one",
+        "outcome": "passed",
+        "seconds": 0.5771
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_induction_sequential_normalized_events_equal_one_linear_composition",
+        "outcome": "passed",
+        "seconds": 0.0041
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_markov_property_against_the_generative_process",
+        "outcome": "passed",
+        "seconds": 0.1823
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_machine_keeps_only_the_present_state",
+        "outcome": "passed",
+        "seconds": 1.1589
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_equal_present_states_have_identical_futures",
+        "outcome": "passed",
+        "seconds": 0.0448
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_output_is_conditioned_on_once",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_feedback_must_be_trace_preserving",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_feedback_changes_state_without_changing_total_probability",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_zero_probability_observation_is_not_normalized",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_zero_probability_inject_policy_keeps_interpretation_unresolved",
+        "outcome": "passed",
+        "seconds": 0.0012
+      },
+      {
+        "test": "tests/test_t10_event_loop.py::test_conditioning_requires_a_complete_prediction",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_relation_preserving_map",
+        "outcome": "passed",
+        "seconds": 0.0044
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_many_fine_configurations_become_one",
+        "outcome": "passed",
+        "seconds": 0.0021
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_retention_identity_holds_for_relational_events",
+        "outcome": "passed",
+        "seconds": 0.0036
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_retention_gives_identical_future_probabilities_and_states",
+        "outcome": "passed",
+        "seconds": 0.0637
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_retention_fails_when_the_nuisance_feeds_back",
+        "outcome": "passed",
+        "seconds": 0.002
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_algebra_canalization_satisfies_the_identity_and_is_cptp",
+        "outcome": "passed",
+        "seconds": 0.0069
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_generic_dynamics_retains_everything",
+        "outcome": "passed",
+        "seconds": 0.0083
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_classical_dynamics_retains_only_populations",
+        "outcome": "passed",
+        "seconds": 0.0024
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_incomplete_codes_need_only_populations",
+        "outcome": "passed",
+        "seconds": 0.2902
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_two_mode_machine_keeps_every_distinction",
+        "outcome": "passed",
+        "seconds": 0.0064
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_algebra_respects_declared_seeds",
+        "outcome": "passed",
+        "seconds": 0.0372
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_continuous_retention_identity",
+        "outcome": "passed",
+        "seconds": 0.0038
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_lock_converges_exponentially_with_the_gap",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_z_then_x_locks_erase_z",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_isometric_nesting_preserves_expectations",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_nesting_the_old_distinction_survives_a_new_lock",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_t11_canalization.py::test_fixed_dimension_state_keeps_the_function_not_the_history",
+        "outcome": "passed",
+        "seconds": 2.1068
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_exact_table",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_closed_forms_solve_the_moment_equations_symbolically",
+        "outcome": "passed",
+        "seconds": 0.0575
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_reciprocity_from_one_energy",
+        "outcome": "passed",
+        "seconds": 0.0096
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_exact_ou_transitions_reproduce_the_table_statistically",
+        "outcome": "passed",
+        "seconds": 0.0375
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_zero_noise_idealization_is_deterministic",
+        "outcome": "passed",
+        "seconds": 0.0005
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_gated_law_reaches_a_conditional_expectation_forward",
+        "outcome": "passed",
+        "seconds": 4.9011
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_gated_law_leaves_inactive_sectors_unchanged",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_consolidation_multipliers_exact",
+        "outcome": "passed",
+        "seconds": 0.0002
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_consolidation_power_formula",
+        "outcome": "passed",
+        "seconds": 0.0033
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_repetition_also_consolidates_a_mistaken_organization",
+        "outcome": "passed",
+        "seconds": 0.0019
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_generalization_bound_under_a_common_process",
+        "outcome": "passed",
+        "seconds": 0.0431
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_bound_includes_adaptive_output_feedback",
+        "outcome": "passed",
+        "seconds": 0.0213
+      },
+      {
+        "test": "tests/test_t12_plasticity.py::test_postselection_can_amplify_differences",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_factor_form_with_hierarchical_isometries_keeps_correlations",
+        "outcome": "passed",
+        "seconds": 0.0024
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_coarse_isometry_alone_loses_trace_and_the_remainder_flag_restores_it",
+        "outcome": "passed",
+        "seconds": 0.0042
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_coarse_channel_removes_cross_sector_coherence",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_a_mixture_is_not_evidence_of_cross_layer_coherence",
+        "outcome": "passed",
+        "seconds": 0.0022
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_support_invariant_dynamics_never_populates_the_forbidden_complement",
+        "outcome": "passed",
+        "seconds": 0.018
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_a_zero_eigenvalue_alone_is_not_a_constraint",
+        "outcome": "passed",
+        "seconds": 0.0109
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_disjoint_updates_commute_and_overlapping_ones_do_not",
+        "outcome": "passed",
+        "seconds": 0.1034
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_an_input_changes_distant_observables_only_inside_the_cone",
+        "outcome": "passed",
+        "seconds": 0.0517
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_trotter_local_error_is_second_order_in_the_commutator",
+        "outcome": "passed",
+        "seconds": 0.0023
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_strong_cancellation_needs_high_precision",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_exact_recovery_needs_as_many_bits_as_inputs",
+        "outcome": "passed",
+        "seconds": 0.0546
+      },
+      {
+        "test": "tests/test_t13_hierarchy_constraints_locality.py::test_dense_storage_counts",
+        "outcome": "passed",
+        "seconds": 0.0041
+      },
+      {
+        "test": "tests/test_tensornet.py::test_round_trip_is_exact[dims0]",
+        "outcome": "passed",
+        "seconds": 0.001
+      },
+      {
+        "test": "tests/test_tensornet.py::test_round_trip_is_exact[dims1]",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_tensornet.py::test_round_trip_is_exact[dims2]",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_tensornet.py::test_round_trip_is_exact[dims3]",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_tensornet.py::test_product_ordering",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_tensornet.py::test_local_gates_match_dense",
+        "outcome": "passed",
+        "seconds": 0.011
+      },
+      {
+        "test": "tests/test_tensornet.py::test_non_unitary_local_operator_and_norm",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_tensornet.py::test_truncation_is_optimal_and_accounted",
+        "outcome": "passed",
+        "seconds": 0.0027
+      },
+      {
+        "test": "tests/test_tensornet.py::test_cutoff_drops_only_negligible_weight",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_tensornet.py::test_expectations_and_reduced_densities",
+        "outcome": "passed",
+        "seconds": 0.0029
+      },
+      {
+        "test": "tests/test_tensornet.py::test_entanglement_entropy_matches_schmidt",
+        "outcome": "passed",
+        "seconds": 0.0031
+      },
+      {
+        "test": "tests/test_tensornet.py::test_canonical_gauge_does_not_change_the_state",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_tensornet.py::test_storage_count_is_the_t13_4_formula",
+        "outcome": "passed",
+        "seconds": 0.0021
+      },
+      {
+        "test": "tests/test_tensornet.py::test_staggered_dirac_chain_evolution_matches_dense",
+        "outcome": "passed",
+        "seconds": 2.1788
+      },
+      {
+        "test": "tests/test_tensornet.py::test_exact_event_cone_at_scale",
+        "outcome": "passed",
+        "seconds": 0.4655
+      },
+      {
+        "test": "tests/test_tensornet.py::test_truncation_breaks_the_cone_only_by_the_discarded_weight",
+        "outcome": "passed",
+        "seconds": 0.2553
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_product_and_from_mps",
+        "outcome": "passed",
+        "seconds": 0.0021
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_channels_and_gates_match_dense",
+        "outcome": "passed",
+        "seconds": 1.0848
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_accepts_kraus_lists",
+        "outcome": "passed",
+        "seconds": 0.0013
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_conditioning_on_an_outcome",
+        "outcome": "passed",
+        "seconds": 0.0019
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_kraus_dimension_is_compressed_exactly",
+        "outcome": "passed",
+        "seconds": 0.0063
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_truncation_keeps_positivity_and_trace",
+        "outcome": "passed",
+        "seconds": 0.0427
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_expectation_and_reduced_density",
+        "outcome": "passed",
+        "seconds": 0.0032
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_dephasing_keeps_sector_coherence_like_dense",
+        "outcome": "passed",
+        "seconds": 0.0016
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_storage_count",
+        "outcome": "passed",
+        "seconds": 0.0006
+      },
+      {
+        "test": "tests/test_tensornet.py::test_diagonal_mpo_is_exact_with_the_tensor_train_bond[dims0]",
+        "outcome": "passed",
+        "seconds": 0.0007
+      },
+      {
+        "test": "tests/test_tensornet.py::test_diagonal_mpo_is_exact_with_the_tensor_train_bond[dims1]",
+        "outcome": "passed",
+        "seconds": 0.0008
+      },
+      {
+        "test": "tests/test_tensornet.py::test_diagonal_mpo_is_exact_with_the_tensor_train_bond[dims2]",
+        "outcome": "passed",
+        "seconds": 0.0009
+      },
+      {
+        "test": "tests/test_tensornet.py::test_diagonal_mpo_is_exact_with_the_tensor_train_bond[dims3]",
+        "outcome": "passed",
+        "seconds": 0.0063
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_mpo_application_matches_dense[0-3]",
+        "outcome": "passed",
+        "seconds": 0.6118
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_mpo_application_matches_dense[1-4]",
+        "outcome": "passed",
+        "seconds": 0.6116
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_mpo_application_matches_dense[3-3]",
+        "outcome": "passed",
+        "seconds": 0.6034
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_mpo_application_matches_dense[2-1]",
+        "outcome": "passed",
+        "seconds": 0.492
+      },
+      {
+        "test": "tests/test_tensornet.py::test_mps_mpo_application_matches_dense[0-3]",
+        "outcome": "passed",
+        "seconds": 0.0024
+      },
+      {
+        "test": "tests/test_tensornet.py::test_mps_mpo_application_matches_dense[1-4]",
+        "outcome": "passed",
+        "seconds": 0.0025
+      },
+      {
+        "test": "tests/test_tensornet.py::test_mps_mpo_application_matches_dense[3-3]",
+        "outcome": "passed",
+        "seconds": 0.002
+      },
+      {
+        "test": "tests/test_tensornet.py::test_mps_mpo_application_matches_dense[2-1]",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_tensornet.py::test_mps_mpo_truncation_is_canonical_and_accounted",
+        "outcome": "passed",
+        "seconds": 0.0103
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_mpo_truncation_is_canonical_positive_and_accounted",
+        "outcome": "passed",
+        "seconds": 8.2717
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_basis_probabilities_are_the_diagonal_of_the_reduced_density[sites0]",
+        "outcome": "passed",
+        "seconds": 0.2859
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_basis_probabilities_are_the_diagonal_of_the_reduced_density[sites1]",
+        "outcome": "passed",
+        "seconds": 0.2391
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_basis_probabilities_are_the_diagonal_of_the_reduced_density[sites2]",
+        "outcome": "passed",
+        "seconds": 0.2646
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_basis_probabilities_are_the_diagonal_of_the_reduced_density[sites3]",
+        "outcome": "passed",
+        "seconds": 0.2558
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_basis_probabilities_are_the_diagonal_of_the_reduced_density[sites4]",
+        "outcome": "passed",
+        "seconds": 0.2474
+      },
+      {
+        "test": "tests/test_tensornet.py::test_lpdo_swap_exchanges_physical_and_purification_legs",
+        "outcome": "passed",
+        "seconds": 0.018
+      },
+      {
+        "test": "tests/test_tensornet.py::test_concentrated_purification_is_minimal_and_keeps_rho",
+        "outcome": "passed",
+        "seconds": 0.0109
+      },
+      {
+        "test": "tests/test_vam1.py::test_function_maps_equal_their_kraus_forms[cfg0]",
+        "outcome": "passed",
+        "seconds": 0.0099
+      },
+      {
+        "test": "tests/test_vam1.py::test_function_maps_equal_their_kraus_forms[cfg1]",
+        "outcome": "passed",
+        "seconds": 0.0105
+      },
+      {
+        "test": "tests/test_vam1.py::test_function_maps_equal_their_kraus_forms[cfg2]",
+        "outcome": "passed",
+        "seconds": 0.0154
+      },
+      {
+        "test": "tests/test_vam1.py::test_function_maps_equal_their_kraus_forms[cfg3]",
+        "outcome": "passed",
+        "seconds": 0.1075
+      },
+      {
+        "test": "tests/test_vam1.py::test_observation_is_the_reduced_port_measurement",
+        "outcome": "passed",
+        "seconds": 0.0033
+      },
+      {
+        "test": "tests/test_vam1.py::test_one_excitation_sector_is_the_split_step_dirac_walk",
+        "outcome": "passed",
+        "seconds": 0.0479
+      },
+      {
+        "test": "tests/test_vam1.py::test_exact_event_cone",
+        "outcome": "passed",
+        "seconds": 0.1273
+      },
+      {
+        "test": "tests/test_vam1.py::test_each_cell_evolves_from_its_neighbours_alone[0.0]",
+        "outcome": "passed",
+        "seconds": 0.2118
+      },
+      {
+        "test": "tests/test_vam1.py::test_each_cell_evolves_from_its_neighbours_alone[0.4]",
+        "outcome": "passed",
+        "seconds": 0.2559
+      },
+      {
+        "test": "tests/test_vam1.py::test_massless_chain_is_an_exact_sliding_context",
+        "outcome": "passed",
+        "seconds": 0.4107
+      },
+      {
+        "test": "tests/test_vam1.py::test_pointer_engine_equals_the_dense_engine[cfg0]",
+        "outcome": "passed",
+        "seconds": 0.4818
+      },
+      {
+        "test": "tests/test_vam1.py::test_pointer_engine_equals_the_dense_engine[cfg1]",
+        "outcome": "passed",
+        "seconds": 0.5485
+      },
+      {
+        "test": "tests/test_vam1.py::test_pointer_engine_equals_the_dense_engine[cfg2]",
+        "outcome": "passed",
+        "seconds": 0.0918
+      },
+      {
+        "test": "tests/test_vam1.py::test_every_external_bit_is_followed_by_an_emission_with_the_machines_own_prediction",
+        "outcome": "passed",
+        "seconds": 0.3361
+      },
+      {
+        "test": "tests/test_vam1.py::test_massless_emission_and_reentry_leave_every_prediction_unchanged",
+        "outcome": "passed",
+        "seconds": 1.0793
+      },
+      {
+        "test": "tests/test_vam1.py::test_with_mass_the_reentered_output_reaches_the_context",
+        "outcome": "passed",
+        "seconds": 0.0449
+      },
+      {
+        "test": "tests/test_vam1.py::test_reentered_outputs_are_not_evidence",
+        "outcome": "passed",
+        "seconds": 0.0304
+      },
+      {
+        "test": "tests/test_vam1.py::test_coherent_engine_keeps_every_event_a_valid_density",
+        "outcome": "passed",
+        "seconds": 0.352
+      },
+      {
+        "test": "tests/test_vam1.py::test_floor_keeps_every_bit_possible",
+        "outcome": "passed",
+        "seconds": 0.0003
+      },
+      {
+        "test": "tests/test_vam1.py::test_weights_learn_the_conditional_statistics_forward[False]",
+        "outcome": "passed",
+        "seconds": 4.7506
+      },
+      {
+        "test": "tests/test_vam1.py::test_weights_learn_the_conditional_statistics_forward[True]",
+        "outcome": "passed",
+        "seconds": 4.4526
+      },
+      {
+        "test": "tests/test_vam1.py::test_the_literal_law_consolidates_geometrically_as_in_t12_2",
+        "outcome": "passed",
+        "seconds": 0.0004
+      },
+      {
+        "test": "tests/test_vam1.py::test_the_count_dependent_friction_is_frequency_counting_not_t12_2",
+        "outcome": "passed",
+        "seconds": 0.002
+      },
+      {
+        "test": "tests/test_vam1.py::test_consolidation_beats_constant_friction_on_a_stationary_source",
+        "outcome": "passed",
+        "seconds": 3.1355
+      },
+      {
+        "test": "tests/test_vam1.py::test_generation_emits_the_learned_continuation",
+        "outcome": "passed",
+        "seconds": 70.8443
+      },
+      {
+        "test": "tests/test_vam1.py::test_generation_outputs_are_the_machines_own_predictions",
+        "outcome": "passed",
+        "seconds": 0.196
+      },
+      {
+        "test": "tests/test_vam1.py::test_canalization_keeps_exactly_what_the_future_can_reveal_at_every_weight[2-1-0.0-2]",
+        "outcome": "passed",
+        "seconds": 72.1131
+      },
+      {
+        "test": "tests/test_vam1.py::test_canalization_keeps_exactly_what_the_future_can_reveal_at_every_weight[2-2-0.0-4]",
+        "outcome": "passed",
+        "seconds": 40.9942
+      },
+      {
+        "test": "tests/test_vam1.py::test_canalization_keeps_exactly_what_the_future_can_reveal_at_every_weight[2-1-0.7-None]",
+        "outcome": "passed",
+        "seconds": 23.2212
+      },
+      {
+        "test": "tests/test_vam1.py::test_a_canalization_built_from_one_weight_alone_would_erase_what_learning_needs",
+        "outcome": "passed",
+        "seconds": 50.0561
+      },
+      {
+        "test": "tests/test_vam1.py::test_canalized_learning_machine_predicts_exactly_as_the_plain_one[0.0]",
+        "outcome": "passed",
+        "seconds": 2.5052
+      },
+      {
+        "test": "tests/test_vam1.py::test_canalized_learning_machine_predicts_exactly_as_the_plain_one[0.6]",
+        "outcome": "passed",
+        "seconds": 17.7611
+      },
+      {
+        "test": "tests/test_vam1.py::test_canalized_machine_keeps_every_output_string_probability",
+        "outcome": "passed",
+        "seconds": 17.3374
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader[c2k1t0.4ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.0698
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader[c2k2t1.0g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.082
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader[c3k2t0.4g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.2098
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader[c3k3t1.0g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.277
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader[c3k3t1.0ginfall]",
+        "outcome": "passed",
+        "seconds": 0.2011
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader[c3k1t0.0g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.1528
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.0457
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.0457
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.0462
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.0564
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.0804
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0ginfall]",
+        "outcome": "passed",
+        "seconds": 0.0533
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.0607
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.0604
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.0609
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.0684
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.0623
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4ginfall]",
+        "outcome": "passed",
+        "seconds": 0.061
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.0632
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.0616
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.069
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.0684
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.0725
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0ginfall]",
+        "outcome": "passed",
+        "seconds": 0.0648
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.0658
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.0653
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.0676
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.0668
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.0659
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0ginfall]",
+        "outcome": "passed",
+        "seconds": 0.0649
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.1112
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.0769
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.0806
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.0836
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.0778
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4ginfall]",
+        "outcome": "passed",
+        "seconds": 0.0839
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.0858
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.079
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.1021
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.0885
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.0787
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0ginfall]",
+        "outcome": "passed",
+        "seconds": 0.0829
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.1544
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.1508
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.1481
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.1531
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.1457
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0ginfall]",
+        "outcome": "passed",
+        "seconds": 0.1491
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.179
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.1778
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.1898
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.2185
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.2208
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4ginfall]",
+        "outcome": "passed",
+        "seconds": 0.182
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.1961
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.2236
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.1989
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.2068
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.1945
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0ginfall]",
+        "outcome": "passed",
+        "seconds": 0.1809
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.1669
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.1668
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.2225
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.1803
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.1628
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0ginfall]",
+        "outcome": "passed",
+        "seconds": 0.1863
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.2599
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.2604
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.2337
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.2458
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.2168
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4ginfall]",
+        "outcome": "passed",
+        "seconds": 0.1881
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.2039
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.2137
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.2177
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.2249
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.236
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0ginfall]",
+        "outcome": "passed",
+        "seconds": 0.2026
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.1798
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.19
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.1883
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.1933
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.1823
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0ginfall]",
+        "outcome": "passed",
+        "seconds": 0.174
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.2987
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.307
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.3341
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.3805
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.2397
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4ginfall]",
+        "outcome": "passed",
+        "seconds": 0.2165
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0g0.0context]",
+        "outcome": "passed",
+        "seconds": 0.2906
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0g0.0all]",
+        "outcome": "passed",
+        "seconds": 0.3408
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0g0.7context]",
+        "outcome": "passed",
+        "seconds": 0.3307
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0g0.7all]",
+        "outcome": "passed",
+        "seconds": 0.332
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0ginfcontext]",
+        "outcome": "passed",
+        "seconds": 0.2194
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0ginfall]",
+        "outcome": "passed",
+        "seconds": 0.2553
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_superoperators_act_as_the_maps",
+        "outcome": "passed",
+        "seconds": 0.0023
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_finite_dephasing_mpo_is_the_sector_dissipator[2-1-context]",
+        "outcome": "passed",
+        "seconds": 0.0027
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_finite_dephasing_mpo_is_the_sector_dissipator[2-1-all]",
+        "outcome": "passed",
+        "seconds": 0.0042
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_finite_dephasing_mpo_is_the_sector_dissipator[3-2-context]",
+        "outcome": "passed",
+        "seconds": 0.0283
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_finite_dephasing_mpo_is_the_sector_dissipator[3-2-all]",
+        "outcome": "passed",
+        "seconds": 0.056
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_finite_dephasing_mpo_is_the_sector_dissipator[3-3-context]",
+        "outcome": "passed",
+        "seconds": 0.0536
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_finite_dephasing_mpo_is_the_sector_dissipator[3-3-all]",
+        "outcome": "passed",
+        "seconds": 0.0655
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_reentered_outputs_are_not_evidence",
+        "outcome": "passed",
+        "seconds": 0.0757
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_equals_the_pointer_engine_for_300_bits_with_a_bond_set_by_the_register",
+        "outcome": "passed",
+        "seconds": 12.1155
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_massless_engine_equals_the_bit_kernel_short",
+        "outcome": "passed",
+        "seconds": 44.8179
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_massless_engine_equals_the_bit_kernel_for_2000_bits",
+        "outcome": "passed",
+        "seconds": 323.0214
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_generation_equals_the_dense_generator[inf]",
+        "outcome": "passed",
+        "seconds": 0.374
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_generation_equals_the_dense_generator[0.7]",
+        "outcome": "passed",
+        "seconds": 0.3807
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_exact_event_cone_at_twenty_cells[0.0]",
+        "outcome": "passed",
+        "seconds": 8.9564
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_exact_event_cone_at_twenty_cells[0.7]",
+        "outcome": "passed",
+        "seconds": 18.1313
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_exact_event_cone_at_twenty_cells[inf]",
+        "outcome": "passed",
+        "seconds": 5.3044
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_truncated_engine_follows_the_pointer_engine_at_eight_cells[0.3]",
+        "outcome": "passed",
+        "seconds": 277.3465
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_truncated_engine_follows_the_pointer_engine_at_eight_cells[0.6]",
+        "outcome": "passed",
+        "seconds": 284.5384
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_truncated_engine_follows_the_exact_one_with_context_einselection_at_six_cells",
+        "outcome": "passed",
+        "seconds": 170.8735
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_scale_run_stays_normalized_bounded_and_nearly_positive[inf]",
+        "outcome": "passed",
+        "seconds": 388.2553
+      },
+      {
+        "test": "tests/test_vam1_mpo.py::test_scale_run_stays_normalized_bounded_and_nearly_positive[0.5]",
+        "outcome": "passed",
+        "seconds": 402.9645
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader[c2k1t0.4ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.1274
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader[c2k1t0.4ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.0267
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader[c2k2t1.0g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.0997
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader[c2k2t1.0g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.0375
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader[c3k2t0.4ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.4215
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader[c3k2t0.4ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.0862
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader[c3k3t1.0ginfall-global]",
+        "outcome": "passed",
+        "seconds": 2.0269
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader[c3k3t1.0ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.1028
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader[c3k1t0.0g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.1622
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader[c3k1t0.0g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.0652
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.0582
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.0236
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.0577
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.0227
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.0584
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.022
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0ginfall-global]",
+        "outcome": "passed",
+        "seconds": 0.0685
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.0ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.026
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.0798
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.028
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.0809
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.0278
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.0914
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.0305
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4ginfall-global]",
+        "outcome": "passed",
+        "seconds": 0.1285
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t0.4ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.0417
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.0811
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.0282
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.0812
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.0289
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.0903
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.0299
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0ginfall-global]",
+        "outcome": "passed",
+        "seconds": 0.1934
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k1t1.0ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.0403
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.0728
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.0273
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.1132
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.0296
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.0803
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.0309
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0ginfall-global]",
+        "outcome": "passed",
+        "seconds": 0.0861
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.0ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.0352
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.1066
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.0374
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.1063
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.0371
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.125
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.0436
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4ginfall-global]",
+        "outcome": "passed",
+        "seconds": 0.1536
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t0.4ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.061
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.1321
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.0624
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.123
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.0462
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.1678
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.0516
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0ginfall-global]",
+        "outcome": "passed",
+        "seconds": 0.179
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c2k2t1.0ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.057
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.2239
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.0726
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.1826
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.0733
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.1895
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.0917
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0ginfall-global]",
+        "outcome": "passed",
+        "seconds": 0.1842
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.0ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.0739
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.252
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.0895
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.2821
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.133
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.4508
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.1056
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4ginfall-global]",
+        "outcome": "passed",
+        "seconds": 3.5401
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t0.4ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.4607
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.3079
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.0919
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.2494
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.086
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.3967
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.104
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0ginfall-global]",
+        "outcome": "passed",
+        "seconds": 3.5518
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k1t1.0ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.4442
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.1927
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.0743
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.2034
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.0816
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.2334
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.0725
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0ginfall-global]",
+        "outcome": "passed",
+        "seconds": 0.1836
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.0ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.0755
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.2818
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.1017
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.3849
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.0943
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.6667
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.136
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4ginfall-global]",
+        "outcome": "passed",
+        "seconds": 3.8238
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t0.4ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.5356
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.2761
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.097
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.3103
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.0943
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.9311
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.1282
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0ginfall-global]",
+        "outcome": "passed",
+        "seconds": 4.2044
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k2t1.0ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.5521
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.2232
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.1008
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.2401
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.0949
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 0.2543
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.0924
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0ginfall-global]",
+        "outcome": "passed",
+        "seconds": 0.2484
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.0ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.0877
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.344
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.1265
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.3314
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.1494
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 1.4963
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.3389
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4ginfall-global]",
+        "outcome": "passed",
+        "seconds": 4.0481
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t0.4ginfall-local]",
+        "outcome": "passed",
+        "seconds": 1.026
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0g0.0context-global]",
+        "outcome": "passed",
+        "seconds": 0.3932
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0g0.0context-local]",
+        "outcome": "passed",
+        "seconds": 0.1257
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0g0.0all-global]",
+        "outcome": "passed",
+        "seconds": 0.3414
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0g0.0all-local]",
+        "outcome": "passed",
+        "seconds": 0.1208
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0ginfcontext-global]",
+        "outcome": "passed",
+        "seconds": 1.3459
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0ginfcontext-local]",
+        "outcome": "passed",
+        "seconds": 0.2196
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0ginfall-global]",
+        "outcome": "passed",
+        "seconds": 3.8885
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_untruncated_engine_equals_the_dense_reader_on_the_whole_grid[c3k3t1.0ginfall-local]",
+        "outcome": "passed",
+        "seconds": 0.9418
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_only_dephasing_zero_and_infinity_are_supported",
+        "outcome": "passed",
+        "seconds": 0.0018
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_observation_mpo_is_the_dense_observation_operator[2-2]",
+        "outcome": "passed",
+        "seconds": 0.0023
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_observation_mpo_is_the_dense_observation_operator[3-2]",
+        "outcome": "passed",
+        "seconds": 0.0035
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_observation_mpo_is_the_dense_observation_operator[3-3]",
+        "outcome": "passed",
+        "seconds": 0.004
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_reentered_outputs_are_not_evidence",
+        "outcome": "passed",
+        "seconds": 0.1697
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_equals_the_pointer_engine_for_300_bits",
+        "outcome": "passed",
+        "seconds": 114.734
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_equals_the_pointer_engine_at_six_cells_while_exact_storage_is_affordable",
+        "outcome": "passed",
+        "seconds": 0.101
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_massless_engine_equals_the_bit_kernel_short",
+        "outcome": "passed",
+        "seconds": 6.2644
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_massless_engine_equals_the_bit_kernel_for_2000_bits",
+        "outcome": "passed",
+        "seconds": 39.8056
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_generation_equals_the_dense_generator[global]",
+        "outcome": "passed",
+        "seconds": 1.0919
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_generation_equals_the_dense_generator[local]",
+        "outcome": "passed",
+        "seconds": 0.8861
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_exact_event_cone_at_twenty_cells[0.0]",
+        "outcome": "passed",
+        "seconds": 0.3806
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_exact_event_cone_at_twenty_cells[inf]",
+        "outcome": "passed",
+        "seconds": 2.7575
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_local_purification_keeps_the_history_and_global_purification_is_minimal",
+        "outcome": "passed",
+        "seconds": 0.682
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_meet_in_the_middle_density_equals_the_purification_vector",
+        "outcome": "passed",
+        "seconds": 0.0119
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_truncated_local_purification_is_not_a_faithful_approximation_at_six_cells",
+        "outcome": "passed",
+        "seconds": 23.7656
+      },
+      {
+        "test": "tests/test_vam1_tn.py::test_scale_run_stays_normalized_positive_and_bounded",
+        "outcome": "passed",
+        "seconds": 233.3027
+      }
+    ]
+  },
+  "headline_results": [
+    {
+      "result": "completion probability after 0",
+      "source": "T2.2",
+      "computed": 0.5,
+      "expected": 0.5,
+      "abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "completion probability after 01",
+      "source": "T2.2",
+      "computed": 0.7499999999999999,
+      "expected": 0.75,
+      "abs_error": 1.1102230246251565e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "completion probability after 010",
+      "source": "T2.2",
+      "computed": 0.6666666666666666,
+      "expected": 0.6666666666666666,
+      "abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "marginal purity after the joint interaction",
+      "source": "T9.1",
+      "computed": 0.8749999999999996,
+      "expected": 0.875,
+      "abs_error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "exact vector derivative 2<Y_Q Z_W>",
+      "source": "T9.2",
+      "computed": -1.4142135623730945,
+      "expected": -1.4142135623730951,
+      "abs_error": 6.661338147750939e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "independent-marginal derivative",
+      "source": "T9.2",
+      "computed": -0.7071067811865472,
+      "expected": -0.7071067811865475,
+      "abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "next zero probability after re-entered 0",
+      "source": "T9.4",
+      "computed": 0.9166666666666659,
+      "expected": 0.9166666666666666,
+      "abs_error": 7.771561172376096e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "next zero probability after re-entered 1",
+      "source": "T9.4",
+      "computed": 0.2499999999999996,
+      "expected": 0.25,
+      "abs_error": 3.885780586188048e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "two-output probability 00",
+      "source": "T9.4",
+      "computed": 0.6874999999999993,
+      "expected": 0.6875,
+      "abs_error": 6.661338147750939e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "two-output probability 01",
+      "source": "T9.4",
+      "computed": 0.062499999999999896,
+      "expected": 0.0625,
+      "abs_error": 1.0408340855860843e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "two-output probability 10",
+      "source": "T9.4",
+      "computed": 0.0624999999999999,
+      "expected": 0.0625,
+      "abs_error": 9.71445146547012e-17,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "two-output probability 11",
+      "source": "T9.4",
+      "computed": 0.18749999999999992,
+      "expected": 0.1875,
+      "abs_error": 8.326672684688674e-17,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "25-configuration needle probability (worst r)",
+      "source": "T8.3",
+      "computed": 0.9999999999999991,
+      "expected": 1.0,
+      "abs_error": 8.881784197001252e-16,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "result": "25-configuration wrong-channel amplitude (worst r)",
+      "source": "T8.3",
+      "computed": 2.6931395030291264e-15,
+      "expected": 0.0,
+      "abs_error": 2.6931395030291264e-15,
+      "tolerance": 5e-15,
+      "pass": true
+    },
+    {
+      "result": "wrong-channel residual at r = 7 (document: about 1.3e-15)",
+      "source": "T15.2",
+      "computed": 1.2848245146200112e-15,
+      "expected": 0.0,
+      "abs_error": 1.2848245146200112e-15,
+      "tolerance": 1.5e-15,
+      "pass": true
+    },
+    {
+      "result": "free trajectory location at the first quarter time",
+      "source": "T8.4",
+      "computed": 0.5000000000008327,
+      "expected": 0.5,
+      "abs_error": 8.326672684688674e-13,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "result": "split action 1/2 + 3/2",
+      "source": "T8.4",
+      "computed": 2.0,
+      "expected": 2.0,
+      "abs_error": 0.0,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "result": "unsplit action",
+      "source": "T8.4",
+      "computed": 2.0,
+      "expected": 2.0,
+      "abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "spiral eigenvalue (lower)",
+      "source": "T5",
+      "computed": [
+        -2.0,
+        -2.0000000000000004
+      ],
+      "expected": [
+        -2.0,
+        -2.0
+      ],
+      "abs_error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "spiral eigenvalue (upper)",
+      "source": "T5",
+      "computed": [
+        -2.0,
+        2.0000000000000004
+      ],
+      "expected": [
+        -2.0,
+        2.0
+      ],
+      "abs_error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "spiral radius multiplier at log 2",
+      "source": "T5",
+      "computed": 0.25000000000000017,
+      "expected": 0.25,
+      "abs_error": 1.6653345369377348e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "weight mean at log 2",
+      "source": "T12.1",
+      "computed": 0.4,
+      "expected": 0.4,
+      "abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "weight variance at log 2",
+      "source": "T12.1",
+      "computed": 0.015,
+      "expected": 0.015,
+      "abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "dense coherent engine against the bit kernel",
+      "source": "D8",
+      "computed": 3.3306690738754696e-16,
+      "expected": 0.0,
+      "abs_error": 3.3306690738754696e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "pointer engine against the bit kernel",
+      "source": "D8",
+      "computed": 2.220446049250313e-16,
+      "expected": 0.0,
+      "abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "result": "one nested level against the bit kernel",
+      "source": "D9",
+      "computed": 0.0,
+      "expected": 0.0,
+      "abs_error": 0.0,
+      "tolerance": 1e-13,
+      "pass": true
+    }
+  ],
+  "experiment_results": {
+    "e1.json": "417ddd4c586d6a3883e6499eed39f3d474bdfb1c25c93ce1904bc967f709ba43",
+    "e1_small.json": "a251c2435daac40296230289c4853e8b47ebebf82edd417988ffa58c070f121e",
+    "e1b.json": "1523800108976145bfcde6e76897564052092734946f37459b26c6513110454b",
+    "e2.json": "1e524f5a805f9c9137bfa621b0ff9a84c182d5a5622c416e8b58082da182c4b3",
+    "e2_smoke.json": "3c67d4e283115040f7ab99918d5e05f9e37949864ddcea61a560aab304b939b5",
+    "e3.json": "da49f87d0028427d8560be3fa3bb3a17705bbb4d0969b1abad153555f2d14ff0",
+    "e3_smoke.json": "b12493d4493a4a0c4924c151951cc4a931e94a7c35502549f1d0c249d78a80b2",
+    "e3_smoke_partial.json": "44061f994bc942fb9248adc94a47e6fe8b91bf9bd89df92b3ad6d586ab816c54",
+    "e3_t4.json": "916373d1e8efe57fd300775691a70314a891a72f51f9b287b0e72e859f0f3c30",
+    "e4.json": "a81b57879b38d3ad20c202326fc788f226d3125c9ab0be740834dfa2fa9079d6",
+    "e4_partial.json": "ea968622e3519bbc5374e417dc854cb3cfb937f05cfa3eef86cfb455a50486b9",
+    "e4_smoke_partial.json": "7327a19874be9324da94166a555c30d006d803e86f5ca2c8e9c9a82281f42b5d",
+    "e4_t.json": "69e2eae497e833b4682db7b78d0564d772c4ef3c50d1987941070fc359f38531",
+    "e5.json": "db6a5bcf2473038bcda25a8272acf21b500a777665a6f9118fb408a2420f191e",
+    "e5_partial.json": "f8a992b1e43e4fadf68451b691fe7424e4945c8d2c4ab33e6f3d4183188f8a7a",
+    "e6.json": "31213bbb69bbf17b048147b23dd139028c077991db098bf4d0965ef8b237505b",
+    "e6_partial.json": "3fe6f9a122f1c21ce19a177edc0b1adb61c75378f9c325360a7f4f207a9d1b84",
+    "e6_timing.json": "b2cb1959552120a2cda2b2b151451a0bc9624ee35558cf0603769d632e8a7bb3"
+  }
+}

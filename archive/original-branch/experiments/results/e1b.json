@@ -1,0 +1,135 @@
+{
+ "experiment": "E1b nested levels on the known sources",
+ "protocol": "experiments/PROTOCOL.md#e1b-nested-levels-on-the-known-sources",
+ "provenance": {
+  "utc": "2026-10-18T12:03:52Z",
+  "commit": "5520ea0ae9e5aa84249685ed7decc2fd3e8323af",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "numba": "0.68.0",
+  "machine": "x86_64",
+  "seed": 20261018,
+  "log2_bits": 22,
+  "machines": {
+   "N16": {
+    "depths": [
+     2,
+     4,
+     8,
+     12,
+     16
+    ],
+    "table_bits": 22,
+    "readout": "mixture",
+    "prior": 0.0
+   },
+   "N64": {
+    "depths": [
+     8,
+     16,
+     24,
+     32,
+     48,
+     64
+    ],
+    "table_bits": 22,
+    "readout": "mixture",
+    "prior": 0.0
+   }
+  }
+ },
+ "rows": [
+  {
+   "source": "S1 order-2 Markov bits",
+   "seed": 20261018,
+   "oracle": {
+    "all": 0.6451658983321795,
+    "last_quarter": 0.6443510981736567
+   },
+   "N16": {
+    "all": 0.6502980499535655,
+    "last_quarter": 0.6464414021068587
+   },
+   "N16_evictions": 0,
+   "N64": {
+    "all": 0.678984592353499,
+    "last_quarter": 0.6754898167008718
+   },
+   "N64_evictions": 3400277
+  },
+  {
+   "source": "S2 T2.2 incomplete codes",
+   "seed": 20261019,
+   "oracle": {
+    "all": 0.7958981982066607,
+    "last_quarter": 0.7961218901724613
+   },
+   "N16": {
+    "all": 0.7987056704659083,
+    "last_quarter": 0.7964666991176177
+   },
+   "N16_evictions": 0,
+   "N64": {
+    "all": 0.8373749298149649,
+    "last_quarter": 0.8357238323853696
+   },
+   "N64_evictions": 4803792
+  },
+  {
+   "source": "S3 order-1 bytes over 16 letters",
+   "seed": 20261020,
+   "oracle": {
+    "all": 0.37070623971429956,
+    "last_quarter": 0.37120729978696676
+   },
+   "N16": {
+    "all": 0.38092392228851035,
+    "last_quarter": 0.3805259895237761
+   },
+   "N16_evictions": 0,
+   "N64": {
+    "all": 0.39464459149305064,
+    "last_quarter": 0.3913583324266306
+   },
+   "N64_evictions": 2236696
+  },
+  {
+   "source": "S4 delayed echo d=6",
+   "seed": 20261021,
+   "oracle": {
+    "all": 0.28601727211123396,
+    "last_quarter": 0.2863613070895219
+   },
+   "N16": {
+    "all": 0.2875584640505877,
+    "last_quarter": 0.28677301917093123
+   },
+   "N16_evictions": 0,
+   "N64": {
+    "all": 0.30731978294424944,
+    "last_quarter": 0.304869722703939
+   },
+   "N64_evictions": 836694
+  },
+  {
+   "source": "S4 delayed echo d=9",
+   "seed": 20261022,
+   "oracle": {
+    "all": 0.287111742066863,
+    "last_quarter": 0.2865111992461204
+   },
+   "N16": {
+    "all": 0.29167376627815644,
+    "last_quarter": 0.28788856524717693
+   },
+   "N16_evictions": 0,
+   "N64": {
+    "all": 0.320287495846304,
+    "last_quarter": 0.3107584744031792
+   },
+   "N64_evictions": 1298424
+  }
+ ],
+ "seconds": 32.7
+}
