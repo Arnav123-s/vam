@@ -15,5 +15,6 @@
   "min_count_20": {
     "vocab": 192,
     "bpb": 2.8107
-  }
+  },
+  "elapsed_s": 8.1
 }

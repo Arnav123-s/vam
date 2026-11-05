@@ -36,4 +36,20 @@
     "resident": 1
   },
   "invariants_radiated": [
-    
+    1,
+    2,
+    5,
+    6
+  ],
+  "entropy_vs_capacity": {
+    "start": [
+      11.95,
+      12.0
+    ],
+    "end": [
+      10.28,
+      12.0
+    ]
+  },
+  "elapsed_s": 14.0
+}
