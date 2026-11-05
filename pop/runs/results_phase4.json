@@ -1,0 +1,39 @@
+{
+  "protocol": "phase4_governor",
+  "segment_bpb": {
+    "1": [
+      0.6082,
+      0.6078
+    ],
+    "2": [
+      0.8801,
+      0.8776
+    ],
+    "3": [
+      0.9737,
+      0.9714
+    ],
+    "4": [
+      0.9685
+    ],
+    "5": [
+      0.8822
+    ],
+    "6": [
+      0.6107
+    ]
+  },
+  "total": {
+    "governor": 0.82,
+    "reuse_no_radiate": 0.8202,
+    "static": 0.8975
+  },
+  "actions": {
+    "assign": 6,
+    "radiate": 4,
+    "purge": 4,
+    "restore": 2,
+    "resident": 1
+  },
+  "invariants_radiated": [
+    

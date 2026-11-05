@@ -1,0 +1,19 @@
+{
+  "protocol": "phase5b_latent_navigation",
+  "n": 2000,
+  "seed": 7,
+  "regime_agreement": 0.862,
+  "greedy": {
+    "validity": 0.298,
+    "mean_logprob": -4.664
+  },
+  "nav_plain": {
+    "validity": 0.596,
+    "mean_logprob": -4.363
+  },
+  "nav_transform": {
+    "validity": 0.864,
+    "mean_logprob": -3.771
+  },
+  "elapsed_s": 1.1
+}

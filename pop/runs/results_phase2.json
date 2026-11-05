@@ -1,0 +1,30 @@
+{
+  "protocol": "phase2_latent_key",
+  "seeds": {
+    "7": {
+      "majority_bpb": 0.7507,
+      "majority_burnin": 0.7753,
+      "majority_agree": 0.9402,
+      "latent_bpb": 0.723,
+      "latent_burnin": 0.7753,
+      "latent_agree": 0.9615
+    },
+    "8": {
+      "majority_bpb": 0.7516,
+      "majority_burnin": 0.7568,
+      "majority_agree": 0.9399,
+      "latent_bpb": 0.7236,
+      "latent_burnin": 0.7568,
+      "latent_agree": 0.9618
+    },
+    "9": {
+      "majority_bpb": 0.7574,
+      "majority_burnin": 0.7677,
+      "majority_agree": 0.9363,
+      "latent_bpb": 0.7237,
+      "latent_burnin": 0.7677,
+      "latent_agree": 0.9621
+    }
+  },
+  "elapsed_s": 38.2
+}

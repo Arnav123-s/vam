@@ -1,0 +1,30 @@
+{
+  "protocol": "phase1b_starvation",
+  "orders": {
+    "2": {
+      "flat": 0.7532,
+      "flat_burn": 0.8929,
+      "pop": 0.7532,
+      "pop_burn": 0.7662,
+      "flat_rare": 0.739,
+      "pop_rare": 0.7391
+    },
+    "4": {
+      "flat": 0.6995,
+      "flat_burn": 1.1682,
+      "pop": 0.6991,
+      "pop_burn": 0.7512,
+      "flat_rare": 0.6899,
+      "pop_rare": 0.69
+    },
+    "6": {
+      "flat": 0.6986,
+      "flat_burn": 1.484,
+      "pop": 0.6923,
+      "pop_burn": 0.7829,
+      "flat_rare": 0.6913,
+      "pop_rare": 0.6851
+    }
+  },
+  "elapsed_s": 141.1
+}
