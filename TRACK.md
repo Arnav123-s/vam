@@ -27,6 +27,7 @@
 | 10 | Soft routing (attention) fixes scale | ✓ | soft 0.958 ≈ oracle 0.965 at K=500; hard 1.128 |
 | 11 | Scaled text (150KB, 1747 words) | ✓ | 2.75 vs 2.81 flat5, 3.68 flat7; margin narrows but holds |
 | 12 | Trigram word model | ~ null | 2.99 pure, 2.77 interpolated vs 2.75 bigram — richer slow scale needs more data |
+| 13 | Full-book text (500KB) | ⚠ reversal | **flat5 2.27 beats population 2.71** — hierarchy advantage reverses with abundant data |
 
 ## Failures & fixes (all logged)
 
@@ -64,4 +65,5 @@
 - 4a092c9: Phase 10 + TRACK.md update
 - 5c0662a: SYNTHESIS.md
 - ede23b9: Phase 11 + TRACK.md update
-- pending: Phase 12 + SYNTHESIS.md + TRACK.md update
+- c9c92a7: Phase 12 + SYNTHESIS.md + TRACK.md update
+- pending: Phase 13 + SYNTHESIS.md + TRACK.md update

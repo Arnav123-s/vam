@@ -1,0 +1,10 @@
+{
+  "protocol": "phase13_fullbook",
+  "train_chars": 500000,
+  "test_chars": 50000,
+  "vocab_size": 2635,
+  "population_bpb": 2.7113,
+  "flat5_bpb": 2.2654,
+  "pop_word_generation": "chapter illustration the rest must know and the of anger and at last half his mornings to speak she was more than those of curiosity it was some contrivance breakfast a fine love and i should at any of by",
+  "elapsed_s": 15.6
+}
