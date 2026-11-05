@@ -28,6 +28,8 @@
 | 11 | Scaled text (150KB, 1747 words) | ✓ | 2.75 vs 2.81 flat5, 3.68 flat7; margin narrows but holds |
 | 12 | Trigram word model | ~ null | 2.99 pure, 2.77 interpolated vs 2.75 bigram — richer slow scale needs more data |
 | 13 | Full-book text (500KB) | ⚠ reversal | **flat5 2.27 beats population 2.71** — hierarchy advantage reverses with abundant data |
+| 14 | Unified synthetic (soft + purge) | ✓ | 0.657 vs 0.661 no-purge — purge helps on top of soft routing |
+| 15 | Unified text (purge rare words) | ✓ | sweet spot min_count=5: 2.727 (vs 2.751 no-purge, 2.811 heavy purge) |
 
 ## Failures & fixes (all logged)
 
@@ -66,4 +68,5 @@
 - 5c0662a: SYNTHESIS.md
 - ede23b9: Phase 11 + TRACK.md update
 - c9c92a7: Phase 12 + SYNTHESIS.md + TRACK.md update
-- pending: Phase 13 + SYNTHESIS.md + TRACK.md update
+- bf0266d: Phase 13 + SYNTHESIS.md + TRACK.md update
+- pending: Phases 14-16 (PLAN.md) + clean README + TRACK.md + SYNTHESIS.md

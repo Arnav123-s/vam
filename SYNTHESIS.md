@@ -33,6 +33,8 @@ Every one of Arnav's five principles, faithfully implemented, works. The populat
 | 11 | Scaled text (150KB) | ✓ CONFIRMED | 2.75 vs 2.81 flat5; margin narrows but holds |
 | 12 | Trigram word model | ~ NULL | 2.99 pure, 2.77 interp vs 2.75 bigram — richer slow scale needs more data |
 | 13 | Full-book text (500KB) | ⚠ REVERSAL | flat5 2.27 beats population 2.71 — hierarchy advantage reverses with abundant data |
+| 14 | Unified synthetic (soft + purge) | ✓ CONFIRMED | 0.657 vs 0.661 — purge helps on top of soft routing |
+| 15 | Unified text (purge rare words) | ✓ CONFIRMED | sweet spot min_count=5: 2.727 — prune the tail, keep the core |
 
 ## Standing principles (earned)
 
@@ -65,5 +67,7 @@ The corpora differ, so bpb is not directly comparable. The qualitative point sta
 
 1. **The research program is vindicated.** The principles are sound. The old verdict ("the ideas don't work") was a verdict on the extraction, not the ideas.
 2. **The build order is clear:** population → shared factors → disentanglers → governor → navigation → soft routing. Each piece is validated.
-3. **The next mountains are engineering, not science:** scale to millions, real quantum implementation, large-vocab text.
-4. **The bootstrap principle is the deepest finding.** It appears three times (Phases 2, 7a, and implicitly in 4c's disentangling). Any future VAM build must design the bootstrap first, not last.
+3. **The unified machine works.** Soft routing + governor purge combine cleanly (Phases 14–15). The pieces compose, they don't just coexist.
+4. **The next mountains are engineering, not science:** scale to millions, real quantum implementation, large-vocab text.
+5. **The bootstrap principle is the deepest finding.** It appears three times (Phases 2, 7a, and implicitly in 4c's disentangling). Any future VAM build must design the bootstrap first, not last.
+6. **The hierarchy's domain is scarcity.** It wins when data is scarce, ties when data is moderate, loses when data is abundant (Phase 13). This is the precise condition under which the architecture pays — not a limitation to hide, but a boundary to design around.
