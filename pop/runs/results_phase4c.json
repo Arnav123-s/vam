@@ -1,0 +1,33 @@
+{
+  "protocol": "phase4c_disentangle",
+  "seeds": {
+    "7": {
+      "transfer_bpb": 0.9318,
+      "baseline_bpb": 0.9247,
+      "shape_corr": 0.9956,
+      "alpha_beta": [
+        -0.403,
+        0.782
+      ]
+    },
+    "8": {
+      "transfer_bpb": 0.9041,
+      "baseline_bpb": 0.8994,
+      "shape_corr": 0.9891,
+      "alpha_beta": [
+        -0.147,
+        0.57
+      ]
+    },
+    "9": {
+      "transfer_bpb": 0.9348,
+      "baseline_bpb": 0.9338,
+      "shape_corr": 0.9972,
+      "alpha_beta": [
+        -0.358,
+        0.914
+      ]
+    }
+  },
+  "elapsed_s": 0.6
+}

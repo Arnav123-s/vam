@@ -1,0 +1,20 @@
+{
+  "protocol": "phase15_unified_text",
+  "min_count_2": {
+    "vocab": 1747,
+    "bpb": 2.7506
+  },
+  "min_count_5": {
+    "vocab": 704,
+    "bpb": 2.7265
+  },
+  "min_count_10": {
+    "vocab": 379,
+    "bpb": 2.7767
+  },
+  "min_count_20": {
+    "vocab": 192,
+    "bpb": 2.8107
+  },
+  "elapsed_s": 8.1
+}

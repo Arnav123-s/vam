@@ -1,0 +1,11 @@
+{
+  "protocol": "phase10_soft_routing",
+  "K": 500,
+  "C": 10,
+  "R": 50,
+  "hard_acc": 0.0036,
+  "hard_bpb": 1.1279,
+  "soft_bpb": 0.9582,
+  "oracle_bpb": 0.9645,
+  "elapsed_s": 1.1
+}

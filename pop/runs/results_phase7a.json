@@ -1,0 +1,9 @@
+{
+  "protocol": "phase7a_text_like",
+  "population_bpb": 0.5791,
+  "flat4_bpb": 0.6584,
+  "flat6_bpb": 0.6057,
+  "pop_gen_valid_words": "10/10",
+  "pop_gen_sample": "bcdababcddddcabababcdababcdddd",
+  "elapsed_s": 13.2
+}

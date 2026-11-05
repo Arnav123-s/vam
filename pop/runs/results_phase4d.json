@@ -1,0 +1,21 @@
+{
+  "protocol": "phase4d_hard_transfer",
+  "seeds": {
+    "7": {
+      "transfer_bpb": 0.9192,
+      "baseline_bpb": 0.9939,
+      "shape_corr": 0.9507
+    },
+    "8": {
+      "transfer_bpb": 0.9215,
+      "baseline_bpb": 0.9913,
+      "shape_corr": 0.9509
+    },
+    "9": {
+      "transfer_bpb": 0.911,
+      "baseline_bpb": 0.9845,
+      "shape_corr": 0.9496
+    }
+  },
+  "elapsed_s": 2.6
+}

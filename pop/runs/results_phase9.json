@@ -1,0 +1,27 @@
+{
+  "protocol": "phase9_scale",
+  "results": [
+    {
+      "K": 10,
+      "tracker_bpb": 0.8911,
+      "flat_bpb": 0.7759,
+      "oracle_bpb": 0.4381,
+      "seconds": 0.4
+    },
+    {
+      "K": 100,
+      "tracker_bpb": 0.864,
+      "flat_bpb": 0.8098,
+      "oracle_bpb": 0.6471,
+      "seconds": 0.5
+    },
+    {
+      "K": 500,
+      "tracker_bpb": 0.8229,
+      "flat_bpb": 0.803,
+      "oracle_bpb": 0.9207,
+      "seconds": 0.6
+    }
+  ],
+  "elapsed_s": 1.5
+}

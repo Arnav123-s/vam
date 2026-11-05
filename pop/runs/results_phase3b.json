@@ -1,0 +1,27 @@
+{
+  "protocol": "phase3b_disentanglers",
+  "seeds": {
+    "7": {
+      "pca": 0.9994,
+      "hier_learned": 0.3612,
+      "hier_adaptive": 0.7075,
+      "hier_haar": 0.1156,
+      "none": 0.1091
+    },
+    "8": {
+      "pca": 0.9993,
+      "hier_learned": 0.4668,
+      "hier_adaptive": 0.6857,
+      "hier_haar": 0.1617,
+      "none": 0.1032
+    },
+    "9": {
+      "pca": 0.9994,
+      "hier_learned": 0.4385,
+      "hier_adaptive": 0.6821,
+      "hier_haar": 0.1297,
+      "none": 0.1009
+    }
+  },
+  "elapsed_s": 0.6
+}

@@ -1,0 +1,16 @@
+{
+  "protocol": "phase5a_navigation",
+  "greedy": {
+    "validity": 0.322,
+    "mean_logprob": -8.848
+  },
+  "repair": {
+    "validity": 0.656,
+    "mean_logprob": -8.793
+  },
+  "navigate": {
+    "validity": 1.0,
+    "mean_logprob": -7.833
+  },
+  "elapsed_s": 1.6
+}
