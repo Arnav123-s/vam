@@ -157,6 +157,26 @@ class WordPopulation:
             hist = (hist + ch)[-50:]  # bounded history
         return float(np.mean(lps))
 
+    def generate_words(self, n, seed=0):
+        """Word-level generation (slow scale generates, fast scale spells).
+        Fixes the OOV char-backoff salad: every word is a vocab word."""
+        rng = np.random.default_rng(seed)
+        out, prev = [], None
+        for _ in range(n):
+            if prev is not None and prev in self.vocab and self.vocab[prev] in self.bigram:
+                bg = self.bigram[self.vocab[prev]]
+                tot = sum(bg.values())
+                nxt = rng.choice(list(bg.keys()), p=[c / tot for c in bg.values()])
+                w = self.words[nxt]
+            else:
+                tot = sum(self.unigram.values())
+                nxt = rng.choice(list(self.unigram.keys()),
+                                 p=[c / tot for c in self.unigram.values()])
+                w = self.words[nxt]
+            out.append(w)
+            prev = w
+        return " ".join(out)
+
     def generate(self, n, seed=0):
         rng = np.random.default_rng(seed)
         hist, out = "", ""
@@ -212,6 +232,8 @@ def main():
     }
     gen = pop.generate(200, seed=1)
     out["pop_generation"] = gen
+    gen_w = pop.generate_words(40, seed=2)
+    out["pop_word_generation"] = gen_w
     print(f"population bpb: {pb:.4f}")
     print(f"flat5 bpb:      {f5:.4f}")
     print(f"--- generation ---\n{gen}")

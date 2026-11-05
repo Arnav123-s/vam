@@ -42,7 +42,7 @@
 ## Open / next
 
 - [ ] Push Phase 7a+7b to branch (local, not yet pushed)
-- [ ] 7b generation quality: OOV salad in samples ("mydzilwloauoivimdkfhuhn") — char backoff is weak
+- [x] 7b generation quality: word-level generation (slow generates, fast spells) → zero salad, all vocab words
 - [ ] Quantum: real density matrices, coherence, true unitary disentanglers (untested)
 - [ ] Scale: millions of nodes (engineering)
 - [ ] Old build's word-salad: 7b generates words, not salad — direct comparison pending
@@ -51,4 +51,5 @@
 
 - 5a830ce: phases 1–5b (34 files)
 - 3cdaad3b: phase 6
-- pending: 7a, 7b + TRACK.md
+- e9ff0d4: phases 7a, 7b + TRACK.md
+- pending: 7b word-level generation + TRACK.md update
