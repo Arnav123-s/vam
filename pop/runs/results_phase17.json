@@ -1,0 +1,10 @@
+{
+  "protocol": "phase17_find_gaps",
+  "baseline_bpb": 2.8285,
+  "interp_bpb": 2.8284,
+  "flat5_bpb": 1.9588,
+  "bigram_coverage": 0.9637,
+  "bigram_mean_distinct_next": 22.9,
+  "bigram_top1_acc": 0.114,
+  "elapsed_s": 31.0
+}

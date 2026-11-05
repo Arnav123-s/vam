@@ -35,6 +35,8 @@ Every one of Arnav's five principles, faithfully implemented, works. The populat
 | 13 | Full-book text (500KB) | ⚠ REVERSAL | flat5 2.27 beats population 2.71 — hierarchy advantage reverses with abundant data |
 | 14 | Unified synthetic (soft + purge) | ✓ CONFIRMED | 0.657 vs 0.661 — purge helps on top of soft routing |
 | 15 | Unified text (purge rare words) | ✓ CONFIRMED | sweet spot min_count=5: 2.727 — prune the tail, keep the core |
+| 16 | Train multi-book (2MB) | ⚠ REVERSAL | pop 2.98 vs flat5 2.03 — hierarchy loses at scale |
+| 17 | Find gaps (why 2MB loses) | ✓ CONFIRMED | word path 3.89 vs char 2.61; bigram top-1 11.4%; interp does NOT fix — structural |
 
 ## Standing principles (earned)
 
@@ -46,7 +48,7 @@ Every one of Arnav's five principles, faithfully implemented, works. The populat
 
 ## Honest limits
 
-- **Data scaling (Phase 13):** The hierarchy's advantage reverses with abundant data. At 30KB population wins by 0.53; at 150KB by 0.06; at 500KB flat wins by 0.44. Structure helps most under scarcity; data helps most under abundance. This bounds where the hierarchy pays.
+- **Data scaling (Phase 13, 16, 17):** The hierarchy's advantage reverses with abundant data. At 30KB population wins by 0.53; at 150KB by 0.06; at 500KB flat wins by 0.44; at 2MB flat wins by 0.95. Structure helps most under scarcity; data helps most under abundance. Phase 17 diagnosed why: the word bigram is too diffuse (22.9 candidates, 11.4% top-1) and interpolation cannot rescue it. This is structural, not a smoothing problem.
 - **Quantum:** Density-matrix machinery works, but coherence does not beat classical Bayes on classical data. The quantum advantage, if it exists, is on quantum data or in representational efficiency — not demonstrated here.
 - **Scale:** Soft routing fixes identification, but the "millions of vectors" story is still untested at that magnitude. K=500 is not millions.
 - **Text:** 7b uses 30KB train and a 311-word vocab. Real-scale language modeling (millions of words, large vocab) is a different engineering problem.

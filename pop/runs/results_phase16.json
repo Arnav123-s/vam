@@ -1,0 +1,11 @@
+{
+  "protocol": "phase16_train_multibook",
+  "train_chars": 1907719,
+  "vocab_size": 5473,
+  "pop_bpb_test_in": 2.9777,
+  "flat5_bpb_test_in": 2.0281,
+  "pop_bpb_test_out": 3.2156,
+  "flat5_bpb_test_out": 2.2613,
+  "pop_word_generation": "of my past six accomplished i am sure enough i knew that will be a row a singular business with leaves and this but as he is true cross yes certainly sir william we had not only with kindness to",
+  "elapsed_s": 69.8
+}

@@ -30,6 +30,8 @@
 | 13 | Full-book text (500KB) | ⚠ reversal | **flat5 2.27 beats population 2.71** — hierarchy advantage reverses with abundant data |
 | 14 | Unified synthetic (soft + purge) | ✓ | 0.657 vs 0.661 no-purge — purge helps on top of soft routing |
 | 15 | Unified text (purge rare words) | ✓ | sweet spot min_count=5: 2.727 (vs 2.751 no-purge, 2.811 heavy purge) |
+| 16 | Train multi-book (2MB) | ⚠ reversal | pop 2.98 vs flat5 2.03 in-dist, 3.22 vs 2.26 out-of-dist — hierarchy loses at scale |
+| 17 | Find gaps (why 2MB loses) | ✓ | word path 3.89 vs char 2.61; bigram top-1 11.4%; interp does NOT fix (2.8284 vs 2.8285) — structural |
 
 ## Failures & fixes (all logged)
 
@@ -70,7 +72,8 @@
 - c9c92a7: Phase 12 + SYNTHESIS.md + TRACK.md update
 - bf0266d: Phase 13 + SYNTHESIS.md + TRACK.md update
 - 58aed23: Phases 14-16 (PLAN.md) + clean README + TRACK.md + SYNTHESIS.md
-- pending: verification pass + phase13/15 scripts
+- e4c7f9d: verification pass + phase13/15 scripts
+- pending: Phases 16-17 (train + gaps) + TRACK.md + SYNTHESIS.md
 
 ## PR
 
