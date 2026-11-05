@@ -24,6 +24,7 @@
 | 7b | Real text (Pride & Prejudice) | ✓ | **3.29 vs 3.82 (flat5)** |
 | 8 | Quantum density-matrix tracker | ✓ ties | 0.70 vs 0.71 (classical); coherence ≠ differentiator on classical data |
 | 9 | Scale: many regimes | ⚠ bottleneck found | tracker accuracy 45% (K=10) → 6% (K=100) → 0.1% (K=500, worse than chance) |
+| 10 | Soft routing (attention) fixes scale | ✓ | soft 0.958 ≈ oracle 0.965 at K=500; hard 1.128 |
 
 ## Failures & fixes (all logged)
 
@@ -47,7 +48,7 @@
 - [ ] Push Phase 8 + TRACK.md update
 - [x] 7b generation quality: word-level generation (slow generates, fast spells) → zero salad, all vocab words
 - [x] Quantum: density-matrix tracker ties classical (0.70 vs 0.71) — coherence validated as machinery, not a differentiator on classical data
-- [x] Scale: regime identification is the bottleneck (45% → 0.1% as K goes 10 → 500); needs hierarchical/learned routing, not flat Bayes
+- [x] Scale: regime identification is the bottleneck (45% → 0.1% as K goes 10 → 500); fixed by soft routing (posterior-weighted, like attention) — 0.958 ≈ oracle at K=500
 - [ ] Old build's word-salad: 7b generates words, not salad — direct comparison pending
 
 ## Push log
@@ -57,4 +58,5 @@
 - e9ff0d4: phases 7a, 7b + TRACK.md
 - 90686ed: 7b word-level generation + TRACK.md update
 - b78b169: Phase 8 + TRACK.md update
-- pending: Phase 9 + TRACK.md update
+- 385946c: Phase 9 + TRACK.md update
+- pending: Phase 10 + TRACK.md update
