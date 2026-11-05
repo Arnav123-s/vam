@@ -194,7 +194,6 @@ of true slow variance in 4 kept dims.
   matrices (coherence, not just variance) remain untested.
 
 **Phase 5a (done, 2026-11-04):** H5 collapse as navigation (`runs/phase5a_navigation.py`).
-12-bit sequences, constraint sum%3==0. Prefix 6 → complete 6 (64 candidates).
 Scope (all completions) → thread (max-prob valid) → emit → transform (re-condition).
 
 | method | validity | mean logprob |
@@ -222,6 +221,27 @@ table predicts, both update. Frozen legend as bedrock. On regime_flip:
 
 The pieces compose: integrated beats majority-keying, 60% of the way to
 oracle. Remaining gap is tracker inference error + transition lag (Phase 2).
+
+**Phase 7a (done, 2026-11-04):** text-like hierarchical source
+(`runs/phase7a_textlike.py`). Tiny language: 4 words × 3 chars, word-level
+Markov grammar, no separators. HMM-style population (12-state forward
+inference) vs flat char n-grams.
+
+| method | bpb | generation (10 words) |
+|---|---|---|
+| flat order-4 | 0.658 | — |
+| flat order-6 | 0.606 | — |
+| **population (bootstrapped)** | **0.579** | **10/10 valid** |
+| population (no bootstrap) | 1.832 | 0/10 (salad) |
+
+- The architecture works: beats flat6, generates perfect words. Oracle
+  (true params) gets 0.58 — inference is exact; the failure was pure
+  learning.
+- **The failure matters:** unsupervised discovery from a symmetric start
+  fails (1.83, salad). Fixed by a structural bootstrap (group 3-char
+  windows by identity — observable structure) + soft EM. This is the Phase 2
+  lesson again: latent machinery needs grounded initialization.
+- Honest: synthetic toy language. Real text (7b) is the next mountain.
 
 ## Layout
 

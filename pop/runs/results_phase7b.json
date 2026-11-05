@@ -1,0 +1,9 @@
+{
+  "protocol": "phase7b_real_text",
+  "corpus": "Pride and Prejudice (Gutenberg), a-z+space",
+  "population_bpb": 3.2876,
+  "flat5_bpb": 3.8193,
+  "vocab_size": 311,
+  "pop_generation": "mydzilwloauoivimdkfhuhn without one chapter very their at their there another such as them and impossible of fielding of then elizabeth otherself doubt as them its into withoutwards does nothings inde",
+  "elapsed_s": 0.5
+}
