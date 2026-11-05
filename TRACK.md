@@ -22,6 +22,7 @@
 | 6 | Integration: perceive→predict→learn | ✓ | 0.71 vs 0.74 (majority), oracle 0.65 |
 | 7a | Text-like synthetic language | ✓ | 0.58 vs 0.61 (flat6); 10/10 valid words |
 | 7b | Real text (Pride & Prejudice) | ✓ | **3.29 vs 3.82 (flat5)** |
+| 8 | Quantum density-matrix tracker | ✓ ties | 0.70 vs 0.71 (classical); coherence ≠ differentiator on classical data |
 
 ## Failures & fixes (all logged)
 
@@ -42,8 +43,9 @@
 ## Open / next
 
 - [ ] Push Phase 7a+7b to branch (local, not yet pushed)
+- [ ] Push Phase 8 + TRACK.md update
 - [x] 7b generation quality: word-level generation (slow generates, fast spells) → zero salad, all vocab words
-- [ ] Quantum: real density matrices, coherence, true unitary disentanglers (untested)
+- [x] Quantum: density-matrix tracker ties classical (0.70 vs 0.71) — coherence validated as machinery, not a differentiator on classical data
 - [ ] Scale: millions of nodes (engineering)
 - [ ] Old build's word-salad: 7b generates words, not salad — direct comparison pending
 
@@ -52,4 +54,5 @@
 - 5a830ce: phases 1–5b (34 files)
 - 3cdaad3b: phase 6
 - e9ff0d4: phases 7a, 7b + TRACK.md
-- pending: 7b word-level generation + TRACK.md update
+- 90686ed: 7b word-level generation + TRACK.md update
+- pending: Phase 8 + TRACK.md update

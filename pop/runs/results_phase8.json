@@ -1,0 +1,24 @@
+{
+  "protocol": "phase8_quantum_tracker",
+  "full": {
+    "7": {
+      "classical_bpb": 0.7118,
+      "quantum_bpb": 0.7035
+    },
+    "8": {
+      "classical_bpb": 0.7273,
+      "quantum_bpb": 0.7126
+    }
+  },
+  "short": {
+    "7": {
+      "classical_bpb": 0.8702,
+      "quantum_bpb": 0.8731
+    },
+    "8": {
+      "classical_bpb": 0.7236,
+      "quantum_bpb": 0.7176
+    }
+  },
+  "elapsed_s": 2.7
+}
