@@ -25,6 +25,7 @@
 | 8 | Quantum density-matrix tracker | ✓ ties | 0.70 vs 0.71 (classical); coherence ≠ differentiator on classical data |
 | 9 | Scale: many regimes | ⚠ bottleneck found | tracker accuracy 45% (K=10) → 6% (K=100) → 0.1% (K=500, worse than chance) |
 | 10 | Soft routing (attention) fixes scale | ✓ | soft 0.958 ≈ oracle 0.965 at K=500; hard 1.128 |
+| 11 | Scaled text (150KB, 1747 words) | ✓ | 2.75 vs 2.81 flat5, 3.68 flat7; margin narrows but holds |
 
 ## Failures & fixes (all logged)
 
@@ -60,4 +61,5 @@
 - b78b169: Phase 8 + TRACK.md update
 - 385946c: Phase 9 + TRACK.md update
 - 4a092c9: Phase 10 + TRACK.md update
-- pending: SYNTHESIS.md
+- 5c0662a: SYNTHESIS.md
+- pending: Phase 11 + TRACK.md update
