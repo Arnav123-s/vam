@@ -23,6 +23,7 @@
 | 7a | Text-like synthetic language | ✓ | 0.58 vs 0.61 (flat6); 10/10 valid words |
 | 7b | Real text (Pride & Prejudice) | ✓ | **3.29 vs 3.82 (flat5)** |
 | 8 | Quantum density-matrix tracker | ✓ ties | 0.70 vs 0.71 (classical); coherence ≠ differentiator on classical data |
+| 9 | Scale: many regimes | ⚠ bottleneck found | tracker accuracy 45% (K=10) → 6% (K=100) → 0.1% (K=500, worse than chance) |
 
 ## Failures & fixes (all logged)
 
@@ -46,7 +47,7 @@
 - [ ] Push Phase 8 + TRACK.md update
 - [x] 7b generation quality: word-level generation (slow generates, fast spells) → zero salad, all vocab words
 - [x] Quantum: density-matrix tracker ties classical (0.70 vs 0.71) — coherence validated as machinery, not a differentiator on classical data
-- [ ] Scale: millions of nodes (engineering)
+- [x] Scale: regime identification is the bottleneck (45% → 0.1% as K goes 10 → 500); needs hierarchical/learned routing, not flat Bayes
 - [ ] Old build's word-salad: 7b generates words, not salad — direct comparison pending
 
 ## Push log
@@ -55,4 +56,5 @@
 - 3cdaad3b: phase 6
 - e9ff0d4: phases 7a, 7b + TRACK.md
 - 90686ed: 7b word-level generation + TRACK.md update
-- pending: Phase 8 + TRACK.md update
+- b78b169: Phase 8 + TRACK.md update
+- pending: Phase 9 + TRACK.md update
