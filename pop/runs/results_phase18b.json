@@ -1,0 +1,16 @@
+{
+  "protocol": "phase18b_present_state_2MB",
+  "buckets_16384_eta_0.3": {
+    "test_in": 2.2769,
+    "test_out": 2.2774
+  },
+  "buckets_65536_eta_0.3": {
+    "test_in": 2.074,
+    "test_out": 2.1151
+  },
+  "phase16_pop_test_in": 2.9777,
+  "phase16_flat5_test_in": 2.0281,
+  "phase16_pop_test_out": 3.2156,
+  "phase16_flat5_test_out": 2.2613,
+  "elapsed_s": 365.1
+}
