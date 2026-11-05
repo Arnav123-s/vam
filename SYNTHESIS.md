@@ -30,6 +30,8 @@ Every one of Arnav's five principles, faithfully implemented, works. The populat
 | 8 | Quantum density-matrix tracker | ~ TIES | 0.70 vs 0.71 classical |
 | 9 | Scale: flat identification | ✗ BREAKS | 45% → 0.1% as K goes 10 → 500 |
 | 10 | Scale: soft routing fix | ✓ CONFIRMED | 0.958 ≈ oracle 0.965 at K=500 |
+| 11 | Scaled text (150KB) | ✓ CONFIRMED | 2.75 vs 2.81 flat5; margin narrows but holds |
+| 12 | Trigram word model | ~ NULL | 2.99 pure, 2.77 interp vs 2.75 bigram — richer slow scale needs more data |
 
 ## Standing principles (earned)
 
