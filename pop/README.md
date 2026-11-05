@@ -171,8 +171,6 @@ right, navigation is perfect; errors are inference errors only. **The
 transform is load-bearing with latent state**, as predicted. The H5×H2
 fusion works.
 
-**Phase 5a (done, 2026-11-04):** H5 collapse as navigation (`runs/phase5a_navigation.py`).
-
 **Phase 3b (done, 2026-11-04):** unitary disentanglers, the real H4
 (`runs/phase3b_disentangle.py`). 32-dim data: 4 slow dims (var 4) rotated by a
 random orthogonal (dense entanglement) + 28 fast dims (var 1). Metric: fraction
@@ -194,6 +192,8 @@ of true slow variance in 4 kept dims.
   better — that's the next test, not this one.
 - Honest: classical shadow only. Real unitary disentanglers on density
   matrices (coherence, not just variance) remain untested.
+
+**Phase 5a (done, 2026-11-04):** H5 collapse as navigation (`runs/phase5a_navigation.py`).
 12-bit sequences, constraint sum%3==0. Prefix 6 → complete 6 (64 candidates).
 Scope (all completions) → thread (max-prob valid) → emit → transform (re-condition).
 
@@ -208,6 +208,20 @@ Scope (all completions) → thread (max-prob valid) → emit → transform (re-c
   re-conditioning) but not decisive HERE — the choice is made at scope time.
   Transform becomes load-bearing with latent state (re-inference per emission):
   H5×H2 fusion, next loop.
+
+**Phase 6 (done, 2026-11-04):** integrated machine (`runs/phase6_integrated.py`).
+Perceive → predict → learn loop: tracker infers regime, regime's population
+table predicts, both update. Frozen legend as bedrock. On regime_flip:
+
+| method | bpb |
+|---|---|
+| flat order-2 | 0.997 |
+| population, majority key | 0.737 |
+| **integrated (tracker + population)** | **0.710** |
+| oracle (true regime) | 0.645 |
+
+The pieces compose: integrated beats majority-keying, 60% of the way to
+oracle. Remaining gap is tracker inference error + transition lag (Phase 2).
 
 ## Layout
 
